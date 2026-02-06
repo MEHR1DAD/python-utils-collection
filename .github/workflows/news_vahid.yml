@@ -1,0 +1,134 @@
+name: Update News (Vahid - Priority)
+
+on:
+  push:
+    paths:
+      - 'backend/channels_vahid.txt'
+      - '.github/workflows/news_vahid.yml'
+  schedule:
+    - cron: '*/5 * * * *' # Every 5 minutes (Priority 1)
+  workflow_dispatch:
+
+concurrency:
+  group: news-vahid
+  cancel-in-progress: false
+
+jobs:
+  update-vahid:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+          cache-dependency-path: 'backend/requirements.txt'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          pip install -r backend/requirements.txt
+
+      - name: Continuous Fetch Loop (2x per job)
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION_VAHID }}
+        run: |
+          # Optimization: 2 runs with limit 20 is cleaner for the 5-min slot.
+          # Run 1 -> Sleep 120s -> Run 2 -> Finish (Total ~4-5 mins)
+          for i in {1..2}; do
+            echo "🚀 Starting Run #$i of 2..."
+            
+            cd backend
+            # Output directly to root of repo for easy access via Pages
+            python fetch_news.py --channels channels_vahid.txt --output ../vahid.json --limit 20
+            cd ..
+            
+            # Deploy to gh-pages branch for public access
+            git config --global user.name 'News Bot'
+            git config --global user.email 'bot@noreply.github.com'
+            git config --global http.postBuffer 524288000
+            
+            # Switch to gh-pages branch (orphan) or create it
+            git checkout --orphan gh-pages || git checkout gh-pages
+            
+            # Add news files
+            git add news_vahid.json
+            git add media/ || echo "No media to add"
+            
+            # Switch to gh-pages branch (orphan) or create it
+            git checkout --orphan gh-pages || git checkout gh-pages
+            
+            # Add news files
+            git add news_vahid.json
+            git add media/ || echo "No media to add"
+            
+            if [ -n "$(git status --porcelain)" ]; then
+              echo "✅ Changes detected in Run #$i. Committing to gh-pages..."
+              git commit -m "Update Vahid News (Fast Loop $i/2)"
+              git push -f origin gh-pages
+            else
+              echo "💤 No new content in Run #$i."
+            fi
+            
+            # Switch back to master/main for next loop iteration context if needed (less relevant here as we restart env)
+            # Actually, for the loop to work, we need to stay consistent. 
+            # Better strategy: Commit to MAIN, and let GitHub Pages serve from /docs or root.
+            # Simpler: Commit to MAIN. The user just enables Pages on Main.
+            
+            # REVERTING TO MAIN COMMIT BUT WITH PATH ADJUSTMENT
+            # The fetcher script outputs to ../frontend/public/news.json relative to backend
+            # In the public repo, we might want flat structure.
+            
+            git checkout main || git checkout master
+            
+            # We need to ensure the file path matches where Pages will serve it.
+            # Let's move files to root 'public' folder or root itself.
+            # --- DEPLOYMENT TO GH-PAGES ---
+            # 1. Stash the generated content
+            git stash --include-untracked
+            
+            # 2. Switch to gh-pages (create if missing)
+            git fetch origin gh-pages || true
+            git checkout gh-pages || git checkout --orphan gh-pages
+            
+            # 3. Bring back the data
+            git stash pop
+            
+            # 4. Move files to root for cleaner URL (e.g. user.github.io/repo/vahid.json)
+            # The script outputs to ../vahid.json (root relative to backend). 
+            # If we are in root now, the file is already there.
+            
+            # 5. Commit and Push
+            git config --global user.name 'News Bot'
+            git config --global user.email 'bot@noreply.github.com'
+            
+            git add vahid.json
+            git add media/ || echo "No media folder found"
+            
+            if [ -n "$(git status --porcelain)" ]; then
+              echo "✅ Deploying to gh-pages..."
+              git commit -m "Update News $(date)"
+              git push origin gh-pages
+            else
+              echo "💤 No changes to deploy."
+            fi
+            
+            # 6. Cleanup to keep runner clean (optional but good practice)
+            git checkout master || git checkout main
+            
+            if [ $i -lt 2 ]; then
+              echo "⏳ Sleeping for 120 seconds..."
+              sleep 120
+            fi
+          done
