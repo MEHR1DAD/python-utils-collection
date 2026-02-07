@@ -6,7 +6,7 @@ on:
       - 'backend/channels_vahid.txt'
       - '.github/workflows/news_vahid.yml'
   schedule:
-    - cron: '*/5 * * * *' # Every 5 minutes (Priority 1)
+    - cron: '*/5 * * * *' # Every 5 minutes (Run Trigger)
   workflow_dispatch:
 
 concurrency:
@@ -47,7 +47,10 @@ jobs:
           # Fetch existing news to enable Smart Sync (Incremental Update)
           # This prevents re-downloading heavy videos every time.
           git fetch origin gh-pages || true
+          # Checkout directly to root where fetch_news.py expects it (via ../vahid.json from backend)
           git checkout origin/gh-pages -- vahid.json || echo "⚠️ No existing news found (First run?)"
+          # Verify file presence for debugging
+          ls -la vahid.json || echo "❌ vahid.json NOT FOUND in root"
           
           # Optimization: 2 runs with limit 20 is cleaner for the 5-min slot.
           # Run 1 -> Sleep 120s -> Run 2 -> Finish (Total ~4-5 mins)
@@ -66,21 +69,31 @@ jobs:
             # We need to ensure the file path matches where Pages will serve it.
             # Let's move files to root 'public' folder or root itself.
             # --- DEPLOYMENT TO GH-PAGES ---
-            # 1. Stash the generated content
-            git stash --include-untracked
+            # Strategy: Move artifact to temp, switch branch, move back.
+            # This avoids "untracked file" conflicts during checkout.
             
-            # 2. Switch to gh-pages (create if missing)
+            # 1. Move generated files to safe temp location
+            mkdir -p /tmp/news_deploy
+            mv ../vahid.json /tmp/news_deploy/vahid.json
+            if [ -d "../media" ]; then
+              # Copy media to temp (or move if safe) - moving is faster
+              # Re-create media dir in temp
+              cp -r ../media /tmp/news_deploy/media
+            fi
+            
+            # 2. Switch to gh-pages
             git fetch origin gh-pages || true
             git checkout gh-pages || git checkout --orphan gh-pages
             
-            # 3. Bring back the data
-            git stash pop
+            # 3. Restore files from temp
+            mv /tmp/news_deploy/vahid.json ./vahid.json
+            # Sync media: Copy new/changed files
+            if [ -d "/tmp/news_deploy/media" ]; then
+              mkdir -p media
+              cp -r /tmp/news_deploy/media/* media/
+            fi
             
-            # 4. Move files to root for cleaner URL (e.g. user.github.io/repo/vahid.json)
-            # The script outputs to ../vahid.json (root relative to backend). 
-            # If we are in root now, the file is already there.
-            
-            # 5. Commit and Push
+            # 4. Commit and Push
             git config --global user.name 'News Bot'
             git config --global user.email 'bot@noreply.github.com'
             
