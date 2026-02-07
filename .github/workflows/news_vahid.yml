@@ -74,11 +74,11 @@ jobs:
             
             # 1. Move generated files to safe temp location
             mkdir -p /tmp/news_deploy
-            mv ../vahid.json /tmp/news_deploy/vahid.json
-            if [ -d "../media" ]; then
+            mv vahid.json /tmp/news_deploy/vahid.json
+            if [ -d "media" ]; then
               # Copy media to temp (or move if safe) - moving is faster
               # Re-create media dir in temp
-              cp -r ../media /tmp/news_deploy/media
+              cp -r media /tmp/news_deploy/media
             fi
             
             # 2. Switch to gh-pages
