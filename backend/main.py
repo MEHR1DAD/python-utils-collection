@@ -99,6 +99,20 @@ async def download_media(client, message, msg_id):
     media_url = None
     poster_url = None
     media_type = 'image'
+
+    # Check file size BEFORE download to avoid timeout on huge files
+    MAX_VIDEO_SIZE_MB = 50
+    file_size_bytes = 0
+    if hasattr(message.media, 'document'):
+        file_size_bytes = message.media.document.size
+    elif hasattr(message.media, 'photo'):
+        # Photos are usually small, but good to check
+        pass
+        
+    if is_video and file_size_bytes > MAX_VIDEO_SIZE_MB * 1024 * 1024:
+        print(f"⚠️ Skipping video {msg_id}: Size {file_size_bytes / (1024*1024):.2f} MB > {MAX_VIDEO_SIZE_MB} MB limit.")
+        # We will still try to get the thumbnail below
+        is_video = False
     
     try:
         # 1. ALWAYS download/ensure a thumbnail (poster)
