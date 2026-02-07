@@ -18,7 +18,7 @@ concurrency:
 jobs:
   maintenance:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 20
     permissions:
       contents: write
 
@@ -56,6 +56,8 @@ jobs:
           
           cd backend
           
+          # Single Run Logic (Removed Loop)
+          
           # Task C
           echo "🚀 Processing Shard C..."
           python main.py --channels config_c.txt --output ../data_shard_c.json --limit 50
@@ -72,7 +74,7 @@ jobs:
 
       - name: Sync Data
         run: |
-          # Strategy: Move artifacts to temp, switch branch, move back.
+          # DEPLOYMENT
           mkdir -p /tmp/deploy_cache
           
           # Move JSONs
@@ -85,13 +87,14 @@ jobs:
             mv media /tmp/deploy_cache/media
           fi
           
-          # Switch Branch
+          # Switch to gh-pages
           git fetch origin gh-pages || true
           git checkout gh-pages || git checkout --orphan gh-pages
-          git pull origin gh-pages --rebase || true
+          # Reset to remote state
+          git reset --hard origin/gh-pages || true
           
           # Restore
-          mv /tmp/deploy_cache/* .
+          cp -r /tmp/deploy_cache/* .
           
           # Commit
           git config --global user.name 'Sys Bot'
