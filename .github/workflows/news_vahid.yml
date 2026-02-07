@@ -87,6 +87,7 @@ jobs:
             # 2. Switch to gh-pages
             git fetch origin gh-pages || true
             git checkout gh-pages || git checkout --orphan gh-pages
+            git pull origin gh-pages --rebase || true
             
             # 3. Restore files from temp
             mv /tmp/news_deploy/vahid.json ./vahid.json

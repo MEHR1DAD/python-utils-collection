@@ -89,6 +89,7 @@ jobs:
           # Switch Branch
           git fetch origin gh-pages || true
           git checkout gh-pages || git checkout --orphan gh-pages
+          git pull origin gh-pages --rebase || true
           
           # Restore
           cp -r /tmp/news_deploy/* .
