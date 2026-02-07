@@ -54,43 +54,9 @@ jobs:
             python fetch_news.py --channels channels_vahid.txt --output ../vahid.json --limit 20
             cd ..
             
-            # Deploy to gh-pages branch for public access
-            git config --global user.name 'News Bot'
-            git config --global user.email 'bot@noreply.github.com'
-            git config --global http.postBuffer 524288000
-            
-            # Switch to gh-pages branch (orphan) or create it
-            git checkout --orphan gh-pages || git checkout gh-pages
-            
-            # Add news files
-            git add news_vahid.json
-            git add media/ || echo "No media to add"
-            
-            # Switch to gh-pages branch (orphan) or create it
-            git checkout --orphan gh-pages || git checkout gh-pages
-            
-            # Add news files
-            git add news_vahid.json
-            git add media/ || echo "No media to add"
-            
-            if [ -n "$(git status --porcelain)" ]; then
-              echo "✅ Changes detected in Run #$i. Committing to gh-pages..."
-              git commit -m "Update Vahid News (Fast Loop $i/2)"
-              git push -f origin gh-pages
-            else
-              echo "💤 No new content in Run #$i."
-            fi
-            
-            # Switch back to master/main for next loop iteration context if needed (less relevant here as we restart env)
-            # Actually, for the loop to work, we need to stay consistent. 
-            # Better strategy: Commit to MAIN, and let GitHub Pages serve from /docs or root.
-            # Simpler: Commit to MAIN. The user just enables Pages on Main.
-            
-            # REVERTING TO MAIN COMMIT BUT WITH PATH ADJUSTMENT
-            # The fetcher script outputs to ../frontend/public/news.json relative to backend
-            # In the public repo, we might want flat structure.
-            
-            git checkout main || git checkout master
+            # Deployment Logic follows below...
+            # The script outputs to ../vahid.json (root relative to backend). 
+            # If we are in root now, the file is already there.
             
             # We need to ensure the file path matches where Pages will serve it.
             # Let's move files to root 'public' folder or root itself.
