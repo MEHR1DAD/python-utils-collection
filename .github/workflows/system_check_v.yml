@@ -47,7 +47,7 @@ jobs:
           TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION_VAHID }}
         run: |
           # Fetch existing data shard
-          git fetch origin gh-pages || true
+          git fetch --depth=1 origin gh-pages
           git checkout origin/gh-pages -- data_shard_v.json || echo "⚠️ No existing data found"
           
           # Single Run Logic (Removed Loop to prevent state thrashing)

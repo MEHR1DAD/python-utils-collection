@@ -49,7 +49,8 @@ jobs:
           TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION_GENERAL }}
         run: |
           # Fetch Existing Data Shards
-          git fetch origin gh-pages || true
+          # Fetch Existing Data Shards
+          git fetch --depth=1 origin gh-pages
           git checkout origin/gh-pages -- data_shard_c.json || echo "⚠️ No existing shard C"
           git checkout origin/gh-pages -- data_shard_h.json || echo "⚠️ No existing shard H"
           git checkout origin/gh-pages -- data_shard_t.json || echo "⚠️ No existing shard T"
