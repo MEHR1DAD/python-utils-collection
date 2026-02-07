@@ -24,8 +24,13 @@ SESSION_STRING = os.environ.get("TELEGRAM_SESSION")
 # Resolve paths
 BASE_DIR = os.path.dirname(__file__)
 CHANNELS_FILE = os.path.join(BASE_DIR, args.channels)
-OUTPUT_FILE = os.path.join(BASE_DIR, '../frontend/public', args.output)
-MEDIA_DIR = os.path.join(BASE_DIR, '../frontend/public/media')
+CHANNELS_FILE = os.path.join(BASE_DIR, args.channels)
+# In public repo, we want flexibility. If args.output starts with ../, it's relative to BASE_DIR
+OUTPUT_FILE = os.path.join(BASE_DIR, args.output)
+MEDIA_DIR = os.path.join(BASE_DIR, '../media') if '..' in args.output else os.path.join(BASE_DIR, '../frontend/public/media')
+# Simple fallback for media dir to be in root if output is in root
+if args.output.startswith('..'):
+    MEDIA_DIR = os.path.join(BASE_DIR, '../media')
 
 os.makedirs(MEDIA_DIR, exist_ok=True)
 
