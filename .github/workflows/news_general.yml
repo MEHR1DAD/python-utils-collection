@@ -80,9 +80,10 @@ jobs:
           [ -f news_history.json ] && mv news_history.json /tmp/news_deploy/
           [ -f news_tech.json ] && mv news_tech.json /tmp/news_deploy/
           
+          
           # Move Media
           if [ -d "media" ]; then
-            cp -r media /tmp/news_deploy/media
+            mv media /tmp/news_deploy/media
           fi
           
           # Switch Branch

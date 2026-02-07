@@ -79,8 +79,9 @@ jobs:
             mv vahid.json /tmp/news_deploy/vahid.json
             if [ -d "media" ]; then
               # Copy media to temp (or move if safe) - moving is faster
+              # Copy media to temp (or move if safe) - moving is faster
               # Re-create media dir in temp
-              cp -r media /tmp/news_deploy/media
+              mv media /tmp/news_deploy/media
             fi
             
             # 2. Switch to gh-pages
