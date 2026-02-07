@@ -134,6 +134,12 @@ async def download_media(client, message, msg_id):
         else:
             poster_url = f"/media/{msg_id}_poster.jpg"
 
+        # 1.5 FFmpeg Thumbnail Fallback (If Telegram didn't have one)
+        if not os.path.exists(final_poster_path) and is_video:
+             # We need the video file first. We will handle this AFTER downloading the video.
+             pass 
+
+
         # 2. Download and COMPRESS video
         if is_video:
             if not os.path.exists(final_video_path):
@@ -203,6 +209,25 @@ async def download_media(client, message, msg_id):
             else:
                 media_url = f"/media/{msg_id}.mp4"
                 media_type = 'video'
+
+            # 3. FFmpeg Poster Fallback (If Telegram didn't have one)
+            # Now that we guaranteed the video file exists at final_video_path (or we failed),
+            # check if we still need a poster.
+            if not os.path.exists(final_poster_path) and os.path.exists(final_video_path):
+                try:
+                    print(f"  generating fallback poster for {msg_id}...")
+                    cmd_thumb = [
+                        'ffmpeg', '-y', '-i', final_video_path,
+                        '-ss', '00:00:01.000', '-vframes', '1',
+                        final_poster_path
+                    ]
+                    # If video is < 1s, try 0s
+                    subprocess.run(cmd_thumb, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                    if os.path.exists(final_poster_path):
+                        poster_url = f"/media/{msg_id}_poster.jpg"
+                except Exception as e:
+                    print(f"  Failed to generate fallback poster: {e}")
+
         else:
             # It's a photo (as before)
             final_photo_path = os.path.join(MEDIA_DIR, f"{msg_id}.jpg")
