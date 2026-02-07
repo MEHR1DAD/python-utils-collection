@@ -44,6 +44,11 @@ jobs:
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
           TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION_VAHID }}
         run: |
+          # Fetch existing news to enable Smart Sync (Incremental Update)
+          # This prevents re-downloading heavy videos every time.
+          git fetch origin gh-pages || true
+          git checkout origin/gh-pages -- vahid.json || echo "⚠️ No existing news found (First run?)"
+          
           # Optimization: 2 runs with limit 20 is cleaner for the 5-min slot.
           # Run 1 -> Sleep 120s -> Run 2 -> Finish (Total ~4-5 mins)
           for i in {1..2}; do
