@@ -1,6 +1,12 @@
 name: Update News (General)
 
 on:
+  push:
+    paths:
+      - 'backend/channels_crypto.txt'
+      - 'backend/channels_history.txt'
+      - 'backend/channels_tech.txt'
+      - '.github/workflows/news_general.yml'
   schedule:
     - cron: '*/15 * * * *' # Every 15 minutes
   workflow_dispatch:
