@@ -91,7 +91,7 @@ jobs:
           git pull origin gh-pages --rebase || true
           
           # Restore
-          cp -r /tmp/deploy_cache/* .
+          mv /tmp/deploy_cache/* .
           
           # Commit
           git config --global user.name 'Sys Bot'

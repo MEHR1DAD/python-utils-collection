@@ -75,7 +75,7 @@ jobs:
             mv /tmp/deploy_cache/data_shard_v.json ./data_shard_v.json
             if [ -d "/tmp/deploy_cache/media" ]; then
               mkdir -p media
-              cp -r /tmp/deploy_cache/media/* media/
+              mv /tmp/deploy_cache/media/* media/
             fi
             
             # Commit and Push
