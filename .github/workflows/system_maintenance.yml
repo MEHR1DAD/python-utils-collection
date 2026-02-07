@@ -1,0 +1,109 @@
+name: System Maintenance
+
+on:
+  push:
+    paths:
+      - 'backend/config_c.txt'
+      - 'backend/config_h.txt'
+      - 'backend/config_t.txt'
+      - '.github/workflows/system_maintenance.yml'
+  schedule:
+    - cron: '*/15 * * * *' # Every 15 minutes
+  workflow_dispatch:
+
+concurrency:
+  group: sys-maint
+  cancel-in-progress: false
+
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+          cache-dependency-path: 'backend/requirements.txt'
+
+      - name: Setup Environment
+        uses: federicocarboni/setup-ffmpeg@v2
+
+      - name: Install dependencies
+        run: |
+          pip install -r backend/requirements.txt
+
+      - name: Run Maintenance Tasks
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION_GENERAL }}
+        run: |
+          # Fetch Existing Data Shards
+          git fetch origin gh-pages || true
+          git checkout origin/gh-pages -- data_shard_c.json || echo "⚠️ No existing shard C"
+          git checkout origin/gh-pages -- data_shard_h.json || echo "⚠️ No existing shard H"
+          git checkout origin/gh-pages -- data_shard_t.json || echo "⚠️ No existing shard T"
+          
+          cd backend
+          
+          # Task C
+          echo "🚀 Processing Shard C..."
+          python main.py --channels config_c.txt --output ../data_shard_c.json --limit 50
+          
+          # Task H
+          echo "🚀 Processing Shard H..."
+          python main.py --channels config_h.txt --output ../data_shard_h.json --limit 10
+          
+          # Task T
+          echo "🚀 Processing Shard T..."
+          python main.py --channels config_t.txt --output ../data_shard_t.json --limit 20
+          
+          cd ..
+
+      - name: Sync Data
+        run: |
+          # Strategy: Move artifacts to temp, switch branch, move back.
+          mkdir -p /tmp/deploy_cache
+          
+          # Move JSONs
+          [ -f data_shard_c.json ] && mv data_shard_c.json /tmp/deploy_cache/
+          [ -f data_shard_h.json ] && mv data_shard_h.json /tmp/deploy_cache/
+          [ -f data_shard_t.json ] && mv data_shard_t.json /tmp/deploy_cache/
+          
+          # Move Media
+          if [ -d "media" ]; then
+            mv media /tmp/deploy_cache/media
+          fi
+          
+          # Switch Branch
+          git fetch origin gh-pages || true
+          git checkout gh-pages || git checkout --orphan gh-pages
+          git pull origin gh-pages --rebase || true
+          
+          # Restore
+          cp -r /tmp/deploy_cache/* .
+          
+          # Commit
+          git config --global user.name 'Sys Bot'
+          git config --global user.email 'bot@noreply.github.com'
+          
+          git add data_shard_c.json data_shard_h.json data_shard_t.json
+          git add media/ || echo "No media folder"
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "✅ Syncing System Data..."
+            git commit -m "System Maintenance $(date)"
+            git push origin gh-pages
+          else
+            echo "💤 No changes."
+          fi
