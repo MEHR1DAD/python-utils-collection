@@ -33,9 +33,11 @@ jobs:
           cache: 'pip'
           cache-dependency-path: 'backend/requirements.txt'
 
+      - name: Setup FFmpeg
+        uses: federicocarboni/setup-ffmpeg@v2
+
       - name: Install dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y ffmpeg
           pip install -r backend/requirements.txt
 
       - name: Continuous Fetch Loop (2x per job)
