@@ -1,6 +1,13 @@
 {
-  "generated_at": 1770584285,
+  "generated_at": 1770586098,
   "top_nodes": [
+    {
+      "text": "شیراز",
+      "count": 2,
+      "score": 10.59,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
     {
       "text": "جنگنده",
       "count": 3,
@@ -9,16 +16,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "کرمان",
-      "count": 2,
-      "score": 7.74,
+      "text": "موشک",
+      "count": 4,
+      "score": 4.35,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
-      "text": "موشک",
-      "count": 5,
-      "score": 5.44,
+      "text": "تیراندازی",
+      "count": 2,
+      "score": 2.8,
       "is_new": false,
       "sentiment": "neutral"
     },
@@ -30,12 +37,5 @@
       "sentiment": "neutral"
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "جنگنده",
-      "intensity": 3,
-      "time": 1770584285
-    }
-  ]
+  "active_incidents": []
 }
