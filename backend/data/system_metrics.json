@@ -1,40 +1,48 @@
 {
-  "generated_at": 1770563749,
+  "generated_at": 1770565477,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 105
+      "count": 109
     },
     {
       "text": "کشته",
-      "count": 29
+      "count": 32
     },
     {
       "text": "موشک",
-      "count": 20
+      "count": 22
     },
     {
       "text": "ترور",
-      "count": 20
+      "count": 21
     },
     {
       "text": "شلیک",
       "count": 18
     },
     {
+      "text": "مشهد",
+      "count": 16
+    },
+    {
       "text": "شهید",
-      "count": 14
+      "count": 15
     },
     {
       "text": "اصفهان",
       "count": 11
     },
     {
-      "text": "مشهد",
-      "count": 11
+      "text": "اصابت",
+      "count": 10
     },
     {
       "text": "مجروح",
+      "count": 9
+    },
+    {
+      "text": "تیراندازی",
       "count": 9
     },
     {
@@ -46,15 +54,7 @@
       "count": 7
     },
     {
-      "text": "تیراندازی",
-      "count": 7
-    },
-    {
       "text": "کرج",
-      "count": 7
-    },
-    {
-      "text": "اصابت",
       "count": 7
     },
     {
@@ -82,12 +82,5 @@
       "count": 1
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "پهپاد در تهران",
-      "intensity": 9,
-      "time": 1770563749
-    }
-  ]
+  "active_incidents": []
 }
