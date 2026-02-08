@@ -193,24 +193,45 @@ class NetworkMonitor:
         # We need to detect spikes in BOTH Locations and Incidents.
         # But an alert should ideally be a combination.
         
-        # 1. Detect ALL Spiking Keywords first
+        # 1. Detect ALL Spiking Keywords (SMART ANALYSIS)
         spiking_keywords = set()
         keyword_stats = {} # {word: {count, ratio}}
         
+        # Load Baselines
+        baselines = self.load_baselines()
+        
+        # Analyze last 15 minutes of data for spikes
+        short_window = 15 * 60
+        
         for pattern, timestamps in clean_history.items():
-             # Logic same as before
-             total_count = len(timestamps)
-             baseline_rate = max(total_count / 288, 0.5)
-             
-             short_window = 10 * 60
              recent_count = len([t for t in timestamps if t > (now - short_window)])
              
-             spike_threshold = self.config['thresholds']['latency_spike']
-             absolute_threshold = self.config['thresholds']['packet_loss']
+             if recent_count < 2: continue # Ignore noise
              
-             if recent_count >= absolute_threshold and (recent_count / 2) > (baseline_rate * spike_threshold):
-                 spiking_keywords.add(pattern)
-                 keyword_stats[pattern] = {'count': recent_count, 'ratio': (recent_count/2.0)/baseline_rate}
+             # Calculate Current Rate (Mentions per hour)
+             # recent_count is in 15 mins (0.25h) -> Rate = count * 4
+             current_rate = recent_count * 4.0
+             
+             # Get Historical Baseline Rate
+             baseline_data = baselines.get(pattern)
+             historical_rate = 0.5 # Default fallback
+             
+             if baseline_data:
+                 # Use 7d rate for stability
+                 historical_rate = baseline_data.get('rate_7d', 0.5)
+                 if historical_rate < 0.1: historical_rate = 0.1
+             
+             # Calculate SPIKE RATIO (Z-Score approximation)
+             ratio = current_rate / historical_rate
+             
+             # Thresholds:
+             # - Spike Ratio > 5.0 (500% increase!)
+             # - Absolute Minimum: 3 mentions (to avoid 1->5 fake spikes)
+             
+             if ratio > 5.0 and recent_count >= 3:
+                  spiking_keywords.add(pattern)
+                  keyword_stats[pattern] = {'count': recent_count, 'ratio': ratio}
+
 
         # 2. Construct Smart Alerts
         # Priority: Location + Incident Co-occurrence
