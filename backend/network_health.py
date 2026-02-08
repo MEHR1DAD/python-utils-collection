@@ -117,91 +117,156 @@ class NetworkMonitor:
         self.state['last_checked'][node] = new_last_id
         return messages
 
+    
     def analyze_traffic(self, messages):
-        """Check for spike patterns."""
+        """Check for spike patterns with Context Awareness."""
         alerts = []
         now = time.time()
         
-        # Update history with new occurrences
-        # self.state['history'] structure: { "keyword": [timestamp1, timestamp2...] }
-        # We need to clean up old history (> 24h)
+        # Helper to flatten patterns for general tracking
+        config_patterns = self.config['patterns']
+        all_patterns = []
+        if isinstance(config_patterns, list):
+             all_patterns = config_patterns
+        else:
+             all_patterns = (
+                 config_patterns.get('incidents', []) + 
+                 config_patterns.get('locations', []) + 
+                 config_patterns.get('status', [])
+             )
         
+        # --- Update History ---
+        history = self.state.get('history', {})
+        
+        # Track co-occurrences for this batch to build alert context
+        # Structure: { "Tehran": {"Explosion": 2, "Fire": 1} }
+        location_context = {} 
+        
+        current_batch_counts = {}
+
+        for msg in messages:
+            text = msg['text']
+            # Normalize
+            text = text.replace('ي', 'ی').replace('ك', 'ک')
+            
+            # 1. Identify what this message contains
+            found_incidents = []
+            found_locations = []
+            
+            if isinstance(config_patterns, dict):
+                for inc in config_patterns.get('incidents', []):
+                    if inc in text: found_incidents.append(inc)
+                for loc in config_patterns.get('locations', []):
+                    if loc in text: found_locations.append(loc)
+                for sta in config_patterns.get('status', []):
+                    if sta in text: found_incidents.append(sta) # Treat status as incident
+            else:
+                 # Fallback for old list config check
+                 pass
+
+            # 2. Record simple history for ALL detected keywords
+            for p in found_incidents + found_locations:
+                if p not in history: history[p] = []
+                history[p].append(now)
+                current_batch_counts[p] = current_batch_counts.get(p, 0) + 1
+
+            # 3. Record Context (Location <-> Incident Link)
+            for loc in found_locations:
+                if loc not in location_context: location_context[loc] = {}
+                for inc in found_incidents:
+                    location_context[loc][inc] = location_context[loc].get(inc, 0) + 1
+        
+        # --- Cleanup Old History ---
         clean_history = {}
         window_24h = 24 * 3600
         min_time = now - window_24h
         
-        # Load existing history to memory dict for easier processing
-        history = self.state.get('history', {})
+        for p, timestamps in history.items():
+            valid = [t for t in timestamps if t > min_time]
+            if valid:
+                clean_history[p] = valid
         
-        current_batch_counts = {} # Whats happening RIGHT NOW (in these new messages)
-        
-        for msg in messages:
-            text = msg['text']
-            # Normalize complex Persian chars
-            text = text.replace('ي', 'ی').replace('ك', 'ک')
-            
-            # Check patterns
-            found_patterns = []
-            for pattern in self.config['patterns']:
-                if pattern in text:
-                    found_patterns.append(pattern)
-                    
-                    # Record occurrence
-                    if pattern not in history: history[pattern] = []
-                    history[pattern].append(now)
-                    
-                    current_batch_counts[pattern] = current_batch_counts.get(pattern, 0) + 1
-            
-            if len(found_patterns) >= 2:
-                # Multiple keywords in one message? High priority signal
-                pass
-
-        # Cleanup History & Calculate Baselines
-        alerts_to_send = []
-        
-        for pattern, timestamps in history.items():
-            # Keep only recent
-            valid_timestamps = [t for t in timestamps if t > min_time]
-            if not valid_timestamps: continue
-            
-            clean_history[pattern] = valid_timestamps
-            
-            # Spike Detection Logic
-            # 1. Calculate Baseline (Rate per 5 mins over last 24h)
-            # Total count / (24*12) slots? 
-            # Better: Average count in 5-min windows? 
-            # Simple Baseline: Total count / 288 (5-min slots in 24h)
-            
-            total_count = len(valid_timestamps)
-            baseline_rate = max(total_count / 288, 0.5) # Minimum baseline 0.5 to avoid noise
-            
-            # 2. Calculate Current Rate (Last 10 mins)
-            short_window = 10 * 60
-            recent_count = len([t for t in valid_timestamps if t > (now - short_window)])
-            
-            # Thresholds
-            spike_threshold = self.config['thresholds']['latency_spike'] # e.g. 5x
-            absolute_threshold = self.config['thresholds']['packet_loss'] # e.g. 3 (renamed from packet_loss)
-            
-            # Check Spike
-            # If recent_count is high AND much higher than baseline
-            if recent_count >= absolute_threshold and (recent_count / 2) > (baseline_rate * spike_threshold):
-                # DIV by 2 because recent_count is 10 mins, baseline is 5 mins rate? 
-                # Let's normalize. 
-                # Current Rate (per 5 min) = recent_count / 2
-                
-                current_rate = recent_count / 2.0
-                ratio = current_rate / baseline_rate
-                
-                alerts_to_send.append({
-                    'pattern': pattern,
-                    'count': recent_count,
-                    'ratio': ratio,
-                    'baseline': baseline_rate
-                })
-
         self.state['history'] = clean_history
-        return alerts_to_send, messages
+        
+        # --- Spike Detection & Smart Alerting ---
+        
+        # We need to detect spikes in BOTH Locations and Incidents.
+        # But an alert should ideally be a combination.
+        
+        # 1. Detect ALL Spiking Keywords first
+        spiking_keywords = set()
+        keyword_stats = {} # {word: {count, ratio}}
+        
+        for pattern, timestamps in clean_history.items():
+             # Logic same as before
+             total_count = len(timestamps)
+             baseline_rate = max(total_count / 288, 0.5)
+             
+             short_window = 10 * 60
+             recent_count = len([t for t in timestamps if t > (now - short_window)])
+             
+             spike_threshold = self.config['thresholds']['latency_spike']
+             absolute_threshold = self.config['thresholds']['packet_loss']
+             
+             if recent_count >= absolute_threshold and (recent_count / 2) > (baseline_rate * spike_threshold):
+                 spiking_keywords.add(pattern)
+                 keyword_stats[pattern] = {'count': recent_count, 'ratio': (recent_count/2.0)/baseline_rate}
+
+        # 2. Construct Smart Alerts
+        # Priority: Location + Incident Co-occurrence
+        
+        sent_patterns = set()
+        
+        # A. Check Spiking Locations for Associated Incidents
+        for loc in (set(config_patterns.get('locations', [])) & spiking_keywords):
+            # This location is spiking. Why?
+            # Check context from current batch first
+            context = location_context.get(loc, {})
+            
+            # Find the most frequent incident associated with this location in this batch
+            top_incident = None
+            max_assoc = 0
+            
+            for inc, count in context.items():
+                if count > max_assoc:
+                    max_assoc = count
+                    top_incident = inc
+            
+            # If we found a strong link in this batch
+            if top_incident:
+                alert_title = f"{top_incident} در {loc}"
+                alerts.append({
+                    'pattern': alert_title,
+                    'count': keyword_stats[loc]['count'],
+                    'keywords': [loc, top_incident]
+                })
+                sent_patterns.add(loc)
+                sent_patterns.add(top_incident)
+            else:
+                # Location is spiking but no specific incident in THIS batch?
+                # Maybe generic alert, or check if any incident is spiking globally?
+                alerts.append({
+                    'pattern': f"رویداد مهم در {loc}",
+                    'count': keyword_stats[loc]['count'],
+                    'keywords': [loc]
+                })
+                sent_patterns.add(loc)
+
+        # B. Check Spiking Incidents (that weren't already covered by Location alerts)
+        for inc in (set(config_patterns.get('incidents', []) + config_patterns.get('status', [])) & spiking_keywords):
+            if inc in sent_patterns: continue
+            
+            # Is this incident associated with any spiking location we missed?
+            # We already checked locations. So this must be a general incident (e.g. "Earthquake" everywhere).
+            
+            alerts.append({
+                'pattern': inc, # Just "Explosion"
+                'count': keyword_stats[inc]['count'],
+                'keywords': [inc]
+            })
+            sent_patterns.add(inc)
+
+        return alerts, messages
 
     def report_status(self, alerts, all_messages):
         """Send Telegram Alert."""
@@ -209,36 +274,42 @@ class NetworkMonitor:
             if alerts: print(f"ALER! But no token. {alerts}")
             return
 
-        # dedupe alerts
-        patterns = [a['pattern'] for a in alerts]
-        patterns_str = " | ".join(patterns)
-        
-        # Find relevant messages
-        relevant_msgs = []
-        seen_ids = set()
-        for msg in all_messages:
-            for p in patterns:
-                if p in msg['text'] and msg['id'] not in seen_ids:
+        for alert in alerts:
+            title = alert['pattern']
+            keywords = alert.get('keywords', [])
+            
+            # Find sample messages containing AT LEAST ONE of the keywords
+            relevant_msgs = []
+            seen_ids = set()
+            
+            for msg in all_messages:
+                # If alert has multiple keywords (Explosion, Tehran), favor messages having ALL
+                # Otherwise, messages having ANY.
+                
+                text = msg['text']
+                matches = [k for k in keywords if k in text]
+                
+                if matches and msg['id'] not in seen_ids:
+                    # Score match quality? 
+                    # For now just grab first 3
                     relevant_msgs.append(msg)
                     seen_ids.add(msg['id'])
                     if len(relevant_msgs) >= 3: break
-            if len(relevant_msgs) >= 3: break
             
-        links = "\n".join([f"- [{m['node']}]({m['link']})" for m in relevant_msgs])
-        
-        text = (
-            f"🚨 **Network Anomaly Detected**\n\n"
-            f"Patterns: {patterns_str}\n"
-            f"Intensity: {len(relevant_msgs)} occurrences (Spike Detected)\n\n"
-            f"Sources:\n{links}\n\n"
-            f"#SystemHealth #Monitor"
-        )
-        
-        url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-        try:
-            requests.post(url, data={'chat_id': CHAT_ID, 'text': text, 'parse_mode': 'Markdown', 'disable_web_page_preview': True})
-        except Exception as e:
-            print(f"Failed to send alert: {e}")
+            links = "\n".join([f"- [{m['node']}]({m['link']})" for m in relevant_msgs])
+            
+            text = (
+                f"🚨 **{title}**\n\n"
+                f"Intensity: {alert['count']} (Spike Detected)\n\n"
+                f"Sources:\n{links}\n\n"
+                f"#NetworkAlert #StealthMonitor"
+            )
+            
+            url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+            try:
+                requests.post(url, data={'chat_id': CHAT_ID, 'text': text, 'parse_mode': 'Markdown', 'disable_web_page_preview': True})
+            except Exception as e:
+                print(f"Failed to send alert: {e}")
 
     def run(self):
         print("Starting network diagnostic...")
