@@ -1,0 +1,38 @@
+name: Trend Master Intelligence
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-trends:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r backend/requirements.txt
+
+      - name: Update Trend History
+        run: |
+          python backend/update_trends_history.py
+
+      - name: Commit and Push History
+        run: |
+          git config --global user.name "TrendMaster Bot"
+          git config --global user.email "bot@trendmaster.local"
+          git add backend/data/trend_history.json
+          git commit -m "Update trend history baselines" || echo "No changes to commit"
+          git push
