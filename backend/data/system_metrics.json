@@ -1,11 +1,40 @@
 {
-  "generated_at": 1770570192,
+  "generated_at": 1770572273,
   "top_nodes": [
     {
       "text": "شلیک",
-      "count": 7,
-      "score": 51.13,
-      "is_new": false
+      "count": 10,
+      "score": 73.05,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 15,
+      "score": 57.27,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کشته",
+      "count": 18,
+      "score": 57.05,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مشهد",
+      "count": 5,
+      "score": 50.0,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مجروح",
+      "count": 4,
+      "score": 40.0,
+      "is_new": false,
+      "sentiment": "neutral"
     },
     {
       "text": "موشک",
@@ -14,19 +43,7 @@
       "is_new": false
     },
     {
-      "text": "تهران",
-      "count": 9,
-      "score": 34.36,
-      "is_new": false
-    },
-    {
-      "text": "کشته",
-      "count": 10,
-      "score": 31.7,
-      "is_new": false
-    },
-    {
-      "text": "مجروح",
+      "text": "اصفهان",
       "count": 2,
       "score": 20.0,
       "is_new": false
@@ -39,12 +56,6 @@
     },
     {
       "text": "اصابت",
-      "count": 2,
-      "score": 20.0,
-      "is_new": false
-    },
-    {
-      "text": "مشهد",
       "count": 2,
       "score": 20.0,
       "is_new": false
@@ -71,21 +82,21 @@
   "active_incidents": [
     {
       "type": "spike",
-      "pattern": "موشک در تهران",
-      "intensity": 6,
-      "time": 1770570192
+      "pattern": "کشته در مشهد",
+      "intensity": 3,
+      "time": 1770572273
     },
     {
       "type": "spike",
-      "pattern": "کشته",
-      "intensity": 4,
-      "time": 1770570192
+      "pattern": "کشته در تهران",
+      "intensity": 6,
+      "time": 1770572273
     },
     {
       "type": "spike",
       "pattern": "شلیک",
       "intensity": 3,
-      "time": 1770570192
+      "time": 1770572273
     }
   ]
 }
