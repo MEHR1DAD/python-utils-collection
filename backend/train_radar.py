@@ -38,16 +38,26 @@ async def main():
     
     all_nodes = config.get('nodes', [])
     
-    # Sharding Logic (Simple Round Robin / Modulo)
-    # my_nodes = [n for i, n in enumerate(all_nodes) if i % args.total == args.shard]
-    # Slicing is easier:
     my_nodes = all_nodes[args.shard::args.total]
     
-    print(f"Shard {args.shard}/{args.total} processing {len(my_nodes)} nodes: {my_nodes}")
+    print(f"Shard {args.shard}/{args.total} processing {len(my_nodes)} nodes.")
+
+    # Always ensure directory exists
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
+    if not API_ID or not API_HASH or not SESSION_STRING:
+        print("Error: Missing Telegram Credentials.")
+        print(f"API_ID: {'Set' if API_ID else 'MISSING'}")
+        print(f"API_HASH: {'Set' if API_HASH else 'MISSING'}")
+        print(f"SESSION: {'Set' if SESSION_STRING else 'MISSING'}")
+        
+        # Write empty file to satisfy artifact uploader
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump({"error": "Missing Credentials", "word_counts_30d": {}, "word_counts_24h": {}}, f)
+        return
     
     if not my_nodes:
         print("No nodes to process for this shard.")
-        # Create empty output to prevent workflow errors
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump({"word_counts_30d": {}, "word_counts_24h": {}}, f)
         return
