@@ -1,21 +1,21 @@
 {
-  "generated_at": 1770551584,
+  "generated_at": 1770553289,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 58
+      "count": 62
     },
     {
       "text": "کشته",
-      "count": 16
+      "count": 18
     },
     {
       "text": "موشک",
-      "count": 13
+      "count": 14
     },
     {
       "text": "ترور",
-      "count": 10
+      "count": 11
     },
     {
       "text": "شلیک",
@@ -38,15 +38,27 @@
       "count": 5
     },
     {
+      "text": "انفجار",
+      "count": 4
+    },
+    {
       "text": "پدافند",
       "count": 4
     },
     {
-      "text": "انفجار",
-      "count": 3
+      "text": "شهید",
+      "count": 4
+    },
+    {
+      "text": "مشهد",
+      "count": 4
     },
     {
       "text": "شیراز",
+      "count": 3
+    },
+    {
+      "text": "کرج",
       "count": 3
     },
     {
@@ -54,20 +66,8 @@
       "count": 3
     },
     {
-      "text": "شهید",
-      "count": 3
-    },
-    {
-      "text": "مشهد",
-      "count": 3
-    },
-    {
-      "text": "کرج",
-      "count": 2
-    },
-    {
       "text": "بوشهر",
-      "count": 2
+      "count": 3
     },
     {
       "text": "جنگنده",
