@@ -1,24 +1,17 @@
 {
-  "generated_at": 1770579316,
+  "generated_at": 1770580273,
   "top_nodes": [
     {
       "text": "کرمان",
-      "count": 5,
-      "score": 19.36,
+      "count": 4,
+      "score": 15.49,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "ترور",
-      "count": 7,
-      "score": 19.31,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کرج",
       "count": 3,
-      "score": 5.44,
+      "score": 8.28,
       "is_new": false,
       "sentiment": "neutral"
     },
@@ -30,17 +23,18 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اصابت",
+      "text": "کرج",
       "count": 2,
-      "score": 3.24,
+      "score": 3.63,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 13,
-      "score": 2.73,
-      "is_new": false
+      "count": 12,
+      "score": 2.52,
+      "is_new": false,
+      "sentiment": "neutral"
     },
     {
       "text": "شلیک",
@@ -49,18 +43,5 @@
       "is_new": false
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "رویداد مهم در کرمان",
-      "intensity": 3,
-      "time": 1770579316
-    },
-    {
-      "type": "spike",
-      "pattern": "ترور",
-      "intensity": 3,
-      "time": 1770579316
-    }
-  ]
+  "active_incidents": []
 }
