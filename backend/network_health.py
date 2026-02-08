@@ -427,6 +427,21 @@ class NetworkMonitor:
         # Sort by SCORE (Relative Burstiness) not raw count
         trends.sort(key=lambda x: x['score'], reverse=True)
         
+        # --- Sentiment Analysis (New Phase 13) ---
+        # Only analyze top 5 trends to save API calls
+        top_5_trends = trends[:5]
+        try:
+            from ai_service import analyze_sentiment_batch
+            trend_texts = [t['text'] for t in top_5_trends]
+            if trend_texts:
+                sentiments = analyze_sentiment_batch(trend_texts)
+                for t in top_5_trends:
+                    t['sentiment'] = sentiments.get(t['text'], 'neutral')
+        except ImportError:
+            print("AI Service not found or dependencies missing.")
+        except Exception as e:
+            print(f"Sentiment Analysis failed: {e}")
+        
         # 2. Active Incidents (Alerts)
         incidents = []
         for alert in current_alerts:
@@ -439,7 +454,7 @@ class NetworkMonitor:
              
         metrics = {
             "generated_at": int(now),
-            "top_nodes": trends[:20], # Top 20 smart trends
+            "top_nodes": top_5_trends + trends[5:20], # Top 5 have sentiment, rest don't
             "active_incidents": incidents
         }
         
