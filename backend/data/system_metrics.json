@@ -1,27 +1,41 @@
 {
-  "generated_at": 1770582976,
+  "generated_at": 1770584285,
   "top_nodes": [
     {
-      "text": "کرمان",
+      "text": "جنگنده",
       "count": 3,
-      "score": 11.61,
+      "score": 8.68,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کرمان",
+      "count": 2,
+      "score": 7.74,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "موشک",
-      "count": 3,
-      "score": 3.26,
+      "count": 5,
+      "score": 5.44,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
-      "text": "شلیک",
-      "count": 4,
-      "score": 2.02,
+      "text": "مشهد",
+      "count": 2,
+      "score": 2.75,
       "is_new": false,
       "sentiment": "neutral"
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "جنگنده",
+      "intensity": 3,
+      "time": 1770584285
+    }
+  ]
 }
