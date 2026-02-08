@@ -1,5 +1,5 @@
 {
-  "generated_at": 1770586098,
+  "generated_at": 1770587525,
   "top_nodes": [
     {
       "text": "شیراز",
@@ -16,23 +16,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "موشک",
-      "count": 4,
-      "score": 4.35,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تیراندازی",
-      "count": 2,
-      "score": 2.8,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
       "text": "مشهد",
       "count": 2,
       "score": 2.75,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "موشک",
+      "count": 2,
+      "score": 2.18,
       "is_new": false,
       "sentiment": "neutral"
     }
