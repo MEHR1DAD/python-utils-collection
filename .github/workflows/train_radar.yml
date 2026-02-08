@@ -1,0 +1,39 @@
+name: Radar Training (Historical Backfill)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  train-radar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install telethon
+
+      - name: Run Training Script (Fetch 30 Days History)
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION_GENERAL: ${{ secrets.TELEGRAM_SESSION_GENERAL }}
+        run: |
+          python backend/train_radar.py
+
+      - name: Commit and Push Training Data
+        run: |
+          git config --global user.name "Radar Trainer"
+          git config --global user.email "bot@radar.local"
+          git add backend/data/trend_history.json
+          git commit -m "Train: Backfilled 30-day history for Radar" || echo "No changes to commit"
+          git push
