@@ -343,19 +343,68 @@ class NetworkMonitor:
         self.save_state()
         self.export_metrics(alerts if 'alerts' in locals() else [])
 
+    def load_baselines(self):
+        history_file = 'backend/data/trend_history.json'
+        if not os.path.exists(history_file):
+            return {}
+        try:
+            with open(history_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return data.get('baselines', {})
+        except:
+            return {}
+
     def export_metrics(self, current_alerts):
         """Export public-facing metrics for frontend."""
-        # 1. Top Trends (from history)
+        # Load latest baselines (in case they updated)
+        baselines = self.load_baselines()
+        
+        # 1. Top Trends (Smart Analysis)
         trends = []
         now = time.time()
-        min_time = now - (24 * 3600)
         
-        for pattern, timestamps in self.state.get('history', {}).items():
-            count = len([t for t in timestamps if t > min_time])
-            if count > 0:
-                trends.append({"text": pattern, "count": count})
+        # We look at the last 3 hours for "Current Activity" to capture developing trends
+        # But we weight 1h more heavily? Let's stick to 1h for "Hot" trends.
+        window_1h = 3600
+        min_time_1h = now - window_1h
         
-        trends.sort(key=lambda x: x['count'], reverse=True)
+        history_data = self.state.get('history', {})
+        
+        for pattern, timestamps in history_data.items():
+            # Count recent mentions (Last 1 Hour)
+            count_1h = len([t for t in timestamps if t > min_time_1h])
+            
+            if count_1h < 2: continue # Ignore one-offs
+            
+            # Get Baseline Rate (Mentions per hour over last 24h/7d)
+            baseline = baselines.get(pattern)
+            
+            score = 0
+            if baseline:
+                # Use 7d rate as primary stable baseline, fallback to 24h
+                rate = baseline.get('rate_7d') or baseline.get('rate_24h', 0.5)
+                # Avoid division by zero
+                if rate < 0.1: rate = 0.1 
+                
+                # SCORE = Current Rate (count/1h) / Historical Rate
+                score = count_1h / rate
+            else:
+                # New word (not in history)?
+                # If it's new and frequent -> High Score
+                score = count_1h * 2 # Artificial boost for novelty
+                
+            # Filter: meaningful trends only
+            # If Score > 2.0 (Twice as frequent as normal) -> TRENDING
+            if score > 2.0:
+                 trends.append({
+                     "text": pattern, 
+                     "count": count_1h, 
+                     "score": round(score, 2),
+                     "is_new": not bool(baseline)
+                 })
+        
+        # Sort by SCORE (Relative Burstiness) not raw count
+        trends.sort(key=lambda x: x['score'], reverse=True)
         
         # 2. Active Incidents (Alerts)
         incidents = []
@@ -369,7 +418,7 @@ class NetworkMonitor:
              
         metrics = {
             "generated_at": int(now),
-            "top_nodes": trends[:20], # Top 20 trends
+            "top_nodes": trends[:20], # Top 20 smart trends
             "active_incidents": incidents
         }
         
