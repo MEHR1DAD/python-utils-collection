@@ -1,54 +1,27 @@
 {
-  "generated_at": 1770580801,
+  "generated_at": 1770582976,
   "top_nodes": [
     {
       "text": "کرمان",
-      "count": 5,
-      "score": 19.36,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ترور",
       "count": 3,
-      "score": 8.28,
+      "score": 11.61,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "موشک",
-      "count": 5,
-      "score": 5.44,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کرج",
-      "count": 2,
-      "score": 3.63,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کشته",
-      "count": 13,
-      "score": 2.73,
+      "count": 3,
+      "score": 3.26,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "شلیک",
-      "count": 5,
-      "score": 2.53,
-      "is_new": false
+      "count": 4,
+      "score": 2.02,
+      "is_new": false,
+      "sentiment": "neutral"
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "شلیک",
-      "intensity": 3,
-      "time": 1770580801
-    }
-  ]
+  "active_incidents": []
 }
