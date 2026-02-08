@@ -1,93 +1,91 @@
 {
-  "generated_at": 1770568880,
+  "generated_at": 1770570192,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 113
-    },
-    {
-      "text": "کشته",
-      "count": 39
+      "text": "شلیک",
+      "count": 7,
+      "score": 51.13,
+      "is_new": false
     },
     {
       "text": "موشک",
-      "count": 25
+      "count": 4,
+      "score": 40.0,
+      "is_new": false
     },
     {
-      "text": "شلیک",
-      "count": 22
+      "text": "تهران",
+      "count": 9,
+      "score": 34.36,
+      "is_new": false
     },
     {
-      "text": "ترور",
-      "count": 21
-    },
-    {
-      "text": "مشهد",
-      "count": 18
-    },
-    {
-      "text": "شهید",
-      "count": 15
-    },
-    {
-      "text": "اصفهان",
-      "count": 12
+      "text": "کشته",
+      "count": 10,
+      "score": 31.7,
+      "is_new": false
     },
     {
       "text": "مجروح",
-      "count": 11
+      "count": 2,
+      "score": 20.0,
+      "is_new": false
     },
     {
       "text": "پهپاد",
-      "count": 10
+      "count": 2,
+      "score": 20.0,
+      "is_new": false
     },
     {
       "text": "اصابت",
-      "count": 10
+      "count": 2,
+      "score": 20.0,
+      "is_new": false
     },
     {
-      "text": "تیراندازی",
-      "count": 9
+      "text": "مشهد",
+      "count": 2,
+      "score": 20.0,
+      "is_new": false
     },
     {
       "text": "کرج",
-      "count": 9
+      "count": 2,
+      "score": 4,
+      "is_new": true
     },
     {
-      "text": "انفجار",
-      "count": 7
-    },
-    {
-      "text": "بوشهر",
-      "count": 6
-    },
-    {
-      "text": "شیراز",
-      "count": 5
-    },
-    {
-      "text": "پدافند",
-      "count": 5
-    },
-    {
-      "text": "جنگنده",
-      "count": 4
-    },
-    {
-      "text": "تبریز",
-      "count": 2
+      "text": "ترور",
+      "count": 2,
+      "score": 4,
+      "is_new": true
     },
     {
       "text": "ارومیه",
-      "count": 2
+      "count": 2,
+      "score": 4,
+      "is_new": true
     }
   ],
   "active_incidents": [
     {
       "type": "spike",
-      "pattern": "کشته",
+      "pattern": "موشک در تهران",
       "intensity": 6,
-      "time": 1770568880
+      "time": 1770570192
+    },
+    {
+      "type": "spike",
+      "pattern": "کشته",
+      "intensity": 4,
+      "time": 1770570192
+    },
+    {
+      "type": "spike",
+      "pattern": "شلیک",
+      "intensity": 3,
+      "time": 1770570192
     }
   ]
 }
