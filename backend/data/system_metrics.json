@@ -1,17 +1,17 @@
 {
-  "generated_at": 1770565477,
+  "generated_at": 1770566433,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 109
+      "count": 110
     },
     {
       "text": "کشته",
-      "count": 32
+      "count": 33
     },
     {
       "text": "موشک",
-      "count": 22
+      "count": 24
     },
     {
       "text": "ترور",
@@ -34,12 +34,12 @@
       "count": 11
     },
     {
-      "text": "اصابت",
+      "text": "مجروح",
       "count": 10
     },
     {
-      "text": "مجروح",
-      "count": 9
+      "text": "اصابت",
+      "count": 10
     },
     {
       "text": "تیراندازی",
@@ -71,7 +71,7 @@
     },
     {
       "text": "جنگنده",
-      "count": 3
+      "count": 4
     },
     {
       "text": "تبریز",
