@@ -1,65 +1,72 @@
 {
-  "generated_at": 1770573442,
+  "generated_at": 1770575788,
   "top_nodes": [
     {
-      "text": "موشک",
-      "count": 5,
-      "score": 16.98,
+      "text": "ترور",
+      "count": 4,
+      "score": 11.03,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
-      "text": "ترور",
+      "text": "کرمان",
       "count": 2,
-      "score": 14.85,
+      "score": 7.74,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مشهد",
+      "count": 4,
+      "score": 5.5,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "مجروح",
       "count": 3,
-      "score": 6.3,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مشهد",
-      "count": 3,
-      "score": 5.79,
+      "score": 4.89,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "اصابت",
       "count": 3,
-      "score": 5.55,
+      "score": 4.85,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
-      "text": "حمله نظامی",
+      "text": "کرج",
       "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "تهران",
-      "count": 14,
-      "score": 3.76,
+      "score": 3.63,
       "is_new": false
     },
     {
       "text": "کشته",
-      "count": 13,
-      "score": 3.57,
+      "count": 14,
+      "score": 2.94,
       "is_new": false
     },
     {
       "text": "شلیک",
-      "count": 6,
-      "score": 3.51,
+      "count": 5,
+      "score": 2.53,
+      "is_new": false
+    },
+    {
+      "text": "موشک",
+      "count": 2,
+      "score": 2.18,
       "is_new": false
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "ترور",
+      "intensity": 4,
+      "time": 1770575788
+    }
+  ]
 }
