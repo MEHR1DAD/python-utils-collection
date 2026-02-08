@@ -1,9 +1,9 @@
 {
-  "generated_at": 1770562401,
+  "generated_at": 1770563749,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 96
+      "count": 105
     },
     {
       "text": "کشته",
@@ -11,30 +11,34 @@
     },
     {
       "text": "موشک",
-      "count": 19
+      "count": 20
     },
     {
       "text": "ترور",
-      "count": 18
+      "count": 20
     },
     {
       "text": "شلیک",
-      "count": 16
+      "count": 18
     },
     {
       "text": "شهید",
-      "count": 13
+      "count": 14
+    },
+    {
+      "text": "اصفهان",
+      "count": 11
     },
     {
       "text": "مشهد",
       "count": 11
     },
     {
-      "text": "اصفهان",
-      "count": 8
+      "text": "مجروح",
+      "count": 9
     },
     {
-      "text": "مجروح",
+      "text": "پهپاد",
       "count": 8
     },
     {
@@ -42,19 +46,19 @@
       "count": 7
     },
     {
+      "text": "تیراندازی",
+      "count": 7
+    },
+    {
       "text": "کرج",
       "count": 7
     },
     {
-      "text": "تیراندازی",
-      "count": 6
-    },
-    {
-      "text": "پهپاد",
-      "count": 6
-    },
-    {
       "text": "اصابت",
+      "count": 7
+    },
+    {
+      "text": "بوشهر",
       "count": 6
     },
     {
@@ -66,21 +70,24 @@
       "count": 4
     },
     {
-      "text": "بوشهر",
-      "count": 4
-    },
-    {
       "text": "جنگنده",
       "count": 3
     },
     {
-      "text": "آژیر خطر",
-      "count": 1
+      "text": "تبریز",
+      "count": 2
     },
     {
-      "text": "تبریز",
+      "text": "آژیر خطر",
       "count": 1
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "پهپاد در تهران",
+      "intensity": 9,
+      "time": 1770563749
+    }
+  ]
 }
