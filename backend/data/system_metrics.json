@@ -1,25 +1,25 @@
 {
-  "generated_at": 1770560759,
+  "generated_at": 1770562401,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 94
+      "count": 96
     },
     {
       "text": "کشته",
-      "count": 24
+      "count": 29
     },
     {
       "text": "موشک",
-      "count": 17
+      "count": 19
     },
     {
       "text": "ترور",
-      "count": 16
+      "count": 18
     },
     {
       "text": "شلیک",
-      "count": 14
+      "count": 16
     },
     {
       "text": "شهید",
@@ -34,12 +34,16 @@
       "count": 8
     },
     {
+      "text": "مجروح",
+      "count": 8
+    },
+    {
       "text": "انفجار",
       "count": 7
     },
     {
-      "text": "مجروح",
-      "count": 6
+      "text": "کرج",
+      "count": 7
     },
     {
       "text": "تیراندازی",
@@ -50,7 +54,7 @@
       "count": 6
     },
     {
-      "text": "کرج",
+      "text": "اصابت",
       "count": 6
     },
     {
@@ -62,16 +66,12 @@
       "count": 4
     },
     {
-      "text": "اصابت",
-      "count": 4
-    },
-    {
       "text": "بوشهر",
       "count": 4
     },
     {
       "text": "جنگنده",
-      "count": 1
+      "count": 3
     },
     {
       "text": "آژیر خطر",
@@ -82,12 +82,5 @@
       "count": 1
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "تهران",
-      "intensity": 7,
-      "time": 1770560759
-    }
-  ]
+  "active_incidents": []
 }
