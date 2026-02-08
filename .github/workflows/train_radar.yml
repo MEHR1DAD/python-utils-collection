@@ -7,8 +7,12 @@ permissions:
   contents: write
 
 jobs:
-  train-radar:
+  train-shard:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        shard: [0, 1, 2, 3] # 4 Parallel Workers
+      fail-fast: false
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -22,18 +26,50 @@ jobs:
         run: |
           pip install telethon
 
-      - name: Run Training Script (Fetch 30 Days History)
+      - name: Run Training Shard ${{ matrix.shard }}
         env:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
           TELEGRAM_SESSION_GENERAL: ${{ secrets.TELEGRAM_SESSION_GENERAL }}
         run: |
-          python backend/train_radar.py
+          python backend/train_radar.py --shard ${{ matrix.shard }} --total 4
+
+      - name: Upload Partial Result
+        uses: actions/upload-artifact@v4
+        with:
+          name: partial-history-${{ matrix.shard }}
+          path: backend/data/trend_history_part_${{ matrix.shard }}.json
+          retention-days: 1
+
+  merge-results:
+    needs: train-shard
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Download All Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: backend/data
+          pattern: partial-history-*
+          merge-multiple: true
+
+      - name: Merge Partial Results
+        run: |
+          python backend/merge_radar.py
 
       - name: Commit and Push Training Data
         run: |
           git config --global user.name "Radar Trainer"
           git config --global user.email "bot@radar.local"
           git add backend/data/trend_history.json
-          git commit -m "Train: Backfilled 30-day history for Radar" || echo "No changes to commit"
+          git commit -m "Train: Parallel Backfill Completed (30 days)" || echo "No changes to commit"
           git push

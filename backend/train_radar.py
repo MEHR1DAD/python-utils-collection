@@ -1,40 +1,56 @@
 import os
 import json
 import asyncio
+import argparse
 from datetime import datetime, timedelta, timezone
 from telethon import TelegramClient
-from telethon.tl.functions.messages import GetHistoryRequest
 from collections import defaultdict
 import re
 
 # Configuration
 CONFIG_FILE = 'backend/net_config.json'
-HISTORY_FILE = 'backend/data/trend_history.json'
+# Output file determined by shard index
 API_ID = os.environ.get('TELEGRAM_API_ID')
 API_HASH = os.environ.get('TELEGRAM_API_HASH')
-# Use General Session for this (it likely has access to public channels)
 SESSION_STRING = os.environ.get('TELEGRAM_SESSION_GENERAL')
 
-# Regex for Persian Tokenization (Same as update_trends_history.py)
 def tokenize(text):
     text = text.replace('ي', 'ی').replace('ك', 'ک')
-    # Remove URLs
     text = re.sub(r'http\S+', '', text)
-    # Keep only Persian chars and spaces
     tokens = re.findall(r'[آ-ی]+', text)
-    return [t for t in tokens if len(t) > 2] # Filter short words
+    return [t for t in tokens if len(t) > 2]
 
 async def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--shard', type=int, default=0, help='Shard index (0-based)')
+    parser.add_argument('--total', type=int, default=1, help='Total number of shards')
+    args = parser.parse_args()
+
+    output_file = f'backend/data/trend_history_part_{args.shard}.json'
+
     if not API_ID or not API_HASH or not SESSION_STRING:
-        print("Error: Missing Telegram Credentials (API_ID, API_HASH, SESSION).")
+        print("Error: Missing Telegram Credentials.")
         return
 
-    # Load Config to get Nodes
+    # Load Config
     with open(CONFIG_FILE, 'r') as f:
         config = json.load(f)
     
-    nodes = config.get('nodes', [])
-    print(f"Loaded {len(nodes)} nodes for training.")
+    all_nodes = config.get('nodes', [])
+    
+    # Sharding Logic (Simple Round Robin / Modulo)
+    # my_nodes = [n for i, n in enumerate(all_nodes) if i % args.total == args.shard]
+    # Slicing is easier:
+    my_nodes = all_nodes[args.shard::args.total]
+    
+    print(f"Shard {args.shard}/{args.total} processing {len(my_nodes)} nodes: {my_nodes}")
+    
+    if not my_nodes:
+        print("No nodes to process for this shard.")
+        # Create empty output to prevent workflow errors
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump({"word_counts_30d": {}, "word_counts_24h": {}}, f)
+        return
 
     from telethon.sessions import StringSession
     try:
@@ -44,14 +60,6 @@ async def main():
         print(f"Failed to connect: {e}")
         return
 
-    print("Connected to Telegram.")
-    
-    # Data Structure: { word: [timestamps] }
-    # We will just count occurrences per hour to save memory, then aggregate
-    # Actually, to compute rate_7d, we just need total count over 30 days.
-    # To compute rate_24h, we need recent counts.
-    # Let's count totals for the last 30 days.
-    
     word_counts_30d = defaultdict(int)
     word_counts_24h = defaultdict(int) 
     
@@ -61,79 +69,43 @@ async def main():
     
     total_messages = 0
 
-    for node in nodes:
-        print(f"Processing {node}...")
+    for node in my_nodes:
+        print(f"[{args.shard}] Processing {node}...")
         try:
-            # Get entity
             entity = await client.get_input_entity(node)
-            
-            # Fetch history (reverse=True is oldest first? No, default is newest first)
-            # We iterate backwards until cutoff
-            
             async for msg in client.iter_messages(entity, limit=None):
                 if not msg.date: continue
-                
                 msg_date = msg.date.astimezone(timezone.utc)
                 
                 if msg_date < cutoff_30d:
-                    break # Reached 30 days limit
+                    break 
                 
                 if msg.text:
                     total_messages += 1
-                    tokens = set(tokenize(msg.text)) # Unique per message (document frequency)
+                    tokens = set(tokenize(msg.text))
                     
                     for t in tokens:
                         word_counts_30d[t] += 1
                         if msg_date > cutoff_24h:
                             word_counts_24h[t] += 1
-                            
         except Exception as e:
             print(f"Error processing {node}: {e}")
             continue
 
-    print(f"Training Complete. Processed {total_messages} messages.")
+    print(f"[{args.shard}] Finished. {total_messages} messages.")
     
-    # Calculate Rates
-    # Rate = Count / Hours
-    hours_30d = 30 * 24
-    hours_24h = 24
-    
-    baselines = {}
-    
-    # Filter noise: Word must appear at least 15 times in 30 days (0.5 per day)
-    for word, count_30d in word_counts_30d.items():
-        if count_30d < 15: continue
-        
-        count_24h = word_counts_24h.get(word, 0)
-        
-        # We use 7d rate concept, but verify with 30d data for stability
-        # The 'rate_7d' field in our system implies "Long Term Average".
-        # So Average 30d is even better.
-        
-        rate_long = count_30d / hours_30d
-        rate_short = count_24h / hours_24h
-        
-        baselines[word] = {
-            "rate_7d": round(rate_long, 4), # Mapping 30d avg to 'rate_7d' key for compatibility
-            "rate_24h": round(rate_short, 4),
-            "raw_30d": count_30d
-        }
-        
-    # Save/Update History
-    # We should merge with existing if possible, or overwrite?
-    # Overwrite is better for a "Reset/Train" operation.
-    
+    # Checkpoint Output
     output = {
-        "updated_at": now.isoformat(),
-        "trained": True,
-        "baselines": baselines
+        "shard": args.shard,
+        "word_counts_30d": word_counts_30d,
+        "word_counts_24h": word_counts_24h
     }
     
-    os.makedirs(os.path.dirname(HISTORY_FILE), exist_ok=True)
-    with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
         
-    print(f"Saved baselines for {len(baselines)} words to {HISTORY_FILE}")
+    print(f"Saved partial results to {output_file}")
     await client.disconnect()
 
 if __name__ == '__main__':
