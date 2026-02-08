@@ -1,13 +1,5 @@
 {
-  "generated_at": 1770588775,
-  "top_nodes": [
-    {
-      "text": "شیراز",
-      "count": 2,
-      "score": 10.59,
-      "is_new": false,
-      "sentiment": "neutral"
-    }
-  ],
+  "generated_at": 1770590944,
+  "top_nodes": [],
   "active_incidents": []
 }
