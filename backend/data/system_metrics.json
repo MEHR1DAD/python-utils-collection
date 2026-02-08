@@ -1,5 +1,5 @@
 {
-  "generated_at": 1770575788,
+  "generated_at": 1770577485,
   "top_nodes": [
     {
       "text": "ترور",
@@ -16,57 +16,26 @@
       "sentiment": "neutral"
     },
     {
-      "text": "مشهد",
-      "count": 4,
-      "score": 5.5,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مجروح",
-      "count": 3,
-      "score": 4.89,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
       "text": "اصابت",
-      "count": 3,
-      "score": 4.85,
+      "count": 2,
+      "score": 3.24,
       "is_new": false,
       "sentiment": "neutral"
-    },
-    {
-      "text": "کرج",
-      "count": 2,
-      "score": 3.63,
-      "is_new": false
-    },
-    {
-      "text": "کشته",
-      "count": 14,
-      "score": 2.94,
-      "is_new": false
-    },
-    {
-      "text": "شلیک",
-      "count": 5,
-      "score": 2.53,
-      "is_new": false
     },
     {
       "text": "موشک",
       "count": 2,
       "score": 2.18,
-      "is_new": false
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شلیک",
+      "count": 4,
+      "score": 2.02,
+      "is_new": false,
+      "sentiment": "neutral"
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "ترور",
-      "intensity": 4,
-      "time": 1770575788
-    }
-  ]
+  "active_incidents": []
 }
