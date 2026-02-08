@@ -1,102 +1,65 @@
 {
-  "generated_at": 1770572273,
+  "generated_at": 1770573442,
   "top_nodes": [
     {
-      "text": "شلیک",
-      "count": 10,
-      "score": 73.05,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 15,
-      "score": 57.27,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کشته",
-      "count": 18,
-      "score": 57.05,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مشهد",
+      "text": "موشک",
       "count": 5,
-      "score": 50.0,
+      "score": 16.98,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ترور",
+      "count": 2,
+      "score": 14.85,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "مجروح",
-      "count": 4,
-      "score": 40.0,
+      "count": 3,
+      "score": 6.3,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
-      "text": "موشک",
-      "count": 4,
-      "score": 40.0,
-      "is_new": false
-    },
-    {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 20.0,
-      "is_new": false
-    },
-    {
-      "text": "پهپاد",
-      "count": 2,
-      "score": 20.0,
-      "is_new": false
+      "text": "مشهد",
+      "count": 3,
+      "score": 5.79,
+      "is_new": false,
+      "sentiment": "neutral"
     },
     {
       "text": "اصابت",
+      "count": 3,
+      "score": 5.55,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حمله نظامی",
       "count": 2,
-      "score": 20.0,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "تهران",
+      "count": 14,
+      "score": 3.76,
       "is_new": false
     },
     {
-      "text": "کرج",
-      "count": 2,
-      "score": 4,
-      "is_new": true
+      "text": "کشته",
+      "count": 13,
+      "score": 3.57,
+      "is_new": false
     },
     {
-      "text": "ترور",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "ارومیه",
-      "count": 2,
-      "score": 4,
-      "is_new": true
+      "text": "شلیک",
+      "count": 6,
+      "score": 3.51,
+      "is_new": false
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "کشته در مشهد",
-      "intensity": 3,
-      "time": 1770572273
-    },
-    {
-      "type": "spike",
-      "pattern": "کشته در تهران",
-      "intensity": 6,
-      "time": 1770572273
-    },
-    {
-      "type": "spike",
-      "pattern": "شلیک",
-      "intensity": 3,
-      "time": 1770572273
-    }
-  ]
+  "active_incidents": []
 }
