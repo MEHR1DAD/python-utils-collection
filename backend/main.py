@@ -294,7 +294,8 @@ async def fetch_channel_news(client, channel_username, limit, min_id=0):
                 "link": link if link else f"https://t.me/{channel_username}/{message.id}",
                 "media": media_path,
                 "mediaType": media_type,
-                "poster": poster_path
+                "poster": poster_path,
+                "sensitive": getattr(message.media, 'spoiler', False)
             }
             news_items.append(item)
             

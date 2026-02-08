@@ -1,0 +1,40 @@
+name: Network Health Check
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout System
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install Drivers
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Run Diagnostics
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python backend/network_health.py
+
+      - name: Save System State
+        run: |
+          git config --global user.name "System Admin"
+          git config --global user.email "admin@system.local"
+          git add backend/data/net_status.json
+          # Only commit if there are changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update system logs [skip ci]" && git push)
