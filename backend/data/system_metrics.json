@@ -1,10 +1,10 @@
 {
-  "generated_at": 1770580273,
+  "generated_at": 1770580801,
   "top_nodes": [
     {
       "text": "کرمان",
-      "count": 4,
-      "score": 15.49,
+      "count": 5,
+      "score": 19.36,
       "is_new": false,
       "sentiment": "neutral"
     },
@@ -17,8 +17,8 @@
     },
     {
       "text": "موشک",
-      "count": 4,
-      "score": 4.35,
+      "count": 5,
+      "score": 5.44,
       "is_new": false,
       "sentiment": "neutral"
     },
@@ -31,17 +31,24 @@
     },
     {
       "text": "کشته",
-      "count": 12,
-      "score": 2.52,
+      "count": 13,
+      "score": 2.73,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "شلیک",
-      "count": 4,
-      "score": 2.02,
+      "count": 5,
+      "score": 2.53,
       "is_new": false
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "شلیک",
+      "intensity": 3,
+      "time": 1770580801
+    }
+  ]
 }
