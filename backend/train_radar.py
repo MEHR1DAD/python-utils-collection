@@ -25,6 +25,7 @@ async def main():
     # Shard arguments are no longer needed for single-file output
     # parser.add_argument('--shard', type=int, default=0, help='Shard index (0-based)')
     # parser.add_argument('--total', type=int, default=1, help='Total number of shards')
+    parser.add_argument('--days', type=int, default=30, help='Number of days to look back (default: 30)')
     args = parser.parse_args()
 
     output_file = 'backend/data/trend_history.json' # Single output file
@@ -82,8 +83,10 @@ async def main():
     word_counts_24h = defaultdict(int) 
     
     now = datetime.now(timezone.utc)
-    cutoff_30d = now - timedelta(days=30)
+    cutoff_history = now - timedelta(days=args.days)
     cutoff_24h = now - timedelta(hours=24)
+    
+    print(f"Training for last {args.days} days (Cutoff: {cutoff_history.isoformat()})...")
     
     total_messages = 0
     
@@ -100,7 +103,7 @@ async def main():
                     if not msg.date: continue
                     msg_date = msg.date.astimezone(timezone.utc)
                     
-                    if msg_date < cutoff_30d:
+                    if msg_date < cutoff_history:
                         break 
                     
                     if msg.text:
@@ -121,17 +124,21 @@ async def main():
         print(f"Finished. {total_messages} messages.")
         
         # Calculate Rates Here (Since we have global counts)
-        hours_30d = 30 * 24
+        hours_history = args.days * 24
         hours_24h = 24
         baselines = {}
         
-        for word, count_30d in word_counts_30d.items():
-            if count_30d < 15: continue # Only consider words with at least 15 occurrences in 30 days
+        for word, count_history in word_counts_30d.items():
+            # Adjust min occurrence based on duration (0.5 per day)
+            min_occurrence = max(5, int(0.5 * args.days))
+            if count_history < min_occurrence: continue 
+            
             count_24h = word_counts_24h.get(word, 0)
             baselines[word] = {
-                "rate_7d": round(count_30d / hours_30d, 4), # This is actually 30d rate, not 7d. Naming convention might be off.
+                "rate_7d": round(count_history / hours_history, 4), # Renaming to rate_long might be better but keep legacy
                 "rate_24h": round(count_24h / hours_24h, 4),
-                "raw_30d": count_30d
+                "raw_total": count_history,
+                "days_trained": args.days
             }
 
         # Checkpoint Output

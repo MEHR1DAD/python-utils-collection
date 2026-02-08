@@ -2,6 +2,17 @@ name: Radar Training (Historical Backfill)
 
 on:
   workflow_dispatch:
+    inputs:
+      days:
+        description: 'Number of days to backfill (Default: 30)'
+        required: true
+        default: '30'
+        type: choice
+        options:
+        - '30'
+        - '60'
+        - '90'
+        - '180'
 
 permissions:
   contents: write
@@ -30,12 +41,13 @@ jobs:
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
           TELEGRAM_SESSION_GENERAL: ${{ secrets.TELEGRAM_SESSION_GENERAL }}
         run: |
-          python backend/train_radar.py
+          python backend/train_radar.py --days ${{ inputs.days }}
 
       - name: Commit and Push Training Data
         run: |
           git config --global user.name "Radar Trainer"
           git config --global user.email "bot@radar.local"
+          git config --global user.email "bot@radar.local"
           git add backend/data/trend_history.json
-          git commit -m "Train: Fast Async Backfill Completed" || echo "No changes to commit"
+          git commit -m "Train: Async Backfill Completed (${{ inputs.days }} days)" || echo "No changes to commit"
           git push
