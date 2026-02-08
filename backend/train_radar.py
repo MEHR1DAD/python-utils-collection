@@ -22,11 +22,12 @@ def tokenize(text):
 
 async def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--shard', type=int, default=0, help='Shard index (0-based)')
-    parser.add_argument('--total', type=int, default=1, help='Total number of shards')
+    # Shard arguments are no longer needed for single-file output
+    # parser.add_argument('--shard', type=int, default=0, help='Shard index (0-based)')
+    # parser.add_argument('--total', type=int, default=1, help='Total number of shards')
     args = parser.parse_args()
 
-    output_file = f'backend/data/trend_history_part_{args.shard}.json'
+    output_file = 'backend/data/trend_history.json' # Single output file
 
     # Helper to Save and Exit
     def save_and_exit(data=None, error=None):
@@ -35,14 +36,14 @@ async def main():
         
         if error:
             data["error"] = str(error)
-            print(f"[{args.shard}] Exiting with error: {error}")
+            print(f"Exiting with error: {error}") # Removed shard index from print
         
         # Always ensure directory exists
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
         
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"[{args.shard}] Saved output to {output_file}")
+        print(f"Saved output to {output_file}") # Removed shard index from print
 
     if not API_ID or not API_HASH or not SESSION_STRING:
         print("Error: Missing Telegram Credentials.")
@@ -57,15 +58,15 @@ async def main():
         with open(CONFIG_FILE, 'r') as f:
             config = json.load(f)
         all_nodes = config.get('nodes', [])
-        my_nodes = all_nodes[args.shard::args.total]
+        my_nodes = all_nodes # Process ALL nodes
     except Exception as e:
         save_and_exit(error=f"Config Error: {e}")
         return
     
-    print(f"Shard {args.shard}/{args.total} processing {len(my_nodes)} nodes.")
+    print(f"Processing {len(my_nodes)} nodes (Concurrency: 3).") # Removed shard info, added concurrency info
     
     if not my_nodes:
-        print("No nodes to process for this shard.")
+        print("No nodes to process.") # Removed shard info
         save_and_exit()
         return
 
@@ -85,10 +86,14 @@ async def main():
     cutoff_24h = now - timedelta(hours=24)
     
     total_messages = 0
+    
+    # Semaphore to limit concurrent channels
+    sem = asyncio.Semaphore(3)
 
-    try:
-        for node in my_nodes:
-            print(f"[{args.shard}] Processing {node}...")
+    async def process_node(node):
+        nonlocal total_messages
+        async with sem:
+            print(f"Processing {node}...")
             try:
                 entity = await client.get_input_entity(node)
                 async for msg in client.iter_messages(entity, limit=None):
@@ -108,15 +113,32 @@ async def main():
                                 word_counts_24h[t] += 1
             except Exception as e:
                 print(f"Error processing {node}: {e}")
-                continue
 
-        print(f"[{args.shard}] Finished. {total_messages} messages.")
+    try:
+        tasks = [process_node(node) for node in my_nodes]
+        await asyncio.gather(*tasks)
+
+        print(f"Finished. {total_messages} messages.")
         
+        # Calculate Rates Here (Since we have global counts)
+        hours_30d = 30 * 24
+        hours_24h = 24
+        baselines = {}
+        
+        for word, count_30d in word_counts_30d.items():
+            if count_30d < 15: continue # Only consider words with at least 15 occurrences in 30 days
+            count_24h = word_counts_24h.get(word, 0)
+            baselines[word] = {
+                "rate_7d": round(count_30d / hours_30d, 4), # This is actually 30d rate, not 7d. Naming convention might be off.
+                "rate_24h": round(count_24h / hours_24h, 4),
+                "raw_30d": count_30d
+            }
+
         # Checkpoint Output
         output = {
-            "shard": args.shard,
-            "word_counts_30d": word_counts_30d,
-            "word_counts_24h": word_counts_24h
+            "updated_at": now.isoformat(),
+            "trained": True,
+            "baselines": baselines
         }
         save_and_exit(data=output)
         
