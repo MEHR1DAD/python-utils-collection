@@ -233,7 +233,19 @@ class NetworkMonitor:
                     top_incident = inc
             
             # If we found a strong link in this batch
+            # START FIX: Require significant correlation
+            # We don't want a single "UAV" mention in a flood of "Tehran" news to label the whole event "UAV in Tehran".
+            
+            is_strong_link = False
             if top_incident:
+                 # 1. Absolute minimum co-occurrences (at least 2 messages must link them)
+                 if max_assoc >= 2:
+                     is_strong_link = True
+                 # 2. Or if the batch is small, it must be the dominant topic (> 30%)
+                 elif max_assoc >= 1 and (max_assoc / len(messages)) > 0.3:
+                      is_strong_link = True
+            
+            if is_strong_link:
                 alert_title = f"{top_incident} در {loc}"
                 alerts.append({
                     'pattern': alert_title,
@@ -243,8 +255,7 @@ class NetworkMonitor:
                 sent_patterns.add(loc)
                 sent_patterns.add(top_incident)
             else:
-                # Location is spiking but no specific incident in THIS batch?
-                # Maybe generic alert, or check if any incident is spiking globally?
+                # Location is spiking but no strong incident link
                 alerts.append({
                     'pattern': f"رویداد مهم در {loc}",
                     'count': keyword_stats[loc]['count'],
