@@ -38,3 +38,31 @@ jobs:
           git add backend/data/net_status.json backend/data/system_metrics.json
           # Only commit if there are changes
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update system logs [skip ci]" && git push)
+
+      - name: Deploy to Public Shard
+        run: |
+          # Cache the metrics file
+          mkdir -p /tmp/deploy_cache
+          cp backend/data/system_metrics.json /tmp/deploy_cache/system_metrics.json || echo "No metrics generated"
+          
+          # Switch to gh-pages
+          git fetch origin gh-pages || true
+          git checkout gh-pages || git checkout --orphan gh-pages
+          git reset --hard origin/gh-pages || true
+          
+          # Restore file to ROOT
+          cp /tmp/deploy_cache/system_metrics.json ./system_metrics.json
+          
+          # Commit and Push
+          git config --global user.name 'System Admin'
+          git config --global user.email 'admin@system.local'
+          
+          git add system_metrics.json
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "✅ Publishing metrics..."
+            git commit -m "Update public metrics $(date)"
+            git push origin gh-pages
+          else
+            echo "💤 No changes to publish."
+          fi
