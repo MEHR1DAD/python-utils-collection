@@ -1,9 +1,9 @@
 {
-  "generated_at": 1770550698,
+  "generated_at": 1770551584,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 53
+      "count": 58
     },
     {
       "text": "کشته",
@@ -11,7 +11,7 @@
     },
     {
       "text": "موشک",
-      "count": 12
+      "count": 13
     },
     {
       "text": "ترور",
@@ -23,7 +23,7 @@
     },
     {
       "text": "اصفهان",
-      "count": 5
+      "count": 6
     },
     {
       "text": "مجروح",
@@ -31,14 +31,14 @@
     },
     {
       "text": "تیراندازی",
-      "count": 4
-    },
-    {
-      "text": "پدافند",
-      "count": 4
+      "count": 5
     },
     {
       "text": "پهپاد",
+      "count": 5
+    },
+    {
+      "text": "پدافند",
       "count": 4
     },
     {
@@ -54,6 +54,10 @@
       "count": 3
     },
     {
+      "text": "شهید",
+      "count": 3
+    },
+    {
       "text": "مشهد",
       "count": 3
     },
@@ -62,7 +66,7 @@
       "count": 2
     },
     {
-      "text": "شهید",
+      "text": "بوشهر",
       "count": 2
     },
     {
@@ -74,24 +78,5 @@
       "count": 1
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "تهران",
-      "intensity": 22,
-      "time": 1770550698
-    },
-    {
-      "type": "spike",
-      "pattern": "موشک",
-      "intensity": 7,
-      "time": 1770550698
-    },
-    {
-      "type": "spike",
-      "pattern": "ترور",
-      "intensity": 8,
-      "time": 1770550698
-    }
-  ]
+  "active_incidents": []
 }
