@@ -35,6 +35,6 @@ jobs:
         run: |
           git config --global user.name "System Admin"
           git config --global user.email "admin@system.local"
-          git add backend/data/net_status.json
+          git add backend/data/net_status.json backend/data/system_metrics.json
           # Only commit if there are changes
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update system logs [skip ci]" && git push)

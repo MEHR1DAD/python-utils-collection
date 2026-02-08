@@ -259,6 +259,41 @@ class NetworkMonitor:
             print("No new packets.")
             
         self.save_state()
+        self.export_metrics(alerts if 'alerts' in locals() else [])
+
+    def export_metrics(self, current_alerts):
+        """Export public-facing metrics for frontend."""
+        # 1. Top Trends (from history)
+        trends = []
+        now = time.time()
+        min_time = now - (24 * 3600)
+        
+        for pattern, timestamps in self.state.get('history', {}).items():
+            count = len([t for t in timestamps if t > min_time])
+            if count > 0:
+                trends.append({"text": pattern, "count": count})
+        
+        trends.sort(key=lambda x: x['count'], reverse=True)
+        
+        # 2. Active Incidents (Alerts)
+        incidents = []
+        for alert in current_alerts:
+             incidents.append({
+                 "type": "spike",
+                 "pattern": alert['pattern'],
+                 "intensity": alert['count'],
+                 "time": int(now)
+             })
+             
+        metrics = {
+            "generated_at": int(now),
+            "top_nodes": trends[:20], # Top 20 trends
+            "active_incidents": incidents
+        }
+        
+        metrics_file = os.path.join(LOG_DIR, 'system_metrics.json')
+        with open(metrics_file, 'w', encoding='utf-8') as f:
+            json.dump(metrics, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     monitor = NetworkMonitor()
