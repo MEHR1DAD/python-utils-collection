@@ -1,8 +1,8 @@
-Economic_News_Channel
-USDTTetherp
-OUNSGOLD
-nobitexprices
-mazanee_onlin
-abshdanaghdy
-IRANSIGNALL
-TetherLand
+Economic_News_Channel|-1002131621218
+USDTTetherp|-1002120731193
+OUNSGOLD|-1001280269270
+nobitexprices|-1002083918857
+mazanee_onlin|-1001868428322
+abshdanaghdy|-1001617255406
+IRANSIGNALL|-1001418890988
+TetherLand|-1001314852919
