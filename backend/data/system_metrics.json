@@ -1,39 +1,102 @@
 {
-  "generated_at": 1770606934,
+  "generated_at": 1770617808,
   "top_nodes": [
     {
-      "text": "شلیک",
-      "count": 5,
-      "score": 4.18,
+      "text": "پدافند",
+      "count": 4,
+      "score": 18.9,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "موشک",
-      "count": 3,
-      "score": 3.59,
+      "count": 5,
+      "score": 5.42,
       "is_new": false,
       "sentiment": "neutral"
+    },
+    {
+      "text": "پهپاد",
+      "count": 2,
+      "score": 4.8,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شلیک",
+      "count": 7,
+      "score": 4.7,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 2,
+      "score": 4.18,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حریم هوایی",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "تهران",
+      "count": 31,
+      "score": 3.46,
+      "is_new": false
+    },
+    {
+      "text": "کشته",
+      "count": 11,
+      "score": 3.11,
+      "is_new": false
+    },
+    {
+      "text": "کرج",
+      "count": 2,
+      "score": 3.09,
+      "is_new": false
+    },
+    {
+      "text": "شهید",
+      "count": 3,
+      "score": 2.89,
+      "is_new": false
     }
   ],
   "active_incidents": [
     {
       "type": "spike",
-      "pattern": "کشته",
-      "intensity": 5,
-      "time": 1770606934
+      "pattern": "شلیک در تهران",
+      "intensity": 31,
+      "time": 1770617808
     },
     {
       "type": "spike",
-      "pattern": "شلیک",
-      "intensity": 5,
-      "time": 1770606934
+      "pattern": "پدافند",
+      "intensity": 4,
+      "time": 1770617808
     },
     {
       "type": "spike",
       "pattern": "موشک",
+      "intensity": 5,
+      "time": 1770617808
+    },
+    {
+      "type": "spike",
+      "pattern": "شهید",
       "intensity": 3,
-      "time": 1770606934
+      "time": 1770617808
+    },
+    {
+      "type": "spike",
+      "pattern": "کشته",
+      "intensity": 11,
+      "time": 1770617808
     }
   ]
 }
