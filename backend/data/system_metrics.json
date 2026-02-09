@@ -1,84 +1,90 @@
 {
-  "generated_at": 1770638193,
+  "generated_at": 1770642172,
   "top_nodes": [
     {
-      "text": "مجروح",
-      "count": 5,
-      "score": 10.61,
-      "is_new": false,
-      "sentiment": "negative"
-    },
-    {
-      "text": "ترور",
-      "count": 4,
-      "score": 9.87,
-      "is_new": false,
-      "sentiment": "negative"
-    },
-    {
-      "text": "موشک",
-      "count": 6,
-      "score": 6.51,
+      "text": "مشهد",
+      "count": 11,
+      "score": 10.18,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
-      "text": "حمله نظامی",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
+      "text": "اصابت",
+      "count": 4,
+      "score": 9.9,
+      "is_new": false,
       "sentiment": "negative"
     },
     {
-      "text": "اصابت",
+      "text": "پدافند",
       "count": 2,
-      "score": 4.95,
+      "score": 9.45,
       "is_new": false,
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
       "text": "پهپاد",
       "count": 2,
       "score": 4.8,
-      "is_new": false
+      "is_new": false,
+      "sentiment": "positive"
     },
     {
-      "text": "کشته",
-      "count": 15,
-      "score": 4.24,
+      "text": "موشک",
+      "count": 4,
+      "score": 4.34,
+      "is_new": false,
+      "sentiment": "negative"
+    },
+    {
+      "text": "فرود اضطراری",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "اصفهان",
+      "count": 3,
+      "score": 2.6,
       "is_new": false
     },
     {
       "text": "شلیک",
-      "count": 6,
-      "score": 4.03,
-      "is_new": false
-    },
-    {
-      "text": "شهید",
-      "count": 4,
-      "score": 3.86,
-      "is_new": false
-    },
-    {
-      "text": "تهران",
-      "count": 26,
-      "score": 2.9,
+      "count": 3,
+      "score": 2.02,
       "is_new": false
     }
   ],
   "active_incidents": [
     {
       "type": "spike",
-      "pattern": "کشته",
-      "intensity": 5,
-      "time": 1770638193
+      "pattern": "اصابت در اصفهان",
+      "intensity": 3,
+      "time": 1770642172
     },
     {
       "type": "spike",
-      "pattern": "ترور",
+      "pattern": "کشته در تهران",
+      "intensity": 15,
+      "time": 1770642172
+    },
+    {
+      "type": "spike",
+      "pattern": "کشته در مشهد",
+      "intensity": 11,
+      "time": 1770642172
+    },
+    {
+      "type": "spike",
+      "pattern": "موشک",
+      "intensity": 4,
+      "time": 1770642172
+    },
+    {
+      "type": "spike",
+      "pattern": "شلیک",
       "intensity": 3,
-      "time": 1770638193
+      "time": 1770642172
     }
   ]
 }
