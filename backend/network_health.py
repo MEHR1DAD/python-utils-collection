@@ -149,6 +149,21 @@ class NetworkMonitor:
             # Normalize
             text = text.replace('ي', 'ی').replace('ك', 'ک')
             
+            # Deduplication: Calculate simple hash of normalized text
+            import hashlib
+            norm_text = re.sub(r'[^\w\s]', '', text).strip()
+            msg_hash = hashlib.md5(norm_text.encode('utf-8')).hexdigest()
+            
+            # Check if this exact message content was seen recently (in this batch or globally?)
+            # Ideally globally, but state persistence is tricky. 
+            # Let's check within the batch + a small LRU cache in memory.
+            # For now, let's assume if it's in the same batch from different nodes, it's duplication.
+            
+            if msg_hash in self.seen_hashes:
+                continue # Duplicate content - ignore for spike counting
+            
+            self.seen_hashes.append(msg_hash) # Add to LRU
+            
             # 1. Identify what this message contains
             found_incidents = []
             found_locations = []
@@ -159,9 +174,8 @@ class NetworkMonitor:
                 for loc in config_patterns.get('locations', []):
                     if loc in text: found_locations.append(loc)
                 for sta in config_patterns.get('status', []):
-                    if sta in text: found_incidents.append(sta) # Treat status as incident
+                    if sta in text: found_incidents.append(sta) 
             else:
-                 # Fallback for old list config check
                  pass
 
             # 2. Record simple history for ALL detected keywords
@@ -170,10 +184,15 @@ class NetworkMonitor:
                 history[p].append(now)
                 current_batch_counts[p] = current_batch_counts.get(p, 0) + 1
 
-            # 3. Record Context (Location <-> Incident Link)
+            # 3. Record Context (Location <-> Incident Link) AND Composite History
             for loc in found_locations:
-                if loc not in location_context: location_context[loc] = {}
                 for inc in found_incidents:
+                    composite = f"{inc} در {loc}"
+                    if composite not in history: history[composite] = []
+                    history[composite].append(now)
+                    current_batch_counts[composite] = current_batch_counts.get(composite, 0) + 1
+                    
+                    if loc not in location_context: location_context[loc] = {}
                     location_context[loc][inc] = location_context[loc].get(inc, 0) + 1
         
         # --- Cleanup Old History ---
@@ -188,151 +207,129 @@ class NetworkMonitor:
         
         self.state['history'] = clean_history
         
-        # --- Spike Detection & Smart Alerting ---
-        
-        # We need to detect spikes in BOTH Locations and Incidents.
-        # But an alert should ideally be a combination.
-        
-        # 1. Detect ALL Spiking Keywords (SMART ANALYSIS)
+        # --- Spike Detection & Smart Alerting (STRICT MODE) ---
         spiking_keywords = set()
-        keyword_stats = {} # {word: {count, ratio}}
-        
-        # Load Baselines
+        keyword_stats = {} 
         baselines = self.load_baselines()
+        short_window = 15 * 60 # 15 mins
         
-        # Analyze last 15 minutes of data for spikes
-        short_window = 15 * 60
-        
+        # 1. Detect Spikes (including Composites)
         for pattern, timestamps in clean_history.items():
              recent_count = len([t for t in timestamps if t > (now - short_window)])
              
-             if recent_count < 2: continue # Ignore noise
+             if recent_count < 2: continue 
              
-             # Calculate Current Rate (Mentions per hour)
-             # recent_count is in 15 mins (0.25h) -> Rate = count * 4
              current_rate = recent_count * 4.0
-             
-             # Get Historical Baseline Rate
              baseline_data = baselines.get(pattern)
-             historical_rate = 0.5 # Default fallback
-             
+             historical_rate = 0.5
              if baseline_data:
-                 # Use 7d rate for stability
-                 historical_rate = baseline_data.get('rate_7d', 0.5)
+                 historical_rate = baseline_data.get('rate_7d') or baseline.get('rate_24h', 0.5)
                  if historical_rate < 0.1: historical_rate = 0.1
              
-             # Calculate SPIKE RATIO (Z-Score approximation)
              ratio = current_rate / historical_rate
              
-             # Thresholds:
-             # - Spike Ratio > 5.0 (500% increase!)
-             # - Absolute Minimum: 3 mentions (to avoid 1->5 fake spikes)
-             
+             # User Rule: "Must be repeated... in 50% of messages"
+             # Ratio Check: Is it BURSTING? (> 5x normal)
              if ratio > 5.0 and recent_count >= 3:
                   spiking_keywords.add(pattern)
                   keyword_stats[pattern] = {'count': recent_count, 'ratio': ratio}
 
-
-        # 2. Construct Smart Alerts
-        # Priority: Location + Incident Co-occurrence
-        
+        # 2. Filter & Alert
         sent_patterns = set()
+        sorted_spikes = sorted(spiking_keywords, key=lambda k: keyword_stats[k]['count'], reverse=True)
         
-        # A. Check Spiking Locations for Associated Incidents
-        for loc in (set(config_patterns.get('locations', [])) & spiking_keywords):
-            # This location is spiking. Why?
-            # Check context from current batch first
-            context = location_context.get(loc, {})
+        for spk in sorted_spikes:
+            if spk in sent_patterns: continue
             
-            # Find the most frequent incident associated with this location in this batch
-            top_incident = None
-            max_assoc = 0
+            if " در " in spk:
+                # Composite Pattern ("Incident in Location")
+                parts = spk.split(" در ")
+                inc_part = parts[0]
+                loc_part = parts[1]
+                
+                # STRICT DENSITY CHECK (User Requirement: 50%)
+                # Count total messages in this batch (or recent 15m) related to LOCATION?
+                # No, check proportion of THIS PATTERN in recent traffic?
+                # The user said: "50% of news... in period... must be related".
+                # Let's interpret: If there are 10 messages in the last 15m about "Tehran", 5 must be "Flood in Tehran".
+                # Or simply: The pattern itself must have a high count?
+                # Let's verify against TOTAL traffic? No, total traffic is huge.
+                # Let's verify against LOCATION traffic.
+                
+                loc_history = clean_history.get(loc_part, [])
+                loc_recent_count = len([t for t in loc_history if t > (now - short_window)])
+                
+                this_pattern_count = keyword_stats[spk]['count']
+                
+                density = 0
+                if loc_recent_count > 0:
+                    density = this_pattern_count / loc_recent_count
+                
+                # User Rule: > 50%
+                if density >= 0.5:
+                    alerts.append({
+                        'pattern': spk,
+                        'count': this_pattern_count,
+                        'keywords': [inc_part, loc_part]
+                    })
+                    sent_patterns.add(spk)
+                    sent_patterns.add(inc_part)
+                    sent_patterns.add(loc_part)
             
-            for inc, count in context.items():
-                if count > max_assoc:
-                    max_assoc = count
-                    top_incident = inc
-            
-            # If we found a strong link in this batch
-            # START FIX: Require significant correlation
-            # We don't want a single "UAV" mention in a flood of "Tehran" news to label the whole event "UAV in Tehran".
-            
-            is_strong_link = False
-            if top_incident:
-                 # 1. Absolute minimum co-occurrences (at least 2 messages must link them)
-                 if max_assoc >= 2:
-                     is_strong_link = True
-                 # 2. Or if the batch is small, it must be the dominant topic (> 30%)
-                 elif max_assoc >= 1 and (max_assoc / len(messages)) > 0.3:
-                      is_strong_link = True
-            
-            if is_strong_link:
-                alert_title = f"{top_incident} در {loc}"
-                alerts.append({
-                    'pattern': alert_title,
-                    'count': keyword_stats[loc]['count'],
-                    'keywords': [loc, top_incident]
-                })
-                sent_patterns.add(loc)
-                sent_patterns.add(top_incident)
             else:
-                # Location is spiking but no strong incident link
-                alerts.append({
-                    'pattern': f"رویداد مهم در {loc}",
-                    'count': keyword_stats[loc]['count'],
-                    'keywords': [loc]
-                })
-                sent_patterns.add(loc)
-
-        # B. Check Spiking Incidents (that weren't already covered by Location alerts)
-        for inc in (set(config_patterns.get('incidents', []) + config_patterns.get('status', [])) & spiking_keywords):
-            if inc in sent_patterns: continue
-            
-            # Is this incident associated with any spiking location we missed?
-            # We already checked locations. So this must be a general incident (e.g. "Earthquake" everywhere).
-            
-            alerts.append({
-                'pattern': inc, # Just "Explosion"
-                'count': keyword_stats[inc]['count'],
-                'keywords': [inc]
-            })
-            sent_patterns.add(inc)
+                # Naked Keyword
+                is_status = spk in config_patterns.get('status', [])
+                if is_status:
+                    alerts.append({
+                        'pattern': spk,
+                        'count': keyword_stats[spk]['count'],
+                        'keywords': [spk]
+                    })
+                    sent_patterns.add(spk)
 
         return alerts, messages
 
     def report_status(self, alerts, all_messages):
         """Send Telegram Alert."""
         if not alerts or not BOT_TOKEN or not CHAT_ID:
-            if alerts: print(f"ALER! But no token. {alerts}")
             return
 
         for alert in alerts:
             title = alert['pattern']
             keywords = alert.get('keywords', [])
             
-            # Find sample messages containing AT LEAST ONE of the keywords
+            # Find sample messages
             relevant_msgs = []
             seen_ids = set()
             
-            for msg in all_messages:
-                # If alert has multiple keywords (Explosion, Tehran), favor messages having ALL
-                # Otherwise, messages having ANY.
-                
-                text = msg['text']
-                matches = [k for k in keywords if k in text]
-                
-                if matches and msg['id'] not in seen_ids:
-                    # Score match quality? 
-                    # For now just grab first 3
-                    relevant_msgs.append(msg)
-                    seen_ids.add(msg['id'])
-                    if len(relevant_msgs) >= 3: break
+            # Link Deduplication (Same News logic)
+            # We want diverse sources if possible
             
+            for msg in all_messages:
+                text = msg['text']
+                # For composite alerts, require BOTH keywords in the text
+                if len(keywords) > 1:
+                     if all(k in text for k in keywords):
+                         if msg['id'] not in seen_ids:
+                             relevant_msgs.append(msg)
+                             seen_ids.add(msg['id'])
+                else:
+                     # Status or Single
+                     if keywords[0] in text:
+                         if msg['id'] not in seen_ids:
+                             relevant_msgs.append(msg)
+                             seen_ids.add(msg['id'])
+                
+                if len(relevant_msgs) >= 5: break
+            
+            if not relevant_msgs: continue
+
             links = "\n".join([f"- [{m['node']}]({m['link']})" for m in relevant_msgs])
             
             text = (
                 f"🚨 **{title}**\n\n"
-                f"Intensity: {alert['count']} (Spike Detected)\n\n"
+                f"Intensity: {alert['count']} (Spike Detected)\n"
+                f"Density: {len(relevant_msgs)} confirmed sources\n\n"
                 f"Sources:\n{links}\n\n"
                 f"#NetworkAlert #StealthMonitor"
             )
@@ -349,7 +346,7 @@ class NetworkMonitor:
         for node in self.config['nodes']:
             msgs = self.fetch_node_logs(node)
             all_messages.extend(msgs)
-            time.sleep(1) # Polite delay
+            time.sleep(1) 
             
         if all_messages:
             alerts, _ = self.analyze_traffic(all_messages)
@@ -377,45 +374,27 @@ class NetworkMonitor:
 
     def export_metrics(self, current_alerts):
         """Export public-facing metrics for frontend."""
-        # Load latest baselines (in case they updated)
         baselines = self.load_baselines()
-        
-        # 1. Top Trends (Smart Analysis)
         trends = []
         now = time.time()
-        
-        # We look at the last 3 hours for "Current Activity" to capture developing trends
-        # But we weight 1h more heavily? Let's stick to 1h for "Hot" trends.
         window_1h = 3600
         min_time_1h = now - window_1h
         
         history_data = self.state.get('history', {})
         
         for pattern, timestamps in history_data.items():
-            # Count recent mentions (Last 1 Hour)
             count_1h = len([t for t in timestamps if t > min_time_1h])
+            if count_1h < 2: continue
             
-            if count_1h < 2: continue # Ignore one-offs
-            
-            # Get Baseline Rate (Mentions per hour over last 24h/7d)
             baseline = baselines.get(pattern)
-            
             score = 0
             if baseline:
-                # Use 7d rate as primary stable baseline, fallback to 24h
                 rate = baseline.get('rate_7d') or baseline.get('rate_24h', 0.5)
-                # Avoid division by zero
                 if rate < 0.1: rate = 0.1 
-                
-                # SCORE = Current Rate (count/1h) / Historical Rate
                 score = count_1h / rate
             else:
-                # New word (not in history)?
-                # If it's new and frequent -> High Score
-                score = count_1h * 2 # Artificial boost for novelty
+                score = count_1h * 2 
                 
-            # Filter: meaningful trends only
-            # If Score > 2.0 (Twice as frequent as normal) -> TRENDING
             if score > 2.0:
                  trends.append({
                      "text": pattern, 
@@ -424,12 +403,37 @@ class NetworkMonitor:
                      "is_new": not bool(baseline)
                  })
         
-        # Sort by SCORE (Relative Burstiness) not raw count
         trends.sort(key=lambda x: x['score'], reverse=True)
         
-        # --- Sentiment Analysis (New Phase 13) ---
-        # Only analyze top 5 trends to save API calls
-        top_5_trends = trends[:5]
+        # Deduplication for Frontend Cloud
+        # If "Flood in Tehran" exists, remove "Flood" and "Tehran" from the list
+        final_trends = []
+        composite_keys = set()
+        
+        # First pass: Identify Composites
+        for t in trends:
+            if " در " in t['text']:
+                composite_keys.add(t['text'])
+                final_trends.append(t)
+        
+        # Second pass: Add Singles ONLY if not part of a Composite
+        for t in trends:
+            if " در " in t['text']: continue # Already added
+            
+            is_constituent = False
+            for composite in composite_keys:
+                if t['text'] in composite: # e.g. "Flood" in "Flood in Tehran"
+                    is_constituent = True
+                    break
+            
+            if not is_constituent:
+                final_trends.append(t)
+                
+        # Re-sort final list
+        final_trends.sort(key=lambda x: x['score'], reverse=True)
+        
+        # Sentiment Analysis
+        top_5_trends = final_trends[:5]
         try:
             from ai_service import analyze_sentiment_batch
             trend_texts = [t['text'] for t in top_5_trends]
@@ -437,12 +441,9 @@ class NetworkMonitor:
                 sentiments = analyze_sentiment_batch(trend_texts)
                 for t in top_5_trends:
                     t['sentiment'] = sentiments.get(t['text'], 'neutral')
-        except ImportError:
-            print("AI Service not found or dependencies missing.")
-        except Exception as e:
-            print(f"Sentiment Analysis failed: {e}")
+        except:
+            pass
         
-        # 2. Active Incidents (Alerts)
         incidents = []
         for alert in current_alerts:
              incidents.append({
@@ -454,12 +455,11 @@ class NetworkMonitor:
              
         metrics = {
             "generated_at": int(now),
-            "top_nodes": top_5_trends + trends[5:20], # Top 5 have sentiment, rest don't
+            "top_nodes": top_5_trends + final_trends[5:20],
             "active_incidents": incidents
         }
         
-        metrics_file = os.path.join(LOG_DIR, 'system_metrics.json')
-        with open(metrics_file, 'w', encoding='utf-8') as f:
+        with open(os.path.join(LOG_DIR, 'system_metrics.json'), 'w', encoding='utf-8') as f:
             json.dump(metrics, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
