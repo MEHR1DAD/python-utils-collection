@@ -149,6 +149,8 @@ async def main():
         }
         save_and_exit(data=output)
         
+    except (asyncio.CancelledError, KeyboardInterrupt):
+        save_and_exit(error="Training Cancelled/Interrupted (Partial Results Saved)")
     except Exception as e:
         save_and_exit(error=f"Runtime Error: {e}")
     finally:

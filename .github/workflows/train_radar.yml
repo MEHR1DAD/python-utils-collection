@@ -39,7 +39,7 @@ jobs:
         env:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
-          TELEGRAM_SESSION_GENERAL: ${{ secrets.TELEGRAM_SESSION_GENERAL }}
+          TELEGRAM_SESSION_GENERAL: ${{ secrets.TELEGRAM_SESSION_VAHID }}
         run: |
           python backend/train_radar.py --days ${{ inputs.days }}
 
