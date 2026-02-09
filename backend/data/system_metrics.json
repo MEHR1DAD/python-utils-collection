@@ -1,90 +1,84 @@
 {
-  "generated_at": 1770642172,
+  "generated_at": 1770646742,
   "top_nodes": [
     {
-      "text": "مشهد",
-      "count": 11,
-      "score": 10.18,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصابت",
-      "count": 4,
-      "score": 9.9,
+      "text": "ترور",
+      "count": 3,
+      "score": 7.41,
       "is_new": false,
       "sentiment": "negative"
     },
     {
-      "text": "پدافند",
-      "count": 2,
-      "score": 9.45,
+      "text": "موشک",
+      "count": 5,
+      "score": 5.42,
       "is_new": false,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "پهپاد",
       "count": 2,
       "score": 4.8,
       "is_new": false,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "text": "موشک",
-      "count": 4,
-      "score": 4.34,
+      "text": "مجروح",
+      "count": 2,
+      "score": 4.24,
       "is_new": false,
       "sentiment": "negative"
     },
     {
-      "text": "فرود اضطراری",
-      "count": 2,
-      "score": 4,
-      "is_new": true
+      "text": "شلیک",
+      "count": 6,
+      "score": 4.03,
+      "is_new": false,
+      "sentiment": "negative"
     },
     {
       "text": "اصفهان",
-      "count": 3,
-      "score": 2.6,
+      "count": 4,
+      "score": 3.46,
       "is_new": false
     },
     {
-      "text": "شلیک",
-      "count": 3,
-      "score": 2.02,
+      "text": "کشته",
+      "count": 11,
+      "score": 3.11,
+      "is_new": false
+    },
+    {
+      "text": "تهران",
+      "count": 19,
+      "score": 2.12,
       "is_new": false
     }
   ],
   "active_incidents": [
     {
       "type": "spike",
-      "pattern": "اصابت در اصفهان",
-      "intensity": 3,
-      "time": 1770642172
+      "pattern": "شلیک در اصفهان",
+      "intensity": 4,
+      "time": 1770646742
     },
     {
       "type": "spike",
       "pattern": "کشته در تهران",
-      "intensity": 15,
-      "time": 1770642172
+      "intensity": 19,
+      "time": 1770646742
     },
     {
       "type": "spike",
-      "pattern": "کشته در مشهد",
-      "intensity": 11,
-      "time": 1770642172
+      "pattern": "ترور",
+      "intensity": 3,
+      "time": 1770646742
     },
     {
       "type": "spike",
       "pattern": "موشک",
-      "intensity": 4,
-      "time": 1770642172
-    },
-    {
-      "type": "spike",
-      "pattern": "شلیک",
-      "intensity": 3,
-      "time": 1770642172
+      "intensity": 5,
+      "time": 1770646742
     }
   ]
 }
