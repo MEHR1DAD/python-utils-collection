@@ -1,90 +1,34 @@
 {
-  "generated_at": 1770628143,
+  "generated_at": 1770632098,
   "top_nodes": [
     {
-      "text": "پدافند",
-      "count": 4,
-      "score": 18.9,
+      "text": "موشک",
+      "count": 10,
+      "score": 10.85,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "ترور",
-      "count": 3,
-      "score": 7.41,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصابت",
       "count": 2,
-      "score": 4.95,
+      "score": 4.94,
+      "is_new": false,
+      "sentiment": "negative"
+    },
+    {
+      "text": "کرمان",
+      "count": 2,
+      "score": 3.99,
       "is_new": false,
       "sentiment": "neutral"
-    },
-    {
-      "text": "شهید",
-      "count": 5,
-      "score": 4.82,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "موشک",
-      "count": 4,
-      "score": 4.34,
-      "is_new": false,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شلیک",
-      "count": 5,
-      "score": 3.36,
-      "is_new": false
-    },
-    {
-      "text": "کشته",
-      "count": 8,
-      "score": 2.26,
-      "is_new": false
     }
   ],
   "active_incidents": [
     {
       "type": "spike",
-      "pattern": "کشته در تهران",
-      "intensity": 15,
-      "time": 1770628143
-    },
-    {
-      "type": "spike",
-      "pattern": "شلیک",
-      "intensity": 5,
-      "time": 1770628143
-    },
-    {
-      "type": "spike",
       "pattern": "موشک",
-      "intensity": 4,
-      "time": 1770628143
-    },
-    {
-      "type": "spike",
-      "pattern": "ترور",
-      "intensity": 3,
-      "time": 1770628143
-    },
-    {
-      "type": "spike",
-      "pattern": "پدافند",
-      "intensity": 4,
-      "time": 1770628143
-    },
-    {
-      "type": "spike",
-      "pattern": "شهید",
-      "intensity": 5,
-      "time": 1770628143
+      "intensity": 10,
+      "time": 1770632098
     }
   ]
 }
