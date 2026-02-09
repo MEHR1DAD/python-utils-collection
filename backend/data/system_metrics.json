@@ -1,5 +1,39 @@
 {
-  "generated_at": 1770595388,
-  "top_nodes": [],
-  "active_incidents": []
+  "generated_at": 1770606934,
+  "top_nodes": [
+    {
+      "text": "شلیک",
+      "count": 5,
+      "score": 4.18,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "موشک",
+      "count": 3,
+      "score": 3.59,
+      "is_new": false,
+      "sentiment": "neutral"
+    }
+  ],
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "کشته",
+      "intensity": 5,
+      "time": 1770606934
+    },
+    {
+      "type": "spike",
+      "pattern": "شلیک",
+      "intensity": 5,
+      "time": 1770606934
+    },
+    {
+      "type": "spike",
+      "pattern": "موشک",
+      "intensity": 3,
+      "time": 1770606934
+    }
+  ]
 }
