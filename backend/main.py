@@ -256,11 +256,11 @@ async def download_media(client, message, msg_id):
             
     return media_url, media_type, poster_url
 
-async def fetch_channel_news(client, channel_username, limit, min_id=0):
+async def fetch_channel_news(client, target, channel_name, limit, min_id=0):
     news_items = []
     try:
-        print(f"Fetching news from {channel_username} (Limit: {limit}, Min ID: {min_id})...")
-        entity = await client.get_input_entity(channel_username)
+        print(f"Fetching news from {channel_name} (Target: {target}, Limit: {limit}, Min ID: {min_id})...")
+        entity = await client.get_input_entity(target)
         
         count = 0
         async for message in client.iter_messages(entity, limit=limit, min_id=min_id):
@@ -268,9 +268,9 @@ async def fetch_channel_news(client, channel_username, limit, min_id=0):
             if not message.text and not message.media:
                 continue
             
-            print(f"  [{channel_username}] Processing message {count}...")
+            print(f"  [{channel_name}] Processing message {count}...")
                 
-            msg_id = f"{channel_username}_{message.id}"
+            msg_id = f"{channel_name}_{message.id}"
             
             # Extract link
             link = None
@@ -288,10 +288,10 @@ async def fetch_channel_news(client, channel_username, limit, min_id=0):
             
             item = {
                 "id": msg_id,
-                "source": channel_username,
+                "source": channel_name,
                 "text": final_text,
                 "date": message.date.isoformat(),
-                "link": link if link else f"https://t.me/{channel_username}/{message.id}",
+                "link": link if link else f"https://t.me/{channel_name}/{message.id}",
                 "media": media_path,
                 "mediaType": media_type,
                 "poster": poster_path,
@@ -300,7 +300,7 @@ async def fetch_channel_news(client, channel_username, limit, min_id=0):
             news_items.append(item)
             
     except Exception as e:
-        print(f"Error fetching from {channel_username}: {e}")
+        print(f"Error fetching from {channel_name}: {e}")
         
     return news_items
 
@@ -312,7 +312,15 @@ async def main():
         exit(1)
 
     with open(CHANNELS_FILE, 'r') as f:
-        channels = [line.strip() for line in f if line.strip()]
+        raw_channels = [line.strip() for line in f if line.strip()]
+        
+    channels = []
+    for line in raw_channels:
+        if '|' in line:
+            parts = line.split('|')
+            channels.append({'name': parts[0], 'id': int(parts[1])})
+        else:
+            channels.append({'name': line, 'id': None})
 
     # Load existing news FIRST to determine offsets
     existing_news = []
@@ -348,15 +356,19 @@ async def main():
         await client.start()
         
         new_news = []
-        for channel in channels:
-            # Smart Sync: Fetch only messages newer than what we have
-            min_id = channel_max_ids.get(channel, 0)
-            if min_id > 0:
-                print(f"🔄 Smart Sync for {channel}: Fetching only messages > {min_id}")
+        for ch_info in channels:
+            channel_name = ch_info['name']
+            channel_id = ch_info['id']
             
-            # If we are doing a smart sync, we can potentially lower the limit or keep it high 
-            # to catch up on a backlog. 
-            items = await fetch_channel_news(client, channel, args.limit, min_id=min_id)
+            # Smart Sync: Fetch only messages newer than what we have
+            min_id = channel_max_ids.get(channel_name, 0)
+            if min_id > 0:
+                print(f"🔄 Smart Sync for {channel_name}: Fetching only messages > {min_id}")
+            
+            # Use ID if available, otherwise name
+            target = channel_id if channel_id else channel_name
+            
+            items = await fetch_channel_news(client, target, channel_name, args.limit, min_id=min_id)
             new_news.extend(items)
             
         print(f"Fetched {len(new_news)} items from Telegram.")
