@@ -1,24 +1,31 @@
 {
-  "generated_at": 1770622449,
+  "generated_at": 1770624542,
   "top_nodes": [
     {
       "text": "پدافند",
-      "count": 8,
-      "score": 37.81,
+      "count": 9,
+      "score": 42.53,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "پهپاد",
-      "count": 11,
-      "score": 26.37,
+      "count": 13,
+      "score": 31.17,
+      "is_new": false,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ترور",
+      "count": 5,
+      "score": 12.34,
       "is_new": false,
       "sentiment": "neutral"
     },
     {
       "text": "موشک",
-      "count": 8,
-      "score": 8.68,
+      "count": 10,
+      "score": 10.85,
       "is_new": false,
       "sentiment": "neutral"
     },
@@ -30,49 +37,42 @@
       "sentiment": "neutral"
     },
     {
-      "text": "ترور",
-      "count": 3,
-      "score": 7.41,
-      "is_new": false,
-      "sentiment": "neutral"
+      "text": "مجروح",
+      "count": 2,
+      "score": 4.24,
+      "is_new": false
+    },
+    {
+      "text": "کشته",
+      "count": 14,
+      "score": 3.95,
+      "is_new": false
+    },
+    {
+      "text": "شلیک",
+      "count": 5,
+      "score": 3.36,
+      "is_new": false
+    },
+    {
+      "text": "تهران",
+      "count": 21,
+      "score": 2.34,
+      "is_new": false
     }
   ],
   "active_incidents": [
     {
       "type": "spike",
-      "pattern": "موشک در تهران",
-      "intensity": 14,
-      "time": 1770622449
-    },
-    {
-      "type": "spike",
-      "pattern": "پهپاد",
-      "intensity": 11,
-      "time": 1770622449
-    },
-    {
-      "type": "spike",
-      "pattern": "اصابت",
+      "pattern": "شلیک",
       "intensity": 3,
-      "time": 1770622449
+      "time": 1770624542
     },
     {
       "type": "spike",
       "pattern": "کشته",
       "intensity": 7,
-      "time": 1770622449
-    },
-    {
-      "type": "spike",
-      "pattern": "پدافند",
-      "intensity": 8,
-      "time": 1770622449
-    },
-    {
-      "type": "spike",
-      "pattern": "ترور",
-      "intensity": 3,
-      "time": 1770622449
+      "time": 1770624542
     }
   ]
 }
