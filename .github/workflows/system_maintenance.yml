@@ -46,7 +46,7 @@ jobs:
         env:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
-          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION_GENERAL }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION_VAHID }}
         run: |
           # Fetch Existing Data Shards
           # Fetch Existing Data Shards
