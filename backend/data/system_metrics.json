@@ -1,127 +1,97 @@
 {
-  "generated_at": 1770714731,
+  "generated_at": 1770718345,
   "top_nodes": [
     {
-      "text": "عراق",
-      "count": 26,
-      "score": 52,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "اسرائیل",
-      "count": 9,
-      "score": 18,
+      "count": 12,
+      "score": 24,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "کشته در ری",
-      "count": 5,
-      "score": 10,
+      "text": "تهران",
+      "count": 11,
+      "score": 22,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "ترور در ری",
-      "count": 4,
-      "score": 8,
+      "text": "عراق",
+      "count": 10,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "کشته در ایران",
+      "text": "پدافند",
       "count": 3,
       "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "کشته در مشهد",
+      "text": "یمن",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "لبنان",
+      "count": 3,
+      "score": 6,
+      "is_new": true
+    },
+    {
+      "text": "سوریه",
+      "count": 3,
+      "score": 6,
+      "is_new": true
+    },
+    {
+      "text": "کشته در ری",
       "count": 2,
       "score": 4,
       "is_new": true
     },
     {
-      "text": "کشته در تهران",
+      "text": "موشک در ایران",
       "count": 2,
       "score": 4,
       "is_new": true
     },
     {
-      "text": "تیراندازی در ری",
+      "text": "موشک در ری",
       "count": 2,
       "score": 4,
       "is_new": true
     },
     {
-      "text": "مجروح در ایران",
+      "text": "سیل در ری",
       "count": 2,
       "score": 4,
       "is_new": true
     },
     {
-      "text": "مجروح در تهران",
+      "text": "اصفهان",
       "count": 2,
       "score": 4,
       "is_new": true
     },
     {
-      "text": "کشته در اصفهان",
+      "text": "اصابت",
       "count": 2,
       "score": 4,
       "is_new": true
     },
     {
-      "text": "مجروح در اصفهان",
+      "text": "رشت",
       "count": 2,
       "score": 4,
       "is_new": true
     },
     {
-      "text": "مجروح در ری",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "تیراندازی در بم",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "ترور در بم",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "تیراندازی در مسجدسلیمان",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "ترور در مسجدسلیمان",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "شلیک در اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "قزوین",
+      "text": "آمل",
       "count": 2,
       "score": 4,
       "is_new": true
