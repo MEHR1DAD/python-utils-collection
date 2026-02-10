@@ -1,7 +1,14 @@
 {
-  "generated_at": 1770758405,
+  "generated_at": 1770760876,
   "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "تهران",
+      "count": 9,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "موشک در ایران",
       "count": 7,
@@ -10,21 +17,14 @@
       "sentiment": "negative"
     },
     {
-      "text": "تهران",
-      "count": 7,
-      "score": 14,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "موشک در ری",
-      "count": 4,
-      "score": 8,
+      "text": "اسرائیل",
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "اسرائیل",
+      "text": "موشک در ری",
       "count": 4,
       "score": 8,
       "is_new": true,
