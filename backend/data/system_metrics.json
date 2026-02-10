@@ -1,48 +1,42 @@
 {
-  "generated_at": 1770760876,
-  "vibe_index": 50,
+  "generated_at": 1770763993,
+  "vibe_index": 47,
   "top_nodes": [
     {
-      "text": "تهران",
+      "text": "ایران",
       "count": 9,
       "score": 18,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "موشک در ایران",
-      "count": 7,
-      "score": 14,
+      "text": "موشک در ری",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "موشک در تهران",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "اسرائیل",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "موشک در ری",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "کرمان",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "عراق",
-      "count": 2,
-      "score": 4,
-      "is_new": true
+      "sentiment": "negative"
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "موشک در ری",
+      "intensity": 3,
+      "time": 1770763993
+    }
+  ]
 }
