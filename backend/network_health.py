@@ -361,7 +361,7 @@ class NetworkMonitor:
             print("No new packets.")
             
         self.save_state()
-        self.export_metrics(alerts if 'alerts' in locals() else [])
+        self.export_metrics(alerts if 'alerts' in locals() else [], all_messages)
 
     def load_baselines(self):
         history_file = 'backend/data/trend_history.json'
@@ -374,7 +374,7 @@ class NetworkMonitor:
         except:
             return {}
 
-    def export_metrics(self, current_alerts):
+    def export_metrics(self, current_alerts, all_messages=[]):
         """Export public-facing metrics for frontend."""
         baselines = self.load_baselines()
         trends = []
@@ -434,17 +434,37 @@ class NetworkMonitor:
         # Re-sort final list
         final_trends.sort(key=lambda x: x['score'], reverse=True)
         
-        # Sentiment Analysis
+        # Sentiment Analysis & Vibe Index
         top_5_trends = final_trends[:5]
+        vibe_index = 50 # Default neutral
+        
         try:
             from ai_service import analyze_sentiment_batch
+            
+            # 1. Analyze Top Trends
             trend_texts = [t['text'] for t in top_5_trends]
             if trend_texts:
                 sentiments = analyze_sentiment_batch(trend_texts)
                 for t in top_5_trends:
                     t['sentiment'] = sentiments.get(t['text'], 'neutral')
-        except:
-            pass
+
+            # 2. Calculate Global Vibe Index (from latest news)
+            if all_messages:
+                # Sample 40 items to avoid overwhelming the AI but get a good range
+                news_sample = [m['text'] for m in all_messages[-40:]]
+                news_sentiments = analyze_sentiment_batch(news_sample)
+                
+                pos = list(news_sentiments.values()).count('positive')
+                neg = list(news_sentiments.values()).count('negative')
+                total = len(news_sentiments)
+                
+                if total > 0:
+                    # Score 0-100. (pos-neg)/total yields -1 to 1. 
+                    # Map to 0-100: 50 + (pos-neg)/total * 50
+                    vibe_index = int(50 + ((pos - neg) / total) * 50)
+                    vibe_index = max(0, min(100, vibe_index))
+        except Exception as e:
+            print(f"Index Calculation Failed: {e}")
         
         incidents = []
         for alert in current_alerts:
@@ -457,6 +477,7 @@ class NetworkMonitor:
              
         metrics = {
             "generated_at": int(now),
+            "vibe_index": vibe_index,
             "top_nodes": top_5_trends + final_trends[5:20],
             "active_incidents": incidents
         }
