@@ -27,6 +27,8 @@ class NetworkMonitor:
         # In-memory "metrics" (Word Counts)
         # Structure: { word: [timestamp1, timestamp2, ...] }
         self.metrics = {} 
+        self.seen_hashes = deque(maxlen=2000) 
+        self.seen_hashes = deque(maxlen=2000) 
 
     def load_config(self):
         with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
