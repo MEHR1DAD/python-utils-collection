@@ -1,40 +1,100 @@
 {
-  "generated_at": 1770718345,
+  "generated_at": 1770721944,
   "top_nodes": [
     {
-      "text": "اسرائیل",
-      "count": 12,
-      "score": 24,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 11,
-      "score": 22,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "عراق",
-      "count": 10,
-      "score": 20,
+      "count": 17,
+      "score": 34,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "پدافند",
-      "count": 3,
-      "score": 6,
+      "text": "کشته در ری",
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "کشته در ایران",
+      "count": 5,
+      "score": 10,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ترور در ری",
+      "count": 5,
+      "score": 10,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شهید در ری",
+      "count": 5,
+      "score": 10,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "غزه",
+      "count": 5,
+      "score": 10,
+      "is_new": true
+    },
+    {
+      "text": "رشت",
+      "count": 4,
+      "score": 8,
+      "is_new": true
     },
     {
       "text": "یمن",
+      "count": 4,
+      "score": 8,
+      "is_new": true
+    },
+    {
+      "text": "سوریه",
+      "count": 4,
+      "score": 8,
+      "is_new": true
+    },
+    {
+      "text": "موشک در ایران",
       "count": 3,
       "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
+      "is_new": true
+    },
+    {
+      "text": "موشک در ری",
+      "count": 3,
+      "score": 6,
+      "is_new": true
+    },
+    {
+      "text": "سیل در ری",
+      "count": 3,
+      "score": 6,
+      "is_new": true
+    },
+    {
+      "text": "ترور در تهران",
+      "count": 3,
+      "score": 6,
+      "is_new": true
+    },
+    {
+      "text": "اصابت در ایران",
+      "count": 3,
+      "score": 6,
+      "is_new": true
+    },
+    {
+      "text": "مرز",
+      "count": 3,
+      "score": 6,
+      "is_new": true
     },
     {
       "text": "لبنان",
@@ -43,55 +103,25 @@
       "is_new": true
     },
     {
-      "text": "سوریه",
+      "text": "کیش",
       "count": 3,
       "score": 6,
       "is_new": true
     },
     {
-      "text": "کشته در ری",
+      "text": "کشته در تهران",
       "count": 2,
       "score": 4,
       "is_new": true
     },
     {
-      "text": "موشک در ایران",
+      "text": "موشک در اسرائیل",
       "count": 2,
       "score": 4,
       "is_new": true
     },
     {
-      "text": "موشک در ری",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "سیل در ری",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "اصابت",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "رشت",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "آمل",
+      "text": "پدافند در ری",
       "count": 2,
       "score": 4,
       "is_new": true
