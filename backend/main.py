@@ -5,7 +5,7 @@ import re
 from datetime import datetime
 from telethon import TelegramClient
 from telethon.sessions import StringSession
-from telethon.tl.types import MessageEntityTextUrl
+from telethon.tl.types import MessageEntityTextUrl, InputPeerChannel
 
 # --- Configuration ---
 import argparse
@@ -316,11 +316,24 @@ async def main():
         
     channels = []
     for line in raw_channels:
-        if '|' in line:
-            parts = line.split('|')
-            channels.append({'name': parts[0], 'id': int(parts[1])})
+        parts = line.split('|')
+        if len(parts) == 3:
+            # Name|ID|Hash
+            channels.append({
+                'name': parts[0], 
+                'id': int(parts[1]), 
+                'hash': int(parts[2])
+            })
+        elif len(parts) == 2:
+            # Name|ID (Legacy/Fallback)
+            channels.append({
+                'name': parts[0], 
+                'id': int(parts[1]), 
+                'hash': None
+            })
         else:
-            channels.append({'name': line, 'id': None})
+            # Name only
+            channels.append({'name': line, 'id': None, 'hash': None})
 
     # Load existing news FIRST to determine offsets
     existing_news = []
@@ -359,15 +372,20 @@ async def main():
         for ch_info in channels:
             channel_name = ch_info['name']
             channel_id = ch_info['id']
+            channel_hash = ch_info['hash']
             
             # Smart Sync: Fetch only messages newer than what we have
             min_id = channel_max_ids.get(channel_name, 0)
             if min_id > 0:
                 print(f"🔄 Smart Sync for {channel_name}: Fetching only messages > {min_id}")
             
-            # Use ID if available, otherwise name
-            target = channel_id if channel_id else channel_name
-            
+            # Construct Target
+            target = channel_name # Default
+            if channel_id and channel_hash:
+                target = InputPeerChannel(channel_id=channel_id, access_hash=channel_hash)
+            elif channel_id:
+                target = channel_id # Might fail without hash in fresh session but try anyway
+
             items = await fetch_channel_news(client, target, channel_name, args.limit, min_id=min_id)
             new_news.extend(items)
             
