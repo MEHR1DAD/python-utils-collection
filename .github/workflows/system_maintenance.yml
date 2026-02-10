@@ -13,13 +13,13 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: sys-maint
+  group: data-sync
   cancel-in-progress: false
 
 jobs:
   maintenance:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     permissions:
       contents: write
 
@@ -114,6 +114,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             echo "✅ Syncing System Data..."
             git commit -m "System Maintenance $(date)"
+            git pull --rebase origin gh-pages
             git push origin gh-pages
           else
             echo "💤 No changes."

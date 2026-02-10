@@ -10,13 +10,13 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: sys-check-v
+  group: data-sync
   cancel-in-progress: false
 
 jobs:
   check-v:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     permissions:
       contents: write
 
@@ -92,6 +92,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             echo "✅ Updating system data..."
             git commit -m "System Update $(date)"
+            git pull --rebase origin gh-pages
             git push origin gh-pages
           else
             echo "💤 No changes."

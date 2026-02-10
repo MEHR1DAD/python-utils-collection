@@ -8,9 +8,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: data-sync
+  cancel-in-progress: false
+
 jobs:
   diagnostic:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout System
         uses: actions/checkout@v3
@@ -39,7 +44,7 @@ jobs:
           git config --global user.email "admin@system.local"
           git add backend/data/net_status.json backend/data/system_metrics.json
           # Only commit if there are changes
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update system logs [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update system logs [skip ci]" && git pull --rebase origin main && git push origin main)
 
       - name: Deploy to Public Shard
         run: |
@@ -64,6 +69,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             echo "✅ Publishing metrics..."
             git commit -m "Update public metrics $(date)"
+            git pull --rebase origin gh-pages
             git push origin gh-pages
           else
             echo "💤 No changes to publish."
