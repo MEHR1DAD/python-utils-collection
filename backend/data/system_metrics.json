@@ -1,10 +1,17 @@
 {
-  "generated_at": 1770721944,
+  "generated_at": 1770724783,
   "top_nodes": [
     {
-      "text": "عراق",
-      "count": 17,
-      "score": 34,
+      "text": "غزه",
+      "count": 11,
+      "score": 22,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شهید در ری",
+      "count": 10,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -16,64 +23,39 @@
       "sentiment": "neutral"
     },
     {
-      "text": "کشته در ایران",
-      "count": 5,
-      "score": 10,
+      "text": "عراق",
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "ترور در ری",
-      "count": 5,
-      "score": 10,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "شهید در ری",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "غزه",
-      "count": 5,
-      "score": 10,
-      "is_new": true
-    },
-    {
-      "text": "رشت",
+      "text": "کشته در ایران",
       "count": 4,
       "score": 8,
       "is_new": true
     },
     {
-      "text": "یمن",
+      "text": "کیش",
       "count": 4,
       "score": 8,
       "is_new": true
     },
     {
-      "text": "سوریه",
-      "count": 4,
-      "score": 8,
-      "is_new": true
-    },
-    {
-      "text": "موشک در ایران",
+      "text": "شلیک در ری",
       "count": 3,
       "score": 6,
       "is_new": true
     },
     {
-      "text": "موشک در ری",
-      "count": 3,
-      "score": 6,
-      "is_new": true
-    },
-    {
-      "text": "سیل در ری",
+      "text": "جنگنده در ری",
       "count": 3,
       "score": 6,
       "is_new": true
@@ -91,25 +73,31 @@
       "is_new": true
     },
     {
-      "text": "مرز",
+      "text": "شهید در ایران",
       "count": 3,
       "score": 6,
       "is_new": true
     },
     {
-      "text": "لبنان",
-      "count": 3,
-      "score": 6,
-      "is_new": true
-    },
-    {
-      "text": "کیش",
+      "text": "شلیک در رشت",
       "count": 3,
       "score": 6,
       "is_new": true
     },
     {
       "text": "کشته در تهران",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "موشک در ایران",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "موشک در ری",
       "count": 2,
       "score": 4,
       "is_new": true
@@ -125,7 +113,26 @@
       "count": 2,
       "score": 4,
       "is_new": true
+    },
+    {
+      "text": "جنگنده در ایران",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "پدافند در ایران",
+      "count": 2,
+      "score": 4,
+      "is_new": true
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "شلیک در رشت",
+      "intensity": 3,
+      "time": 1770724783
+    }
+  ]
 }
