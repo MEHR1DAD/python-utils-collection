@@ -1,47 +1,34 @@
 {
-  "generated_at": 1770730020,
+  "generated_at": 1770734541,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ایران",
-      "count": 12,
-      "score": 24,
+      "count": 22,
+      "score": 44,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "آتش سوزی در ری",
-      "count": 3,
-      "score": 6,
+      "text": "تهران",
+      "count": 9,
+      "score": 18,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "اسرائیل",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "بم",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "آتش سوزی در تهران",
+      "text": "کشته در ری",
       "count": 2,
       "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "همدان",
+      "text": "کشته در اسرائیل",
       "count": 2,
       "score": 4,
-      "is_new": true
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
