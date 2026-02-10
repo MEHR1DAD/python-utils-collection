@@ -119,6 +119,36 @@ class NetworkMonitor:
         self.state['last_checked'][node] = new_last_id
         return messages
 
+    def is_old_news(self, text):
+        """
+        Check if the text mentions old dates (previous months or years).
+        Returns True if it's likely a memorial or repost of old news.
+        """
+        months_fa = [
+            "فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", 
+            "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند"
+        ]
+        
+        # Normalized current Persian month (Bahman = 11, index 10)
+        # Mid-February 2026 is mid-Bahman 1404
+        # We can get this dynamically or hardcode for 1404 context
+        current_month_idx = 10 
+        
+        # Ignore mentions of previous years (139x or 1400-1403)
+        if re.search(r'(۱۳۹\d|۱۴۰[۰-۳])', text):
+            return True
+            
+        # Check for month names
+        for i, month in enumerate(months_fa):
+            if month in text:
+                # If explicit mention of previous months in same year
+                if i < current_month_idx:
+                    # User mentions "Dey" or "Azar" etc. 
+                    # We should allow if it's just "yesterday" but Dey is 30 days ago.
+                    return True
+                    
+        return False
+
     
     def analyze_traffic(self, messages):
         """Check for spike patterns with Context Awareness."""
@@ -164,6 +194,10 @@ class NetworkMonitor:
             if msg_hash in self.seen_hashes:
                 continue # Duplicate content - ignore for spike counting
             
+            # Temporal Filter: Block old news/memorials from triggering alerts
+            if self.is_old_news(text):
+                continue
+
             self.seen_hashes.append(msg_hash) # Add to LRU
             
             # 1. Identify what this message contains
