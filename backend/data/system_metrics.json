@@ -1,55 +1,35 @@
 {
-  "generated_at": 1770747784,
+  "generated_at": 1770752147,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ری",
-      "count": 24,
-      "score": 48,
+      "count": 32,
+      "score": 64,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "موشک در ایران",
-      "count": 9,
-      "score": 18,
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "مشهد",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
-      "count": 9,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "موشک در اسرائیل",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "بندرعباس",
+      "text": "عراق",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "بجنورد",
-      "count": 2,
-      "score": 4,
-      "is_new": true
+      "sentiment": "negative"
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "موشک در اسرائیل",
-      "intensity": 6,
-      "time": 1770747784
-    }
-  ]
+  "active_incidents": []
 }
