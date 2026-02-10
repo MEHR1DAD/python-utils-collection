@@ -1,18 +1,32 @@
 {
-  "generated_at": 1770738495,
+  "generated_at": 1770742026,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ری",
-      "count": 12,
-      "score": 24,
+      "count": 38,
+      "score": 76,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "ایران",
-      "count": 9,
-      "score": 18,
+      "count": 25,
+      "score": 50,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسرائیل",
+      "count": 7,
+      "score": 14,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "لبنان",
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,21 +38,13 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اسرائیل",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "لبنان",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "بم",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "قم",
       "count": 2,
       "score": 4,
       "is_new": true
