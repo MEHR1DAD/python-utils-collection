@@ -1,34 +1,34 @@
 {
-  "generated_at": 1770807817,
+  "generated_at": 1770810808,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ایران",
-      "count": 30,
-      "score": 60,
+      "count": 33,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 17,
-      "score": 34,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مشهد",
-      "count": 6,
-      "score": 12,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "شیراز",
+      "text": "اسرائیل",
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "رشت",
@@ -38,7 +38,7 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اسرائیل",
+      "text": "تبریز",
       "count": 2,
       "score": 4,
       "is_new": true
