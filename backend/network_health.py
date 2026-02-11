@@ -149,6 +149,24 @@ class NetworkMonitor:
                     
         return False
 
+    def match_pattern(self, text, pattern):
+        """
+        Check if pattern exists in text as a whole word (regex boundary).
+        Handles Persian/Arabic word boundaries correctly.
+        """
+        try:
+            # Escape the pattern to handle special chars like + or .
+            esc_pattern = re.escape(pattern)
+            # Use \b for boundaries. In Python re.UNICODE, this works for Persian.
+            # We use a raw string for the regex.
+            if re.search(r'\b' + esc_pattern + r'\b', text):
+                return True
+        except:
+            # Fallback to simple inclusion if regex fails (unlikely)
+            if pattern in text:
+                return True
+        return False
+
     
     def analyze_traffic(self, messages):
         """Check for spike patterns with Context Awareness."""
@@ -206,11 +224,11 @@ class NetworkMonitor:
             
             if isinstance(config_patterns, dict):
                 for inc in config_patterns.get('incidents', []):
-                    if inc in text: found_incidents.append(inc)
+                    if self.match_pattern(text, inc): found_incidents.append(inc)
                 for loc in config_patterns.get('locations', []):
-                    if loc in text: found_locations.append(loc)
+                    if self.match_pattern(text, loc): found_locations.append(loc)
                 for sta in config_patterns.get('status', []):
-                    if sta in text: found_incidents.append(sta) 
+                    if self.match_pattern(text, sta): found_incidents.append(sta) 
             else:
                  pass
 
@@ -345,13 +363,14 @@ class NetworkMonitor:
                 text = msg['text']
                 # For composite alerts, require BOTH keywords in the text
                 if len(keywords) > 1:
-                     if all(k in text for k in keywords):
+                     # Check if ALL keywords are present using the same verified matching logic
+                     if all(self.match_pattern(text, k) for k in keywords):
                          if msg['id'] not in seen_ids:
                              relevant_msgs.append(msg)
                              seen_ids.add(msg['id'])
                 else:
                      # Status or Single
-                     if keywords[0] in text:
+                     if self.match_pattern(text, keywords[0]):
                          if msg['id'] not in seen_ids:
                              relevant_msgs.append(msg)
                              seen_ids.add(msg['id'])
