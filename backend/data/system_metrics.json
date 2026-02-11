@@ -1,25 +1,25 @@
 {
-  "generated_at": 1770768180,
+  "generated_at": 1770780057,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ری",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 2,
-      "score": 4,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "ایران",
-      "count": 2,
-      "score": 4,
+      "count": 5,
+      "score": 10,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     }
