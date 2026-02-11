@@ -1,18 +1,32 @@
 {
-  "generated_at": 1770827598,
+  "generated_at": 1770837635,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "ایران",
-      "count": 11,
-      "score": 22,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "اسرائیل",
+      "text": "تهران",
       "count": 6,
       "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مشهد",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کشته در ایران",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "کشته در اسرائیل",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -22,6 +36,12 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "سوریه",
+      "count": 2,
+      "score": 4,
+      "is_new": true
     }
   ],
   "active_incidents": []
