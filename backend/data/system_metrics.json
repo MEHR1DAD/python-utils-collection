@@ -1,44 +1,44 @@
 {
-  "generated_at": 1770841003,
+  "generated_at": 1770843220,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 13,
-      "score": 26,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مشهد",
-      "count": 3,
-      "score": 6,
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته در ایران",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "کشته در اسرائیل",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "شلیک در ایران",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "شلیک در اسرائیل",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "شیراز",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "غزه",
       "count": 2,
       "score": 4,
       "is_new": true
@@ -48,13 +48,20 @@
       "count": 2,
       "score": 4,
       "is_new": true
-    },
-    {
-      "text": "سوریه",
-      "count": 2,
-      "score": 4,
-      "is_new": true
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "شلیک در اسرائیل",
+      "intensity": 3,
+      "time": 1770843220
+    },
+    {
+      "type": "spike",
+      "pattern": "کشته در اسرائیل",
+      "intensity": 3,
+      "time": 1770843220
+    }
+  ]
 }
