@@ -1,32 +1,32 @@
 {
-  "generated_at": 1770800633,
+  "generated_at": 1770804299,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "ایران",
-      "count": 19,
-      "score": 38,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "count": 13,
+      "score": 26,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "قدس",
-      "count": 4,
-      "score": 8,
+      "text": "ایران",
+      "count": 12,
+      "score": 24,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "text": "شهید",
-      "count": 2,
-      "score": 4,
+      "text": "شیراز",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مشهد",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -36,24 +36,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "قم",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "سیل",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "لبنان",
-      "count": 2,
-      "score": 4,
-      "is_new": true
     }
   ],
   "active_incidents": []
