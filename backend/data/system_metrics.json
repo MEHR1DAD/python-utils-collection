@@ -1,56 +1,56 @@
 {
-  "generated_at": 1770795372,
+  "generated_at": 1770800633,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 18,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "ایران",
-      "count": 17,
-      "score": 34,
+      "count": 19,
+      "score": 38,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "کرج",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ایلام",
+      "text": "تهران",
       "count": 4,
       "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
+      "text": "قدس",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
       "text": "شهید",
-      "count": 3,
-      "score": 6,
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسرائیل",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "رشت",
-      "count": 3,
-      "score": 6,
-      "is_new": true
-    },
-    {
-      "text": "مشهد",
+      "text": "قم",
       "count": 2,
       "score": 4,
       "is_new": true
     },
     {
-      "text": "اسرائیل",
+      "text": "سیل",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "لبنان",
       "count": 2,
       "score": 4,
       "is_new": true
