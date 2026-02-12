@@ -1,39 +1,18 @@
 {
-  "generated_at": 1770882027,
+  "generated_at": 1770885658,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ایران",
-      "count": 23,
-      "score": 46,
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "گلستان",
-      "count": 13,
-      "score": 26,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "گرگان",
-      "count": 8,
-      "score": 16,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسرائیل",
+      "text": "مجروح",
       "count": 5,
       "score": 10,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "فلسطین",
-      "count": 4,
-      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -41,31 +20,15 @@
       "text": "تهران",
       "count": 3,
       "score": 6,
-      "is_new": true
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
-      "text": "مشهد",
-      "count": 3,
-      "score": 6,
-      "is_new": true
-    },
-    {
-      "text": "زلزله در بوشهر",
+      "text": "کشته",
       "count": 2,
       "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "زلزله در عسلویه",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "خلیج فارس",
-      "count": 2,
-      "score": 4,
-      "is_new": true
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
