@@ -1,5 +1,5 @@
 {
-  "generated_at": 1770904900,
+  "generated_at": 1770908764,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -10,25 +10,11 @@
       "sentiment": "neutral"
     },
     {
-      "text": "مرز",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
+      "text": "تهران",
       "count": 2,
       "score": 4,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "عراق",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
     }
   ],
   "active_incidents": []
