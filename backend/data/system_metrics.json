@@ -1,20 +1,13 @@
 {
-  "generated_at": 1770885658,
+  "generated_at": 1770891952,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ایران",
-      "count": 7,
-      "score": 14,
+      "count": 9,
+      "score": 18,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "مجروح",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "negative"
     },
     {
       "text": "تهران",
@@ -24,11 +17,11 @@
       "sentiment": "neutral"
     },
     {
-      "text": "کشته",
-      "count": 2,
-      "score": 4,
+      "text": "گلستان",
+      "count": 3,
+      "score": 6,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
