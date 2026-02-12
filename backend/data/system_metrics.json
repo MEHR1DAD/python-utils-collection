@@ -1,16 +1,37 @@
 {
-  "generated_at": 1770912052,
+  "generated_at": 1770915433,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ایران",
-      "count": 10,
-      "score": 20,
+      "count": 18,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
+      "text": "اسرائیل",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "مرز",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
+      "text": "سوریه",
       "count": 2,
       "score": 4,
       "is_new": true,
