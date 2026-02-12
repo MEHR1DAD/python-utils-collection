@@ -1,11 +1,11 @@
 {
-  "generated_at": 1770908764,
+  "generated_at": 1770912052,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ایران",
-      "count": 8,
-      "score": 16,
+      "count": 10,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
