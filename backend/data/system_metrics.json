@@ -1,27 +1,65 @@
 {
-  "generated_at": 1770963835,
+  "generated_at": 1770972670,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "ایران",
-      "count": 4,
-      "score": 8,
+      "text": "کشته در ایران",
+      "count": 5,
+      "score": 10,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "تهران",
-      "count": 2,
-      "score": 4,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "سوریه",
-      "count": 2,
-      "score": 4,
+      "text": "زلزله",
+      "count": 5,
+      "score": 10,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "درگیری مسلحانه",
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "شلیک",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "اسرائیل",
+      "count": 3,
+      "score": 6,
+      "is_new": true
+    },
+    {
+      "text": "مشهد",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "رشت",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "قزوین",
+      "count": 2,
+      "score": 4,
+      "is_new": true
     }
   ],
   "active_incidents": []
