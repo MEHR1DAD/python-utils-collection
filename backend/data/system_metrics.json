@@ -1,23 +1,23 @@
 {
-  "generated_at": 1771014394,
+  "generated_at": 1771017119,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ایران",
-      "count": 36,
-      "score": 72,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "عراق",
-      "count": 3,
-      "score": 6,
+      "count": 43,
+      "score": 86,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سوریه",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "عراق",
       "count": 3,
       "score": 6,
       "is_new": true,
