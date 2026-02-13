@@ -1,5 +1,5 @@
 {
-  "generated_at": 1770972670,
+  "generated_at": 1770975101,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -17,11 +17,18 @@
       "sentiment": "neutral"
     },
     {
+      "text": "اسرائیل",
+      "count": 5,
+      "score": 10,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "زلزله",
       "count": 5,
       "score": 10,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "درگیری مسلحانه",
@@ -34,13 +41,12 @@
       "text": "شلیک",
       "count": 4,
       "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
+      "is_new": true
     },
     {
-      "text": "اسرائیل",
-      "count": 3,
-      "score": 6,
+      "text": "طوفان",
+      "count": 4,
+      "score": 8,
       "is_new": true
     },
     {
