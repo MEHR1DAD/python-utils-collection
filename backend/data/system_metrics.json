@@ -1,68 +1,44 @@
 {
-  "generated_at": 1770975101,
+  "generated_at": 1770978042,
   "vibe_index": 50,
   "top_nodes": [
     {
+      "text": "طوفان",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "رشت",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "قزوین",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "کشته در ایران",
-      "count": 5,
-      "score": 10,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "تهران",
-      "count": 5,
-      "score": 10,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسرائیل",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "درگیری مسلحانه",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "شلیک",
-      "count": 4,
-      "score": 8,
-      "is_new": true
-    },
-    {
-      "text": "طوفان",
-      "count": 4,
-      "score": 8,
-      "is_new": true
-    },
-    {
-      "text": "مشهد",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "رشت",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "قزوین",
       "count": 2,
       "score": 4,
       "is_new": true
