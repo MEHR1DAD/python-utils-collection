@@ -458,33 +458,46 @@ class NetworkMonitor:
                      "is_new": not bool(baseline)
                  })
         
+        # 0. Inject Urgent Alerts as High-Priority Trends
+        for alert in current_alerts:
+            # Check if this alert is already in trends? Unlikely to have exact same text.
+            # We add it with a SUPER high score to ensure it survives deduplication and stays on top.
+            trends.append({
+                "text": alert['pattern'],
+                "count": alert['count'],
+                "score": 500 + alert['count'], # Priority Boost
+                "is_new": True,
+                "is_alert": True # Marker for frontend if needed
+            })
+
+        # 1. Sort by Score (Descending) - Critical for the logic below
         trends.sort(key=lambda x: x['score'], reverse=True)
         
-        # Deduplication for Frontend Cloud
-        # If "Flood in Tehran" exists, remove "Flood" and "Tehran" from the list
+        # 2. Smart Deduplication (Mutual Substring)
+        # Logic: If term A and term B are similar (one contains the other), 
+        # keep the one with the HIGHER SCORE (which is already first in the list).
+        
         final_trends = []
-        composite_keys = set()
         
-        # First pass: Identify Composites
-        for t in trends:
-            if " در " in t['text']:
-                composite_keys.add(t['text'])
-                final_trends.append(t)
-        
-        # Second pass: Add Singles ONLY if not part of a Composite
-        for t in trends:
-            if " در " in t['text']: continue # Already added
+        for candidate in trends:
+            candidate_text = candidate['text']
+            is_duplicate = False
             
-            is_constituent = False
-            for composite in composite_keys:
-                if t['text'] in composite: # e.g. "Flood" in "Flood in Tehran"
-                    is_constituent = True
+            for accepted in final_trends:
+                accepted_text = accepted['text']
+                
+                # Check Mutual Substring
+                if candidate_text in accepted_text or accepted_text in candidate_text:
+                    # Found a collision!
+                    # Since we sorted by score, 'accepted' is the higher-scoring one.
+                    # We discard 'candidate'.
+                    is_duplicate = True
                     break
             
-            if not is_constituent:
-                final_trends.append(t)
+            if not is_duplicate:
+                final_trends.append(candidate)
                 
-        # Re-sort final list
+        # Re-sort just in case, though they should be sorted
         final_trends.sort(key=lambda x: x['score'], reverse=True)
         
         # Sentiment Analysis & Vibe Index
