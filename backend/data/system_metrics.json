@@ -1,65 +1,20 @@
 {
-  "generated_at": 1771017119,
+  "generated_at": 1771020670,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ایران",
-      "count": 43,
-      "score": 86,
+      "count": 27,
+      "score": 54,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "سوریه",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "عراق",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "کشته",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "اسرائیل",
-      "count": 2,
-      "score": 4,
-      "is_new": true
     },
     {
       "text": "حمله نظامی",
       "count": 2,
       "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "بروجرد",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "شوشتر",
-      "count": 2,
-      "score": 4,
-      "is_new": true
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
