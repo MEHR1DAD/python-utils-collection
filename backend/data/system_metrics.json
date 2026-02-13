@@ -1,34 +1,20 @@
 {
-  "generated_at": 1770936845,
+  "generated_at": 1770944421,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ایران",
-      "count": 15,
-      "score": 30,
+      "count": 4,
+      "score": 8,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "اسرائیل",
-      "count": 12,
-      "score": 24,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "تهران",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "لبنان",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
