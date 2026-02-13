@@ -1,79 +1,42 @@
 {
-  "generated_at": 1770990102,
+  "generated_at": 1770993797,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ایران",
-      "count": 9,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله در بوشهر",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله در عسلویه",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "عراق",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 3,
-      "score": 6,
+      "count": 8,
+      "score": 16,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 2,
-      "score": 4,
-      "is_new": true
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "اسرائیل",
-      "count": 2,
-      "score": 4,
-      "is_new": true
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
-      "text": "غزه",
-      "count": 2,
-      "score": 4,
-      "is_new": true
+      "text": "لبنان",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
-      "text": "سوریه",
+      "text": "عسلویه",
       "count": 2,
       "score": 4,
-      "is_new": true
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "زلزله در بوشهر",
-      "intensity": 4,
-      "time": 1770990102
-    },
-    {
-      "type": "spike",
-      "pattern": "زلزله در عسلویه",
-      "intensity": 4,
-      "time": 1770990102
-    }
-  ]
+  "active_incidents": []
 }
