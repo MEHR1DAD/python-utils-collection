@@ -1,44 +1,62 @@
 {
-  "generated_at": 1770984239,
+  "generated_at": 1770990102,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "ایران",
-      "count": 15,
-      "score": 30,
+      "count": 9,
+      "score": 18,
       "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "زلزله در عسلویه",
-      "count": 7,
-      "score": 14,
-      "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله در بوشهر",
-      "count": 6,
-      "score": 12,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "تهران",
-      "count": 5,
-      "score": 10,
+      "text": "زلزله در عسلویه",
+      "count": 4,
+      "score": 8,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "عراق",
-      "count": 5,
-      "score": 10,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "قم",
+      "text": "اصفهان",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "اسرائیل",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "غزه",
+      "count": 2,
+      "score": 4,
+      "is_new": true
+    },
+    {
+      "text": "سوریه",
       "count": 2,
       "score": 4,
       "is_new": true
@@ -47,15 +65,15 @@
   "active_incidents": [
     {
       "type": "spike",
-      "pattern": "زلزله در عسلویه",
-      "intensity": 7,
-      "time": 1770984239
+      "pattern": "زلزله در بوشهر",
+      "intensity": 4,
+      "time": 1770990102
     },
     {
       "type": "spike",
-      "pattern": "زلزله در بوشهر",
-      "intensity": 6,
-      "time": 1770984239
+      "pattern": "زلزله در عسلویه",
+      "intensity": 4,
+      "time": 1770990102
     }
   ]
 }
