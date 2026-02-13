@@ -1,9 +1,23 @@
 {
-  "generated_at": 1770955150,
+  "generated_at": 1770963835,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "کشته در ایران",
+      "text": "ایران",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سوریه",
       "count": 2,
       "score": 4,
       "is_new": true,
