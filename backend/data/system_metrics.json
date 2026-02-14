@@ -1,20 +1,13 @@
 {
-  "generated_at": 1771084123,
+  "generated_at": 1771084932,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "اسرائیل",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
     },
     {
       "text": "کرج",
@@ -29,6 +22,13 @@
       "score": 6,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "اسرائیل",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
       "text": "عراق",
