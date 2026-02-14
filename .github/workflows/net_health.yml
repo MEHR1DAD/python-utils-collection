@@ -2,7 +2,7 @@ name: Network Health Check
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '5/10 * * * *'
   workflow_dispatch:
 
 permissions:
