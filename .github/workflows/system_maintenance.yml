@@ -9,7 +9,7 @@ on:
       - 'backend/config_global.txt'
       - '.github/workflows/system_maintenance.yml'
   schedule:
-    - cron: '*/15 * * * *' # Every 15 minutes
+    - cron: '7/15 * * * *' # Every 15 minutes, offset by 7
   workflow_dispatch:
 
 concurrency:
@@ -27,7 +27,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 1 # Shallow fetch
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -68,7 +68,6 @@ jobs:
           echo "🚀 Processing Shard H..."
           python main.py --channels config_h.txt --output ../data_shard_h.json --limit 10
           
-
           # Task T
           echo "🚀 Processing Shard T..."
           python main.py --channels config_t.txt --output ../data_shard_t.json --limit 20
@@ -92,6 +91,8 @@ jobs:
           
           # Move Media
           if [ -d "media" ]; then
+            # Prune old media (>24h)
+            find media -type f -mtime +1 -delete
             mv media /tmp/deploy_cache/media
           fi
           

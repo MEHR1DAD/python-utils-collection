@@ -24,7 +24,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 1 # Shallow fetch to save space
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -61,6 +61,8 @@ jobs:
           mkdir -p /tmp/deploy_cache
           mv data_shard_v.json /tmp/deploy_cache/data_shard_v.json
           if [ -d "media" ]; then
+            # Prune old media (>24h) BEFORE moving
+            find media -type f -mtime +1 -delete
             mv media /tmp/deploy_cache/media
           fi
           
@@ -74,12 +76,11 @@ jobs:
           mv /tmp/deploy_cache/data_shard_v.json ./data_shard_v.json
           if [ -d "/tmp/deploy_cache/media" ]; then
             mkdir -p media
-            # Use cp -r to merge new media with existing media
-            # Using mv here is risky if media/ exists and isn't empty on gh-pages?
-            # Actually, standard mv will move files INTO directory if it exists.
-            # But we want to MERGE.
-            # If media/ exists, mv /tmp/media/* media/ is what we want.
+            # Merge new media
             cp -r /tmp/deploy_cache/media/* media/
+            
+            # DOUBLE CHECK: Clean media on gh-pages as well
+            find media -type f -mtime +1 -delete
           fi
           
           # Commit and Push
