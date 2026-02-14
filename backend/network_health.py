@@ -343,8 +343,16 @@ class NetworkMonitor:
 
         return alerts, messages
 
+    def jaccard_similarity(self, s1, s2):
+        """Calculate Jaccard Similarity between two strings."""
+        set1 = set(s1.split())
+        set2 = set(s2.split())
+        intersection = len(set1.intersection(set2))
+        union = len(set1.union(set2))
+        return intersection / union if union > 0 else 0
+
     def report_status(self, alerts, all_messages):
-        """Send Telegram Alert."""
+        """Send Telegram Alert with Anti-Spam Check."""
         if not alerts or not BOT_TOKEN or not CHAT_ID:
             return
 
@@ -352,39 +360,49 @@ class NetworkMonitor:
             title = alert['pattern']
             keywords = alert.get('keywords', [])
             
-            # Find sample messages
+            # Find sample messages & Deduplicate Content
             relevant_msgs = []
             seen_ids = set()
-            
-            # Link Deduplication (Same News logic)
-            # We want diverse sources if possible
+            unique_contents = [] # List of unique message texts
             
             for msg in all_messages:
                 text = msg['text']
-                # For composite alerts, require BOTH keywords in the text
+                is_match = False
+                
+                # Check Match
                 if len(keywords) > 1:
-                     # Check if ALL keywords are present using the same verified matching logic
                      if all(self.match_pattern(text, k) for k in keywords):
-                         if msg['id'] not in seen_ids:
-                             relevant_msgs.append(msg)
-                             seen_ids.add(msg['id'])
+                         is_match = True
                 else:
-                     # Status or Single
                      if self.match_pattern(text, keywords[0]):
-                         if msg['id'] not in seen_ids:
-                             relevant_msgs.append(msg)
-                             seen_ids.add(msg['id'])
+                         is_match = True
+                
+                if is_match and msg['id'] not in seen_ids:
+                    # Content Similarity Check
+                    is_duplicate = False
+                    for existing_text in unique_contents:
+                        if self.jaccard_similarity(text, existing_text) > 0.7:
+                            is_duplicate = True
+                            break
+                    
+                    if not is_duplicate:
+                        unique_contents.append(text)
+                        relevant_msgs.append(msg)
+                        seen_ids.add(msg['id'])
                 
                 if len(relevant_msgs) >= 5: break
             
-            if not relevant_msgs: continue
+            # Anti-Spam Rule: Require at least 2 UNIQUE perspectives
+            if len(unique_contents) < 2:
+                print(f"Skipping alert '{title}': Only {len(unique_contents)} unique source(s) found (likely syndication).")
+                continue # Skip this alert
 
             links = "\n".join([f"- [{m['node']}]({m['link']})" for m in relevant_msgs])
             
             text = (
                 f"🚨 **{title}**\n\n"
                 f"Intensity: {alert['count']} (Spike Detected)\n"
-                f"Density: {len(relevant_msgs)} confirmed sources\n\n"
+                f"Density: {len(relevant_msgs)} unique sources\n\n"
                 f"Sources:\n{links}\n\n"
                 f"#NetworkAlert #StealthMonitor"
             )
