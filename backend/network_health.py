@@ -470,16 +470,73 @@ class NetworkMonitor:
                 "is_alert": True # Marker for frontend if needed
             })
 
+        # 0.5 Define Aliases & Blocklist
+        ALIAS_MAP = {
+            "شاهزاده رضا": "رضا پهلوی",
+            "شاهزاده": "رضا پهلوی",
+            "پرنس رضا": "رضا پهلوی",
+            "رضا پهلوی": "رضا پهلوی" # Self-map for consistency
+        }
+        
+        # Block generic terms that aren't trends on their own
+        BLOCKLIST = {
+            "مردم ایران", 
+            "ناو هواپیمابر",
+            "ایران", # Too generic
+            "جمهوری اسلامی" # Too generic
+        }
+
         # 1. Sort by Score (Descending) - Critical for the logic below
         trends.sort(key=lambda x: x['score'], reverse=True)
         
-        # 2. Smart Deduplication (Mutual Substring)
-        # Logic: If term A and term B are similar (one contains the other), 
-        # keep the one with the HIGHER SCORE (which is already first in the list).
+        # 2. Smart Deduplication & Aliasing
+        # Logic: 
+        # - Apply Aliasing (Merge counts/scores)
+        # - Filter Blocklist
+        # - Deduplicate Substrings
         
         final_trends = []
+        processed_aliases = set()
         
-        for candidate in trends:
+        # First Pass: Handle Aliasing & Blocking
+        aliased_trends = {}
+        
+        for t in trends:
+            text = t['text']
+            
+            # 1. Blocking
+            if text in BLOCKLIST: continue
+            
+            # 2. Aliasing
+            if text in ALIAS_MAP:
+                target = ALIAS_MAP[text]
+                if target not in aliased_trends:
+                    aliased_trends[target] = {
+                        "text": target,
+                        "count": 0,
+                        "score": 0,
+                        "is_new": t['is_new']
+                    }
+                # Merge Stats
+                aliased_trends[target]['count'] += t['count']
+                aliased_trends[target]['score'] += t['score'] 
+                # Keep 'is_new' if ANY source was new? Or only if target was new?
+                # Let's say if it's trending, it's trending.
+                continue
+                
+            # If not aliased, keep as candidate
+            if text not in aliased_trends:
+                 aliased_trends[text] = t
+            else:
+                 # If exact duplicate exists (unlikely given previous logic, but purely for safety)
+                 aliased_trends[text]['count'] += t['count']
+                 aliased_trends[text]['score'] = max(aliased_trends[text]['score'], t['score'])
+
+        # Convert back to list
+        candidates = list(aliased_trends.values())
+        candidates.sort(key=lambda x: x['score'], reverse=True)
+
+        for candidate in candidates:
             candidate_text = candidate['text']
             is_duplicate = False
             
@@ -496,7 +553,7 @@ class NetworkMonitor:
             
             if not is_duplicate:
                 final_trends.append(candidate)
-                
+        
         # Re-sort just in case, though they should be sorted
         final_trends.sort(key=lambda x: x['score'], reverse=True)
         
