@@ -1,50 +1,60 @@
 {
-  "generated_at": 1771074131,
+  "generated_at": 1771077159,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "حمله نظامی",
-      "count": 6,
-      "score": 503,
-      "is_new": true,
-      "is_alert": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "اسرائیل",
-      "count": 6,
-      "score": 12,
+      "count": 8,
+      "score": 16,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "گلستان",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فلسطین",
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
+    },
+    {
+      "text": "حمله نظامی",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "قدس",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
       "text": "مرز",
       "count": 2,
       "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
+      "is_new": true
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true
     },
     {
       "text": "شهید",
       "count": 2,
       "score": 4,
-      "is_new": true,
-      "sentiment": "positive"
+      "is_new": true
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "حمله نظامی",
-      "intensity": 3,
-      "time": 1771074131
-    }
-  ]
+  "active_incidents": []
 }
