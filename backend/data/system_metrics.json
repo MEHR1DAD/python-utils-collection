@@ -1,59 +1,27 @@
 {
-  "generated_at": 1771077159,
+  "generated_at": 1771079131,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "اسرائیل",
-      "count": 8,
-      "score": 16,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "گلستان",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "فلسطین",
-      "count": 3,
-      "score": 6,
+      "count": 2,
+      "score": 4,
       "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "حمله نظامی",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
       "text": "قدس",
-      "count": 3,
-      "score": 6,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "مرز",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "شهید",
-      "count": 2,
-      "score": 4,
-      "is_new": true
     }
   ],
   "active_incidents": []

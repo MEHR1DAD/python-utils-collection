@@ -1,25 +1,25 @@
 {
   "last_checked": {
     "VahidOnline": 70590,
-    "VahidHeadline": 279393,
-    "VahidOOnLine": 219403,
-    "bbcpersian": 271599,
+    "VahidHeadline": 279394,
+    "VahidOOnLine": 219407,
+    "bbcpersian": 271601,
     "RadioFarda": 153424,
     "IranIntl": 0,
-    "Tasnimnews": 388319,
-    "Farsna": 411782,
-    "isna94": 366637,
-    "irna_1313": 389495,
-    "khabarfouri": 519686,
-    "Khabar_Fouri": 484720,
-    "akhbarefori": 617658,
-    "khabari": 163324,
-    "akharinkhabar": 558478,
-    "entekhab_ir": 351284,
-    "Alarabiya_far": 131234,
-    "dw_farsi": 121255,
-    "thezoomon": 1432,
-    "IranintlTV": 320896
+    "Tasnimnews": 388320,
+    "Farsna": 411786,
+    "isna94": 366641,
+    "irna_1313": 389500,
+    "khabarfouri": 519687,
+    "Khabar_Fouri": 484724,
+    "akhbarefori": 617666,
+    "khabari": 163330,
+    "akharinkhabar": 558483,
+    "entekhab_ir": 351286,
+    "Alarabiya_far": 131235,
+    "dw_farsi": 121256,
+    "thezoomon": 1433,
+    "IranintlTV": 320902
   },
   "history": {
     "تهران": [
@@ -247,7 +247,12 @@
       1771077159.6267333,
       1771077159.6267333,
       1771077159.6267333,
-      1771077159.6267333
+      1771077159.6267333,
+      1771079131.2262065,
+      1771079131.2262065,
+      1771079131.2262065,
+      1771079131.2262065,
+      1771079131.2262065
     ],
     "اسرائیل": [
       1770993797.719432,
@@ -279,7 +284,8 @@
       1771046954.2669623,
       1771046954.2669623,
       1771050334.2926989,
-      1771074130.8473747
+      1771074130.8473747,
+      1771079131.2262065
     ],
     "خلیج فارس": [
       1770993797.719432,
