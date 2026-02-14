@@ -1,23 +1,9 @@
 {
-  "generated_at": 1771079131,
+  "generated_at": 1771080782,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "اسرائیل",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "فلسطین",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "قدس",
       "count": 2,
       "score": 4,
       "is_new": true,
