@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771087619,
+  "generated_at": 1771091032,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -11,31 +11,17 @@
     },
     {
       "text": "اسرائیل",
-      "count": 4,
-      "score": 8,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "سیرجان",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "سوریه",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "عراق",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
