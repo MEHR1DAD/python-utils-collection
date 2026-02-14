@@ -6,11 +6,11 @@ on:
       - 'backend/config_v.txt'
       - '.github/workflows/system_check_v.yml'
   schedule:
-    - cron: '*/5 * * * *' # Every 5 minutes
+    - cron: '*/10 * * * *' # Every 10 minutes
   workflow_dispatch:
 
 concurrency:
-  group: data-sync
+  group: system-check-v
   cancel-in-progress: false
 
 jobs:

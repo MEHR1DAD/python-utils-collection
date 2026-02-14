@@ -2,14 +2,14 @@ name: Network Health Check
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/10 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: data-sync
+  group: net-health
   cancel-in-progress: false
 
 jobs:

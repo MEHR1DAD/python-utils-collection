@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: data-sync
+  group: system-maintenance
   cancel-in-progress: false
 
 jobs:
