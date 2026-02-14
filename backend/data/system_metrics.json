@@ -1,13 +1,27 @@
 {
-  "generated_at": 1771080782,
+  "generated_at": 1771082612,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "اسرائیل",
-      "count": 2,
-      "score": 4,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "تهران",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کرج",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
