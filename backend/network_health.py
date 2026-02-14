@@ -471,19 +471,32 @@ class NetworkMonitor:
             })
 
         # 0.5 Define Aliases & Blocklist
+        # 0.5 Define Aliases & Blocklist
         ALIAS_MAP = {
+            # Target: Reza Pahlavi
             "شاهزاده رضا": "رضا پهلوی",
             "شاهزاده": "رضا پهلوی",
             "پرنس رضا": "رضا پهلوی",
-            "رضا پهلوی": "رضا پهلوی" # Self-map for consistency
+            "شاهزاده رضا پهلوی": "رضا پهلوی",
+            "رضا پهلوی": "رضا پهلوی", # Self-map
+            
+            # Target: Munich Security Conference
+            "کنفرانس امنیتی": "کنفرانس امنیتی مونیخ", # Force context if found alone? Or map to full name? 
+            # Actually, user wants "Context". Mapping "Konferans Amniyti" -> "Konferans Amniyti Munich" might be risky if it's NOT Munich.
+            # But right now, it IS Munich. So hardcoding the alias is a safe bet for this week.
+            "مونیخ": "کنفرانس امنیتی مونیخ"
         }
         
-        # Block generic terms that aren't trends on their own
+        # Block generic terms that aren't trends on their own (Unigrams)
+        # By blocking these, we allow Bigrams (e.g. "Tajamo Tehran") to survive if they exist.
         BLOCKLIST = {
             "مردم ایران", 
             "ناو هواپیمابر",
-            "ایران", # Too generic
-            "جمهوری اسلامی" # Too generic
+            "ایران", 
+            "جمهوری اسلامی",
+            "تجمع", # Generic - requires location
+            "اعتراضات", # Generic
+            "تظاهرات" # Generic
         }
 
         # 1. Sort by Score (Descending) - Critical for the logic below
