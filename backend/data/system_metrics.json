@@ -1,11 +1,11 @@
 {
-  "generated_at": 1771181527,
+  "generated_at": 1771183194,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "اسرائیل",
-      "count": 7,
-      "score": 14,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -21,7 +21,7 @@
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
