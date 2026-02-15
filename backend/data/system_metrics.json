@@ -1,16 +1,23 @@
 {
-  "generated_at": 1771149503,
+  "generated_at": 1771152015,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 7,
-      "score": 14,
+      "text": "غزه",
+      "count": 5,
+      "score": 10,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "text": "لبنان",
+      "text": "فلسطین",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "مرز",
       "count": 2,
       "score": 4,
       "is_new": true,
