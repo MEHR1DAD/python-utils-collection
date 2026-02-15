@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771184623,
+  "generated_at": 1771185480,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -11,17 +11,10 @@
     },
     {
       "text": "تهران",
-      "count": 3,
-      "score": 6,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "فلسطین",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
     }
   ],
   "active_incidents": []
