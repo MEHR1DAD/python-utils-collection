@@ -1,11 +1,32 @@
 {
-  "generated_at": 1771173858,
+  "generated_at": 1771175542,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "غزه",
-      "count": 5,
-      "score": 10,
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "شاهرود",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسرائیل",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
