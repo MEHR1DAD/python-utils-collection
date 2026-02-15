@@ -1,11 +1,11 @@
 {
-  "generated_at": 1771141835,
+  "generated_at": 1771143607,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 5,
-      "score": 10,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -15,13 +15,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "ورامین",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
