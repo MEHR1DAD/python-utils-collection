@@ -1,11 +1,11 @@
 {
-  "generated_at": 1771153254,
+  "generated_at": 1771155195,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "غزه",
-      "count": 4,
-      "score": 8,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -14,7 +14,7 @@
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "text": "مرز",
