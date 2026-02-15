@@ -2,15 +2,15 @@
   "last_checked": {
     "VahidOnline": 70649,
     "VahidHeadline": 279581,
-    "VahidOOnLine": 219598,
+    "VahidOOnLine": 219599,
     "bbcpersian": 271709,
     "RadioFarda": 153464,
     "IranIntl": 0,
     "Tasnimnews": 388513,
     "Farsna": 411932,
     "isna94": 366786,
-    "irna_1313": 389685,
-    "khabarfouri": 519991,
+    "irna_1313": 389686,
+    "khabarfouri": 520001,
     "Khabar_Fouri": 484964,
     "akhbarefori": 618005,
     "khabari": 163517,
@@ -19,7 +19,7 @@
     "Alarabiya_far": 131309,
     "dw_farsi": 121309,
     "thezoomon": 1460,
-    "IranintlTV": 321147
+    "IranintlTV": 321148
   },
   "history": {
     "تهران": [
@@ -233,7 +233,11 @@
       1771189220.3585038,
       1771191320.8918629,
       1771191320.8918629,
-      1771192506.499105
+      1771192506.499105,
+      1771194340.0950513,
+      1771194340.0950513,
+      1771194340.0950513,
+      1771194340.0950513
     ],
     "اسرائیل": [
       1771141835.5206113,
