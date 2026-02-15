@@ -1,20 +1,20 @@
 {
-  "generated_at": 1771152015,
+  "generated_at": 1771153254,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "غزه",
-      "count": 5,
-      "score": 10,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "فلسطین",
-      "count": 4,
-      "score": 8,
+      "count": 3,
+      "score": 6,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
       "text": "مرز",
