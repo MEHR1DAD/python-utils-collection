@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771178454,
+  "generated_at": 1771181527,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -10,14 +10,14 @@
       "sentiment": "negative"
     },
     {
-      "text": "غزه",
+      "text": "تهران",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "text": "شاهرود",
+      "text": "فلسطین",
       "count": 2,
       "score": 4,
       "is_new": true,
