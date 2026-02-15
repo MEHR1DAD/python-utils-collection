@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771143607,
+  "generated_at": 1771145705,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -8,13 +8,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "فلسطین",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
     }
   ],
   "active_incidents": []
