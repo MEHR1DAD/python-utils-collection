@@ -1,18 +1,18 @@
 {
-  "generated_at": 1771183194,
+  "generated_at": 1771184623,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "اسرائیل",
-      "count": 3,
-      "score": 6,
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "تهران",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
