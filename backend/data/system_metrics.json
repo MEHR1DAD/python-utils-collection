@@ -1,20 +1,34 @@
 {
-  "generated_at": 1771185480,
+  "generated_at": 1771187947,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "اسرائیل",
-      "count": 7,
-      "score": 14,
+      "count": 12,
+      "score": 24,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "تهران",
-      "count": 5,
-      "score": 10,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "عراق",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خلیج فارس",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
