@@ -1,25 +1,18 @@
 {
-  "generated_at": 1771242926,
+  "generated_at": 1771247259,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 9,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 5,
-      "score": 10,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسرائیل",
-      "count": 4,
-      "score": 8,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
