@@ -1,18 +1,11 @@
 {
-  "generated_at": 1771274665,
-  "vibe_index": 50,
+  "generated_at": 1771276469,
+  "vibe_index": 52,
   "top_nodes": [
     {
-      "text": "مجروح",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "اسرائیل",
-      "count": 3,
-      "score": 6,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
