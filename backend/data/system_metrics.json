@@ -1,19 +1,11 @@
 {
-  "generated_at": 1771227299,
+  "generated_at": 1771229315,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "شهید در مرز",
-      "count": 6,
-      "score": 503,
-      "is_new": true,
-      "is_alert": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "count": 14,
+      "score": 28,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -25,6 +17,13 @@
       "sentiment": "negative"
     },
     {
+      "text": "شهید",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
       "text": "سراوان",
       "count": 4,
       "score": 8,
@@ -32,11 +31,17 @@
       "sentiment": "neutral"
     },
     {
-      "text": "زاهدان",
+      "text": "مرز",
       "count": 3,
       "score": 6,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "زاهدان",
+      "count": 3,
+      "score": 6,
+      "is_new": true
     },
     {
       "text": "کشته",
@@ -51,12 +56,5 @@
       "is_new": true
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "شهید در مرز",
-      "intensity": 3,
-      "time": 1771227299
-    }
-  ]
+  "active_incidents": []
 }
