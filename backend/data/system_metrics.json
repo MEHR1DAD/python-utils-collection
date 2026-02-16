@@ -1,6 +1,28 @@
 {
-  "generated_at": 1771211669,
+  "generated_at": 1771221218,
   "vibe_index": 50,
-  "top_nodes": [],
+  "top_nodes": [
+    {
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مرز",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "لبنان",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    }
+  ],
   "active_incidents": []
 }
