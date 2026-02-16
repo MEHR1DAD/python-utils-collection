@@ -1,11 +1,18 @@
 {
-  "generated_at": 1771254251,
+  "generated_at": 1771257296,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "لبنان",
-      "count": 9,
-      "score": 18,
+      "count": 8,
+      "score": 16,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -15,39 +22,6 @@
       "score": 8,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "بوشهر",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سوریه",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "شلیک",
-      "count": 2,
-      "score": 4,
-      "is_new": true
-    },
-    {
-      "text": "عسلویه",
-      "count": 2,
-      "score": 4,
-      "is_new": true
     }
   ],
   "active_incidents": []
