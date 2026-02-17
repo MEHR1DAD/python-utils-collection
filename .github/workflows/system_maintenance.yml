@@ -109,6 +109,7 @@ jobs:
           # Commit
           git config --global user.name 'Sys Bot'
           git config --global user.email 'bot@noreply.github.com'
+          git config --global http.postBuffer 524288000
           
           git add data_shard_c.json data_shard_h.json data_shard_t.json
           git add media/ || echo "No media folder"
