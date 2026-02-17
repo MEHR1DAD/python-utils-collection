@@ -1,13 +1,20 @@
 {
-  "generated_at": 1771327561,
+  "generated_at": 1771329794,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تنگه هرمز",
-      "count": 11,
-      "score": 22,
+      "count": 13,
+      "score": 26,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "یمن",
+      "count": 6,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
       "text": "تهران",
@@ -15,6 +22,13 @@
       "score": 4,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "کشته",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
       "text": "عراق",
@@ -25,20 +39,6 @@
     },
     {
       "text": "لبنان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "یمن",
       "count": 2,
       "score": 4,
       "is_new": true
