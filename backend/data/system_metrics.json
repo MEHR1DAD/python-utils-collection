@@ -1,27 +1,13 @@
 {
-  "generated_at": 1771359576,
+  "generated_at": 1771362065,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 16,
-      "score": 32,
+      "count": 12,
+      "score": 24,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "اسرائیل",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "شلیک",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
     }
   ],
   "active_incidents": []
