@@ -6,7 +6,7 @@ on:
       - 'backend/config_v.txt'
       - '.github/workflows/system_check_v.yml'
   schedule:
-    - cron: '*/20 * * * *' # Every 20 minutes (Relaxed to allow Pages build to finish)
+    - cron: '*/30 * * * *' # Every 30 minutes (00, 30) - Max Stability
   workflow_dispatch:
 
 concurrency:

@@ -9,7 +9,7 @@ on:
       - 'backend/config_global.txt'
       - '.github/workflows/system_maintenance.yml'
   schedule:
-    - cron: '10/30 * * * *' # Every 30 minutes, offset by 10
+    - cron: '15 * * * *' # Once an hour at minute 15 (00:15, 01:15...) - Prevents overlap with V
   workflow_dispatch:
 
 concurrency:
