@@ -6,14 +6,12 @@ from datetime import datetime
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 from telethon.tl.types import MessageEntityTextUrl, InputPeerChannel
-
-# --- Configuration ---
 import argparse
+import signal
+import time
 
 # Global flag for graceful exit
 STOP_REQUESTED = False
-import signal
-import time
 
 def signal_handler(sig, frame):
     global STOP_REQUESTED
@@ -23,7 +21,7 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 signal.signal(signal.SIGTERM, signal_handler)
 
-# Parse arguments
+# --- Configuration ---
 parser = argparse.ArgumentParser(description='Fetch Telegram News')
 parser.add_argument('--channels', type=str, default='channels.txt', help='Path to channels list file')
 parser.add_argument('--output', type=str, default='news.json', help='Output JSON filename (relative to frontend/public)')
@@ -31,28 +29,23 @@ parser.add_argument('--limit', type=int, default=50, help='Number of messages to
 parser.add_argument('--max-duration', type=int, default=900, help='Max duration in seconds before stopping to save (Default: 900s)')
 args = parser.parse_args()
 
-# ... (Previous code) ...
-# I need to be careful with the context. 
-# The replacement needs to cover the ArgumentParser section AND the main loop logic.
-# Splitting this into 2 chunks is safer to avoid context mismatch issues.
-
-# CHUNK 1: Arguments & Signals
-# ... see below ...
+API_ID = os.environ.get("TELEGRAM_API_ID")
 API_HASH = os.environ.get("TELEGRAM_API_HASH")
 SESSION_STRING = os.environ.get("TELEGRAM_SESSION")
 
 # Resolve paths
 BASE_DIR = os.path.dirname(__file__)
 CHANNELS_FILE = os.path.join(BASE_DIR, args.channels)
-CHANNELS_FILE = os.path.join(BASE_DIR, args.channels)
 # In public repo, we want flexibility. If args.output starts with ../, it's relative to BASE_DIR
 OUTPUT_FILE = os.path.join(BASE_DIR, args.output)
 MEDIA_DIR = os.path.join(BASE_DIR, '../media') if '..' in args.output else os.path.join(BASE_DIR, '../frontend/public/media')
+
 # Simple fallback for media dir to be in root if output is in root
 if args.output.startswith('..'):
     MEDIA_DIR = os.path.join(BASE_DIR, '../media')
 
 os.makedirs(MEDIA_DIR, exist_ok=True)
+
 
 if not API_ID or not API_HASH:
     print("Error: TELEGRAM_API_ID and TELEGRAM_API_HASH must be set.")
