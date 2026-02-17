@@ -93,7 +93,23 @@ jobs:
           # Move Media
           if [ -d "media" ]; then
             # Prune old media (>24h)
+            echo "🧹 Pruning media files..."
             find media -type f -mtime +1 -delete
+            
+            # EMERGENCY SIZE CHECK (Cap at 500MB)
+            MEDIA_SIZE=$(du -sm media | cut -f1)
+            if [ "$MEDIA_SIZE" -gt 500 ]; then
+              echo "⚠️ Media folder is large ($MEDIA_SIZE MB). Aggressive pruning..."
+              find media -type f -mtime +0.25 -delete # Older than 6h
+            fi
+            
+            # Second check: If still huge, keep only last hour
+            MEDIA_SIZE=$(du -sm media | cut -f1)
+            if [ "$MEDIA_SIZE" -gt 800 ]; then
+               echo "🚨 STILL TOO BIG ($MEDIA_SIZE MB). Nuke mode..."
+               find media -type f -mtime +0.04 -delete # Older than ~1h
+            fi
+            
             mv media /tmp/deploy_cache/media
           fi
           
