@@ -1,11 +1,11 @@
 {
-  "generated_at": 1771306959,
+  "generated_at": 1771307876,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -13,6 +13,13 @@
       "text": "مجروح",
       "count": 3,
       "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "غزه",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
