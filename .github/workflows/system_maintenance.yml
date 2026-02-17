@@ -60,25 +60,26 @@ jobs:
           
           # Single Run Logic (Removed Loop)
           
-          # Task C
+          # Task C (Budget: 20m)
           echo "🚀 Processing Shard C..."
-          python main.py --channels config_c.txt --output ../data_shard_c.json --limit 50
+          python main.py --channels config_c.txt --output ../data_shard_c.json --limit 50 --max-duration 1200
           
-          # Task H
+          # Task H (Budget: 5m)
           echo "🚀 Processing Shard H..."
-          python main.py --channels config_h.txt --output ../data_shard_h.json --limit 10
+          python main.py --channels config_h.txt --output ../data_shard_h.json --limit 10 --max-duration 300
           
-          # Task T
+          # Task T (Budget: 10m)
           echo "🚀 Processing Shard T..."
-          python main.py --channels config_t.txt --output ../data_shard_t.json --limit 20
+          python main.py --channels config_t.txt --output ../data_shard_t.json --limit 20 --max-duration 600
           
-          # Task Global (Smart Trends)
+          # Task Global (Budget: 10m)
           echo "🚀 Processing Shard Global..."
-          python main.py --channels config_global.txt --output ../data_shard_global.json --limit 20
+          python main.py --channels config_global.txt --output ../data_shard_global.json --limit 20 --max-duration 600
 
           cd ..
 
       - name: Sync Data
+        if: always() # COMMIT EVEN IF PARTIAL FAILURE
         run: |
           # DEPLOYMENT
           mkdir -p /tmp/deploy_cache

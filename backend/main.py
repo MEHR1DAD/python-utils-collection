@@ -11,13 +11,29 @@ from telethon.tl.types import MessageEntityTextUrl, InputPeerChannel
 import argparse
 
 # Parse arguments
-parser = argparse.ArgumentParser(description='Fetch Telegram News')
-parser.add_argument('--channels', type=str, default='channels.txt', help='Path to channels list file')
-parser.add_argument('--output', type=str, default='news.json', help='Output JSON filename (relative to frontend/public)')
-parser.add_argument('--limit', type=int, default=50, help='Number of messages to check per channel')
+# Global flag for graceful exit
+STOP_REQUESTED = False
+import signal
+import time
+
+def signal_handler(sig, frame):
+    global STOP_REQUESTED
+    print(f"⚠️ Signal {sig} received. Stopping fetch to save progress...")
+    STOP_REQUESTED = True
+
+signal.signal(signal.SIGINT, signal_handler)
+signal.signal(signal.SIGTERM, signal_handler)
+
+parser.add_argument('--max-duration', type=int, default=900, help='Max duration in seconds before stopping to save (Default: 900s)')
 args = parser.parse_args()
 
-API_ID = os.environ.get("TELEGRAM_API_ID")
+# ... (Previous code) ...
+# I need to be careful with the context. 
+# The replacement needs to cover the ArgumentParser section AND the main loop logic.
+# Splitting this into 2 chunks is safer to avoid context mismatch issues.
+
+# CHUNK 1: Arguments & Signals
+# ... see below ...
 API_HASH = os.environ.get("TELEGRAM_API_HASH")
 SESSION_STRING = os.environ.get("TELEGRAM_SESSION")
 
@@ -369,8 +385,18 @@ async def main():
         await client.start()
         
         new_news = []
+        start_time = time.time()
+        
         for ch_info in channels:
+            # Check for Global Timeout / Stop Signal
+            if STOP_REQUESTED or (time.time() - start_time > args.max_duration):
+                print(f"⏳ Time limit ({args.max_duration}s) reached or stopped. Saving partial progress...")
+                break
+                
             channel_name = ch_info['name']
+            
+            # ... (Existing channel setup) ...
+            
             channel_id = ch_info['id']
             channel_hash = ch_info['hash']
             

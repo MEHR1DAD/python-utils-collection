@@ -45,6 +45,7 @@ jobs:
           TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
           TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION_VAHID }}
+        if: always() # Run even if previous steps failed/timed out
         run: |
           # Fetch existing data shard
           git fetch --depth=1 origin gh-pages
@@ -54,7 +55,7 @@ jobs:
           echo "🚀 Starting System Check..."
           
           cd backend
-          python main.py --channels config_v.txt --output ../data_shard_v.json --limit 20
+          python main.py --channels config_v.txt --output ../data_shard_v.json --limit 20 --max-duration 900
           cd ..
           
           # --- DEPLOYMENT TO GH-PAGES ---
@@ -73,7 +74,10 @@ jobs:
           git reset --hard origin/gh-pages || true
           
           # Restore
-          mv /tmp/deploy_cache/data_shard_v.json ./data_shard_v.json
+          if [ -f "/tmp/deploy_cache/data_shard_v.json" ]; then
+              mv /tmp/deploy_cache/data_shard_v.json ./data_shard_v.json
+          fi
+          
           if [ -d "/tmp/deploy_cache/media" ]; then
             mkdir -p media
             # Merge new media
