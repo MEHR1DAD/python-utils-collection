@@ -10,7 +10,6 @@ from telethon.tl.types import MessageEntityTextUrl, InputPeerChannel
 # --- Configuration ---
 import argparse
 
-# Parse arguments
 # Global flag for graceful exit
 STOP_REQUESTED = False
 import signal
@@ -24,6 +23,11 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 signal.signal(signal.SIGTERM, signal_handler)
 
+# Parse arguments
+parser = argparse.ArgumentParser(description='Fetch Telegram News')
+parser.add_argument('--channels', type=str, default='channels.txt', help='Path to channels list file')
+parser.add_argument('--output', type=str, default='news.json', help='Output JSON filename (relative to frontend/public)')
+parser.add_argument('--limit', type=int, default=50, help='Number of messages to check per channel')
 parser.add_argument('--max-duration', type=int, default=900, help='Max duration in seconds before stopping to save (Default: 900s)')
 args = parser.parse_args()
 
