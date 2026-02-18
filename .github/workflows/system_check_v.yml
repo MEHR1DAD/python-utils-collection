@@ -1,0 +1,125 @@
+name: System Check (V)
+
+on:
+  push:
+    paths:
+      - 'backend/config_v.txt'
+      - '.github/workflows/system_check_v.yml'
+  schedule:
+    - cron: '*/30 * * * *' # Every 30 minutes (00, 30) - Max Stability
+  workflow_dispatch:
+
+concurrency:
+  group: system-check-v
+  cancel-in-progress: false
+
+jobs:
+  check-v:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1 # Shallow fetch to save space
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+          cache-dependency-path: 'backend/requirements.txt'
+
+      - name: Setup Environment
+        uses: federicocarboni/setup-ffmpeg@v2
+
+      - name: Install dependencies
+        run: |
+          pip install -r backend/requirements.txt
+
+      - name: Continuous System Check
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION_VAHID }}
+        if: always() # Run even if previous steps failed/timed out
+        run: |
+          # Fetch existing data shard
+          git fetch --depth=1 origin gh-pages
+          git checkout origin/gh-pages -- data_shard_v.json || echo "⚠️ No existing data found"
+          
+          # Single Run Logic (Removed Loop to prevent state thrashing)
+          echo "🚀 Starting System Check..."
+          
+          cd backend
+          python main.py --channels config_v.txt --output ../data_shard_v.json --limit 20 --max-duration 900
+          cd ..
+          
+          # --- DEPLOYMENT TO GH-PAGES ---
+          mkdir -p /tmp/deploy_cache
+          mv data_shard_v.json /tmp/deploy_cache/data_shard_v.json
+          if [ -d "media" ]; then
+            # Prune old media (>24h) BEFORE moving
+            echo "🧹 Pruning media files..."
+            find media -type f -mtime +1 -delete
+            
+            # EMERGENCY SIZE CHECK (Cap at 500MB)
+            MEDIA_SIZE=$(du -sm media | cut -f1)
+            if [ "$MEDIA_SIZE" -gt 500 ]; then
+              echo "⚠️ Media folder is large ($MEDIA_SIZE MB). Aggressive pruning..."
+              find media -type f -mtime +0.25 -delete # Older than 6h
+            fi
+            
+            # Second check: If still huge, keep only last hour
+            MEDIA_SIZE=$(du -sm media | cut -f1)
+            if [ "$MEDIA_SIZE" -gt 800 ]; then
+               echo "🚨 STILL TOO BIG ($MEDIA_SIZE MB). Nuke mode..."
+               find media -type f -mtime +0.04 -delete # Older than ~1h
+            fi
+            
+            mv media /tmp/deploy_cache/media
+          fi
+          
+          # Switch to gh-pages
+          git fetch origin gh-pages || true
+          git checkout gh-pages || git checkout --orphan gh-pages
+          # Reset to remote state to avoid conflicts
+          git reset --hard origin/gh-pages || true
+          
+          # Restore
+          if [ -f "/tmp/deploy_cache/data_shard_v.json" ]; then
+              mv /tmp/deploy_cache/data_shard_v.json ./data_shard_v.json
+          fi
+          
+          if [ -d "/tmp/deploy_cache/media" ]; then
+            mkdir -p media
+            # EMERGENCY SIZE CHECK (Size-Based Nuke, since mtime is unreliable on checkout)
+            MEDIA_SIZE=$(du -sm media | cut -f1)
+            if [ "$MEDIA_SIZE" -gt 500 ]; then
+               echo "🚨 SIZE CRITICAL ($MEDIA_SIZE MB). WIPING media to recover..."
+               rm -rf media/*
+            fi
+            
+            # Merge new media (this effectively repopulates recent files)
+            cp -r /tmp/deploy_cache/media/* media/
+          fi
+          
+          # Commit and Push
+          git config --global user.name 'Sys Bot'
+          git config --global user.email 'bot@noreply.github.com'
+          git config --global http.postBuffer 524288000
+          
+          git add data_shard_v.json
+          git add media/ || echo "No media folder found"
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "✅ Updating system data..."
+            git commit -m "System Update $(date)"
+            git pull --rebase origin gh-pages
+            git push origin gh-pages
+          else
+            echo "💤 No changes."
+          fi

@@ -1,0 +1,79 @@
+name: History Sync
+
+on:
+  schedule:
+    - cron: '15 * * * *' # Every hour at :15
+  workflow_dispatch:
+
+concurrency:
+  group: history-sync
+  cancel-in-progress: false
+
+jobs:
+  sync-history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+          cache-dependency-path: 'backend/requirements.txt'
+
+      - name: Setup Environment
+        uses: federicocarboni/setup-ffmpeg@v2
+
+      - name: Install dependencies
+        run: pip install -r backend/requirements.txt
+
+      - name: Run History Sync
+        env:
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION_GENERAL }} # Use General Session
+        run: |
+          # Fetch existing data
+          git fetch --depth=1 origin gh-pages
+          git checkout origin/gh-pages -- data_shard_h.json || echo "⚠️ No existing data found"
+
+          echo "🚀 Starting History Sync..."
+          cd backend
+          python main.py --channels config_h.txt --output ../data_shard_h.json --limit 20 --max-duration 900
+          cd ..
+
+          # --- DEPLOYMENT TO GH-PAGES ---
+          mkdir -p /tmp/deploy_cache
+          mv data_shard_h.json /tmp/deploy_cache/data_shard_h.json
+          
+          # Switch to gh-pages
+          git fetch origin gh-pages || true
+          git checkout gh-pages || git checkout --orphan gh-pages
+          git reset --hard origin/gh-pages || true
+
+          # Restore
+          if [ -f "/tmp/deploy_cache/data_shard_h.json" ]; then
+              mv /tmp/deploy_cache/data_shard_h.json ./data_shard_h.json
+          fi
+          
+          # Commit and Push
+          git config --global user.name 'History Bot'
+          git config --global user.email 'bot@noreply.github.com'
+          
+          git add data_shard_h.json
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "History Update $(date)"
+            git pull --rebase origin gh-pages
+            git push origin gh-pages
+          else
+            echo "💤 No changes."
+          fi
