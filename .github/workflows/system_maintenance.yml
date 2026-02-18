@@ -119,6 +119,15 @@ jobs:
           # Reset to remote state
           git reset --hard origin/gh-pages || true
           
+          # EMERGENCY SIZE CHECK (Before merging new data)
+          if [ -d "media" ]; then
+            MEDIA_SIZE=$(du -sm media | cut -f1)
+            if [ "$MEDIA_SIZE" -gt 500 ]; then
+                echo "🚨 SIZE CRITICAL ($MEDIA_SIZE MB). WIPING media to recover..."
+                rm -rf media/*
+            fi
+          fi
+          
           # Restore
           cp -r /tmp/deploy_cache/* .
           
@@ -128,25 +137,6 @@ jobs:
           git config --global http.postBuffer 524288000
           
           git add data_shard_c.json data_shard_h.json data_shard_t.json
-          
-          # Prune before adding
-          if [ -d "media" ]; then
-             echo "🧹 Final Pruning check..."
-             find media -type f -mtime +1 -delete
-             
-             MEDIA_SIZE=$(du -sm media | cut -f1)
-             if [ "$MEDIA_SIZE" -gt 500 ]; then
-               echo "⚠️ Media folder is large ($MEDIA_SIZE MB). Aggressive pruning..."
-               find media -type f -mtime +0.25 -delete
-             fi
-             
-             MEDIA_SIZE=$(du -sm media | cut -f1)
-             if [ "$MEDIA_SIZE" -gt 800 ]; then
-                echo "🚨 STILL TOO BIG ($MEDIA_SIZE MB). Nuke mode..."
-                find media -type f -mtime +0.04 -delete
-             fi
-          fi
-
           git add media/ || echo "No media folder"
           
           if [ -n "$(git status --porcelain)" ]; then

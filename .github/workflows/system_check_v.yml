@@ -96,26 +96,15 @@ jobs:
           
           if [ -d "/tmp/deploy_cache/media" ]; then
             mkdir -p media
-            # Merge new media
-            cp -r /tmp/deploy_cache/media/* media/
-            
-            # DOUBLE CHECK: Clean media on gh-pages as well
-            echo "🧹 Pruning media files on gh-pages..."
-            find media -type f -mtime +1 -delete
-            
-            # EMERGENCY SIZE CHECK (Cap at 500MB)
+            # EMERGENCY SIZE CHECK (Size-Based Nuke, since mtime is unreliable on checkout)
             MEDIA_SIZE=$(du -sm media | cut -f1)
             if [ "$MEDIA_SIZE" -gt 500 ]; then
-              echo "⚠️ Media folder is large ($MEDIA_SIZE MB). Aggressive pruning..."
-              find media -type f -mtime +0.25 -delete # Older than 6h
+               echo "🚨 SIZE CRITICAL ($MEDIA_SIZE MB). WIPING media to recover..."
+               rm -rf media/*
             fi
             
-            # Second check: If still huge, keep only last hour
-            MEDIA_SIZE=$(du -sm media | cut -f1)
-            if [ "$MEDIA_SIZE" -gt 800 ]; then
-               echo "🚨 STILL TOO BIG ($MEDIA_SIZE MB). Nuke mode..."
-               find media -type f -mtime +0.04 -delete # Older than ~1h
-            fi
+            # Merge new media (this effectively repopulates recent files)
+            cp -r /tmp/deploy_cache/media/* media/
           fi
           
           # Commit and Push
