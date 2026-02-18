@@ -49,17 +49,29 @@ class NetworkMonitor:
         with open(STATE_FILE, 'w', encoding='utf-8') as f:
             json.dump(self.state, f, ensure_ascii=False, indent=2)
 
-    def fetch_node_logs(self, node):
-        """Scrape latest messages from public channel view."""
-        url = f"https://t.me/s/{node}"
+    def fetch_node_logs(self, source_url):
+        """Fetch latest messages from JSON data sources."""
         try:
-            response = self.session.get(url, timeout=self.config['settings']['timeout'])
+            response = self.session.get(source_url, timeout=self.config['settings']['timeout'])
             if response.status_code != 200:
-                print(f"Node {node} unreachable: {response.status_code}")
+                print(f"Source {source_url} unreachable: {response.status_code}")
                 return []
-            return self.parse_logs(response.text, node)
+            
+            data = response.json()
+            messages = []
+            # Parse JSON format (NewsItem[])
+            for item in data:
+                # Convert to internal format
+                messages.append({
+                    'id': item.get('id', 0),
+                    'text': item.get('text', ''),
+                    'node': item.get('source', 'Unknown'),
+                    'link': item.get('url', '#'),
+                    'date': item.get('date', '')
+                })
+            return messages
         except Exception as e:
-            print(f"Connection error to {node}: {e}")
+            print(f"Connection error to {source_url}: {e}")
             return []
 
     def parse_logs(self, html, node):

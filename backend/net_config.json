@@ -1,24 +1,9 @@
 {
     "nodes": [
-        "VahidOnline",
-        "VahidHeadline",
-        "VahidOOnLine",
-        "bbcpersian",
-        "RadioFarda",
-        "IranintlTV",
-        "Tasnimnews",
-        "Farsna",
-        "isna94",
-        "irna_1313",
-        "khabarfouri",
-        "Khabar_Fouri",
-        "akhbarefori",
-        "khabari",
-        "akharinkhabar",
-        "entekhab_ir",
-        "Alarabiya_far",
-        "dw_farsi",
-        "thezoomon"
+        "https://mehr1dad.github.io/finance-optimizer-worker/market_data.json",
+        "https://mehr1dad.github.io/tech-market-monitor/market_data_tech.json",
+        "https://mehr1dad.github.io/crypto-market-watch/market_data_crypto.json",
+        "https://mehr1dad.github.io/python-utils-collection/data_shard_global.json"
     ],
     "patterns": {
         "incidents": [
