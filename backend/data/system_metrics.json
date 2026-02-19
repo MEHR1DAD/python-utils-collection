@@ -1,7 +1,14 @@
 {
-  "generated_at": 1771489519,
+  "generated_at": 1771492345,
   "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "کشته",
       "count": 4,
