@@ -1,18 +1,18 @@
 {
-  "generated_at": 1771524732,
+  "generated_at": 1771528180,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 9,
-      "score": 18,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -31,17 +31,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "ایلام",
       "count": 2,
       "score": 4,
-      "is_new": true
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
