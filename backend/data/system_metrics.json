@@ -1,14 +1,7 @@
 {
-  "generated_at": 1771534397,
-  "vibe_index": 57,
+  "generated_at": 1771536017,
+  "vibe_index": 52,
   "top_nodes": [
-    {
-      "text": "غزه",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
     {
       "text": "تهران",
       "count": 2,
@@ -17,7 +10,7 @@
       "sentiment": "neutral"
     },
     {
-      "text": "کشته",
+      "text": "غزه",
       "count": 2,
       "score": 4,
       "is_new": true,
