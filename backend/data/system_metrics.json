@@ -1,25 +1,25 @@
 {
-  "generated_at": 1771536017,
-  "vibe_index": 52,
+  "generated_at": 1771537989,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "غزه",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "عراق",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
