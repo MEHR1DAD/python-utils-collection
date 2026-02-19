@@ -1,10 +1,10 @@
 {
-  "generated_at": 1771543355,
-  "vibe_index": 48,
+  "generated_at": 1771544980,
+  "vibe_index": 42,
   "top_nodes": [
     {
       "text": "حمله نظامی",
-      "count": 9,
+      "count": 12,
       "score": 503,
       "is_new": true,
       "is_alert": true,
@@ -12,48 +12,48 @@
     },
     {
       "text": "تهران",
-      "count": 5,
-      "score": 10,
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسرائیل",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "سوریه",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "غزه",
       "count": 3,
       "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "سوریه",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "غزه",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "عراق",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true
     },
     {
       "text": "همدان",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true
     },
     {
       "text": "مرز",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true
     }
   ],
@@ -62,7 +62,7 @@
       "type": "spike",
       "pattern": "حمله نظامی",
       "intensity": 3,
-      "time": 1771543355
+      "time": 1771544980
     }
   ]
 }
