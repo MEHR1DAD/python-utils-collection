@@ -1,20 +1,13 @@
 {
-  "generated_at": 1771495531,
+  "generated_at": 1771499137,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "count": 11,
+      "score": 22,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
     },
     {
       "text": "اسرائیل",
@@ -22,20 +15,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "تبریز",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "قزوین",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
