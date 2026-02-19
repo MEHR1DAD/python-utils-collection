@@ -1,14 +1,7 @@
 {
-  "generated_at": 1771532295,
-  "vibe_index": 50,
+  "generated_at": 1771534397,
+  "vibe_index": 57,
   "top_nodes": [
-    {
-      "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
     {
       "text": "غزه",
       "count": 3,
@@ -24,24 +17,18 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اسرائیل",
+      "text": "کشته",
       "count": 2,
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "ایلام",
+      "text": "عراق",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شهید",
-      "count": 2,
-      "score": 4,
-      "is_new": true
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
