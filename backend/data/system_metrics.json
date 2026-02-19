@@ -1,18 +1,18 @@
 {
-  "generated_at": 1771483270,
+  "generated_at": 1771486648,
   "vibe_index": 50,
   "top_nodes": [
-    {
-      "text": "اسرائیل",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
     {
       "text": "کشته",
       "count": 4,
       "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "اسرائیل",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
