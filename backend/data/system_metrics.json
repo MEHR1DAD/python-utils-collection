@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771615292,
+  "generated_at": 1771615826,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -38,25 +38,11 @@
       "sentiment": "positive"
     },
     {
-      "text": "دیگر",
-      "count": 17,
-      "score": 17,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "حمله",
       "count": 17,
       "score": 17,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "پنجشنبه",
-      "count": 16,
-      "score": 16,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "هسته",
@@ -66,21 +52,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "جوان ساله",
+      "text": "سازمان ملل",
       "count": 15,
       "score": 15,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "کاخ سفید",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ضرب الاجل",
+      "text": "غنی سازی",
       "count": 15,
       "score": 15,
       "is_new": true,
