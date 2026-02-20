@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771623560,
+  "generated_at": 1771624555,
   "vibe_index": 45,
   "top_nodes": [
     {
@@ -22,13 +22,6 @@
       "score": 22,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "نظامی",
-      "count": 20,
-      "score": 20,
-      "is_new": true,
-      "sentiment": "negative"
     },
     {
       "text": "کشته",
@@ -63,7 +56,7 @@
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "تهران",
