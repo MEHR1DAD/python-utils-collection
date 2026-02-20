@@ -20,21 +20,20 @@ def analyze_sentiment_batch(texts):
     results = {}
     
     # Cloudflare AI runs best with single prompts or small batches.
-    # We will combine them into a single prompt to save API calls and time.
+    # We will combine them into a single prompt to request a strict JSON object.
     
-    prompt = "Classify the sentiment of the following Persian news keywords as POSITIVE, NEGATIVE, or NEUTRAL.\n"
-    prompt += "Strictly follow this format: 'KEYWORD: SENTIMENT'\n\n"
+    prompt = "Classify the sentiment of the following Persian news keywords as 'positive', 'negative', or 'neutral'.\n"
+    prompt += "You MUST respond with ONLY a valid JSON object where the keys are the exact keywords and the values are their sentiments. Do not include any markdown formatting, backticks, or intro text.\n\n"
+    prompt += "Keywords to analyze:\n"
     
     for t in texts:
         prompt += f"- {t}\n"
         
-    prompt += "\nResponse:"
-
     url = f"https://api.cloudflare.com/client/v4/accounts/{ACCOUNT_ID}/ai/run/{MODEL}"
     headers = {"Authorization": f"Bearer {API_TOKEN}"}
     payload = {
         "messages": [
-            {"role": "system", "content": "You are a sentiment analysis assistant for Persian news context. You ONLY output the classification."},
+            {"role": "system", "content": "You are a sentiment analysis assistant for Persian news context. You ONLY output raw JSON. Never use markdown like ```json."},
             {"role": "user", "content": prompt}
         ]
     }
@@ -44,27 +43,33 @@ def analyze_sentiment_batch(texts):
         data = response.json()
         
         if data.get('success'):
-            raw_output = data['result']['response']
-            # Parse the output
-            # Expected format:
-            # - Keyword1: POSITIVE
-            # - Keyword2: NEGATIVE
+            raw_output = data['result']['response'].strip()
             
-            lines = raw_output.strip().split('\n')
-            for line in lines:
-                parts = line.split(':')
-                if len(parts) >= 2:
-                    key = parts[0].strip().replace('- ', '')
-                    sentiment = parts[1].strip().lower()
-                    
-                    # Normalize sentiment
-                    if 'positive' in sentiment: val = 'positive'
-                    elif 'negative' in sentiment: val = 'negative'
-                    else: val = 'neutral'
-                    
-                    # Find matching original text (fuzzy check needed?)
-                    # For now assume exact match or close enough
-                    results[key] = val
+            # Remove possible conversational leftovers or markdown
+            if raw_output.startswith("```json"):
+                raw_output = raw_output[7:]
+            if raw_output.startswith("```"):
+                raw_output = raw_output[3:]
+            if raw_output.endswith("```"):
+                raw_output = raw_output[:-3]
+                
+            raw_output = raw_output.strip()
+            
+            try:
+                parsed_json = json.loads(raw_output)
+                for key, val in parsed_json.items():
+                    sentiment = val.strip().lower()
+                    if 'positive' in sentiment: final_val = 'positive'
+                    elif 'negative' in sentiment: final_val = 'negative'
+                    else: final_val = 'neutral'
+                    results[key] = final_val
+            except json.JSONDecodeError as e:
+                print(f"Failed to parse AI JSON output: {e}\nRaw Output: {raw_output}")
+                # Try fallback line-by-line matching if JSON fails entirely
+                for t in texts:
+                    if t in raw_output:
+                        if 'positive' in raw_output: results[t] = 'positive'
+                        elif 'negative' in raw_output: results[t] = 'negative'
                     
             # Fill missing with neutral
             for t in texts:
