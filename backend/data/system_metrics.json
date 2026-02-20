@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771609767,
+  "generated_at": 1771612036,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -24,9 +24,9 @@
       "sentiment": "positive"
     },
     {
-      "text": "اقدام نظامی",
-      "count": 18,
-      "score": 18,
+      "text": "نظامی",
+      "count": 20,
+      "score": 20,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -43,6 +43,13 @@
       "score": 17,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "حمله",
+      "count": 17,
+      "score": 17,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
       "text": "پنجشنبه",
@@ -81,22 +88,15 @@
     },
     {
       "text": "تهران",
-      "count": 3,
-      "score": 6,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "حمله نظامی",
-      "count": 3,
-      "score": 6,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
