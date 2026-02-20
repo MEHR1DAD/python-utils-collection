@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771597502,
-  "vibe_index": 100,
+  "generated_at": 1771599928,
+  "vibe_index": 95,
   "top_nodes": [
     {
       "text": "جمهوری اسلامی",
@@ -21,26 +21,12 @@
       "count": 48,
       "score": 48,
       "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "دریافتی شرح",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "آمریکا",
       "count": 37,
       "score": 37,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "تصاویر دریافتی",
-      "count": 36,
-      "score": 36,
       "is_new": true,
       "sentiment": "positive"
     },
@@ -66,16 +52,23 @@
       "sentiment": "positive"
     },
     {
-      "text": "پیکر جان",
-      "count": 24,
-      "score": 24,
+      "text": "خواهد",
+      "count": 22,
+      "score": 22,
       "is_new": true,
       "sentiment": "positive"
     },
     {
-      "text": "خواهد",
-      "count": 22,
-      "score": 22,
+      "text": "سلاح هسته",
+      "count": 21,
+      "score": 21,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
+      "text": "کشته شدگان",
+      "count": 21,
+      "score": 21,
       "is_new": true,
       "sentiment": "positive"
     }
