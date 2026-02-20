@@ -1,13 +1,13 @@
 {
-  "generated_at": 1771607013,
-  "vibe_index": 46,
+  "generated_at": 1771607224,
+  "vibe_index": 42,
   "top_nodes": [
     {
       "text": "جمهوری",
       "count": 42,
       "score": 42,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
@@ -35,7 +35,7 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "دیگر",
@@ -77,7 +77,7 @@
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "تهران",
