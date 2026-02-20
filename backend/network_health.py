@@ -205,6 +205,7 @@ class NetworkMonitor:
         location_context = {} 
         
         current_batch_counts = {}
+        unique_contents = [] # Store unique contents of THIS batch to prevent intra-batch repost counts
 
         for msg in messages:
             text = msg['text']
@@ -227,7 +228,18 @@ class NetworkMonitor:
             # Temporal Filter: Block old news/memorials from triggering alerts
             if self.is_old_news(text):
                 continue
-
+                
+            # Jaccard Semantic Similarity Deduplication against recent messages
+            is_semantic_duplicate = False
+            for prev_msg_text in unique_contents:
+                if self.jaccard_similarity(text, prev_msg_text) > 0.7:
+                    is_semantic_duplicate = True
+                    break
+            
+            if is_semantic_duplicate:
+                continue
+                
+            unique_contents.append(text)
             self.seen_hashes.append(msg_hash) # Add to LRU
             
             # 1. Identify what this message contains
