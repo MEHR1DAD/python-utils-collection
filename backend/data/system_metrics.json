@@ -1,69 +1,83 @@
 {
-  "generated_at": 1771594885,
-  "vibe_index": 50,
+  "generated_at": 1771596595,
+  "vibe_index": 36,
   "top_nodes": [
     {
-      "text": "تومان",
-      "count": 276,
-      "score": 276,
+      "text": "جمهوری اسلامی",
+      "count": 102,
+      "score": 102,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "آبشده نقدی",
-      "count": 183,
-      "score": 183,
+      "text": "ایالات متحده",
+      "count": 48,
+      "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "طلا گرمی",
-      "count": 180,
-      "score": 180,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "نقدی خرید",
-      "count": 90,
-      "score": 90,
+      "text": "ایران",
+      "count": 48,
+      "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "خرید طلا",
-      "count": 90,
-      "score": 90,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "نقدی فروش",
-      "count": 90,
-      "score": 90,
+      "text": "دریافتی شرح",
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "فروش طلا",
-      "count": 90,
-      "score": 90,
+      "text": "آمریکا",
+      "count": 37,
+      "score": 37,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "سکه",
-      "count": 78,
-      "score": 78,
+      "text": "تصاویر دریافتی",
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "تتر",
-      "count": 70,
-      "score": 70,
+      "text": "دونالد ترامپ",
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "توافق",
+      "count": 29,
+      "score": 29,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مذاکرات",
+      "count": 26,
+      "score": 26,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پیکر جان",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "خواهد",
+      "count": 22,
+      "score": 22,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
