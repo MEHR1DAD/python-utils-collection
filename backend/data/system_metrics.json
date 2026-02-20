@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771548816,
-  "vibe_index": 50,
+  "generated_at": 1771557987,
+  "vibe_index": 28,
   "top_nodes": [
     {
       "text": "حمله نظامی",
@@ -30,7 +30,7 @@
       "type": "spike",
       "pattern": "حمله نظامی",
       "intensity": 3,
-      "time": 1771548816
+      "time": 1771557987
     }
   ]
 }
