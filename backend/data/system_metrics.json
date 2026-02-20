@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771615826,
+  "generated_at": 1771617030,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -7,7 +7,7 @@
       "count": 42,
       "score": 42,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
@@ -18,8 +18,8 @@
     },
     {
       "text": "توافق",
-      "count": 21,
-      "score": 21,
+      "count": 22,
+      "score": 22,
       "is_new": true,
       "sentiment": "positive"
     },
@@ -28,26 +28,19 @@
       "count": 20,
       "score": 20,
       "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حمله",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "مذاکرات",
       "count": 18,
       "score": 18,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "حمله",
-      "count": 17,
-      "score": 17,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "هسته",
-      "count": 16,
-      "score": 16,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -63,21 +56,21 @@
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "کشته",
-      "count": 3,
-      "score": 6,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
