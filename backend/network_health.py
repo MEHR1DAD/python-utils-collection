@@ -600,33 +600,81 @@ class NetworkMonitor:
         # Re-sort just in case, though they should be sorted
         final_trends.sort(key=lambda x: x['score'], reverse=True)
         
-        # Sentiment Analysis & Vibe Index
-        top_5_trends = final_trends[:5]
+        # --- Extract Dynamic Trends (Unigrams/Bigrams) ---
+        dynamic_candidates = {}
+        if all_messages:
+            recent_msgs = all_messages[-150:] # Process last 150
+            stop_words = set([
+                'در', 'به', 'از', 'که', 'می', 'این', 'است', 'را', 'با', 'های', 'برای', 'آن', 'یک', 'شود', 'شده', 'خود', 'ها', 'کرد', 'شد', 'ای', 'تا', 'کند', 'بر', 'بود', 'گفت', 'نیز', 'وی', 'هم', 'و', 'یا', 'همچنین', 'دو', 'سه', 'اول', 'دوم', 'کرده', 'اند', 'دارند', 'بودند', 'می‌شود', 'می‌کند', 'است', 'هست', 'نیست', 'دارد', 'سال', 'ماه', 'روز', 'ساعت',
+                'اعلام', 'گزارش', 'خبر', 'اخبار', 'ویدیو', 'عکس', 'تصویر', 'لینک', 'کانال', 'عضویت', 'مشاهده', 'ادامه', 'مطلب', 'تبلیغات', 'پست', 'جدید', 'قدیم', 'اخیر', 'مهم', 'اصلی', 'سایر', 'بقیه', 'دیگران', 'لطفا',
+                'vahidonline', 'vahidoonline', 'vahidheadline', 'bbc', 'fars', 'tasnim', 'isna', 'irna', 'thezoomit', 'digiato', 'telegram', 'instagram', 'twitter',
+                'وزیر', 'دولت', 'رئیس', 'مدیر', 'معاون', 'سخنگوی', 'نماینده', 'فرمانده', 'سفیر', 'دبیر', 'حضور', 'کاهش', 'افزایش', 'رشد', 'افت', 'تغییر', 'آغاز', 'پایان'
+            ])
+            
+            unigram_counts = {}
+            bigram_counts = {}
+            
+            for msg in recent_msgs:
+                text = msg.get('text', '')
+                if not text: continue
+                # Basic cleanup
+                text = re.sub(r'https?://\S+', '', text)
+                text = text.replace('ي', 'ی').replace('ك', 'ک').replace('\u200c', ' ')
+                
+                # Tokenize Persian words
+                tokens = [t for t in re.findall(r'[آ-ی0-9]+', text) if len(t) > 2 and not t.isdigit() and t not in stop_words]
+                
+                for i in range(len(tokens)):
+                    w1 = tokens[i]
+                    unigram_counts[w1] = unigram_counts.get(w1, 0) + 1
+                    if i < len(tokens) - 1:
+                        w2 = tokens[i+1]
+                        bigram = f"{w1} {w2}"
+                        bigram_counts[bigram] = bigram_counts.get(bigram, 0) + 1
+            
+            # Boost bigrams and add to candidates
+            for bg, count in bigram_counts.items():
+                if count >= 3:
+                    dynamic_candidates[bg] = count * 3
+            
+            for ug, count in unigram_counts.items():
+                if count >= 5 and ug not in dynamic_candidates:
+                    dynamic_candidates[ug] = count
+
+        # Sort dynamic candidates
+        sorted_dynamic = [{"text": k, "count": v, "score": v, "is_new": True} for k, v in sorted(dynamic_candidates.items(), key=lambda item: item[1], reverse=True)[:15]]
+        
+        # Merge dynamic trends with incident trends
+        for dt in sorted_dynamic:
+            is_dup = False
+            for ft in final_trends:
+                if dt['text'] in ft['text'] or ft['text'] in dt['text']:
+                    is_dup = True
+                    break
+            if not is_dup:
+                final_trends.append(dt)
+        
+        # Re-sort combined trends
+        final_trends.sort(key=lambda x: x['score'], reverse=True)
+        top_15_trends = final_trends[:15]
         vibe_index = 50 # Default neutral
         
         try:
             from ai_service import analyze_sentiment_batch
             
-            # 1. Analyze Top Trends
-            trend_texts = [t['text'] for t in top_5_trends]
+            # 1. Analyze Top Trends Sentiment
+            trend_texts = [t['text'] for t in top_15_trends]
             if trend_texts:
                 sentiments = analyze_sentiment_batch(trend_texts)
-                for t in top_5_trends:
+                for t in top_15_trends:
                     t['sentiment'] = sentiments.get(t['text'], 'neutral')
 
-            # 2. Calculate Global Vibe Index (from latest news)
-            if all_messages:
-                # Sample 40 items to avoid overwhelming the AI but get a good range
-                news_sample = [m['text'] for m in all_messages[-40:]]
-                news_sentiments = analyze_sentiment_batch(news_sample)
-                
-                pos = list(news_sentiments.values()).count('positive')
-                neg = list(news_sentiments.values()).count('negative')
-                total = len(news_sentiments)
+                # 2. Calculate Global Vibe Index (from top trend sentiments, NOT 40 full articles)
+                pos = list(sentiments.values()).count('positive')
+                neg = list(sentiments.values()).count('negative')
+                total = len(sentiments)
                 
                 if total > 0:
-                    # Score 0-100. (pos-neg)/total yields -1 to 1. 
-                    # Map to 0-100: 50 + (pos-neg)/total * 50
                     vibe_index = int(50 + ((pos - neg) / total) * 50)
                     vibe_index = max(0, min(100, vibe_index))
         except Exception as e:
@@ -644,7 +692,7 @@ class NetworkMonitor:
         metrics = {
             "generated_at": int(now),
             "vibe_index": vibe_index,
-            "top_nodes": top_5_trends + final_trends[5:20],
+            "top_nodes": top_15_trends,
             "active_incidents": incidents
         }
         
