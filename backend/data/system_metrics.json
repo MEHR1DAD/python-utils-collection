@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771603562,
-  "vibe_index": 54,
+  "generated_at": 1771604506,
+  "vibe_index": 46,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -31,21 +31,7 @@
       "sentiment": "positive"
     },
     {
-      "text": "تهران",
-      "count": 24,
-      "score": 24,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "سلاح هسته",
-      "count": 21,
-      "score": 21,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "نظامی",
       "count": 21,
       "score": 21,
       "is_new": true,
@@ -64,6 +50,13 @@
       "score": 18,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "اقدام نظامی",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
       "text": "علی خامنه",
@@ -85,6 +78,27 @@
       "score": 18,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کشته",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "حمله نظامی",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
