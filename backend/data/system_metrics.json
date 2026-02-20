@@ -1,39 +1,18 @@
 {
-  "generated_at": 1771599928,
-  "vibe_index": 95,
+  "generated_at": 1771602528,
+  "vibe_index": 59,
   "top_nodes": [
     {
-      "text": "جمهوری اسلامی",
-      "count": 102,
-      "score": 102,
+      "text": "جمهوری",
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "positive"
     },
     {
-      "text": "ایالات متحده",
-      "count": 48,
-      "score": 48,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "ایران",
-      "count": 48,
-      "score": 48,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "آمریکا",
-      "count": 37,
-      "score": 37,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "دونالد ترامپ",
-      "count": 36,
-      "score": 36,
+      "text": "اسلامی",
+      "count": 35,
+      "score": 35,
       "is_new": true,
       "sentiment": "positive"
     },
@@ -42,35 +21,63 @@
       "count": 29,
       "score": 29,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
       "count": 26,
       "score": 26,
       "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "خواهد",
-      "count": 22,
-      "score": 22,
-      "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "سلاح هسته",
       "count": 21,
       "score": 21,
       "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "تهران",
+      "count": 19,
+      "score": 19,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جمهور ایالات",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
       "sentiment": "positive"
     },
     {
-      "text": "کشته شدگان",
-      "count": 21,
-      "score": 21,
+      "text": "اقدام نظامی",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "علی خامنه",
+      "count": 18,
+      "score": 18,
       "is_new": true,
       "sentiment": "positive"
+    },
+    {
+      "text": "بهشت زهرا",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پنجشنبه",
+      "count": 17,
+      "score": 17,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
