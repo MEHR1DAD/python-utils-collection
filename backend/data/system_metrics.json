@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771617030,
+  "generated_at": 1771618501,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -28,7 +28,7 @@
       "count": 20,
       "score": 20,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "حمله",
@@ -42,7 +42,14 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
+    },
+    {
+      "text": "کشته",
+      "count": 8,
+      "score": 16,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
       "text": "سازمان ملل",
@@ -59,16 +66,9 @@
       "sentiment": "positive"
     },
     {
-      "text": "کشته",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     }
