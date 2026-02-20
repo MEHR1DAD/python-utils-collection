@@ -1,6 +1,70 @@
 {
-  "generated_at": 1771590349,
-  "vibe_index": 50,
-  "top_nodes": [],
+  "generated_at": 1771594588,
+  "vibe_index": 55,
+  "top_nodes": [
+    {
+      "text": "تومان",
+      "count": 276,
+      "score": 276,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "آبشده نقدی",
+      "count": 183,
+      "score": 183,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "طلا گرمی",
+      "count": 180,
+      "score": 180,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نقدی خرید",
+      "count": 90,
+      "score": 90,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خرید طلا",
+      "count": 90,
+      "score": 90,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
+      "text": "نقدی فروش",
+      "count": 90,
+      "score": 90,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فروش طلا",
+      "count": 90,
+      "score": 90,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سکه",
+      "count": 78,
+      "score": 78,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تتر",
+      "count": 70,
+      "score": 70,
+      "is_new": true,
+      "sentiment": "neutral"
+    }
+  ],
   "active_incidents": []
 }
