@@ -1,83 +1,90 @@
 {
-  "generated_at": 1771602749,
-  "vibe_index": 100,
+  "generated_at": 1771603562,
+  "vibe_index": 54,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 43,
-      "score": 43,
+      "count": 52,
+      "score": 52,
       "is_new": true,
       "sentiment": "positive"
     },
     {
       "text": "اسلامی",
-      "count": 35,
-      "score": 35,
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "توافق",
+      "count": 32,
+      "score": 32,
       "is_new": true,
       "sentiment": "positive"
     },
     {
-      "text": "توافق",
+      "text": "مذاکرات",
       "count": 29,
       "score": 29,
       "is_new": true,
       "sentiment": "positive"
     },
     {
-      "text": "مذاکرات",
-      "count": 26,
-      "score": 26,
+      "text": "تهران",
+      "count": 24,
+      "score": 24,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "سلاح هسته",
       "count": 21,
       "score": 21,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
-      "text": "تهران",
-      "count": 19,
-      "score": 19,
+      "text": "نظامی",
+      "count": 21,
+      "score": 21,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
+    },
+    {
+      "text": "عباس عراقچی",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "جمهور ایالات",
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "اقدام نظامی",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "علی خامنه",
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "بهشت زهرا",
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "text": "پنجشنبه",
-      "count": 17,
-      "score": 17,
+      "text": "دونالد",
+      "count": 18,
+      "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
