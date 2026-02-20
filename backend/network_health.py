@@ -603,7 +603,10 @@ class NetworkMonitor:
         # --- Extract Dynamic Trends (Unigrams/Bigrams) ---
         dynamic_candidates = {}
         if all_messages:
-            recent_msgs = all_messages[-150:] # Process last 150
+            vahid_sources = ['VahidOnline', 'VahidOOnLine', 'VahidHeadline']
+            vahid_msgs = [m for m in all_messages if m.get('node') in vahid_sources]
+            recent_msgs = vahid_msgs[-150:] if vahid_msgs else []
+            
             stop_words = set([
                 'در', 'به', 'از', 'که', 'می', 'این', 'است', 'را', 'با', 'های', 'برای', 'آن', 'یک', 'شود', 'شده', 'خود', 'ها', 'کرد', 'شد', 'ای', 'تا', 'کند', 'بر', 'بود', 'گفت', 'نیز', 'وی', 'هم', 'و', 'یا', 'همچنین', 'دو', 'سه', 'اول', 'دوم', 'کرده', 'اند', 'دارند', 'بودند', 'می‌شود', 'می‌کند', 'است', 'هست', 'نیست', 'دارد', 'سال', 'ماه', 'روز', 'ساعت',
                 'اعلام', 'گزارش', 'خبر', 'اخبار', 'ویدیو', 'عکس', 'تصویر', 'لینک', 'کانال', 'عضویت', 'مشاهده', 'ادامه', 'مطلب', 'تبلیغات', 'پست', 'جدید', 'قدیم', 'اخیر', 'مهم', 'اصلی', 'سایر', 'بقیه', 'دیگران', 'لطفا',
