@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771578545,
+  "generated_at": 1771581407,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -8,6 +8,20 @@
       "score": 8,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "اسرائیل",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "حمله نظامی",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
