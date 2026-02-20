@@ -22,12 +22,13 @@ def analyze_sentiment_batch(texts):
     # Cloudflare AI runs best with single prompts or small batches.
     # We will combine them into a single prompt to request a strict JSON object.
     
-    prompt = "You are a financial and political news sentiment analyst. Evaluate the market sentiment (Vibe) of the following Persian keywords.\n"
-    prompt += "Definitions:\n"
+    prompt = "You are a Persian Named Entity Recognition (NER) and Sentiment Analysis system. Evaluate the following Persian keywords.\n"
+    prompt += "Definitions for Classification:\n"
     prompt += "- 'negative': Words related to war, death, tension, conflict, crisis, fear, or economic crash.\n"
     prompt += "- 'positive': Words related to peace, agreements, hope, economic growth, or stability.\n"
-    prompt += "- 'neutral': Proper nouns, generic terms, or anything ambiguous.\n\n"
-    prompt += "You MUST respond with ONLY a valid JSON object where the keys are the exact keywords and the values are exactly one of: 'positive', 'negative', or 'neutral'. Do not include any other text.\n\n"
+    prompt += "- 'neutral': Specific Proper Nouns (Names, Countries, Cities) or Specific Events that are neither purely good nor bad.\n"
+    prompt += "- 'noise': Generic nouns, adjectives, prepositions, days of the week, times, numbers, or meaningless isolated words (e.g. 'دیگر', 'پنجشنبه', 'جوان ساله', 'گزارش', 'مورد').\n\n"
+    prompt += "You MUST respond with ONLY a valid JSON object where the keys are the exact keywords and the values are exactly one of: 'positive', 'negative', 'neutral', or 'noise'. Do not include any other text.\n\n"
     prompt += "Keywords to analyze:\n"
     
     for t in texts:
@@ -75,6 +76,7 @@ def analyze_sentiment_batch(texts):
                     sentiment = str(val).strip().lower()
                     if 'positive' in sentiment: final_val = 'positive'
                     elif 'negative' in sentiment: final_val = 'negative'
+                    elif 'noise' in sentiment: final_val = 'noise'
                     else: final_val = 'neutral'
                     
                     # Match the key back to the original text (allowing for quotes etc)

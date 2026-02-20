@@ -731,19 +731,27 @@ class NetworkMonitor:
             # Merge sentiments back
             final_sentiments = {**pre_classified_sentiments, **ai_sentiments}
             
+            # 3. Filter Noise and Build Final Array
+            filtered_trends = []
             for t in top_15_trends:
-                t['sentiment'] = final_sentiments.get(t['text'], 'neutral')
-
-            # 3. Calculate Global Vibe Index (Base Score)
+                sentiment = final_sentiments.get(t['text'], 'neutral')
+                if sentiment != 'noise':
+                    t['sentiment'] = sentiment
+                    filtered_trends.append(t)
+            
+            # 4. Calculate Global Vibe Index (Base Score) using filtered
             pos = list(final_sentiments.values()).count('positive')
             neg = list(final_sentiments.values()).count('negative')
-            total = len(final_sentiments)
+            total = len([s for s in final_sentiments.values() if s != 'noise'])
             
             if total > 0:
                 # Base is 50. Difference determines swing.
                 vibe_index = int(50 + ((pos - neg) / total) * 50)
             
-            # 4. Apply Active Alert Penalty
+            # Replace top_15_trends with the filtered version
+            top_15_trends = filtered_trends
+            
+            # 5. Apply Active Alert Penalty
             # If there are active, high-intensity spikes happening RIGHT NOW, the market is in fear (lower vibe).
             if current_alerts:
                 # Fixed penalty: -5 points per intense alert, up to -40 points max deduction to ensure it plummets
