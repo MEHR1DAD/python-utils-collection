@@ -678,21 +678,54 @@ class NetworkMonitor:
         try:
             from ai_service import analyze_sentiment_batch
             
-            # 1. Analyze Top Trends Sentiment
-            trend_texts = [t['text'] for t in top_15_trends]
-            if trend_texts:
-                sentiments = analyze_sentiment_batch(trend_texts)
-                for t in top_15_trends:
-                    t['sentiment'] = sentiments.get(t['text'], 'neutral')
-
-                # 2. Calculate Global Vibe Index (from top trend sentiments, NOT 40 full articles)
-                pos = list(sentiments.values()).count('positive')
-                neg = list(sentiments.values()).count('negative')
-                total = len(sentiments)
+            # Load known negative incident patterns
+            baselines = self.load_baselines()
+            incident_patterns = baselines.get('patterns', {}).get('incidents', [])
+            
+            # 1. Pre-filter Trends using Historical Alert Patterns
+            ai_texts_to_analyze = []
+            pre_classified_sentiments = {}
+            
+            for t in top_15_trends:
+                text = t['text']
+                is_incident = any(p in text or text in p for p in incident_patterns)
                 
-                if total > 0:
-                    vibe_index = int(50 + ((pos - neg) / total) * 50)
-                    vibe_index = max(0, min(100, vibe_index))
+                if is_incident:
+                    # Manually override as negative
+                    pre_classified_sentiments[text] = 'negative'
+                else:
+                    ai_texts_to_analyze.append(text)
+            
+            # 2. Analyze Remaining Trends Sentiment via AI
+            ai_sentiments = {}
+            if ai_texts_to_analyze:
+                ai_sentiments = analyze_sentiment_batch(ai_texts_to_analyze)
+                
+            # Merge sentiments back
+            final_sentiments = {**pre_classified_sentiments, **ai_sentiments}
+            
+            for t in top_15_trends:
+                t['sentiment'] = final_sentiments.get(t['text'], 'neutral')
+
+            # 3. Calculate Global Vibe Index (Base Score)
+            pos = list(final_sentiments.values()).count('positive')
+            neg = list(final_sentiments.values()).count('negative')
+            total = len(final_sentiments)
+            
+            if total > 0:
+                # Base is 50. Difference determines swing.
+                vibe_index = int(50 + ((pos - neg) / total) * 50)
+            
+            # 4. Apply Active Alert Penalty
+            # If there are active, high-intensity spikes happening RIGHT NOW, the market is in fear (lower vibe).
+            if current_alerts:
+                # Fixed penalty: -5 points per intense alert, up to -40 points max deduction to ensure it plummets
+                penalty = min(len(current_alerts) * 5, 40)
+                vibe_index -= penalty
+                
+            # Ensure boundaries
+            vibe_index = max(0, min(100, vibe_index))
+            
         except Exception as e:
             print(f"Index Calculation Failed: {e}")
         
