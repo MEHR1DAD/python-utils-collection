@@ -1,13 +1,29 @@
 {
-  "generated_at": 1771604610,
-  "vibe_index": 50,
+  "generated_at": 1771604880,
+  "vibe_index": 31,
   "top_nodes": [
+    {
+      "text": "کشته در تهران",
+      "count": 7,
+      "score": 503,
+      "is_new": true,
+      "is_alert": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "حمله نظامی",
+      "count": 7,
+      "score": 503,
+      "is_new": true,
+      "is_alert": true,
+      "sentiment": "negative"
+    },
     {
       "text": "جمهوری",
       "count": 52,
       "score": 52,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
@@ -28,27 +44,6 @@
       "count": 29,
       "score": 29,
       "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "سلاح هسته",
-      "count": 21,
-      "score": 21,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "عباس عراقچی",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جمهور ایالات",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
       "sentiment": "neutral"
     },
     {
@@ -59,20 +54,6 @@
       "sentiment": "negative"
     },
     {
-      "text": "علی خامنه",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "بهشت زهرا",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
       "text": "دونالد",
       "count": 18,
       "score": 18,
@@ -80,26 +61,46 @@
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
-      "count": 3,
-      "score": 6,
+      "text": "هسته",
+      "count": 18,
+      "score": 18,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "کشته",
-      "count": 3,
-      "score": 6,
+      "text": "بهمن",
+      "count": 17,
+      "score": 17,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "text": "حمله نظامی",
-      "count": 3,
-      "score": 6,
+      "text": "ایالات",
+      "count": 17,
+      "score": 17,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
+      "count": 17,
+      "score": 17,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "کشته در تهران",
+      "intensity": 3,
+      "time": 1771604880
+    },
+    {
+      "type": "spike",
+      "pattern": "حمله نظامی",
+      "intensity": 3,
+      "time": 1771604880
+    }
+  ]
 }
