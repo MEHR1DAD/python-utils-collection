@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771666738,
+  "generated_at": 1771667805,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -13,6 +13,13 @@
       "text": "اسلامی",
       "count": 36,
       "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 12,
+      "score": 24,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -35,6 +42,13 @@
       "count": 21,
       "score": 21,
       "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کشته",
+      "count": 9,
+      "score": 18,
+      "is_new": true,
       "sentiment": "negative"
     },
     {
@@ -48,13 +62,6 @@
       "text": "مذاکرات",
       "count": 18,
       "score": 18,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "تهران",
-      "count": 8,
-      "score": 16,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -71,13 +78,6 @@
       "score": 15,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "کشته",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
     }
   ],
   "active_incidents": []
