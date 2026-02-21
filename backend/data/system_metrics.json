@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771685987,
-  "vibe_index": 55,
+  "generated_at": 1771687893,
+  "vibe_index": 45,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -38,6 +38,13 @@
       "sentiment": "positive"
     },
     {
+      "text": "نظامی",
+      "count": 21,
+      "score": 21,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "کشته",
       "count": 9,
       "score": 18,
@@ -56,7 +63,7 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "امور خارجه",
