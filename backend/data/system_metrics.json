@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771700191,
-  "vibe_index": 41,
+  "generated_at": 1771702205,
+  "vibe_index": 45,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -24,16 +24,9 @@
       "sentiment": "positive"
     },
     {
-      "text": "نظامی",
-      "count": 20,
-      "score": 20,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "توافق",
-      "count": 20,
-      "score": 20,
+      "count": 19,
+      "score": 19,
       "is_new": true,
       "sentiment": "positive"
     },
@@ -45,7 +38,7 @@
       "sentiment": "neutral"
     },
     {
-      "text": "حمله",
+      "text": "نظامی",
       "count": 18,
       "score": 18,
       "is_new": true,
@@ -59,7 +52,7 @@
       "sentiment": "neutral"
     },
     {
-      "text": "شبکه اجتماعی",
+      "text": "حال بررسی",
       "count": 15,
       "score": 15,
       "is_new": true,
