@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771659454,
-  "vibe_index": 46,
+  "generated_at": 1771660628,
+  "vibe_index": 45,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -38,6 +38,13 @@
       "sentiment": "negative"
     },
     {
+      "text": "کشته",
+      "count": 9,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "حمله",
       "count": 18,
       "score": 18,
@@ -50,13 +57,6 @@
       "score": 18,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "دونالد",
-      "count": 17,
-      "score": 17,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "امور خارجه",
@@ -73,23 +73,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "کشته",
+      "text": "تهران",
       "count": 6,
       "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "تهران",
-      "count": 4,
-      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "ترور",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
