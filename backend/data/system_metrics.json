@@ -1,18 +1,18 @@
 {
-  "generated_at": 1771716781,
+  "generated_at": 1771717812,
   "vibe_index": 45,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 38,
-      "score": 38,
+      "count": 37,
+      "score": 37,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 27,
-      "score": 27,
+      "count": 26,
+      "score": 26,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -55,20 +55,6 @@
       "text": "قرار",
       "count": 18,
       "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نقل مقام",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "حال بررسی",
-      "count": 15,
-      "score": 15,
       "is_new": true,
       "sentiment": "neutral"
     },
