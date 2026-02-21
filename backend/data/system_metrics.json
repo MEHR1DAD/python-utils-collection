@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771708210,
-  "vibe_index": 45,
+  "generated_at": 1771709755,
+  "vibe_index": 54,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -49,14 +49,14 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "قرار",
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "نقل مقام",
