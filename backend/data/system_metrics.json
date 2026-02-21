@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771663135,
+  "generated_at": 1771664505,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -52,6 +52,13 @@
       "sentiment": "positive"
     },
     {
+      "text": "دونالد",
+      "count": 17,
+      "score": 17,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "امور خارجه",
       "count": 15,
       "score": 15,
@@ -66,18 +73,18 @@
       "sentiment": "neutral"
     },
     {
+      "text": "تهران",
+      "count": 7,
+      "score": 14,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "کشته",
       "count": 6,
       "score": 12,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "تهران",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
