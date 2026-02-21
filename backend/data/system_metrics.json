@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771687893,
+  "generated_at": 1771689030,
   "vibe_index": 45,
   "top_nodes": [
     {
@@ -50,6 +50,13 @@
       "score": 18,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "بسیار",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "حمله",
