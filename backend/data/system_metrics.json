@@ -1,21 +1,13 @@
 {
-  "generated_at": 1771652036,
-  "vibe_index": 37,
+  "generated_at": 1771653928,
+  "vibe_index": 50,
   "top_nodes": [
-    {
-      "text": "کشته در ایران",
-      "count": 8,
-      "score": 504,
-      "is_new": true,
-      "is_alert": true,
-      "sentiment": "negative"
-    },
     {
       "text": "جمهوری",
       "count": 45,
       "score": 45,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "اسلامی",
@@ -46,6 +38,13 @@
       "sentiment": "negative"
     },
     {
+      "text": "کشته",
+      "count": 9,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "حمله",
       "count": 18,
       "score": 18,
@@ -57,7 +56,7 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "دونالد",
@@ -82,25 +81,18 @@
     },
     {
       "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "ترور",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "کشته در ایران",
-      "intensity": 4,
-      "time": 1771652036
-    }
-  ]
+  "active_incidents": []
 }
