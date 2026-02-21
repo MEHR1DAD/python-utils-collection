@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771692027,
+  "generated_at": 1771693253,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -64,6 +64,13 @@
       "score": 18,
       "is_new": true,
       "sentiment": "positive"
+    },
+    {
+      "text": "دونالد",
+      "count": 17,
+      "score": 17,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "امور خارجه",
