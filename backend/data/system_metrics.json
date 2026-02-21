@@ -1,18 +1,18 @@
 {
-  "generated_at": 1771693253,
-  "vibe_index": 50,
+  "generated_at": 1771695141,
+  "vibe_index": 45,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 45,
-      "score": 45,
+      "count": 37,
+      "score": 37,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 36,
-      "score": 36,
+      "count": 28,
+      "score": 28,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -32,15 +32,22 @@
     },
     {
       "text": "توافق",
-      "count": 22,
-      "score": 22,
+      "count": 21,
+      "score": 21,
       "is_new": true,
       "sentiment": "positive"
     },
     {
       "text": "نظامی",
-      "count": 21,
-      "score": 21,
+      "count": 20,
+      "score": 20,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "حمله",
+      "count": 19,
+      "score": 19,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -52,35 +59,21 @@
       "sentiment": "negative"
     },
     {
-      "text": "حمله",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "مذاکرات",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "دونالد",
-      "count": 17,
-      "score": 17,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "امور خارجه",
-      "count": 15,
-      "score": 15,
+      "count": 18,
+      "score": 18,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "سازمان ملل",
+      "text": "قرار",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نقل مقام",
       "count": 15,
       "score": 15,
       "is_new": true,
