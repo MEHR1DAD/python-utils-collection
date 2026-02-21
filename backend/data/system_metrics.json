@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771696393,
-  "vibe_index": 42,
+  "generated_at": 1771697809,
+  "vibe_index": 37,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -21,12 +21,12 @@
       "count": 24,
       "score": 24,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 11,
-      "score": 22,
+      "count": 10,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -43,13 +43,6 @@
       "score": 20,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "دیه گارسیا",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "امور خارجه",
@@ -73,13 +66,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "کشته",
-      "count": 8,
-      "score": 16,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "شبکه اجتماعی",
       "count": 15,
       "score": 15,
@@ -87,9 +73,16 @@
       "sentiment": "neutral"
     },
     {
+      "text": "کشته",
+      "count": 7,
+      "score": 14,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "ترور",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
