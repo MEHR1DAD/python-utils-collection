@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771673315,
-  "vibe_index": 50,
+  "generated_at": 1771674409,
+  "vibe_index": 45,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -63,7 +63,7 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "امور خارجه",
