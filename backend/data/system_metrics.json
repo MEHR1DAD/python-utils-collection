@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771703911,
+  "generated_at": 1771705971,
   "vibe_index": 45,
   "top_nodes": [
     {
@@ -55,20 +55,6 @@
       "text": "قرار",
       "count": 18,
       "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نقل مقام",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "حال بررسی",
-      "count": 15,
-      "score": 15,
       "is_new": true,
       "sentiment": "neutral"
     },
