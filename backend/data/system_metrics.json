@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771667805,
+  "generated_at": 1771670001,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -42,7 +42,7 @@
       "count": 21,
       "score": 21,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "کشته",
@@ -63,7 +63,7 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "امور خارجه",
