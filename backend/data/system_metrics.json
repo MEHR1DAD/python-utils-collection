@@ -1,20 +1,35 @@
 {
-  "generated_at": 1771651388,
-  "vibe_index": 50,
+  "generated_at": 1771652036,
+  "vibe_index": 37,
   "top_nodes": [
     {
+      "text": "کشته در ایران",
+      "count": 8,
+      "score": 504,
+      "is_new": true,
+      "is_alert": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "جمهوری",
-      "count": 42,
-      "score": 42,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 34,
-      "score": 34,
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "غنی سازی",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "positive"
     },
     {
       "text": "توافق",
@@ -25,10 +40,10 @@
     },
     {
       "text": "نظامی",
-      "count": 20,
-      "score": 20,
+      "count": 21,
+      "score": 21,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "حمله",
@@ -42,7 +57,21 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دونالد",
+      "count": 17,
+      "score": 17,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "امور خارجه",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "سازمان ملل",
@@ -52,26 +81,26 @@
       "sentiment": "neutral"
     },
     {
-      "text": "غنی سازی",
-      "count": 15,
-      "score": 15,
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "کشته",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "تهران",
+      "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "کشته در ایران",
+      "intensity": 4,
+      "time": 1771652036
+    }
+  ]
 }
