@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771713935,
-  "vibe_index": 45,
+  "generated_at": 1771714904,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -43,13 +43,6 @@
       "score": 18,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "نظامی",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "negative"
     },
     {
       "text": "قرار",
