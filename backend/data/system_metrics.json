@@ -1,13 +1,20 @@
 {
-  "generated_at": 1771712125,
-  "vibe_index": 50,
+  "generated_at": 1771713935,
+  "vibe_index": 45,
   "top_nodes": [
     {
       "text": "جمهوری",
       "count": 38,
       "score": 38,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 27,
+      "score": 27,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "غنی سازی",
