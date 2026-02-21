@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771636418,
-  "vibe_index": 45,
+  "generated_at": 1771644731,
+  "vibe_index": 55,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -28,7 +28,7 @@
       "count": 20,
       "score": 20,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "حمله",
@@ -56,7 +56,7 @@
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "کشته",
