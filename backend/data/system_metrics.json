@@ -1,7 +1,15 @@
 {
-  "generated_at": 1771674409,
-  "vibe_index": 45,
+  "generated_at": 1771675162,
+  "vibe_index": 40,
   "top_nodes": [
+    {
+      "text": "کشته در ایران",
+      "count": 10,
+      "score": 504,
+      "is_new": true,
+      "is_alert": true,
+      "sentiment": "negative"
+    },
     {
       "text": "جمهوری",
       "count": 45,
@@ -45,13 +53,6 @@
       "sentiment": "negative"
     },
     {
-      "text": "کشته",
-      "count": 9,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "حمله",
       "count": 18,
       "score": 18,
@@ -80,5 +81,12 @@
       "sentiment": "neutral"
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "کشته در ایران",
+      "intensity": 4,
+      "time": 1771675162
+    }
+  ]
 }
