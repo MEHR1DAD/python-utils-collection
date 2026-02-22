@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771771567,
-  "vibe_index": 41,
+  "generated_at": 1771772570,
+  "vibe_index": 40,
   "top_nodes": [
     {
       "text": "غنی سازی",
@@ -55,13 +55,6 @@
       "text": "قرار",
       "count": 18,
       "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "داشته",
-      "count": 16,
-      "score": 16,
       "is_new": true,
       "sentiment": "neutral"
     },
