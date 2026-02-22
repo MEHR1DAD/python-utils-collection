@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771746707,
+  "generated_at": 1771748163,
   "vibe_index": 45,
   "top_nodes": [
     {
@@ -22,13 +22,6 @@
       "score": 24,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "تهران",
-      "count": 20,
-      "score": 20,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "توافق",
@@ -56,28 +49,42 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "text": "نقل مقام",
-      "count": 15,
-      "score": 15,
+      "text": "نمی",
+      "count": 16,
+      "score": 16,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "بسیار",
+      "count": 16,
+      "score": 16,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "ترور",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "تهران",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
