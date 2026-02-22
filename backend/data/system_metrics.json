@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771797619,
-  "vibe_index": 53,
+  "generated_at": 1771799527,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "غنی سازی",
@@ -24,14 +24,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اسلامی",
-      "count": 24,
-      "score": 24,
+      "text": "هدف قرار",
+      "count": 18,
+      "score": 18,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
-      "text": "هدف قرار",
+      "text": "استیو ویتکاف",
       "count": 18,
       "score": 18,
       "is_new": true,
@@ -77,10 +77,17 @@
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "text": "حال بررسی",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دونالد",
       "count": 15,
       "score": 15,
       "is_new": true,
