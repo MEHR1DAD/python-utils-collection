@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771717812,
+  "generated_at": 1771718394,
   "vibe_index": 45,
   "top_nodes": [
     {
@@ -17,6 +17,13 @@
       "sentiment": "neutral"
     },
     {
+      "text": "تهران",
+      "count": 12,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "غنی سازی",
       "count": 24,
       "score": 24,
@@ -29,13 +36,6 @@
       "score": 19,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "تهران",
-      "count": 9,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "امور خارجه",
@@ -60,15 +60,29 @@
     },
     {
       "text": "کشته",
-      "count": 6,
-      "score": 12,
+      "count": 8,
+      "score": 16,
       "is_new": true,
       "sentiment": "negative"
     },
     {
+      "text": "نقل مقام",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حال بررسی",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "ترور",
-      "count": 3,
-      "score": 6,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     }
