@@ -1,18 +1,25 @@
 {
-  "generated_at": 1771799527,
-  "vibe_index": 50,
+  "generated_at": 1771800862,
+  "vibe_index": 45,
   "top_nodes": [
     {
       "text": "غنی سازی",
-      "count": 39,
-      "score": 39,
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "positive"
     },
     {
       "text": "جمهوری",
-      "count": 29,
-      "score": 29,
+      "count": 38,
+      "score": 38,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 32,
+      "score": 32,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,6 +31,13 @@
       "sentiment": "neutral"
     },
     {
+      "text": "حال بررسی",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "هدف قرار",
       "count": 18,
       "score": 18,
@@ -31,18 +45,18 @@
       "sentiment": "positive"
     },
     {
-      "text": "استیو ویتکاف",
-      "count": 18,
-      "score": 18,
+      "text": "نظامی",
+      "count": 17,
+      "score": 17,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "آمریکایی",
-      "count": 16,
-      "score": 16,
+      "text": "دهد",
+      "count": 17,
+      "score": 17,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "نقل مقام",
@@ -59,44 +73,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "دانشگاه صنعتی",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صنعتی شریف",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سازی صفر",
-      "count": 15,
-      "score": 15,
+      "text": "کشته",
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "حال بررسی",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دونالد",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کشته",
-      "count": 6,
-      "score": 12,
+      "text": "ترور",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
