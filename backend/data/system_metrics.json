@@ -1,18 +1,11 @@
 {
-  "generated_at": 1771759651,
+  "generated_at": 1771760796,
   "vibe_index": 45,
   "top_nodes": [
     {
       "text": "جمهوری",
       "count": 40,
       "score": 40,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 28,
-      "score": 28,
       "is_new": true,
       "sentiment": "neutral"
     },
