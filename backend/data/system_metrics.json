@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771803866,
+  "generated_at": 1771804751,
   "vibe_index": 45,
   "top_nodes": [
     {
@@ -50,13 +50,6 @@
       "score": 17,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "آمریکایی",
-      "count": 17,
-      "score": 17,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "نقل مقام",
