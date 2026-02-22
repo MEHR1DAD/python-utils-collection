@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771748163,
-  "vibe_index": 45,
+  "generated_at": 1771750279,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -21,14 +21,21 @@
       "count": 24,
       "score": 24,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دونالد",
+      "count": 19,
+      "score": 19,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "توافق",
       "count": 19,
       "score": 19,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "امور خارجه",
@@ -42,7 +49,7 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "قرار",
@@ -66,23 +73,30 @@
       "sentiment": "neutral"
     },
     {
+      "text": "نقل مقام",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "کشته",
       "count": 6,
       "score": 12,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 5,
+      "score": 10,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "ترور",
       "count": 3,
       "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "تهران",
-      "count": 2,
-      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
