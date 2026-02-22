@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771744920,
+  "generated_at": 1771746707,
   "vibe_index": 45,
   "top_nodes": [
     {
@@ -24,9 +24,9 @@
       "sentiment": "positive"
     },
     {
-      "text": "دونالد",
-      "count": 19,
-      "score": 19,
+      "text": "تهران",
+      "count": 20,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -56,14 +56,14 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "نقل مقام",
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "کشته",
@@ -71,13 +71,6 @@
       "score": 8,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "تهران",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "ترور",
