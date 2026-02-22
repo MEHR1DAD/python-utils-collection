@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771734718,
+  "generated_at": 1771739199,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -48,13 +48,6 @@
       "text": "قرار",
       "count": 18,
       "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دونالد",
-      "count": 17,
-      "score": 17,
       "is_new": true,
       "sentiment": "neutral"
     },
