@@ -1,18 +1,18 @@
 {
-  "generated_at": 1771741634,
+  "generated_at": 1771744920,
   "vibe_index": 45,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 37,
-      "score": 37,
+      "count": 40,
+      "score": 40,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 26,
-      "score": 26,
+      "count": 28,
+      "score": 28,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -22,6 +22,13 @@
       "score": 24,
       "is_new": true,
       "sentiment": "positive"
+    },
+    {
+      "text": "دونالد",
+      "count": 19,
+      "score": 19,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "توافق",
@@ -59,18 +66,18 @@
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "کشته",
       "count": 4,
       "score": 8,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "تهران",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "ترور",
