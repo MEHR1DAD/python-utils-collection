@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771774528,
-  "vibe_index": 45,
+  "generated_at": 1771775760,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "غنی سازی",
@@ -11,15 +11,8 @@
     },
     {
       "text": "جمهوری",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 28,
-      "score": 28,
+      "count": 29,
+      "score": 29,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -31,37 +24,37 @@
       "sentiment": "neutral"
     },
     {
-      "text": "توافق",
-      "count": 19,
-      "score": 19,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "امور خارجه",
-      "count": 18,
-      "score": 18,
+      "text": "اسلامی",
+      "count": 24,
+      "score": 24,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "نظامی",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "قرار",
+      "text": "هدف قرار",
       "count": 18,
       "score": 18,
       "is_new": true,
       "sentiment": "positive"
     },
     {
-      "text": "داشته",
-      "count": 16,
-      "score": 16,
+      "text": "مقام ارشد",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دانشگاه صنعتی",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صنعتی شریف",
+      "count": 15,
+      "score": 15,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -70,7 +63,14 @@
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حال بررسی",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "کشته",
