@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771790359,
-  "vibe_index": 54,
+  "generated_at": 1771792481,
+  "vibe_index": 46,
   "top_nodes": [
     {
       "text": "غنی سازی",
@@ -35,7 +35,14 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "آمریکایی",
+      "count": 16,
+      "score": 16,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "نقل مقام",
@@ -70,7 +77,14 @@
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حال بررسی",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "کشته",
