@@ -1,11 +1,18 @@
 {
-  "generated_at": 1771769648,
-  "vibe_index": 45,
+  "generated_at": 1771771567,
+  "vibe_index": 41,
   "top_nodes": [
     {
+      "text": "غنی سازی",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
       "text": "جمهوری",
-      "count": 40,
-      "score": 40,
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -17,11 +24,11 @@
       "sentiment": "neutral"
     },
     {
-      "text": "غنی سازی",
-      "count": 24,
+      "text": "تهران",
+      "count": 12,
       "score": 24,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "توافق",
@@ -52,30 +59,30 @@
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
-      "count": 8,
+      "text": "داشته",
+      "count": 16,
       "score": 16,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "نقل مقام",
+      "text": "سازی صفر",
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "ترور",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
