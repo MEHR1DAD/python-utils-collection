@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771789682,
-  "vibe_index": 46,
+  "generated_at": 1771790359,
+  "vibe_index": 54,
   "top_nodes": [
     {
       "text": "غنی سازی",
@@ -70,14 +70,7 @@
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "حال بررسی",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "کشته",
