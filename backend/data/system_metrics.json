@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771779681,
-  "vibe_index": 46,
+  "generated_at": 1771781634,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "غنی سازی",
@@ -11,14 +11,21 @@
     },
     {
       "text": "جمهوری",
-      "count": 29,
-      "score": 29,
+      "count": 30,
+      "score": 30,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 24,
+      "count": 25,
+      "score": 25,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 12,
       "score": 24,
       "is_new": true,
       "sentiment": "neutral"
@@ -28,14 +35,7 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 8,
-      "score": 16,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "آمریکایی",
@@ -73,13 +73,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "سازی صفر",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "حال بررسی",
       "count": 15,
       "score": 15,
@@ -88,15 +81,15 @@
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "ترور",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
