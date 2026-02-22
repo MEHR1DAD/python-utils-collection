@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771781634,
-  "vibe_index": 50,
+  "generated_at": 1771782843,
+  "vibe_index": 54,
   "top_nodes": [
     {
       "text": "غنی سازی",
@@ -38,13 +38,6 @@
       "sentiment": "positive"
     },
     {
-      "text": "آمریکایی",
-      "count": 16,
-      "score": 16,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "نقل مقام",
       "count": 15,
       "score": 15,
@@ -73,11 +66,11 @@
       "sentiment": "neutral"
     },
     {
-      "text": "حال بررسی",
+      "text": "سازی صفر",
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "کشته",
