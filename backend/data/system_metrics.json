@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771800862,
+  "generated_at": 1771802167,
   "vibe_index": 45,
   "top_nodes": [
     {
@@ -42,7 +42,7 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "نظامی",
@@ -52,11 +52,11 @@
       "sentiment": "neutral"
     },
     {
-      "text": "دهد",
+      "text": "آمریکایی",
       "count": 17,
       "score": 17,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "نقل مقام",
