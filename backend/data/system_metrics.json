@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771848313,
+  "generated_at": 1771853916,
   "vibe_index": 45,
   "top_nodes": [
     {
@@ -38,6 +38,13 @@
       "sentiment": "negative"
     },
     {
+      "text": "دهد",
+      "count": 17,
+      "score": 17,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "آمریکایی",
       "count": 17,
       "score": 17,
@@ -60,20 +67,13 @@
     },
     {
       "text": "تهران",
-      "count": 7,
-      "score": 14,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
