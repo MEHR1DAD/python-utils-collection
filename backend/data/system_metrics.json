@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771841063,
-  "vibe_index": 54,
+  "generated_at": 1771844434,
+  "vibe_index": 45,
   "top_nodes": [
     {
       "text": "غنی سازی",
@@ -42,7 +42,7 @@
       "count": 17,
       "score": 17,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "آمریکایی",
@@ -67,13 +67,20 @@
     },
     {
       "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
