@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771847056,
+  "generated_at": 1771848313,
   "vibe_index": 45,
   "top_nodes": [
     {
@@ -20,13 +20,6 @@
       "text": "اسلامی",
       "count": 32,
       "score": 32,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "حال بررسی",
-      "count": 18,
-      "score": 18,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -67,8 +60,8 @@
     },
     {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "neutral"
     },
