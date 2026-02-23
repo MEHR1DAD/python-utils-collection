@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771853916,
-  "vibe_index": 45,
+  "generated_at": 1771857093,
+  "vibe_index": 40,
   "top_nodes": [
     {
       "text": "غنی سازی",
@@ -28,17 +28,10 @@
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "نظامی",
-      "count": 17,
-      "score": 17,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "دهد",
       "count": 17,
       "score": 17,
       "is_new": true,
@@ -52,13 +45,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "نقل مقام",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "مقام ارشد",
       "count": 15,
       "score": 15,
@@ -67,13 +53,20 @@
     },
     {
       "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
