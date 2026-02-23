@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771826232,
+  "generated_at": 1771830846,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -13,13 +13,6 @@
       "text": "جمهوری",
       "count": 38,
       "score": 38,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 32,
-      "score": 32,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -48,13 +41,6 @@
       "text": "آمریکایی",
       "count": 17,
       "score": 17,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نقل مقام",
-      "count": 15,
-      "score": 15,
       "is_new": true,
       "sentiment": "neutral"
     },
