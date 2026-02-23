@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771804751,
-  "vibe_index": 45,
+  "generated_at": 1771814714,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "غنی سازی",
@@ -20,13 +20,6 @@
       "text": "اسلامی",
       "count": 32,
       "score": 32,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 12,
-      "score": 24,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -52,6 +45,13 @@
       "sentiment": "negative"
     },
     {
+      "text": "آمریکایی",
+      "count": 17,
+      "score": 17,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "نقل مقام",
       "count": 15,
       "score": 15,
@@ -66,16 +66,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "کشته",
-      "count": 6,
-      "score": 12,
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "text": "ترور",
-      "count": 3,
-      "score": 6,
+      "text": "کشته",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
