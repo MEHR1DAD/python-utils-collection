@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771860356,
+  "generated_at": 1771864190,
   "vibe_index": 45,
   "top_nodes": [
     {
@@ -11,15 +11,15 @@
     },
     {
       "text": "جمهوری",
-      "count": 38,
-      "score": 38,
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 32,
-      "score": 32,
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -31,11 +31,11 @@
       "sentiment": "neutral"
     },
     {
-      "text": "هدف قرار",
+      "text": "دهد",
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "text": "نظامی",
@@ -52,35 +52,28 @@
       "sentiment": "neutral"
     },
     {
-      "text": "نقل مقام",
-      "count": 15,
-      "score": 15,
+      "text": "اسفند",
+      "count": 16,
+      "score": 16,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "مقام ارشد",
-      "count": 15,
-      "score": 15,
+      "text": "قرار",
+      "count": 16,
+      "score": 16,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
