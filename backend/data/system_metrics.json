@@ -1,7 +1,14 @@
 {
-  "generated_at": 1771864190,
-  "vibe_index": 45,
+  "generated_at": 1771868387,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "جمهوری",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "غنی سازی",
       "count": 42,
@@ -10,16 +17,30 @@
       "sentiment": "positive"
     },
     {
-      "text": "جمهوری",
-      "count": 42,
-      "score": 42,
+      "text": "اسلامی",
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "اسلامی",
-      "count": 36,
-      "score": 36,
+      "text": "دانشگاه صنعتی",
+      "count": 27,
+      "score": 27,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صنعتی شریف",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسفند",
+      "count": 19,
+      "score": 19,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -29,41 +50,6 @@
       "score": 18,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "دهد",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "نظامی",
-      "count": 17,
-      "score": 17,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "آمریکایی",
-      "count": 17,
-      "score": 17,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسفند",
-      "count": 16,
-      "score": 16,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "قرار",
-      "count": 16,
-      "score": 16,
-      "is_new": true,
-      "sentiment": "positive"
     },
     {
       "text": "تهران",
