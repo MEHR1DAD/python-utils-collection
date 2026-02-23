@@ -1,5 +1,5 @@
 {
-  "generated_at": 1771880865,
+  "generated_at": 1771884022,
   "vibe_index": 40,
   "top_nodes": [
     {
@@ -15,6 +15,13 @@
       "score": 42,
       "is_new": true,
       "sentiment": "positive"
+    },
+    {
+      "text": "اسلامی",
+      "count": 41,
+      "score": 41,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "دانشگاه صنعتی",
