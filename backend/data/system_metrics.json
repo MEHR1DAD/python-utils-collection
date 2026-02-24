@@ -1,9 +1,23 @@
 {
-  "generated_at": 1771941059,
-  "vibe_index": 0,
+  "generated_at": 1771944142,
+  "vibe_index": 33,
   "top_nodes": [
     {
+      "text": "توافق",
+      "count": 19,
+      "score": 19,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
       "text": "کشته",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
