@@ -22,12 +22,13 @@ def analyze_sentiment_batch(texts):
     # Cloudflare AI runs best with single prompts or small batches.
     # We will combine them into a single prompt to request a strict JSON object.
     
-    prompt = "You are a Persian Named Entity Recognition (NER) and Sentiment Analysis system. Evaluate the following Persian keywords.\n"
+    prompt = "You are a very strict Persian Trend Classifier. Your job is to extract situational events and discard everything else.\n"
     prompt += "Definitions for Classification:\n"
-    prompt += "- 'negative': Words related to war, death, tension, conflict, crisis, fear, or economic crash.\n"
-    prompt += "- 'positive': Words related to peace, agreements, hope, economic growth, or stability.\n"
-    prompt += "- 'neutral': Specific Proper Nouns (Names, Countries, Cities) or Specific Events that are neither purely good nor bad.\n"
-    prompt += "- 'noise': Generic nouns, adjectives, prepositions, days of the week, times, numbers, or meaningless isolated words (e.g. 'دیگر', 'پنجشنبه', 'جوان ساله', 'گزارش', 'مورد').\n\n"
+    prompt += "- 'negative': The keyword strictly contains BOTH a negative Incident/Event (e.g. زلزله، حمله، انفجار، تصادف، قتل) AND a Specific Location/Entity (e.g. تهران، آمریکا، کاخ سفید).\n"
+    prompt += "- 'positive': The keyword strictly contains BOTH a positive Event (e.g. توافق، پیروزی، افتتاح) AND a Specific Location/Entity.\n"
+    prompt += "- 'neutral': The keyword strictly contains BOTH a neutral/ambiguous Event AND a Specific Location/Entity.\n"
+    prompt += "- 'noise': EVERYTHING ELSE. If the keyword is ONLY a location/entity (e.g. 'دانشگاه صنعتی', 'صنعتی شریف', 'کاخ سفید'), ONLY a person (e.g. 'استیو ویتکاف'), ONLY an action/verb (e.g. 'غنی سازی', 'دهد'), or generic words, YOU MUST CLASSIFY IT AS 'noise'.\n\n"
+    prompt += "Strict Rule: A keyword MUST represent a specific situational event happening to a subject/place (like 'زلزله تهران', 'حمله موشکی', or 'توافق هسته‌ای'). If it does not combine a clear action/event with a clear subject/context, it is 'noise'.\n\n"
     prompt += "You MUST respond with ONLY a valid JSON object where the keys are the exact keywords and the values are exactly one of: 'positive', 'negative', 'neutral', or 'noise'. Do not include any other text.\n\n"
     prompt += "Keywords to analyze:\n"
     
