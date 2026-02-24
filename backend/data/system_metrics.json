@@ -1,11 +1,32 @@
 {
-  "generated_at": 1771933460,
-  "vibe_index": 40,
+  "generated_at": 1771936187,
+  "vibe_index": 44,
   "top_nodes": [
     {
       "text": "جمهوری",
       "count": 53,
       "score": 53,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نظامی",
+      "count": 26,
+      "score": 26,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسفند",
+      "count": 21,
+      "score": 21,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -29,6 +50,13 @@
       "score": 6,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "اصفهان",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "خمینی‌شهر",
