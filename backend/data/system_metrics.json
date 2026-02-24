@@ -1,21 +1,6 @@
 {
-  "generated_at": 1771973794,
-  "vibe_index": 0,
-  "top_nodes": [
-    {
-      "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "ترور",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    }
-  ],
+  "generated_at": 1771976322,
+  "vibe_index": 50,
+  "top_nodes": [],
   "active_incidents": []
 }
