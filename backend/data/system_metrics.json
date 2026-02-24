@@ -1,20 +1,104 @@
 {
-  "generated_at": 1771970061,
-  "vibe_index": 16,
+  "generated_at": 1771971777,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "جمهوری",
+      "count": 50,
+      "score": 50,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 44,
+      "score": 44,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دانشگاه صنعتی",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صنعتی شریف",
+      "count": 27,
+      "score": 27,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "غنی سازی",
+      "count": 27,
+      "score": 27,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نفر",
+      "count": 25,
+      "score": 25,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نظامی",
+      "count": 25,
+      "score": 25,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شبکه اجتماعی",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "استیو ویتکاف",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسفند",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دانشجویان",
+      "count": 22,
+      "score": 22,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 6,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "کشته",
       "count": 4,
       "score": 8,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "خمینی‌شهر",
