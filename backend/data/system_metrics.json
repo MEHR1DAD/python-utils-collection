@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771890641,
-  "vibe_index": 40,
+  "generated_at": 1771894441,
+  "vibe_index": 44,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -52,28 +52,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "حال بررسی",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "تهران",
-      "count": 8,
-      "score": 16,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
