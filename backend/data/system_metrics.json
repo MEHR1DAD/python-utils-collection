@@ -1,11 +1,18 @@
 {
-  "generated_at": 1771913550,
-  "vibe_index": 40,
+  "generated_at": 1771917361,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 47,
-      "score": 47,
+      "count": 53,
+      "score": 53,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -15,13 +22,6 @@
       "score": 42,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "اسلامی",
-      "count": 41,
-      "score": 41,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "دانشگاه صنعتی",
@@ -46,34 +46,27 @@
     },
     {
       "text": "اسفند",
-      "count": 20,
-      "score": 20,
+      "count": 21,
+      "score": 21,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "حال بررسی",
-      "count": 18,
-      "score": 18,
+      "text": "توافق",
+      "count": 19,
+      "score": 19,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "تهران",
-      "count": 8,
-      "score": 16,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
