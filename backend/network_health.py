@@ -727,6 +727,7 @@ class NetworkMonitor:
             ai_sentiments = {}
             if ai_texts_to_analyze:
                 ai_sentiments = analyze_sentiment_batch(ai_texts_to_analyze)
+                print(f"DEBUG AI Response: {ai_sentiments}")
                 
             # Merge sentiments back
             final_sentiments = {**pre_classified_sentiments, **ai_sentiments}
