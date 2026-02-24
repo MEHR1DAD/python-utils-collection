@@ -1,6 +1,6 @@
 {
-  "generated_at": 1771927240,
-  "vibe_index": 45,
+  "generated_at": 1771930585,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -21,7 +21,7 @@
       "count": 42,
       "score": 42,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "دانشگاه صنعتی",
@@ -35,7 +35,14 @@
       "count": 26,
       "score": 26,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "استیو ویتکاف",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "صنعتی شریف",
@@ -45,16 +52,30 @@
       "sentiment": "neutral"
     },
     {
+      "text": "دهد",
+      "count": 22,
+      "score": 22,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسفند",
+      "count": 21,
+      "score": 21,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "توافق",
       "count": 19,
       "score": 19,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 7,
-      "score": 14,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -63,14 +84,14 @@
       "count": 4,
       "score": 8,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "اصفهان",
