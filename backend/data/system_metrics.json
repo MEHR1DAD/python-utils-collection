@@ -1,7 +1,14 @@
 {
-  "generated_at": 1771933022,
-  "vibe_index": 33,
+  "generated_at": 1771933460,
+  "vibe_index": 40,
   "top_nodes": [
+    {
+      "text": "جمهوری",
+      "count": 53,
+      "score": 53,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "توافق",
       "count": 19,
@@ -11,17 +18,24 @@
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "ترور",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "خمینی‌شهر",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
