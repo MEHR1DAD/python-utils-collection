@@ -1,16 +1,30 @@
 {
-  "generated_at": 1772008018,
-  "vibe_index": 0,
+  "generated_at": 1772011778,
+  "vibe_index": 37,
   "top_nodes": [
     {
-      "text": "کشته",
-      "count": 4,
-      "score": 8,
+      "text": "جمهوری",
+      "count": 52,
+      "score": 52,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "text": "ترور",
+      "text": "اسلامی",
+      "count": 44,
+      "score": 44,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دانشجویان",
+      "count": 22,
+      "score": 22,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کشته",
       "count": 2,
       "score": 4,
       "is_new": true,
