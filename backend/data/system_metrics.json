@@ -1,30 +1,9 @@
 {
-  "generated_at": 1771977639,
-  "vibe_index": 25,
+  "generated_at": 1771987695,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "جمهوری",
-      "count": 50,
-      "score": 50,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 44,
-      "score": 44,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
