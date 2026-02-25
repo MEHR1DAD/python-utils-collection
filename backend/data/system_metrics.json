@@ -1,13 +1,97 @@
 {
-  "generated_at": 1772040739,
-  "vibe_index": 0,
+  "generated_at": 1772044644,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "جمهوری",
+      "count": 56,
+      "score": 56,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 49,
+      "score": 49,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دانشگاه",
+      "count": 40,
+      "score": 40,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسفند",
+      "count": 31,
+      "score": 31,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صنعتی شریف",
+      "count": 27,
+      "score": 27,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "غنی سازی",
+      "count": 27,
+      "score": 27,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نفر",
+      "count": 25,
+      "score": 25,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نظامی",
+      "count": 25,
+      "score": 25,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شبکه اجتماعی",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "استیو ویتکاف",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دانشجویان",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "کشته",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
