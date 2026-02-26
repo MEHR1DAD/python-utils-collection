@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772147120,
-  "vibe_index": 83,
+  "generated_at": 1772149441,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "مذاکرات",
@@ -17,11 +17,18 @@
       "sentiment": "positive"
     },
     {
+      "text": "خمینی‌شهر",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
