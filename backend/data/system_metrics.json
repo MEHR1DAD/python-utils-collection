@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772126180,
-  "vibe_index": 75,
+  "generated_at": 1772129247,
+  "vibe_index": 33,
   "top_nodes": [
     {
       "text": "توافق",
@@ -10,11 +10,18 @@
       "sentiment": "positive"
     },
     {
-      "text": "مذاکرات",
-      "count": 24,
-      "score": 24,
+      "text": "ترور",
+      "count": 2,
+      "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
