@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772141882,
-  "vibe_index": 62,
+  "generated_at": 1772143302,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "مذاکرات",
@@ -13,13 +13,6 @@
       "text": "توافق",
       "count": 28,
       "score": 28,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "غنی سازی",
-      "count": 27,
-      "score": 27,
       "is_new": true,
       "sentiment": "positive"
     },
