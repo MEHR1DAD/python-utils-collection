@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772098011,
-  "vibe_index": 100,
+  "generated_at": 1772101526,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "توافق",
@@ -8,6 +8,13 @@
       "score": 23,
       "is_new": true,
       "sentiment": "positive"
+    },
+    {
+      "text": "ترور",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
