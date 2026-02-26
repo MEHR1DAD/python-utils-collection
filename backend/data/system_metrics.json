@@ -1,20 +1,83 @@
 {
-  "generated_at": 1772063846,
+  "generated_at": 1772073505,
   "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "جمهوری",
+      "count": 61,
+      "score": 61,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 51,
+      "score": 51,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دانشگاه",
+      "count": 37,
+      "score": 37,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "هسته",
+      "count": 31,
+      "score": 31,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسفند",
+      "count": 29,
+      "score": 29,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "استیو ویتکاف",
+      "count": 27,
+      "score": 27,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "غنی سازی",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دهد",
+      "count": 23,
+      "score": 23,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "توافق",
       "count": 23,
       "score": 23,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "text": "ترور",
+      "text": "صنعتی شریف",
+      "count": 21,
+      "score": 21,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
