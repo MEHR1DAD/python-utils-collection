@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772080181,
-  "vibe_index": 100,
+  "generated_at": 1772084673,
+  "vibe_index": 75,
   "top_nodes": [
+    {
+      "text": "غنی سازی",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "توافق",
       "count": 23,
