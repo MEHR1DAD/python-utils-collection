@@ -1,27 +1,20 @@
 {
-  "generated_at": 1772121920,
-  "vibe_index": 33,
+  "generated_at": 1772126180,
+  "vibe_index": 75,
   "top_nodes": [
     {
       "text": "توافق",
-      "count": 25,
-      "score": 25,
+      "count": 26,
+      "score": 26,
       "is_new": true,
       "sentiment": "positive"
     },
     {
-      "text": "ترور",
-      "count": 2,
-      "score": 4,
+      "text": "مذاکرات",
+      "count": 24,
+      "score": 24,
       "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
