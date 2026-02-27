@@ -1,14 +1,7 @@
 {
-  "generated_at": 1772185884,
+  "generated_at": 1772187834,
   "vibe_index": 50,
   "top_nodes": [
-    {
-      "text": "جمهوری",
-      "count": 76,
-      "score": 76,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "مذاکرات",
       "count": 39,
@@ -22,13 +15,6 @@
       "score": 28,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "خمینی‌شهر",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
