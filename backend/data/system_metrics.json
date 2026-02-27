@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772192400,
-  "vibe_index": 37,
+  "generated_at": 1772193588,
+  "vibe_index": 62,
   "top_nodes": [
     {
       "text": "مذاکرات",
@@ -17,16 +17,16 @@
       "sentiment": "positive"
     },
     {
-      "text": "نظامی",
-      "count": 26,
-      "score": 26,
+      "text": "غنی سازی",
+      "count": 27,
+      "score": 27,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
