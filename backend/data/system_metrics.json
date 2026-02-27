@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772230506,
-  "vibe_index": 37,
+  "generated_at": 1772232279,
+  "vibe_index": 40,
   "top_nodes": [
     {
       "text": "مذاکرات",
@@ -15,6 +15,13 @@
       "score": 23,
       "is_new": true,
       "sentiment": "positive"
+    },
+    {
+      "text": "بین المللی",
+      "count": 21,
+      "score": 21,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
