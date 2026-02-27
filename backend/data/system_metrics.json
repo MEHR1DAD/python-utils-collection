@@ -1,11 +1,11 @@
 {
-  "generated_at": 1772170623,
+  "generated_at": 1772173907,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "مذاکرات",
-      "count": 38,
-      "score": 38,
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -17,9 +17,9 @@
       "sentiment": "positive"
     },
     {
-      "text": "تهران",
-      "count": 3,
-      "score": 6,
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
