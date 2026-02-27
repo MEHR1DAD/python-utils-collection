@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772177380,
+  "generated_at": 1772179425,
   "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "مذاکرات",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "توافق",
       "count": 28,
