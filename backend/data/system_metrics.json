@@ -1,11 +1,11 @@
 {
-  "generated_at": 1772226005,
+  "generated_at": 1772228110,
   "vibe_index": 37,
   "top_nodes": [
     {
       "text": "مذاکرات",
-      "count": 41,
-      "score": 41,
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -18,15 +18,15 @@
     },
     {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "حمله نظامی",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
