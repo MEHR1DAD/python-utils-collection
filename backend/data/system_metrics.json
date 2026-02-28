@@ -1,18 +1,18 @@
 {
-  "generated_at": 1772284126,
-  "vibe_index": 10,
+  "generated_at": 1772286435,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "اسفند",
-      "count": 21,
-      "score": 21,
+      "text": "حملات",
+      "count": 16,
+      "score": 16,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "text": "حملات",
-      "count": 14,
-      "score": 14,
+      "text": "حمله",
+      "count": 16,
+      "score": 16,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -24,14 +24,7 @@
       "sentiment": "negative"
     },
     {
-      "text": "حمله نظامی",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "انفجار",
+      "text": "کشته",
       "count": 2,
       "score": 4,
       "is_new": true,
