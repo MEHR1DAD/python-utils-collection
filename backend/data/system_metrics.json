@@ -1,18 +1,18 @@
 {
-  "generated_at": 1772308383,
+  "generated_at": 1772308878,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 35,
-      "score": 35,
+      "count": 37,
+      "score": 37,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 31,
-      "score": 31,
+      "count": 32,
+      "score": 32,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -25,8 +25,8 @@
     },
     {
       "text": "حملات",
-      "count": 24,
-      "score": 24,
+      "count": 26,
+      "score": 26,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -73,6 +73,20 @@
       "sentiment": "neutral"
     },
     {
+      "text": "علی",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کشته",
+      "count": 7,
+      "score": 14,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "عملیات",
       "count": 13,
       "score": 13,
@@ -80,23 +94,9 @@
       "sentiment": "neutral"
     },
     {
-      "text": "منتشر",
-      "count": 13,
-      "score": 13,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کشته",
-      "count": 6,
-      "score": 12,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     },
