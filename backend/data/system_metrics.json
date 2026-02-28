@@ -1,46 +1,39 @@
 {
-  "generated_at": 1772281225,
-  "vibe_index": 16,
+  "generated_at": 1772284126,
+  "vibe_index": 10,
   "top_nodes": [
     {
-      "text": "مذاکرات",
-      "count": 24,
-      "score": 24,
+      "text": "اسفند",
+      "count": 21,
+      "score": 21,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "بین المللی",
-      "count": 18,
-      "score": 18,
+      "text": "حملات",
+      "count": 14,
+      "score": 14,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "زلزله",
-      "count": 4,
-      "score": 8,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "حمله نظامی",
-      "count": 4,
-      "score": 8,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "انفجار",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
-      "count": 4,
-      "score": 8,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
