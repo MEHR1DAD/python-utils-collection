@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772300038,
-  "vibe_index": 0,
+  "generated_at": 1772300946,
+  "vibe_index": 12,
   "top_nodes": [
     {
       "text": "حملات",
@@ -11,22 +11,22 @@
     },
     {
       "text": "حمله",
-      "count": 16,
-      "score": 16,
+      "count": 15,
+      "score": 15,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "مدرسه دخترانه",
+      "count": 12,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "انفجار",
       "count": 5,
       "score": 10,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 4,
-      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     }
