@@ -1,11 +1,25 @@
 {
-  "generated_at": 1772287259,
-  "vibe_index": 0,
+  "generated_at": 1772289047,
+  "vibe_index": 10,
   "top_nodes": [
     {
       "text": "حمله",
-      "count": 16,
-      "score": 16,
+      "count": 17,
+      "score": 17,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "موشک",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "کشته",
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -17,11 +31,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "کشته",
+      "text": "حریم هوایی",
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
