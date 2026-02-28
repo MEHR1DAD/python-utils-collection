@@ -1,11 +1,11 @@
 {
-  "generated_at": 1772311941,
+  "generated_at": 1772312431,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "کشته در اسرائیل",
-      "count": 10,
-      "score": 503,
+      "count": 15,
+      "score": 506,
       "is_new": true,
       "is_alert": true,
       "sentiment": "negative"
@@ -50,8 +50,8 @@
     {
       "type": "spike",
       "pattern": "کشته در اسرائیل",
-      "intensity": 3,
-      "time": 1772311941
+      "intensity": 6,
+      "time": 1772312431
     }
   ]
 }
