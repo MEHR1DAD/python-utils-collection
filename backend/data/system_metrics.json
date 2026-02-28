@@ -1,25 +1,25 @@
 {
-  "generated_at": 1772301497,
-  "vibe_index": 16,
+  "generated_at": 1772304083,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "اسفند",
+      "text": "موشک",
       "count": 18,
       "score": 18,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "حمله",
-      "count": 15,
-      "score": 15,
+      "count": 17,
+      "score": 17,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "زلزله",
-      "count": 4,
-      "score": 8,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
