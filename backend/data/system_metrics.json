@@ -1,46 +1,33 @@
 {
-  "generated_at": 1772310911,
-  "vibe_index": 14,
+  "generated_at": 1772311941,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "جمهوری",
-      "count": 38,
-      "score": 38,
+      "text": "کشته در اسرائیل",
+      "count": 10,
+      "score": 503,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "neutral"
+      "is_alert": true,
+      "sentiment": "negative"
     },
     {
       "text": "حملات",
-      "count": 26,
-      "score": 26,
+      "count": 24,
+      "score": 24,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "حمله",
-      "count": 21,
-      "score": 21,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "کشته",
-      "count": 10,
-      "score": 20,
+      "count": 18,
+      "score": 18,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "موشک",
-      "count": 20,
-      "score": 20,
+      "count": 15,
+      "score": 15,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -50,7 +37,21 @@
       "score": 8,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "کشته در اسرائیل",
+      "intensity": 3,
+      "time": 1772311941
+    }
+  ]
 }
