@@ -1,11 +1,18 @@
 {
-  "generated_at": 1772279613,
-  "vibe_index": 12,
+  "generated_at": 1772281225,
+  "vibe_index": 16,
   "top_nodes": [
     {
       "text": "مذاکرات",
-      "count": 26,
-      "score": 26,
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "بین المللی",
+      "count": 18,
+      "score": 18,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -25,6 +32,13 @@
     },
     {
       "text": "انفجار",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "جنگنده",
       "count": 4,
       "score": 8,
       "is_new": true,
