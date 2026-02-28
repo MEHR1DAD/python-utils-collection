@@ -1,18 +1,11 @@
 {
-  "generated_at": 1772272728,
-  "vibe_index": 35,
+  "generated_at": 1772274614,
+  "vibe_index": 30,
   "top_nodes": [
     {
       "text": "مذاکرات",
-      "count": 41,
-      "score": 41,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "هسته",
-      "count": 29,
-      "score": 29,
+      "count": 37,
+      "score": 37,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,30 +17,23 @@
       "sentiment": "positive"
     },
     {
-      "text": "بین المللی",
-      "count": 21,
-      "score": 21,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "زلزله",
-      "count": 3,
-      "score": 6,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "حمله نظامی",
-      "count": 3,
-      "score": 6,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "انفجار",
-      "count": 3,
-      "score": 6,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     }
