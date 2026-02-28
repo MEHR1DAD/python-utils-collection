@@ -1,5 +1,5 @@
 {
-  "generated_at": 1772275752,
+  "generated_at": 1772276341,
   "vibe_index": 12,
   "top_nodes": [
     {
@@ -11,22 +11,22 @@
     },
     {
       "text": "زلزله",
-      "count": 4,
-      "score": 8,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "حمله نظامی",
-      "count": 4,
-      "score": 8,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "انفجار",
-      "count": 4,
-      "score": 8,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
