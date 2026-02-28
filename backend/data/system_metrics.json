@@ -1,13 +1,13 @@
 {
-  "generated_at": 1772300946,
-  "vibe_index": 12,
+  "generated_at": 1772301497,
+  "vibe_index": 16,
   "top_nodes": [
     {
-      "text": "حملات",
-      "count": 20,
-      "score": 20,
+      "text": "اسفند",
+      "count": 18,
+      "score": 18,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "حمله",
@@ -17,16 +17,9 @@
       "sentiment": "negative"
     },
     {
-      "text": "مدرسه دخترانه",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار",
-      "count": 5,
-      "score": 10,
+      "text": "زلزله",
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     }
