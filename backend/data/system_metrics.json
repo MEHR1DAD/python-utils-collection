@@ -1,11 +1,32 @@
 {
-  "generated_at": 1772265366,
-  "vibe_index": 12,
+  "generated_at": 1772267827,
+  "vibe_index": 41,
   "top_nodes": [
     {
       "text": "مذاکرات",
-      "count": 42,
-      "score": 42,
+      "count": 43,
+      "score": 43,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "امور خارجه",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
+      "text": "بین المللی",
+      "count": 21,
+      "score": 21,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خمینی‌شهر",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -18,13 +39,6 @@
     },
     {
       "text": "حمله نظامی",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "انفجار",
       "count": 3,
       "score": 6,
       "is_new": true,
