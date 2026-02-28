@@ -1,25 +1,18 @@
 {
-  "generated_at": 1772308878,
-  "vibe_index": 50,
+  "generated_at": 1772310911,
+  "vibe_index": 14,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 37,
-      "score": 37,
+      "count": 38,
+      "score": 38,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 32,
-      "score": 32,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "هدف قرار",
-      "count": 30,
-      "score": 30,
+      "count": 33,
+      "score": 33,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -28,84 +21,35 @@
       "count": 26,
       "score": 26,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "حمله",
       "count": 21,
       "score": 21,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
+    },
+    {
+      "text": "کشته",
+      "count": 10,
+      "score": 20,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
       "text": "موشک",
       "count": 20,
       "score": 20,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سپاه پاسداران",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "احمدی نژاد",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسفند",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صبح امروز",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "علی",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کشته",
-      "count": 7,
-      "score": 14,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "عملیات",
-      "count": 13,
-      "score": 13,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "زلزله",
       "count": 4,
       "score": 8,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
