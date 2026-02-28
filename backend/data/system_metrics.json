@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772289047,
-  "vibe_index": 10,
+  "generated_at": 1772290128,
+  "vibe_index": 12,
   "top_nodes": [
     {
       "text": "حمله",
@@ -10,16 +10,9 @@
       "sentiment": "negative"
     },
     {
-      "text": "موشک",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "negative"
     },
