@@ -1,5 +1,5 @@
 {
-  "generated_at": 1772397891,
+  "generated_at": 1772398734,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -25,6 +25,13 @@
     },
     {
       "text": "زلزله",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "شیراز",
       "count": 3,
       "score": 6,
       "is_new": true,
