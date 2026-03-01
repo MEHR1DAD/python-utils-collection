@@ -1,19 +1,32 @@
 {
-  "generated_at": 1772394290,
-  "vibe_index": 3,
+  "generated_at": 1772394892,
+  "vibe_index": 8,
   "top_nodes": [
     {
-      "text": "کشته در اسرائیل",
-      "count": 10,
-      "score": 503,
+      "text": "کشته",
+      "count": 21,
+      "score": 42,
       "is_new": true,
-      "is_alert": true,
       "sentiment": "negative"
     },
     {
-      "text": "بالا اسفند",
-      "count": 33,
-      "score": 33,
+      "text": "هدف قرار",
+      "count": 30,
+      "score": 30,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
+      "count": 12,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "قرار گرفته",
+      "count": 21,
+      "score": 21,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -25,33 +38,12 @@
       "sentiment": "negative"
     },
     {
-      "text": "حمله",
-      "count": 19,
-      "score": 19,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "انفجار",
-      "count": 9,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "زلزله",
-      "count": 3,
-      "score": 6,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     }
   ],
-  "active_incidents": [
-    {
-      "type": "spike",
-      "pattern": "کشته در اسرائیل",
-      "intensity": 3,
-      "time": 1772394290
-    }
-  ]
+  "active_incidents": []
 }
