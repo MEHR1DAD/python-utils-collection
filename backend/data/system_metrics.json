@@ -1,5 +1,5 @@
 {
-  "generated_at": 1772355630,
+  "generated_at": 1772357841,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -8,6 +8,13 @@
       "score": 504,
       "is_new": true,
       "is_alert": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "حملات",
+      "count": 19,
+      "score": 19,
+      "is_new": true,
       "sentiment": "negative"
     },
     {
@@ -30,13 +37,6 @@
       "score": 6,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "شهید",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
     }
   ],
   "active_incidents": [
@@ -44,7 +44,7 @@
       "type": "spike",
       "pattern": "کشته در اسرائیل",
       "intensity": 4,
-      "time": 1772355630
+      "time": 1772357841
     }
   ]
 }
