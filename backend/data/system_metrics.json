@@ -1,55 +1,34 @@
 {
-  "generated_at": 1772396206,
-  "vibe_index": 14,
+  "generated_at": 1772397891,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 38,
-      "score": 76,
+      "text": "حملات",
+      "count": 25,
+      "score": 25,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "کشته",
-      "count": 17,
-      "score": 34,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "هدف قرار",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "انفجار",
       "count": 12,
       "score": 24,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "حملات",
-      "count": 24,
-      "score": 24,
+      "text": "انفجار",
+      "count": 9,
+      "score": 18,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "زلزله",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "شیراز",
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
