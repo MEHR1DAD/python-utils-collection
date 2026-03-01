@@ -1,5 +1,5 @@
 {
-  "generated_at": 1772352058,
+  "generated_at": 1772354469,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -8,6 +8,13 @@
       "score": 504,
       "is_new": true,
       "is_alert": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "حملات",
+      "count": 19,
+      "score": 19,
+      "is_new": true,
       "sentiment": "negative"
     },
     {
@@ -37,7 +44,7 @@
       "type": "spike",
       "pattern": "کشته در اسرائیل",
       "intensity": 4,
-      "time": 1772352058
+      "time": 1772354469
     }
   ]
 }
