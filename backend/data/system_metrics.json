@@ -1,40 +1,19 @@
 {
-  "generated_at": 1772384241,
+  "generated_at": 1772386060,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "کشته در اسرائیل",
-      "count": 16,
-      "score": 504,
+      "count": 18,
+      "score": 505,
       "is_new": true,
       "is_alert": true,
       "sentiment": "negative"
     },
     {
-      "text": "هدف قرار",
-      "count": 30,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "حملات",
-      "count": 30,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "حمله",
-      "count": 23,
-      "score": 23,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "عملیات",
-      "count": 19,
-      "score": 19,
+      "count": 25,
+      "score": 25,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -57,8 +36,8 @@
     {
       "type": "spike",
       "pattern": "کشته در اسرائیل",
-      "intensity": 4,
-      "time": 1772384241
+      "intensity": 5,
+      "time": 1772386060
     }
   ]
 }
