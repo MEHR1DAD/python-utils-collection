@@ -1,25 +1,33 @@
 {
-  "generated_at": 1772393431,
-  "vibe_index": 0,
+  "generated_at": 1772394290,
+  "vibe_index": 3,
   "top_nodes": [
     {
-      "text": "کشته",
-      "count": 21,
-      "score": 42,
+      "text": "کشته در اسرائیل",
+      "count": 10,
+      "score": 503,
       "is_new": true,
+      "is_alert": true,
       "sentiment": "negative"
     },
     {
+      "text": "بالا اسفند",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "حملات",
-      "count": 23,
-      "score": 23,
+      "count": 21,
+      "score": 21,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "حمله",
-      "count": 20,
-      "score": 20,
+      "count": 19,
+      "score": 19,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -38,5 +46,12 @@
       "sentiment": "negative"
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "کشته در اسرائیل",
+      "intensity": 3,
+      "time": 1772394290
+    }
+  ]
 }
