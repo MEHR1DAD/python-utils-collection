@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772358974,
-  "vibe_index": 0,
+  "generated_at": 1772361116,
+  "vibe_index": 3,
   "top_nodes": [
     {
       "text": "کشته در اسرائیل",
@@ -16,6 +16,13 @@
       "score": 19,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "شدن",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "حمله",
@@ -44,7 +51,7 @@
       "type": "spike",
       "pattern": "کشته در اسرائیل",
       "intensity": 4,
-      "time": 1772358974
+      "time": 1772361116
     }
   ]
 }
