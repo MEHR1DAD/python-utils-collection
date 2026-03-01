@@ -1,18 +1,25 @@
 {
-  "generated_at": 1772394892,
-  "vibe_index": 8,
+  "generated_at": 1772396206,
+  "vibe_index": 14,
   "top_nodes": [
     {
+      "text": "تهران",
+      "count": 38,
+      "score": 76,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "کشته",
-      "count": 21,
-      "score": 42,
+      "count": 17,
+      "score": 34,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "هدف قرار",
-      "count": 30,
-      "score": 30,
+      "count": 33,
+      "score": 33,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -24,16 +31,9 @@
       "sentiment": "negative"
     },
     {
-      "text": "قرار گرفته",
-      "count": 21,
-      "score": 21,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "حملات",
-      "count": 21,
-      "score": 21,
+      "count": 24,
+      "score": 24,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -43,6 +43,13 @@
       "score": 8,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "شیراز",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
