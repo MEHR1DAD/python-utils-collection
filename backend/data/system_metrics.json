@@ -1,5 +1,5 @@
 {
-  "generated_at": 1772343938,
+  "generated_at": 1772346468,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -11,9 +11,16 @@
       "sentiment": "negative"
     },
     {
+      "text": "حملات",
+      "count": 19,
+      "score": 19,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "حمله",
-      "count": 20,
-      "score": 20,
+      "count": 17,
+      "score": 17,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -25,14 +32,14 @@
       "sentiment": "negative"
     },
     {
-      "text": "انفجار",
+      "text": "کشته در ایران",
       "count": 2,
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "کشته در ایران",
+      "text": "پهپاد",
       "count": 2,
       "score": 4,
       "is_new": true,
@@ -44,7 +51,7 @@
       "type": "spike",
       "pattern": "کشته در اسرائیل",
       "intensity": 4,
-      "time": 1772343938
+      "time": 1772346468
     }
   ]
 }
