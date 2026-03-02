@@ -1,11 +1,18 @@
 {
-  "generated_at": 1772476100,
-  "vibe_index": 0,
+  "generated_at": 1772479303,
+  "vibe_index": 10,
   "top_nodes": [
     {
       "text": "جنگ",
       "count": 10,
       "score": 10,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "نابود کردن",
+      "count": 9,
+      "score": 9,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -22,6 +29,13 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "پدافند",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
