@@ -1,25 +1,11 @@
 {
-  "generated_at": 1772409617,
-  "vibe_index": 21,
+  "generated_at": 1772419226,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "حملات",
-      "count": 29,
-      "score": 29,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "انفجار",
-      "count": 12,
-      "score": 24,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "کشته",
-      "count": 12,
-      "score": 24,
+      "count": 30,
+      "score": 30,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -31,25 +17,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "شدن",
-      "count": 17,
-      "score": 17,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 4,
-      "score": 8,
+      "text": "انفجار",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "positive"
     }
   ],
   "active_incidents": []
