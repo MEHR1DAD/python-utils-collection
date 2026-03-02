@@ -1,23 +1,9 @@
 {
-  "generated_at": 1772461681,
-  "vibe_index": 12,
+  "generated_at": 1772464092,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "هدف قرار",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "انفجار",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
       "count": 4,
       "score": 8,
       "is_new": true,
