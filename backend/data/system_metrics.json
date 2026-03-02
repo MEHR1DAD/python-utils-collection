@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772409017,
-  "vibe_index": 7,
+  "generated_at": 1772409617,
+  "vibe_index": 21,
   "top_nodes": [
     {
       "text": "حملات",
@@ -24,18 +24,18 @@
       "sentiment": "negative"
     },
     {
+      "text": "حمله",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "شدن",
       "count": 17,
       "score": 17,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "حمله",
-      "count": 17,
-      "score": 17,
-      "is_new": true,
-      "sentiment": "negative"
     },
     {
       "text": "زلزله",
@@ -49,7 +49,7 @@
       "count": 4,
       "score": 8,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
