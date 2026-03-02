@@ -1,21 +1,7 @@
 {
-  "generated_at": 1772438787,
-  "vibe_index": 33,
+  "generated_at": 1772442038,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "امارات متحده",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "متحده عربی",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "انفجار",
       "count": 6,
@@ -29,20 +15,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "پدافند",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کرمان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
