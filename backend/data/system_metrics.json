@@ -1,18 +1,11 @@
 {
-  "generated_at": 1772492320,
-  "vibe_index": 33,
+  "generated_at": 1772494385,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "ساختمان مجلس",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
       "text": "انفجار",
-      "count": 4,
-      "score": 8,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "negative"
     },
