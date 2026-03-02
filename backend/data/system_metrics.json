@@ -1,13 +1,20 @@
 {
-  "generated_at": 1772485009,
-  "vibe_index": 0,
+  "generated_at": 1772487624,
+  "vibe_index": 25,
   "top_nodes": [
     {
-      "text": "جنگ",
-      "count": 10,
-      "score": 10,
+      "text": "بالا اسفند",
+      "count": 42,
+      "score": 42,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ویدیوی اسفند",
+      "count": 12,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
