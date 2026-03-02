@@ -1,7 +1,21 @@
 {
-  "generated_at": 1772445566,
-  "vibe_index": 0,
+  "generated_at": 1772448676,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "تهران",
+      "count": 24,
+      "score": 48,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
+      "text": "حمله",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "انفجار",
       "count": 6,
@@ -15,6 +29,20 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "شیراز",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
+      "text": "کرمان",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
