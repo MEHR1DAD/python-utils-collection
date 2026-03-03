@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772526321,
-  "vibe_index": 12,
+  "generated_at": 1772528938,
+  "vibe_index": 31,
   "top_nodes": [
+    {
+      "text": "اسفند",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "حمله",
       "count": 19,
@@ -10,7 +17,14 @@
       "sentiment": "negative"
     },
     {
-      "text": "ساختمان مجلس",
+      "text": "قرار گرفت",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ثبت لحظه",
       "count": 15,
       "score": 15,
       "is_new": true,
@@ -29,6 +43,20 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "سنندج",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مریوان",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
