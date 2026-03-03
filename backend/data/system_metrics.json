@@ -1,13 +1,34 @@
 {
-  "generated_at": 1772538613,
-  "vibe_index": 0,
+  "generated_at": 1772540812,
+  "vibe_index": 22,
   "top_nodes": [
+    {
+      "text": "هدف قرار",
+      "count": 21,
+      "score": 21,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "حمله",
       "count": 19,
       "score": 19,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "قرار گرفت",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ثبت لحظه",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "انفجار",
@@ -25,6 +46,34 @@
     },
     {
       "text": "جنگنده",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "پدافند",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سنندج",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مریوان",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پهپاد",
       "count": 2,
       "score": 4,
       "is_new": true,
