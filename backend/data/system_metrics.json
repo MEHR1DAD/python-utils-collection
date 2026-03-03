@@ -1,34 +1,41 @@
 {
-  "generated_at": 1772545218,
-  "vibe_index": 25,
+  "generated_at": 1772548034,
+  "vibe_index": 30,
   "top_nodes": [
     {
-      "text": "اسفند",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "حمله",
-      "count": 19,
-      "score": 19,
+      "count": 18,
+      "score": 18,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "ثبت لحظه",
-      "count": 15,
-      "score": 15,
+      "count": 12,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "جنگنده",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
