@@ -1,13 +1,13 @@
 {
-  "generated_at": 1772531990,
-  "vibe_index": 14,
+  "generated_at": 1772534992,
+  "vibe_index": 25,
   "top_nodes": [
     {
-      "text": "هدف قرار",
-      "count": 21,
-      "score": 21,
+      "text": "اسفند",
+      "count": 33,
+      "score": 33,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "حمله",
@@ -17,11 +17,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "قرار گرفت",
+      "text": "ساختمان مجلس",
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "انفجار",
@@ -38,14 +38,7 @@
       "sentiment": "negative"
     },
     {
-      "text": "سنندج",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مریوان",
+      "text": "پدافند",
       "count": 2,
       "score": 4,
       "is_new": true,
