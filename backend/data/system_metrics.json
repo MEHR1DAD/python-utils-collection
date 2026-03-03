@@ -1,13 +1,13 @@
 {
-  "generated_at": 1772578884,
-  "vibe_index": 0,
+  "generated_at": 1772580926,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "آتش سوزی",
       "count": 12,
       "score": 12,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
       "text": "حمله پهپادی",
