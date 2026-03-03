@@ -1,32 +1,11 @@
 {
-  "generated_at": 1772499462,
-  "vibe_index": 20,
+  "generated_at": 1772508928,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "اسفند",
-      "count": 34,
-      "score": 34,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ساختمان مجلس",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگ",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "حمله",
-      "count": 10,
-      "score": 10,
+      "count": 19,
+      "score": 19,
       "is_new": true,
       "sentiment": "negative"
     },
