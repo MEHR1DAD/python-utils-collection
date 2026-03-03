@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772524384,
-  "vibe_index": 50,
+  "generated_at": 1772526321,
+  "vibe_index": 12,
   "top_nodes": [
     {
       "text": "حمله",
@@ -8,6 +8,13 @@
       "score": 19,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "ساختمان مجلس",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "انفجار",
@@ -22,27 +29,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "پدافند",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "پهپاد",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "positive"
     }
   ],
   "active_incidents": []
