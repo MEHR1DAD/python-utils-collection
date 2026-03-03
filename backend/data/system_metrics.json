@@ -1,14 +1,7 @@
 {
-  "generated_at": 1772560492,
-  "vibe_index": 10,
+  "generated_at": 1772562974,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "تهران",
-      "count": 18,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "حمله",
       "count": 19,
@@ -32,6 +25,13 @@
     },
     {
       "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "مریوان",
       "count": 2,
       "score": 4,
       "is_new": true,
