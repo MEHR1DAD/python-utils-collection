@@ -1,13 +1,13 @@
 {
-  "generated_at": 1772528938,
-  "vibe_index": 31,
+  "generated_at": 1772531990,
+  "vibe_index": 14,
   "top_nodes": [
     {
-      "text": "اسفند",
-      "count": 33,
-      "score": 33,
+      "text": "هدف قرار",
+      "count": 21,
+      "score": 21,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "حمله",
@@ -21,14 +21,7 @@
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ثبت لحظه",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار",
