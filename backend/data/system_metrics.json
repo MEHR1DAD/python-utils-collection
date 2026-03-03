@@ -1,27 +1,41 @@
 {
-  "generated_at": 1772566078,
-  "vibe_index": 25,
+  "generated_at": 1772567922,
+  "vibe_index": 35,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 17,
-      "score": 34,
+      "count": 16,
+      "score": 32,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "حمله",
-      "count": 19,
-      "score": 19,
+      "count": 13,
+      "score": 13,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "انفجار",
-      "count": 4,
-      "score": 8,
+      "text": "هدف قرار",
+      "count": 12,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "مجلس خبرگان",
+      "count": 9,
+      "score": 9,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تماس تلفنی",
+      "count": 9,
+      "score": 9,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "اصفهان",
@@ -34,27 +48,6 @@
       "text": "قم",
       "count": 4,
       "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "مریوان",
-      "count": 2,
-      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
