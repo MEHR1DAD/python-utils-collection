@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772562974,
-  "vibe_index": 0,
+  "generated_at": 1772566078,
+  "vibe_index": 25,
   "top_nodes": [
+    {
+      "text": "تهران",
+      "count": 17,
+      "score": 34,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "حمله",
       "count": 19,
@@ -17,9 +24,23 @@
       "sentiment": "negative"
     },
     {
-      "text": "جنگنده",
+      "text": "اصفهان",
       "count": 4,
       "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "قم",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -35,7 +56,7 @@
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
