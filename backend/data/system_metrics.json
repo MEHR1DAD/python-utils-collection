@@ -1,5 +1,5 @@
 {
-  "generated_at": 1772591677,
+  "generated_at": 1772598073,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -10,7 +10,14 @@
       "sentiment": "negative"
     },
     {
-      "text": "حمله پهپادی",
+      "text": "انفجار",
+      "count": 10,
+      "score": 10,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زمین لرزید",
       "count": 9,
       "score": 9,
       "is_new": true,
