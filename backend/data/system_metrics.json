@@ -1,25 +1,11 @@
 {
-  "generated_at": 1772662668,
+  "generated_at": 1772664783,
   "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "مسلح کردن",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "حمله",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "موشک بالستیک",
-      "count": 12,
-      "score": 12,
+      "count": 15,
+      "score": 15,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -31,9 +17,16 @@
       "sentiment": "negative"
     },
     {
-      "text": "زلزله",
+      "text": "شلیک",
       "count": 3,
       "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
