@@ -1,18 +1,25 @@
 {
-  "generated_at": 1772640327,
-  "vibe_index": 12,
+  "generated_at": 1772643727,
+  "vibe_index": 25,
   "top_nodes": [
     {
       "text": "تهران",
-      "count": 16,
-      "score": 32,
+      "count": 15,
+      "score": 30,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "هدف قرار",
-      "count": 15,
-      "score": 15,
+      "count": 18,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "جنگنده",
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -28,7 +35,14 @@
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اصفهان",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
