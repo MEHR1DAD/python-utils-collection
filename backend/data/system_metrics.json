@@ -1,18 +1,11 @@
 {
-  "generated_at": 1772655668,
+  "generated_at": 1772657529,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "حمله",
       "count": 13,
       "score": 13,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "هدف گرفته",
-      "count": 12,
-      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
