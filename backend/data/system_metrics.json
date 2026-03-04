@@ -1,7 +1,21 @@
 {
-  "generated_at": 1772607713,
-  "vibe_index": 40,
+  "generated_at": 1772610148,
+  "vibe_index": 20,
   "top_nodes": [
+    {
+      "text": "تهران",
+      "count": 21,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "آتش سوزی",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "حمله",
       "count": 13,
@@ -10,25 +24,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "هدف قرار",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "آتش سوزی",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "جنگنده",
       "count": 4,
       "score": 8,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "text": "قم",
