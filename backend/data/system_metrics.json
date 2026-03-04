@@ -1,25 +1,11 @@
 {
-  "generated_at": 1772643727,
-  "vibe_index": 25,
+  "generated_at": 1772646574,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 15,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "هدف قرار",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
-      "count": 4,
-      "score": 8,
+      "text": "حمله",
+      "count": 13,
+      "score": 13,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -31,18 +17,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "کرمانشاه",
+      "text": "شلیک",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
