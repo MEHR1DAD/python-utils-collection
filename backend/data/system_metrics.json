@@ -1,20 +1,13 @@
 {
-  "generated_at": 1772661140,
-  "vibe_index": 16,
+  "generated_at": 1772662668,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "جمهوری",
-      "count": 29,
-      "score": 29,
+      "text": "مسلح کردن",
+      "count": 15,
+      "score": 15,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 26,
-      "score": 26,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "حمله",
@@ -31,16 +24,16 @@
       "sentiment": "negative"
     },
     {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "text": "هدف گرفته",
+      "count": 12,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "جنگنده",
-      "count": 2,
-      "score": 4,
+      "text": "زلزله",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
