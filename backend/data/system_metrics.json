@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772598073,
+  "generated_at": 1772601811,
   "vibe_index": 0,
   "top_nodes": [
+    {
+      "text": "حمله",
+      "count": 13,
+      "score": 13,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "آتش سوزی",
       "count": 12,
@@ -11,15 +18,15 @@
     },
     {
       "text": "انفجار",
-      "count": 10,
-      "score": 10,
+      "count": 11,
+      "score": 11,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "زمین لرزید",
-      "count": 9,
-      "score": 9,
+      "text": "جنگنده",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
