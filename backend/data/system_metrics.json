@@ -1,23 +1,30 @@
 {
-  "generated_at": 1772637925,
-  "vibe_index": 0,
+  "generated_at": 1772640327,
+  "vibe_index": 12,
   "top_nodes": [
     {
-      "text": "سپاه پاسداران",
-      "count": 12,
-      "score": 12,
+      "text": "تهران",
+      "count": 16,
+      "score": 32,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "text": "جنگنده",
-      "count": 4,
-      "score": 8,
+      "text": "هدف قرار",
+      "count": 15,
+      "score": 15,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "کرمانشاه",
       "count": 2,
       "score": 4,
       "is_new": true,
