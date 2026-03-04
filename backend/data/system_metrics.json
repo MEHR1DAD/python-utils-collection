@@ -1,7 +1,21 @@
 {
-  "generated_at": 1772657529,
-  "vibe_index": 0,
+  "generated_at": 1772659252,
+  "vibe_index": 20,
   "top_nodes": [
+    {
+      "text": "تهران",
+      "count": 18,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مجلس خبرگان",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "حمله",
       "count": 13,
@@ -11,6 +25,13 @@
     },
     {
       "text": "زلزله",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "جنگنده",
       "count": 3,
       "score": 6,
       "is_new": true,
