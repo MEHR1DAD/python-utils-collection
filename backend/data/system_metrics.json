@@ -1,5 +1,5 @@
 {
-  "generated_at": 1772624185,
+  "generated_at": 1772625470,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -13,6 +13,13 @@
       "text": "حمله",
       "count": 13,
       "score": 13,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "هدف قرار",
+      "count": 12,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
