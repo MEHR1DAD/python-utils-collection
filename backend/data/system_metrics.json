@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772666239,
+  "generated_at": 1772668069,
   "vibe_index": 0,
   "top_nodes": [
+    {
+      "text": "هدف گرفته",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "موشک بالستیک",
       "count": 15,
@@ -10,7 +17,21 @@
       "sentiment": "negative"
     },
     {
+      "text": "شلیک",
+      "count": 6,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "زلزله",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "جنگنده",
       "count": 3,
       "score": 6,
       "is_new": true,
