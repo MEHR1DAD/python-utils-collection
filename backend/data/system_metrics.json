@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772601811,
-  "vibe_index": 0,
+  "generated_at": 1772604146,
+  "vibe_index": 25,
   "top_nodes": [
     {
       "text": "حمله",
@@ -17,14 +17,14 @@
       "sentiment": "negative"
     },
     {
-      "text": "انفجار",
-      "count": 11,
-      "score": 11,
+      "text": "جنگنده",
+      "count": 4,
+      "score": 8,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
-      "text": "جنگنده",
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
