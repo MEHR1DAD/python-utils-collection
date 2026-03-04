@@ -1,5 +1,5 @@
 {
-  "generated_at": 1772664783,
+  "generated_at": 1772666239,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -10,23 +10,9 @@
       "sentiment": "negative"
     },
     {
-      "text": "هدف گرفته",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "شلیک",
+      "text": "زلزله",
       "count": 3,
       "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
