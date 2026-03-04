@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772604146,
-  "vibe_index": 25,
+  "generated_at": 1772607713,
+  "vibe_index": 40,
   "top_nodes": [
     {
       "text": "حمله",
@@ -8,6 +8,13 @@
       "score": 13,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "هدف قرار",
+      "count": 12,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "آتش سوزی",
@@ -24,11 +31,11 @@
       "sentiment": "positive"
     },
     {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "text": "قم",
+      "count": 4,
+      "score": 8,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
