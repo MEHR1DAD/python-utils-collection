@@ -1,14 +1,7 @@
 {
-  "generated_at": 1772633033,
-  "vibe_index": 16,
+  "generated_at": 1772635829,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "تهران",
-      "count": 20,
-      "score": 40,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "آتش سوزی",
       "count": 15,
@@ -36,13 +29,6 @@
       "score": 8,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "قم",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
