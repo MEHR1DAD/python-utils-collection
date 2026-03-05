@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772672177,
-  "vibe_index": 0,
+  "generated_at": 1772681478,
+  "vibe_index": 12,
   "top_nodes": [
+    {
+      "text": "اسفند",
+      "count": 26,
+      "score": 26,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "هدف گرفته",
       "count": 15,
@@ -13,20 +20,6 @@
       "text": "موشک بالستیک",
       "count": 15,
       "score": 15,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "مسلح کردن",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "سپاه پاسداران",
-      "count": 12,
-      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
