@@ -1,39 +1,25 @@
 {
-  "generated_at": 1772704720,
-  "vibe_index": 25,
+  "generated_at": 1772707829,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 18,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "هدف گرفته",
-      "count": 18,
-      "score": 18,
+      "text": "هدف قرار",
+      "count": 12,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "کرمانشاه",
-      "count": 4,
-      "score": 8,
+      "text": "موشک بالستیک",
+      "count": 12,
+      "score": 12,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "بندرعباس",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار",
-      "count": 3,
-      "score": 6,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -43,13 +29,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "مریوان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "شلیک",
