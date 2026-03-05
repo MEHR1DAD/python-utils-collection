@@ -1,27 +1,27 @@
 {
-  "generated_at": 1772727111,
-  "vibe_index": 0,
+  "generated_at": 1772734860,
+  "vibe_index": 33,
   "top_nodes": [
     {
-      "text": "انفجار",
-      "count": 4,
-      "score": 8,
+      "text": "اسفند",
+      "count": 34,
+      "score": 34,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حمله",
+      "count": 10,
+      "score": 10,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "text": "قرار گرفت",
+      "count": 9,
+      "score": 9,
       "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "شلیک",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
