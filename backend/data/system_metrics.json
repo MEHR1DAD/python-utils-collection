@@ -1,14 +1,7 @@
 {
-  "generated_at": 1772750325,
-  "vibe_index": 16,
+  "generated_at": 1772754000,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "اسفند",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "حمله",
       "count": 11,
@@ -17,7 +10,7 @@
       "sentiment": "negative"
     },
     {
-      "text": "زلزله",
+      "text": "تهران",
       "count": 2,
       "score": 4,
       "is_new": true,
