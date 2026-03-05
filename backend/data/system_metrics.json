@@ -1,27 +1,13 @@
 {
-  "generated_at": 1772734860,
-  "vibe_index": 33,
+  "generated_at": 1772739482,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "اسفند",
-      "count": 34,
-      "score": 34,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "حمله",
-      "count": 10,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "قرار گرفت",
       "count": 9,
       "score": 9,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
