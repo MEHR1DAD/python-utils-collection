@@ -1,18 +1,18 @@
 {
-  "generated_at": 1772694094,
+  "generated_at": 1772696907,
   "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "هدف گرفته",
-      "count": 21,
-      "score": 21,
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "موشک بالستیک",
-      "count": 15,
-      "score": 15,
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
