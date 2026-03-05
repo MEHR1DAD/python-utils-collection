@@ -1,18 +1,11 @@
 {
-  "generated_at": 1772688082,
-  "vibe_index": 25,
+  "generated_at": 1772690199,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "اسفند",
-      "count": 27,
-      "score": 27,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "هدف گرفته",
-      "count": 15,
-      "score": 15,
+      "count": 18,
+      "score": 18,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -24,21 +17,21 @@
       "sentiment": "negative"
     },
     {
-      "text": "همین الان",
+      "text": "مسلح کردن",
       "count": 15,
       "score": 15,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نیروی دریایی",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "شلیک",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
