@@ -1,11 +1,11 @@
 {
-  "generated_at": 1772681478,
-  "vibe_index": 12,
+  "generated_at": 1772688082,
+  "vibe_index": 25,
   "top_nodes": [
     {
       "text": "اسفند",
-      "count": 26,
-      "score": 26,
+      "count": 27,
+      "score": 27,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -22,6 +22,20 @@
       "score": 15,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "همین الان",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نیروی دریایی",
+      "count": 12,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "شلیک",
