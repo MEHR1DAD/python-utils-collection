@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772747923,
-  "vibe_index": 0,
+  "generated_at": 1772750325,
+  "vibe_index": 16,
   "top_nodes": [
+    {
+      "text": "اسفند",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "حمله",
       "count": 11,
