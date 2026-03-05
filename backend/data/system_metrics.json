@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772707829,
-  "vibe_index": 0,
+  "generated_at": 1772709795,
+  "vibe_index": 8,
   "top_nodes": [
     {
       "text": "هدف قرار",
@@ -36,6 +36,13 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "حریم هوایی",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
