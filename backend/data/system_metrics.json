@@ -1,13 +1,13 @@
 {
-  "generated_at": 1772711513,
-  "vibe_index": 28,
+  "generated_at": 1772713737,
+  "vibe_index": 7,
   "top_nodes": [
     {
-      "text": "تهران",
+      "text": "هدف گرفته",
       "count": 18,
-      "score": 36,
+      "score": 18,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "text": "هدف قرار",
@@ -45,11 +45,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "ارومیه",
+      "text": "حریم هوایی",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
