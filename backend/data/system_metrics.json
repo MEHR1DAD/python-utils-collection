@@ -1,11 +1,11 @@
 {
-  "generated_at": 1772840085,
-  "vibe_index": 12,
+  "generated_at": 1772841215,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "انفجار",
-      "count": 10,
-      "score": 20,
+      "count": 11,
+      "score": 22,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -28,7 +28,7 @@
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
