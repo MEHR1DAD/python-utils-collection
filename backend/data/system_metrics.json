@@ -1,6 +1,28 @@
 {
-  "generated_at": 1772802602,
-  "vibe_index": 50,
-  "top_nodes": [],
+  "generated_at": 1772805645,
+  "vibe_index": 0,
+  "top_nodes": [
+    {
+      "text": "حمله",
+      "count": 17,
+      "score": 17,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    }
+  ],
   "active_incidents": []
 }
