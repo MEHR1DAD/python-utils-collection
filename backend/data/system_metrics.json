@@ -1,32 +1,25 @@
 {
-  "generated_at": 1772767741,
-  "vibe_index": 25,
+  "generated_at": 1772774395,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "اسفند",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ورزشی بعثت",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "حمله",
-      "count": 11,
-      "score": 11,
+      "text": "انفجار",
+      "count": 15,
+      "score": 15,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "حملات",
-      "count": 10,
-      "score": 10,
+      "count": 13,
+      "score": 13,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "حمله",
+      "count": 13,
+      "score": 13,
       "is_new": true,
       "sentiment": "negative"
     }
