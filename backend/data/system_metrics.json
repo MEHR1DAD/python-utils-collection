@@ -1,20 +1,27 @@
 {
-  "generated_at": 1772754000,
-  "vibe_index": 0,
+  "generated_at": 1772758663,
+  "vibe_index": 83,
   "top_nodes": [
+    {
+      "text": "اسفند",
+      "count": 38,
+      "score": 38,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "حمله",
       "count": 11,
       "score": 11,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
-      "text": "تهران",
-      "count": 2,
-      "score": 4,
+      "text": "حملات",
+      "count": 10,
+      "score": 10,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
