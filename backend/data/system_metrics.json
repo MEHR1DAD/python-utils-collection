@@ -1,5 +1,5 @@
 {
-  "generated_at": 1772790787,
+  "generated_at": 1772792504,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -18,13 +18,6 @@
     },
     {
       "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
       "count": 2,
       "score": 4,
       "is_new": true,
