@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772808301,
-  "vibe_index": 0,
+  "generated_at": 1772810526,
+  "vibe_index": 25,
   "top_nodes": [
+    {
+      "text": "بیت رهبری",
+      "count": 18,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "positive"
+    },
     {
       "text": "حمله",
       "count": 16,
@@ -11,8 +18,8 @@
     },
     {
       "text": "انفجار",
-      "count": 3,
-      "score": 6,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "negative"
     },
