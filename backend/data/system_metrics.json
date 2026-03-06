@@ -1,14 +1,7 @@
 {
-  "generated_at": 1772819790,
-  "vibe_index": 35,
+  "generated_at": 1772823363,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "تهران",
-      "count": 28,
-      "score": 56,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "انفجار",
       "count": 6,
@@ -24,32 +17,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "مشهد",
+      "text": "جنگنده",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "قم",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اهواز",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
