@@ -1,14 +1,7 @@
 {
-  "generated_at": 1772870250,
-  "vibe_index": 8,
+  "generated_at": 1772872734,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "اسفند",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "بمب افکن",
       "count": 21,
@@ -24,21 +17,7 @@
       "sentiment": "negative"
     },
     {
-      "text": "هدف قرار",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "زلزله",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
       "count": 3,
       "score": 6,
       "is_new": true,
