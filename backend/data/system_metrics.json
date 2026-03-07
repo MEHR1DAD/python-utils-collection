@@ -1,111 +1,27 @@
 {
-  "generated_at": 1772901330,
-  "vibe_index": 50,
+  "generated_at": 1772902592,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "اسفند",
-      "count": 46,
-      "score": 46,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 15,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کشورهای همسایه",
-      "count": 27,
-      "score": 27,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "حمله",
       "count": 22,
       "score": 22,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "هدف قرار",
-      "count": 21,
-      "score": 21,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نیروی هوایی",
-      "count": 21,
-      "score": 21,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ویدیوی",
-      "count": 20,
-      "score": 20,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "بمب افکن",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "حملات",
-      "count": 16,
-      "score": 16,
+      "count": 17,
+      "score": 17,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سپاه",
-      "count": 16,
-      "score": 16,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پدافند هوایی",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ورامین",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار",
-      "count": 4,
-      "score": 8,
+      "count": 5,
+      "score": 10,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "بوشهر",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
