@@ -1,11 +1,18 @@
 {
-  "generated_at": 1772874009,
-  "vibe_index": 18,
+  "generated_at": 1772876135,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "بمب افکن",
       "count": 21,
       "score": 21,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
+      "count": 9,
+      "score": 18,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -17,46 +24,18 @@
       "sentiment": "negative"
     },
     {
-      "text": "انفجار",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "جنگنده",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "اهواز",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "قزوین",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کرج",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
