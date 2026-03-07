@@ -1,11 +1,11 @@
 {
-  "generated_at": 1772869477,
-  "vibe_index": 25,
+  "generated_at": 1772870250,
+  "vibe_index": 8,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 25,
-      "score": 50,
+      "text": "اسفند",
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -18,8 +18,8 @@
     },
     {
       "text": "انفجار",
-      "count": 10,
-      "score": 20,
+      "count": 9,
+      "score": 18,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -38,25 +38,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "اهواز",
+      "text": "جنگنده",
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "قزوین",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کرج",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
