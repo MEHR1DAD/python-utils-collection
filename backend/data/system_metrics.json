@@ -1,5 +1,5 @@
 {
-  "generated_at": 1772889729,
+  "generated_at": 1772891510,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -18,13 +18,6 @@
     },
     {
       "text": "هدف قرار",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "قرار گرفته",
       "count": 15,
       "score": 15,
       "is_new": true,
