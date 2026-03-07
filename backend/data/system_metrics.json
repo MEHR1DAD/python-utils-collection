@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772927227,
+  "generated_at": 1772927956,
   "vibe_index": 0,
   "top_nodes": [
+    {
+      "text": "هدف قرار",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "آتش سوزی",
       "count": 18,
