@@ -1,11 +1,18 @@
 {
-  "generated_at": 1772898451,
+  "generated_at": 1772899190,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "حمله",
       "count": 20,
       "score": 20,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "بمب افکن",
+      "count": 18,
+      "score": 18,
       "is_new": true,
       "sentiment": "negative"
     },
