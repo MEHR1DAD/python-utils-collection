@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772918874,
+  "generated_at": 1772919933,
   "vibe_index": 0,
   "top_nodes": [
+    {
+      "text": "هدف قرار",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "حمله",
       "count": 17,
@@ -10,14 +17,14 @@
       "sentiment": "negative"
     },
     {
-      "text": "انفجار",
-      "count": 4,
-      "score": 8,
+      "text": "زلزله",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "زلزله",
+      "text": "انفجار",
       "count": 3,
       "score": 6,
       "is_new": true,
