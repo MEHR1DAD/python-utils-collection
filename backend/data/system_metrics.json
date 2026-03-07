@@ -1,27 +1,13 @@
 {
-  "generated_at": 1772897402,
-  "vibe_index": 10,
+  "generated_at": 1772898451,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "بمب افکن",
-      "count": 21,
-      "score": 21,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "حمله",
-      "count": 17,
-      "score": 17,
+      "count": 20,
+      "score": 20,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "دفاع عربستان",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
