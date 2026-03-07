@@ -1,18 +1,18 @@
 {
-  "generated_at": 1772904457,
-  "vibe_index": 33,
+  "generated_at": 1772905675,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "حمله",
-      "count": 21,
-      "score": 21,
+      "count": 22,
+      "score": 22,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "text": "حملات",
-      "count": 17,
-      "score": 17,
+      "count": 19,
+      "score": 19,
       "is_new": true,
       "sentiment": "negative"
     },
