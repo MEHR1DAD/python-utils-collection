@@ -1,7 +1,21 @@
 {
-  "generated_at": 1772892684,
-  "vibe_index": 8,
+  "generated_at": 1772894438,
+  "vibe_index": 12,
   "top_nodes": [
+    {
+      "text": "اسفند",
+      "count": 43,
+      "score": 43,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "بمب افکن",
+      "count": 21,
+      "score": 21,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "حمله",
       "count": 20,
@@ -17,9 +31,9 @@
       "sentiment": "negative"
     },
     {
-      "text": "جمهوری",
-      "count": 14,
-      "score": 14,
+      "text": "قرار گرفته",
+      "count": 15,
+      "score": 15,
       "is_new": true,
       "sentiment": "neutral"
     },
