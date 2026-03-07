@@ -1,6 +1,6 @@
 {
-  "generated_at": 1772879447,
-  "vibe_index": 14,
+  "generated_at": 1772880645,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "بمب افکن",
@@ -11,15 +11,15 @@
     },
     {
       "text": "حمله",
-      "count": 18,
-      "score": 18,
+      "count": 19,
+      "score": 19,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "انفجار",
-      "count": 8,
-      "score": 16,
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -36,20 +36,6 @@
       "score": 6,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "قزوین",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کرج",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
