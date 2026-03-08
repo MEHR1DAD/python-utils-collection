@@ -1,7 +1,14 @@
 {
-  "generated_at": 1772989104,
+  "generated_at": 1772990919,
   "vibe_index": 0,
   "top_nodes": [
+    {
+      "text": "حمله",
+      "count": 20,
+      "score": 20,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "حملات",
       "count": 20,
@@ -17,7 +24,7 @@
       "sentiment": "negative"
     },
     {
-      "text": "انفجار",
+      "text": "ترور",
       "count": 3,
       "score": 6,
       "is_new": true,
