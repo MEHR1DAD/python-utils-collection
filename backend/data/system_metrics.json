@@ -1,18 +1,18 @@
 {
-  "generated_at": 1773007920,
+  "generated_at": 1773009728,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "زلزله",
-      "count": 4,
-      "score": 8,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "ترور",
-      "count": 4,
-      "score": 8,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
