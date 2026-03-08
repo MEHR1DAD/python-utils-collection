@@ -1,16 +1,9 @@
 {
-  "generated_at": 1772943936,
+  "generated_at": 1772947823,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "آتش سوزی",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "لحظه انفجار",
       "count": 18,
       "score": 18,
       "is_new": true,
