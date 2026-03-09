@@ -1,35 +1,6 @@
 {
-  "generated_at": 1773076136,
-  "vibe_index": 25,
-  "top_nodes": [
-    {
-      "text": "اسفند",
-      "count": 29,
-      "score": 29,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "آیت الله",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "نظامی استفاده",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "اصفهان",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    }
-  ],
+  "generated_at": 1773079138,
+  "vibe_index": 50,
+  "top_nodes": [],
   "active_incidents": []
 }
