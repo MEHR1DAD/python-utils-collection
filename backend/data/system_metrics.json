@@ -1,21 +1,6 @@
 {
-  "generated_at": 1773057661,
-  "vibe_index": 0,
-  "top_nodes": [
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "ترور",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    }
-  ],
+  "generated_at": 1773062586,
+  "vibe_index": 50,
+  "top_nodes": [],
   "active_incidents": []
 }
