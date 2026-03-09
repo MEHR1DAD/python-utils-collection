@@ -1,7 +1,14 @@
 {
-  "generated_at": 1773038458,
+  "generated_at": 1773041878,
   "vibe_index": 0,
   "top_nodes": [
+    {
+      "text": "نظامی استفاده",
+      "count": 12,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "زلزله",
       "count": 2,
