@@ -1,27 +1,20 @@
 {
-  "generated_at": 1773086570,
-  "vibe_index": 12,
+  "generated_at": 1773089176,
+  "vibe_index": 33,
   "top_nodes": [
     {
-      "text": "اسفند",
-      "count": 30,
-      "score": 30,
+      "text": "جمهوری",
+      "count": 21,
+      "score": 21,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "هدف قرار",
-      "count": 21,
-      "score": 21,
+      "text": "اصفهان",
+      "count": 4,
+      "score": 8,
       "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "نظامی استفاده",
-      "count": 12,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
