@@ -1,7 +1,14 @@
 {
-  "generated_at": 1773065685,
-  "vibe_index": 0,
+  "generated_at": 1773069115,
+  "vibe_index": 16,
   "top_nodes": [
+    {
+      "text": "اسفند",
+      "count": 28,
+      "score": 28,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "زلزله",
       "count": 2,
