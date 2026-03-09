@@ -1,6 +1,6 @@
 {
-  "generated_at": 1773069115,
-  "vibe_index": 16,
+  "generated_at": 1773072769,
+  "vibe_index": 58,
   "top_nodes": [
     {
       "text": "اسفند",
@@ -10,16 +10,37 @@
       "sentiment": "neutral"
     },
     {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "text": "تیم ملی",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
+      "text": "هدف قرار",
+      "count": 18,
+      "score": 18,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
+      "text": "ملی فوتبال",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
+      "text": "فوتبال زنان",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
+      "text": "نظامی استفاده",
+      "count": 12,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     }
