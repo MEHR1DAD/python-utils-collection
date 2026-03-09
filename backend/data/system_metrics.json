@@ -1,9 +1,16 @@
 {
-  "generated_at": 1773091107,
+  "generated_at": 1773093014,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
       "count": 2,
       "score": 4,
       "is_new": true,
