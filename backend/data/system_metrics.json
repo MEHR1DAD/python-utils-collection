@@ -1,6 +1,28 @@
 {
-  "generated_at": 1773082881,
-  "vibe_index": 50,
-  "top_nodes": [],
+  "generated_at": 1773085419,
+  "vibe_index": 16,
+  "top_nodes": [
+    {
+      "text": "ملی فوتبال",
+      "count": 15,
+      "score": 15,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نظامی استفاده",
+      "count": 12,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    }
+  ],
   "active_incidents": []
 }
