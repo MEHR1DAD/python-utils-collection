@@ -1,7 +1,15 @@
 {
-  "generated_at": 1773099810,
-  "vibe_index": 20,
+  "generated_at": 1773100648,
+  "vibe_index": 15,
   "top_nodes": [
+    {
+      "text": "انفجار در شهریار",
+      "count": 10,
+      "score": 504,
+      "is_new": true,
+      "is_alert": true,
+      "sentiment": "negative"
+    },
     {
       "text": "تیم ملی",
       "count": 24,
@@ -10,9 +18,9 @@
       "sentiment": "positive"
     },
     {
-      "text": "انفجار",
-      "count": 6,
-      "score": 12,
+      "text": "هدف قرار",
+      "count": 21,
+      "score": 21,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -29,14 +37,14 @@
       "score": 6,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
     }
   ],
-  "active_incidents": []
+  "active_incidents": [
+    {
+      "type": "spike",
+      "pattern": "انفجار در شهریار",
+      "intensity": 4,
+      "time": 1773100648
+    }
+  ]
 }
