@@ -1,41 +1,20 @@
 {
-  "generated_at": 1773072769,
-  "vibe_index": 58,
+  "generated_at": 1773076136,
+  "vibe_index": 25,
   "top_nodes": [
     {
       "text": "اسفند",
-      "count": 28,
-      "score": 28,
+      "count": 29,
+      "score": 29,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "تیم ملی",
-      "count": 24,
-      "score": 24,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "هدف قرار",
-      "count": 18,
-      "score": 18,
+      "text": "آیت الله",
+      "count": 12,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "ملی فوتبال",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "فوتبال زنان",
-      "count": 15,
-      "score": 15,
-      "is_new": true,
-      "sentiment": "positive"
     },
     {
       "text": "نظامی استفاده",
@@ -43,6 +22,13 @@
       "score": 12,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "اصفهان",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
