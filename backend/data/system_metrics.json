@@ -1,25 +1,18 @@
 {
-  "generated_at": 1773096460,
-  "vibe_index": 30,
+  "generated_at": 1773098062,
+  "vibe_index": 28,
   "top_nodes": [
     {
-      "text": "تیم ملی",
-      "count": 24,
-      "score": 24,
+      "text": "اسفند",
+      "count": 42,
+      "score": 42,
       "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "هدف قرار",
-      "count": 21,
-      "score": 21,
-      "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "اصفهان",
-      "count": 7,
-      "score": 14,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -31,9 +24,30 @@
       "sentiment": "negative"
     },
     {
+      "text": "شهریار",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "زلزله",
-      "count": 3,
-      "score": 6,
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "قدس",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
