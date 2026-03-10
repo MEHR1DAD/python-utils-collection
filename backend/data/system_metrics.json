@@ -1,20 +1,27 @@
 {
-  "generated_at": 1773139812,
-  "vibe_index": 25,
+  "generated_at": 1773141729,
+  "vibe_index": 16,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "text": "نشست رسانه",
+      "count": 21,
+      "score": 21,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
