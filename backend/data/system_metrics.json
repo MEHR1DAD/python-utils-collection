@@ -1,28 +1,7 @@
 {
-  "generated_at": 1773110074,
-  "vibe_index": 25,
+  "generated_at": 1773116550,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "تیم ملی",
-      "count": 24,
-      "score": 24,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "هدف قرار",
-      "count": 21,
-      "score": 21,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
-      "count": 20,
-      "score": 20,
-      "is_new": true,
-      "sentiment": "negative"
-    },
     {
       "text": "انفجار",
       "count": 2,
