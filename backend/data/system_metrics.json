@@ -1,16 +1,16 @@
 {
-  "generated_at": 1773120513,
-  "vibe_index": 25,
+  "generated_at": 1773122765,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "جمهوری",
-      "count": 23,
-      "score": 23,
+      "text": "انفجار",
+      "count": 3,
+      "score": 6,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "text": "انفجار",
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
