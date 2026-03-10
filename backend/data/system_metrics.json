@@ -1,7 +1,14 @@
 {
-  "generated_at": 1773169644,
-  "vibe_index": 0,
+  "generated_at": 1773172254,
+  "vibe_index": 16,
   "top_nodes": [
+    {
+      "text": "نشست رسانه",
+      "count": 21,
+      "score": 21,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "زلزله",
       "count": 2,
@@ -11,13 +18,6 @@
     },
     {
       "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
       "count": 2,
       "score": 4,
       "is_new": true,
