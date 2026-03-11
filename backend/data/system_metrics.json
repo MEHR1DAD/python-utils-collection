@@ -1,11 +1,11 @@
 {
-  "generated_at": 1773222731,
-  "vibe_index": 20,
+  "generated_at": 1773224734,
+  "vibe_index": 12,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 16,
-      "score": 32,
+      "text": "نشست رسانه",
+      "count": 21,
+      "score": 21,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -22,13 +22,6 @@
       "score": 8,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "تبریز",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
