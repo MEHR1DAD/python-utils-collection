@@ -1,7 +1,21 @@
 {
-  "generated_at": 1773242981,
+  "generated_at": 1773246454,
   "vibe_index": 0,
   "top_nodes": [
+    {
+      "text": "هدف قرار",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "حمله",
+      "count": 14,
+      "score": 14,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "زلزله",
       "count": 2,
