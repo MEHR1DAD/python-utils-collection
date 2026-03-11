@@ -1,13 +1,13 @@
 {
-  "generated_at": 1773268979,
-  "vibe_index": 25,
+  "generated_at": 1773269899,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 23,
-      "score": 46,
+      "text": "هدف قرار",
+      "count": 18,
+      "score": 18,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "زلزله",
@@ -22,13 +22,6 @@
       "score": 6,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
