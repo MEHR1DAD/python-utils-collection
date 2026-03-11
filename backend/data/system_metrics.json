@@ -1,14 +1,7 @@
 {
-  "generated_at": 1773258586,
-  "vibe_index": 25,
+  "generated_at": 1773260345,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "حمله",
-      "count": 13,
-      "score": 13,
-      "is_new": true,
-      "sentiment": "negative"
-    },
     {
       "text": "زلزله",
       "count": 2,
@@ -22,27 +15,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تبریز",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کرمان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
