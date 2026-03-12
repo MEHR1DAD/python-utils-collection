@@ -1,32 +1,18 @@
 {
-  "generated_at": 1773354755,
-  "vibe_index": 20,
+  "generated_at": 1773356166,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 58,
-      "score": 58,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "انفجار",
-      "count": 44,
-      "score": 44,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "پیام",
-      "count": 32,
-      "score": 32,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "حمله",
-      "count": 25,
-      "score": 25,
+      "count": 26,
+      "score": 26,
       "is_new": true,
       "sentiment": "negative"
     },
