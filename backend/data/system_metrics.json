@@ -1,7 +1,21 @@
 {
-  "generated_at": 1773346757,
-  "vibe_index": 0,
+  "generated_at": 1773348945,
+  "vibe_index": 25,
   "top_nodes": [
+    {
+      "text": "انفجار",
+      "count": 44,
+      "score": 44,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "پهپاد",
+      "count": 6,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "زلزله",
       "count": 2,
@@ -10,11 +24,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "انفجار",
+      "text": "اصفهان",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "کشته",
@@ -22,6 +36,13 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "اراک",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
