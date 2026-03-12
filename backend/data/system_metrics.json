@@ -1,7 +1,14 @@
 {
-  "generated_at": 1773336715,
+  "generated_at": 1773339048,
   "vibe_index": 0,
   "top_nodes": [
+    {
+      "text": "حمله",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "زلزله",
       "count": 2,
