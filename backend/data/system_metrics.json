@@ -1,25 +1,11 @@
 {
-  "generated_at": 1773285913,
-  "vibe_index": 20,
+  "generated_at": 1773291666,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 57,
-      "score": 57,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسفند",
-      "count": 44,
-      "score": 44,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "انفجار",
-      "count": 43,
-      "score": 43,
+      "count": 47,
+      "score": 47,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -27,13 +13,6 @@
       "text": "جنگنده",
       "count": 20,
       "score": 20,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "پهپاد",
-      "count": 3,
-      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
