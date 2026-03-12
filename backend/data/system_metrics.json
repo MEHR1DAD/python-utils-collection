@@ -1,37 +1,23 @@
 {
-  "generated_at": 1773271963,
-  "vibe_index": 10,
+  "generated_at": 1773276640,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 24,
-      "score": 48,
+      "text": "صدای انفجار",
+      "count": 45,
+      "score": 45,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 27,
+      "score": 27,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
       "text": "پهپاد",
-      "count": 9,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "هدف قرار",
-      "count": 18,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "انفجار",
       "count": 3,
       "score": 6,
       "is_new": true,
