@@ -1,5 +1,5 @@
 {
-  "generated_at": 1773403170,
+  "generated_at": 1773407605,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -20,27 +20,6 @@
       "text": "انفجار اومد",
       "count": 45,
       "score": 45,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "کشته",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "ترور",
-      "count": 3,
-      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
