@@ -1,6 +1,6 @@
 {
-  "generated_at": 1773395596,
-  "vibe_index": 0,
+  "generated_at": 1773397362,
+  "vibe_index": 8,
   "top_nodes": [
     {
       "text": "صدای انفجار",
@@ -15,6 +15,13 @@
       "score": 51,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "شدید",
+      "count": 49,
+      "score": 49,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "انفجار اومد",
