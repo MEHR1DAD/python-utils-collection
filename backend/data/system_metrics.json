@@ -1,20 +1,20 @@
 {
-  "generated_at": 1773423976,
-  "vibe_index": 10,
+  "generated_at": 1773426200,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 162,
-      "score": 162,
+      "count": 174,
+      "score": 174,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "لرزید",
-      "count": 37,
-      "score": 37,
+      "text": "صدای جنگنده",
+      "count": 39,
+      "score": 39,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "زلزله",
