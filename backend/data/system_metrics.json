@@ -1,5 +1,5 @@
 {
-  "generated_at": 1773399606,
+  "generated_at": 1773401786,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -39,6 +39,13 @@
     },
     {
       "text": "کشته",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
