@@ -1,5 +1,5 @@
 {
-  "generated_at": 1773381424,
+  "generated_at": 1773385388,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -24,14 +24,7 @@
       "sentiment": "negative"
     },
     {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "کشته",
+      "text": "پهپاد",
       "count": 2,
       "score": 4,
       "is_new": true,
