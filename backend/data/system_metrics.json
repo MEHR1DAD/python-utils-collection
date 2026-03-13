@@ -1,5 +1,5 @@
 {
-  "generated_at": 1773392606,
+  "generated_at": 1773395596,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -20,13 +20,6 @@
       "text": "انفجار اومد",
       "count": 42,
       "score": 42,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "پهپاد",
-      "count": 4,
-      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
