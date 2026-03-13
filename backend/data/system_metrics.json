@@ -1,34 +1,13 @@
 {
-  "generated_at": 1773442059,
-  "vibe_index": 12,
+  "generated_at": 1773443710,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "صدای انفجار",
-      "count": 273,
-      "score": 273,
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 69,
-      "score": 69,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "قدس",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
