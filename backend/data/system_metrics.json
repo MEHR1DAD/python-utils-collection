@@ -1,11 +1,11 @@
 {
-  "generated_at": 1773397362,
-  "vibe_index": 8,
+  "generated_at": 1773399606,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 180,
-      "score": 180,
+      "count": 189,
+      "score": 189,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -17,16 +17,16 @@
       "sentiment": "negative"
     },
     {
-      "text": "شدید",
-      "count": 49,
-      "score": 49,
+      "text": "انفجار شدید",
+      "count": 48,
+      "score": 48,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار اومد",
-      "count": 42,
-      "score": 42,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "negative"
     },
