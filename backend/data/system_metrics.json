@@ -1,34 +1,13 @@
 {
-  "generated_at": 1773440166,
-  "vibe_index": 27,
+  "generated_at": 1773442059,
+  "vibe_index": 12,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 267,
-      "score": 267,
+      "count": 273,
+      "score": 273,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "سمت",
-      "count": 97,
-      "score": 97,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
-      "count": 76,
-      "score": 76,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 72,
-      "score": 72,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
@@ -38,32 +17,18 @@
       "sentiment": "negative"
     },
     {
-      "text": "اسفند",
-      "count": 67,
-      "score": 67,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 66,
-      "score": 66,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "اومد",
-      "count": 58,
-      "score": 58,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "زلزله",
       "count": 3,
       "score": 6,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "قدس",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
