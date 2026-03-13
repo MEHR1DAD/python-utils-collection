@@ -1,37 +1,30 @@
 {
-  "generated_at": 1773426200,
+  "generated_at": 1773428702,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 174,
-      "score": 174,
+      "count": 243,
+      "score": 243,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "صدای جنگنده",
-      "count": 39,
-      "score": 39,
+      "count": 60,
+      "score": 60,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "کشته",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "ترور",
       "count": 2,
       "score": 4,
       "is_new": true,
