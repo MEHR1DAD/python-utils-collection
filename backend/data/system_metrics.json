@@ -1,69 +1,13 @@
 {
-  "generated_at": 1773503978,
-  "vibe_index": 42,
+  "generated_at": 1773506359,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 108,
-      "score": 108,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسفند",
-      "count": 50,
-      "score": 50,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 49,
-      "score": 49,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
-      "count": 40,
-      "score": 40,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شدید",
-      "count": 37,
-      "score": 37,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "غرب",
-      "count": 32,
-      "score": 32,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 15,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "انفجار",
-      "count": 6,
-      "score": 12,
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "اصفهان",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
@@ -71,34 +15,6 @@
       "score": 6,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "کرج",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "قدس",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کیش",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "قم",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
