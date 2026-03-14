@@ -1,27 +1,104 @@
 {
-  "generated_at": 1773497787,
-  "vibe_index": 16,
+  "generated_at": 1773499777,
+  "vibe_index": 39,
   "top_nodes": [
     {
+      "text": "صدای",
+      "count": 124,
+      "score": 124,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 61,
+      "score": 61,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 55,
+      "score": 55,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسفند",
+      "count": 54,
+      "score": 54,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شدید",
+      "count": 41,
+      "score": 41,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 37,
+      "score": 37,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "غرب",
+      "count": 35,
+      "score": 35,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "انفجار",
-      "count": 4,
-      "score": 8,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "قدس",
-      "count": 2,
-      "score": 4,
+      "text": "کرج",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "قدس",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کیش",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "قم",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شلیک",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
