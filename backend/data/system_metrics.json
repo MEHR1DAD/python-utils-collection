@@ -1,30 +1,9 @@
 {
-  "generated_at": 1773446489,
-  "vibe_index": 25,
+  "generated_at": 1773456351,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 13,
-      "score": 26,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "انفجار",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شلیک",
       "count": 2,
       "score": 4,
       "is_new": true,
