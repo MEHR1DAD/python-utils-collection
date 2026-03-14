@@ -1,6 +1,6 @@
 {
-  "generated_at": 1773496380,
-  "vibe_index": 0,
+  "generated_at": 1773497787,
+  "vibe_index": 16,
   "top_nodes": [
     {
       "text": "انفجار",
@@ -17,11 +17,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "شلیک",
+      "text": "قدس",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
