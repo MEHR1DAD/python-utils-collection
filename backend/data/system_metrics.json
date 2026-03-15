@@ -1,32 +1,11 @@
 {
-  "generated_at": 1773532671,
+  "generated_at": 1773543387,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "انفجار",
-      "count": 12,
-      "score": 24,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "شلیک",
-      "count": 3,
-      "score": 6,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     }
