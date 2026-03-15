@@ -1,30 +1,30 @@
 {
-  "generated_at": 1773577352,
-  "vibe_index": 0,
+  "generated_at": 1773581186,
+  "vibe_index": 25,
   "top_nodes": [
     {
+      "text": "اسفند",
+      "count": 53,
+      "score": 53,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حمله",
+      "count": 31,
+      "score": 31,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "انفجار",
-      "count": 12,
-      "score": 24,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "شلیک",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "حمله موشکی",
       "count": 3,
       "score": 6,
       "is_new": true,
