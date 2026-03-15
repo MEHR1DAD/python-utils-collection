@@ -1,21 +1,7 @@
 {
-  "generated_at": 1773604902,
-  "vibe_index": 25,
+  "generated_at": 1773607201,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "پدافند",
-      "count": 59,
-      "score": 59,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 9,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "انفجار",
       "count": 6,
