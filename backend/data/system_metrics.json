@@ -1,5 +1,5 @@
 {
-  "generated_at": 1773565087,
+  "generated_at": 1773567671,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -11,6 +11,13 @@
     },
     {
       "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "شلیک",
       "count": 2,
       "score": 4,
       "is_new": true,
