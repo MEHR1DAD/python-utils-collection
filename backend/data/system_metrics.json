@@ -1,18 +1,32 @@
 {
-  "generated_at": 1773558766,
+  "generated_at": 1773561190,
   "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "حمله",
-      "count": 34,
-      "score": 34,
+      "text": "انفجار",
+      "count": 8,
+      "score": 16,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "انفجار",
-      "count": 4,
-      "score": 8,
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "شلیک",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "حمله موشکی",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
