@@ -1,11 +1,39 @@
 {
-  "generated_at": 1773694620,
-  "vibe_index": 0,
+  "generated_at": 1773697652,
+  "vibe_index": 18,
   "top_nodes": [
+    {
+      "text": "پدافند",
+      "count": 81,
+      "score": 81,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسفند",
+      "count": 61,
+      "score": 61,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شدید",
+      "count": 60,
+      "score": 60,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "انفجار",
       "count": 4,
       "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "کشته",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -24,7 +52,7 @@
       "sentiment": "negative"
     },
     {
-      "text": "کشته",
+      "text": "جنگنده",
       "count": 2,
       "score": 4,
       "is_new": true,
