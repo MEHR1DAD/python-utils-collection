@@ -1,56 +1,7 @@
 {
-  "generated_at": 1773690076,
-  "vibe_index": 39,
+  "generated_at": 1773691542,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "صدای",
-      "count": 201,
-      "score": 201,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 112,
-      "score": 112,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسفند",
-      "count": 75,
-      "score": 75,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پدافند",
-      "count": 72,
-      "score": 72,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شدید",
-      "count": 66,
-      "score": 66,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "میاد",
-      "count": 64,
-      "score": 64,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 22,
-      "score": 44,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "انفجار",
       "count": 4,
@@ -64,41 +15,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "شلیک",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همدان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "چابهار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
