@@ -1,25 +1,67 @@
 {
-  "generated_at": 1773704832,
-  "vibe_index": 0,
+  "generated_at": 1773708922,
+  "vibe_index": 38,
   "top_nodes": [
     {
+      "text": "صدای",
+      "count": 236,
+      "score": 236,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 113,
+      "score": 113,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پدافند",
+      "count": 83,
+      "score": 83,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شدید",
+      "count": 75,
+      "score": 75,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "میاد",
+      "count": 74,
+      "score": 74,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسفند",
+      "count": 64,
+      "score": 64,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 64,
+      "score": 64,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "انفجار",
-      "count": 6,
-      "score": 12,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "کشته",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 3,
-      "score": 6,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
