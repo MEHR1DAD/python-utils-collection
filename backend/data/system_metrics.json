@@ -1,97 +1,34 @@
 {
-  "generated_at": 1773780962,
-  "vibe_index": 50,
+  "generated_at": 1773783924,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 107,
-      "score": 107,
+      "text": "کشته",
+      "count": 7,
+      "score": 14,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 40,
-      "score": 80,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "بامداد اسفند",
-      "count": 57,
-      "score": 57,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 48,
-      "score": 48,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 38,
-      "score": 38,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 34,
-      "score": 34,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شدید",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
-      "count": 31,
-      "score": 31,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شرق",
-      "count": 29,
-      "score": 29,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار",
-      "count": 6,
-      "score": 12,
+      "count": 5,
+      "score": 10,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کشته",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "شلیک",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
