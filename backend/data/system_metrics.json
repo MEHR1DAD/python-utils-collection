@@ -1,20 +1,41 @@
 {
-  "generated_at": 1773725828,
-  "vibe_index": 0,
+  "generated_at": 1773727965,
+  "vibe_index": 20,
   "top_nodes": [
     {
       "text": "انفجار",
-      "count": 3,
-      "score": 6,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "کشته",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "چابهار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
