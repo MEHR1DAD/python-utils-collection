@@ -1,18 +1,18 @@
 {
-  "generated_at": 1773783924,
+  "generated_at": 1773785958,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "کشته",
-      "count": 7,
-      "score": 14,
+      "count": 8,
+      "score": 16,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "انفجار",
-      "count": 5,
-      "score": 10,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
