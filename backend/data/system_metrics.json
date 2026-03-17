@@ -1,34 +1,97 @@
 {
-  "generated_at": 1773788089,
-  "vibe_index": 0,
+  "generated_at": 1773789834,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "صدای",
+      "count": 114,
+      "score": 114,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 35,
+      "score": 70,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 47,
+      "score": 47,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسفند",
+      "count": 47,
+      "score": 47,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 41,
+      "score": 41,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "علی لاریجانی",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 35,
+      "score": 35,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شدید",
+      "count": 34,
+      "score": 34,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "کشته",
       "count": 8,
       "score": 16,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "انفجار",
       "count": 4,
       "score": 8,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "شلیک",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
