@@ -1,11 +1,11 @@
 {
-  "generated_at": 1773741796,
-  "vibe_index": 21,
+  "generated_at": 1773745283,
+  "vibe_index": 8,
   "top_nodes": [
     {
-      "text": "بامداد اسفند",
-      "count": 72,
-      "score": 72,
+      "text": "شدید",
+      "count": 79,
+      "score": 79,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -18,8 +18,8 @@
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -38,18 +38,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "تنگه هرمز",
+      "text": "جنگنده",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "چابهار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
