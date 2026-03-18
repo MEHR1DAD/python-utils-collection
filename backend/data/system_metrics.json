@@ -1,62 +1,13 @@
 {
-  "generated_at": 1773795595,
-  "vibe_index": 40,
+  "generated_at": 1773805388,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "صدای",
-      "count": 114,
-      "score": 114,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 48,
-      "score": 48,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسفند",
-      "count": 47,
-      "score": 47,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "جنگنده",
       "count": 41,
       "score": 41,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "علی لاریجانی",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
-      "count": 35,
-      "score": 35,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شدید",
-      "count": 34,
-      "score": 34,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "کشته",
