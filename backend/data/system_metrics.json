@@ -1,14 +1,7 @@
 {
-  "generated_at": 1773875877,
-  "vibe_index": 16,
+  "generated_at": 1773877579,
+  "vibe_index": 20,
   "top_nodes": [
-    {
-      "text": "علی لاریجانی",
-      "count": 48,
-      "score": 48,
-      "is_new": true,
-      "sentiment": "positive"
-    },
     {
       "text": "جنگنده",
       "count": 38,
@@ -42,7 +35,7 @@
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
