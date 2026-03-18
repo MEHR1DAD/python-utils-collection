@@ -1,18 +1,18 @@
 {
-  "generated_at": 1773863765,
+  "generated_at": 1773866765,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "حمله",
-      "count": 35,
-      "score": 35,
+      "count": 34,
+      "score": 34,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "هدف قرار",
-      "count": 33,
-      "score": 33,
+      "text": "جنگنده",
+      "count": 34,
+      "score": 34,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -24,14 +24,14 @@
       "sentiment": "negative"
     },
     {
-      "text": "انفجار",
-      "count": 3,
-      "score": 6,
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "زلزله",
+      "text": "انفجار",
       "count": 2,
       "score": 4,
       "is_new": true,
