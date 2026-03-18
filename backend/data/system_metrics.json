@@ -1,14 +1,7 @@
 {
-  "generated_at": 1773821188,
-  "vibe_index": 40,
+  "generated_at": 1773824788,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "جنگنده",
-      "count": 41,
-      "score": 41,
-      "is_new": true,
-      "sentiment": "positive"
-    },
     {
       "text": "کشته",
       "count": 8,
@@ -29,13 +22,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "شلیک",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "positive"
     }
   ],
   "active_incidents": []
