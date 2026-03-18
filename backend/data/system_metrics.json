@@ -1,44 +1,23 @@
 {
-  "generated_at": 1773835051,
-  "vibe_index": 16,
+  "generated_at": 1773840414,
+  "vibe_index": 33,
   "top_nodes": [
-    {
-      "text": "سمت",
-      "count": 47,
-      "score": 47,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "جنگنده",
       "count": 41,
       "score": 41,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
       "text": "کشته",
-      "count": 9,
-      "score": 18,
+      "count": 5,
+      "score": 10,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "شلیک",
       "count": 2,
       "score": 4,
       "is_new": true,
