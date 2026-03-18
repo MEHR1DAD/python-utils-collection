@@ -1,13 +1,13 @@
 {
-  "generated_at": 1773868926,
-  "vibe_index": 25,
+  "generated_at": 1773870791,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "جنگنده",
       "count": 38,
       "score": 38,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "text": "کشته",
@@ -18,8 +18,8 @@
     },
     {
       "text": "انفجار",
-      "count": 3,
-      "score": 6,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
