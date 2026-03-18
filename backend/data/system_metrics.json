@@ -1,13 +1,13 @@
 {
-  "generated_at": 1773840414,
-  "vibe_index": 33,
+  "generated_at": 1773845287,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "جنگنده",
-      "count": 41,
-      "score": 41,
+      "text": "حمله",
+      "count": 36,
+      "score": 36,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "text": "کشته",
