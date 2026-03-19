@@ -1,20 +1,34 @@
 {
-  "generated_at": 1773962173,
-  "vibe_index": 25,
+  "generated_at": 1773964062,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 10,
-      "score": 20,
+      "text": "کشته",
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "حمله موشکی",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
