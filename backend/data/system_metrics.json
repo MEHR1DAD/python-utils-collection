@@ -1,90 +1,27 @@
 {
-  "generated_at": 1773941679,
-  "vibe_index": 50,
+  "generated_at": 1773944947,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "صدای انفجار",
-      "count": 60,
-      "score": 60,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "حمله",
-      "count": 49,
-      "score": 49,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پارس جنوبی",
-      "count": 48,
-      "score": 48,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "هدف قرار",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جمهوری",
-      "count": 38,
-      "score": 38,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 35,
-      "score": 35,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسفند",
-      "count": 34,
-      "score": 34,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "علی لاریجانی",
-      "count": 27,
-      "score": 27,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اومد",
-      "count": 27,
-      "score": 27,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پیام",
-      "count": 26,
-      "score": 26,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "کشته",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
