@@ -1,32 +1,25 @@
 {
-  "generated_at": 1773957089,
-  "vibe_index": 12,
+  "generated_at": 1773958400,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "اومد",
-      "count": 32,
-      "score": 32,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "انفجار",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
