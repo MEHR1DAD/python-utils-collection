@@ -1,7 +1,14 @@
 {
-  "generated_at": 1773955334,
-  "vibe_index": 0,
+  "generated_at": 1773957089,
+  "vibe_index": 12,
   "top_nodes": [
+    {
+      "text": "اومد",
+      "count": 32,
+      "score": 32,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "کشته",
       "count": 4,
