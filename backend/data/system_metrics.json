@@ -1,41 +1,20 @@
 {
-  "generated_at": 1773877579,
-  "vibe_index": 20,
+  "generated_at": 1773881905,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "جنگنده",
-      "count": 38,
-      "score": 38,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "کشته",
-      "count": 12,
-      "score": 24,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "انفجار",
-      "count": 6,
-      "score": 12,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "پدافند",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "positive"
     }
   ],
   "active_incidents": []
