@@ -1,60 +1,53 @@
 {
-  "generated_at": 1774042763,
+  "generated_at": 1774043886,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 236,
-      "score": 236,
+      "count": 289,
+      "score": 289,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 90,
-      "score": 90,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 54,
-      "score": 54,
+      "count": 100,
+      "score": 100,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "همین الان",
-      "count": 51,
-      "score": 51,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تایید نشده",
-      "count": 48,
-      "score": 48,
+      "count": 72,
+      "score": 72,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "دقیقه",
-      "count": 48,
-      "score": 48,
+      "count": 69,
+      "score": 69,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اومد",
+      "count": 67,
+      "score": 67,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "خیلی",
-      "count": 48,
-      "score": 48,
+      "count": 64,
+      "score": 64,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "اسفند",
-      "count": 46,
-      "score": 46,
+      "text": "جنگنده",
+      "count": 59,
+      "score": 59,
       "is_new": true,
       "sentiment": "neutral"
     },
