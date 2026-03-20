@@ -1,32 +1,25 @@
 {
-  "generated_at": 1774033367,
+  "generated_at": 1774035666,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "صدای انفجار",
-      "count": 234,
-      "score": 234,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای پدافند",
-      "count": 123,
-      "score": 123,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 108,
-      "score": 108,
+      "text": "صدای",
+      "count": 236,
+      "score": 236,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 90,
-      "score": 90,
+      "count": 91,
+      "score": 91,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 55,
+      "score": 55,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -46,29 +39,64 @@
     },
     {
       "text": "دقیقه",
-      "count": 46,
-      "score": 46,
+      "count": 48,
+      "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "خیلی",
+      "count": 48,
+      "score": 48,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "میاد",
       "count": 46,
       "score": 46,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "اسفند",
-      "count": 44,
-      "score": 44,
+      "text": "تهران",
+      "count": 10,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
-      "count": 5,
-      "score": 10,
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فلسطین",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پدافند",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اصفهان",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
