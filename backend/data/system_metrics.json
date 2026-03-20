@@ -1,27 +1,111 @@
 {
-  "generated_at": 1774000647,
-  "vibe_index": 0,
+  "generated_at": 1774003598,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "صدای",
+      "count": 252,
+      "score": 252,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 86,
+      "score": 86,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اومد",
+      "count": 61,
+      "score": 61,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 57,
+      "score": 57,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 55,
+      "score": 55,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 51,
+      "score": 51,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "میاد",
+      "count": 47,
+      "score": 47,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 12,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "انفجار",
       "count": 4,
       "score": 8,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پدافند",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "کشته",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فلسطین",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "رشت",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شیراز",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
