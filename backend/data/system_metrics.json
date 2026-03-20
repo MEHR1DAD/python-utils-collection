@@ -1,7 +1,14 @@
 {
-  "generated_at": 1773993178,
-  "vibe_index": 0,
+  "generated_at": 1773995159,
+  "vibe_index": 12,
   "top_nodes": [
+    {
+      "text": "اومد",
+      "count": 61,
+      "score": 61,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "انفجار",
       "count": 4,
