@@ -1,27 +1,20 @@
 {
-  "generated_at": 1773986532,
-  "vibe_index": 0,
+  "generated_at": 1773990473,
+  "vibe_index": 25,
   "top_nodes": [
     {
       "text": "انفجار",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "کشته",
+      "text": "پدافند",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
