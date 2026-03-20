@@ -1,58 +1,30 @@
 {
-  "generated_at": 1774014101,
+  "generated_at": 1774016865,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 258,
-      "score": 258,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پدافند",
-      "count": 90,
-      "score": 90,
+      "count": 226,
+      "score": 226,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 87,
-      "score": 87,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 59,
-      "score": 59,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اومد",
-      "count": 58,
-      "score": 58,
+      "count": 85,
+      "score": 85,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "همین الان",
-      "count": 57,
-      "score": 57,
+      "count": 54,
+      "score": 54,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "خیلی",
-      "count": 56,
-      "score": 56,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
+      "text": "جنگنده",
       "count": 52,
       "score": 52,
       "is_new": true,
@@ -60,20 +32,62 @@
     },
     {
       "text": "تایید نشده",
-      "count": 51,
-      "score": 51,
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "count": 11,
+      "score": 22,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فلسطین",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پدافند",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اصفهان",
       "count": 2,
       "score": 4,
       "is_new": true,
