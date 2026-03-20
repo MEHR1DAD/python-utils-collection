@@ -1,76 +1,13 @@
 {
-  "generated_at": 1773977556,
-  "vibe_index": 45,
+  "generated_at": 1773984596,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 235,
-      "score": 235,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "انفجار",
-      "count": 150,
-      "score": 150,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "پدافند",
-      "count": 88,
-      "score": 88,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 81,
-      "score": 81,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اومد",
-      "count": 59,
-      "score": 59,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 52,
-      "score": 52,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 51,
-      "score": 51,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
-      "count": 49,
-      "score": 49,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 46,
-      "score": 46,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "میاد",
-      "count": 44,
-      "score": 44,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
