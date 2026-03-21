@@ -1,11 +1,25 @@
 {
-  "generated_at": 1774051044,
+  "generated_at": 1774060327,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 300,
-      "score": 300,
+      "text": "صدای انفجار",
+      "count": 351,
+      "score": 351,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای پدافند",
+      "count": 132,
+      "score": 132,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 126,
+      "score": 126,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -45,51 +59,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "جنگنده",
-      "count": 61,
-      "score": 61,
+      "text": "انفجار شدید",
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 15,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فلسطین",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پدافند",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 3,
-      "score": 6,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     }
