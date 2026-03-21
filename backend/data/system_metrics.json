@@ -1,5 +1,5 @@
 {
-  "generated_at": 1774132330,
+  "generated_at": 1774133619,
   "vibe_index": 25,
   "top_nodes": [
     {
@@ -25,36 +25,36 @@
     },
     {
       "text": "انفجار شدید",
-      "count": 123,
-      "score": 123,
+      "count": 126,
+      "score": 126,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "سمت",
-      "count": 111,
-      "score": 111,
+      "count": 113,
+      "score": 113,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "خیلی",
-      "count": 100,
-      "score": 100,
+      "count": 101,
+      "score": 101,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اومد",
-      "count": 98,
-      "score": 98,
+      "count": 99,
+      "score": 99,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "دقیقه",
-      "count": 87,
-      "score": 87,
+      "count": 88,
+      "score": 88,
       "is_new": true,
       "sentiment": "neutral"
     },
