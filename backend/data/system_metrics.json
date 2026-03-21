@@ -1,11 +1,32 @@
 {
-  "generated_at": 1774060327,
+  "generated_at": 1774066641,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 351,
-      "score": 351,
+      "count": 552,
+      "score": 552,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 207,
+      "score": 207,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 165,
+      "score": 165,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 161,
+      "score": 161,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -17,51 +38,30 @@
       "sentiment": "neutral"
     },
     {
-      "text": "صدای جنگنده",
-      "count": 126,
-      "score": 126,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 102,
-      "score": 102,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 75,
-      "score": 75,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 73,
-      "score": 73,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اومد",
-      "count": 71,
-      "score": 71,
+      "text": "انفجار شدید",
+      "count": 129,
+      "score": 129,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "خیلی",
-      "count": 69,
-      "score": 69,
+      "count": 129,
+      "score": 129,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار شدید",
-      "count": 63,
-      "score": 63,
+      "text": "اومد",
+      "count": 123,
+      "score": 123,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 111,
+      "score": 111,
       "is_new": true,
       "sentiment": "neutral"
     },
