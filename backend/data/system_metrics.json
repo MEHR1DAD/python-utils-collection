@@ -1,104 +1,34 @@
 {
-  "generated_at": 1774087321,
-  "vibe_index": 50,
+  "generated_at": 1774089474,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "صدای",
-      "count": 433,
-      "score": 433,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 165,
-      "score": 165,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 161,
-      "score": 161,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
-      "count": 129,
-      "score": 129,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اومد",
-      "count": 123,
-      "score": 123,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 111,
-      "score": 111,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "جنگنده",
       "count": 107,
       "score": 107,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 15,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "زلزله",
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار",
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فلسطین",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پدافند",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "پهپاد",
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
