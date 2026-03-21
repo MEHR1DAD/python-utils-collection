@@ -1,6 +1,6 @@
 {
-  "generated_at": 1774136431,
-  "vibe_index": 0,
+  "generated_at": 1774137385,
+  "vibe_index": 25,
   "top_nodes": [
     {
       "text": "صدای انفجار",
@@ -10,11 +10,53 @@
       "sentiment": "negative"
     },
     {
+      "text": "صدای جنگنده",
+      "count": 144,
+      "score": 144,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "همین الان",
+      "count": 141,
+      "score": 141,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "انفجار شدید",
       "count": 126,
       "score": 126,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "سمت",
+      "count": 113,
+      "score": 113,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 101,
+      "score": 101,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اومد",
+      "count": 99,
+      "score": 99,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 88,
+      "score": 88,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
