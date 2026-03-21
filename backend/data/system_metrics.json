@@ -1,6 +1,6 @@
 {
-  "generated_at": 1774090725,
-  "vibe_index": 25,
+  "generated_at": 1774092531,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "جنگنده",
@@ -28,7 +28,7 @@
       "count": 3,
       "score": 6,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
