@@ -1,5 +1,5 @@
 {
-  "generated_at": 1774147698,
+  "generated_at": 1774154725,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -17,13 +17,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "صدای جنگنده",
-      "count": 144,
-      "score": 144,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "انفجار شدید",
       "count": 141,
       "score": 141,
@@ -31,9 +24,16 @@
       "sentiment": "neutral"
     },
     {
+      "text": "صدای جنگنده",
+      "count": 141,
+      "score": 141,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "سمت",
-      "count": 133,
-      "score": 133,
+      "count": 127,
+      "score": 127,
       "is_new": true,
       "sentiment": "neutral"
     },
