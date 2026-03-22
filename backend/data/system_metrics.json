@@ -1,5 +1,5 @@
 {
-  "generated_at": 1774220467,
+  "generated_at": 1774222586,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -25,22 +25,22 @@
     },
     {
       "text": "سمت",
-      "count": 80,
-      "score": 80,
+      "count": 81,
+      "score": 81,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فروردین",
-      "count": 74,
-      "score": 74,
+      "count": 75,
+      "score": 75,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "همین الان",
-      "count": 63,
-      "score": 63,
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "neutral"
     },
