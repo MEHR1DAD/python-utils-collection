@@ -1,5 +1,5 @@
 {
-  "generated_at": 1774217511,
+  "generated_at": 1774219491,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -17,13 +17,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "سمت",
-      "count": 82,
-      "score": 82,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "صدای جنگنده",
       "count": 81,
       "score": 81,
@@ -31,9 +24,16 @@
       "sentiment": "neutral"
     },
     {
+      "text": "سمت",
+      "count": 80,
+      "score": 80,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "فروردین",
-      "count": 75,
-      "score": 75,
+      "count": 74,
+      "score": 74,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -45,16 +45,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "موشک",
-      "count": 63,
-      "score": 63,
+      "text": "انفجار شدید",
+      "count": 57,
+      "score": 57,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار شدید",
-      "count": 57,
-      "score": 57,
+      "text": "موشک",
+      "count": 53,
+      "score": 53,
       "is_new": true,
       "sentiment": "neutral"
     },
