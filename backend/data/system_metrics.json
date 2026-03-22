@@ -1,25 +1,11 @@
 {
-  "generated_at": 1774215153,
+  "generated_at": 1774216355,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 231,
-      "score": 231,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 126,
-      "score": 126,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 100,
-      "score": 100,
+      "count": 174,
+      "score": 174,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -31,7 +17,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "همین الان",
+      "text": "سمت",
+      "count": 82,
+      "score": 82,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
       "count": 81,
       "score": 81,
       "is_new": true,
@@ -39,15 +32,15 @@
     },
     {
       "text": "فروردین",
-      "count": 73,
-      "score": 73,
+      "count": 75,
+      "score": 75,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "خیلی",
-      "count": 66,
-      "score": 66,
+      "text": "همین الان",
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -55,6 +48,13 @@
       "text": "موشک",
       "count": 62,
       "score": 62,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 57,
+      "score": 57,
       "is_new": true,
       "sentiment": "neutral"
     },
