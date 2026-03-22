@@ -1,11 +1,11 @@
 {
-  "generated_at": 1774213111,
+  "generated_at": 1774215153,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 234,
-      "score": 234,
+      "count": 231,
+      "score": 231,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -18,8 +18,8 @@
     },
     {
       "text": "سمت",
-      "count": 102,
-      "score": 102,
+      "count": 100,
+      "score": 100,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -39,22 +39,15 @@
     },
     {
       "text": "فروردین",
-      "count": 75,
-      "score": 75,
+      "count": 73,
+      "score": 73,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "خیلی",
-      "count": 72,
-      "score": 72,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 64,
-      "score": 64,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -67,22 +60,22 @@
     },
     {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "count": 9,
+      "score": 18,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اصابت",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     }
