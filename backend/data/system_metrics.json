@@ -1,20 +1,69 @@
 {
-  "generated_at": 1774290449,
-  "vibe_index": 0,
+  "generated_at": 1774294148,
+  "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "text": "صدای انفجار",
+      "count": 330,
+      "score": 330,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
+      "text": "صدای جنگنده",
+      "count": 261,
+      "score": 261,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 124,
+      "score": 124,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 123,
+      "score": 123,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 87,
+      "score": 87,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اومد",
+      "count": 84,
+      "score": 84,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 75,
+      "score": 75,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 74,
+      "score": 74,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
