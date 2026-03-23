@@ -1,25 +1,32 @@
 {
-  "generated_at": 1774298970,
+  "generated_at": 1774300957,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 214,
-      "score": 214,
+      "count": 218,
+      "score": 218,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 100,
-      "score": 100,
+      "count": 101,
+      "score": 101,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جنگنده",
-      "count": 94,
-      "score": 94,
+      "count": 97,
+      "score": 97,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -32,13 +39,6 @@
     },
     {
       "text": "همین الان",
-      "count": 60,
-      "score": 60,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
       "count": 60,
       "score": 60,
       "is_new": true,
