@@ -1,5 +1,5 @@
 {
-  "generated_at": 1774380055,
+  "generated_at": 1774382374,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -20,6 +20,20 @@
       "text": "صدای جنگنده",
       "count": 45,
       "score": 45,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "قدس",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
