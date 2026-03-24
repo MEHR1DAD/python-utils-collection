@@ -1,25 +1,25 @@
 {
-  "generated_at": 1774393378,
-  "vibe_index": 0,
+  "generated_at": 1774395647,
+  "vibe_index": 10,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 264,
-      "score": 264,
+      "count": 330,
+      "score": 330,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "انفجار شدید",
-      "count": 84,
-      "score": 84,
+      "count": 90,
+      "score": 90,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "صدای جنگنده",
-      "count": 48,
-      "score": 48,
+      "text": "انفجار اومد",
+      "count": 57,
+      "score": 57,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -29,6 +29,13 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "قدس",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
