@@ -1,23 +1,30 @@
 {
-  "generated_at": 1774365191,
+  "generated_at": 1774369074,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 234,
-      "score": 234,
+      "count": 249,
+      "score": 249,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 71,
-      "score": 71,
+      "count": 81,
+      "score": 81,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
+      "count": 72,
+      "score": 72,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اصفهان",
       "count": 66,
       "score": 66,
       "is_new": true,
@@ -25,20 +32,34 @@
     },
     {
       "text": "صدای جنگنده",
-      "count": 51,
-      "score": 51,
+      "count": 57,
+      "score": 57,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فروردین",
-      "count": 44,
-      "score": 44,
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "اصفهان",
+      "text": "دقیقه",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 41,
+      "score": 41,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نزدیک",
       "count": 41,
       "score": 41,
       "is_new": true,
@@ -48,27 +69,6 @@
       "text": "جمهوری",
       "count": 40,
       "score": 40,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نزدیک",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
-      "count": 37,
-      "score": 37,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 37,
-      "score": 37,
       "is_new": true,
       "sentiment": "neutral"
     },
