@@ -1,32 +1,46 @@
 {
-  "generated_at": 1774360990,
+  "generated_at": 1774365191,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 192,
-      "score": 192,
+      "count": 234,
+      "score": 234,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 62,
-      "score": 62,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 48,
-      "score": 48,
+      "count": 71,
+      "score": 71,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
-      "count": 45,
-      "score": 45,
+      "count": 66,
+      "score": 66,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 51,
+      "score": 51,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فروردین",
+      "count": 44,
+      "score": 44,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اصفهان",
+      "count": 41,
+      "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -38,37 +52,23 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اصفهان",
-      "count": 40,
-      "score": 40,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
+      "text": "نزدیک",
       "count": 39,
       "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "فروردین",
-      "count": 38,
-      "score": 38,
+      "text": "خیلی",
+      "count": 37,
+      "score": 37,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "نزدیک",
-      "count": 35,
-      "score": 35,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 34,
-      "score": 34,
+      "text": "دقیقه",
+      "count": 37,
+      "score": 37,
       "is_new": true,
       "sentiment": "neutral"
     },
