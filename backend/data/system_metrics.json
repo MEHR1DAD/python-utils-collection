@@ -1,11 +1,11 @@
 {
-  "generated_at": 1774322936,
+  "generated_at": 1774330695,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 348,
-      "score": 348,
+      "count": 351,
+      "score": 351,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -18,8 +18,8 @@
     },
     {
       "text": "سمت",
-      "count": 116,
-      "score": 116,
+      "count": 117,
+      "score": 117,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -46,8 +46,8 @@
     },
     {
       "text": "اومد",
-      "count": 65,
-      "score": 65,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
