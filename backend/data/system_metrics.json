@@ -1,11 +1,11 @@
 {
-  "generated_at": 1774395647,
-  "vibe_index": 10,
+  "generated_at": 1774396781,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 330,
-      "score": 330,
+      "count": 336,
+      "score": 336,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -18,24 +18,17 @@
     },
     {
       "text": "انفجار اومد",
-      "count": 57,
-      "score": 57,
+      "count": 60,
+      "score": 60,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "قدس",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
