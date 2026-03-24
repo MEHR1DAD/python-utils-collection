@@ -1,74 +1,74 @@
 {
-  "generated_at": 1774372656,
+  "generated_at": 1774375885,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 249,
-      "score": 249,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 81,
-      "score": 81,
+      "count": 231,
+      "score": 231,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
-      "count": 72,
-      "score": 72,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "صدای جنگنده",
-      "count": 57,
-      "score": 57,
+      "text": "سمت",
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فروردین",
+      "count": 46,
+      "score": 46,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
       "count": 43,
       "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "دقیقه",
-      "count": 42,
-      "score": 42,
+      "text": "جمهوری",
+      "count": 41,
+      "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "خیلی",
-      "count": 41,
-      "score": 41,
+      "text": "زدن",
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "نزدیک",
-      "count": 41,
-      "score": 41,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جمهوری",
-      "count": 40,
-      "score": 40,
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 10,
-      "score": 20,
+      "count": 9,
+      "score": 18,
       "is_new": true,
       "sentiment": "neutral"
     },
