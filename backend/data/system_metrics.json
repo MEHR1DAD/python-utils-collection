@@ -1,5 +1,5 @@
 {
-  "generated_at": 1774369074,
+  "generated_at": 1774372656,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -20,13 +20,6 @@
       "text": "انفجار شدید",
       "count": 72,
       "score": 72,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 66,
-      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -74,8 +67,29 @@
     },
     {
       "text": "تهران",
-      "count": 5,
-      "score": 10,
+      "count": 10,
+      "score": 20,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پدافند",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اصفهان",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
