@@ -1,18 +1,18 @@
 {
-  "generated_at": 1774480751,
+  "generated_at": 1774482802,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 252,
-      "score": 252,
+      "count": 255,
+      "score": 255,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 86,
-      "score": 86,
+      "count": 88,
+      "score": 88,
       "is_new": true,
       "sentiment": "neutral"
     },
