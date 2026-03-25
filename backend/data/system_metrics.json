@@ -1,11 +1,11 @@
 {
-  "generated_at": 1774478602,
+  "generated_at": 1774480751,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 249,
-      "score": 249,
+      "count": 252,
+      "score": 252,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -39,8 +39,8 @@
     },
     {
       "text": "فروردین",
-      "count": 54,
-      "score": 54,
+      "count": 56,
+      "score": 56,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -67,8 +67,8 @@
     },
     {
       "text": "دقیقه",
-      "count": 43,
-      "score": 43,
+      "count": 44,
+      "score": 44,
       "is_new": true,
       "sentiment": "neutral"
     },
