@@ -1,6 +1,6 @@
 {
-  "generated_at": 1774430997,
-  "vibe_index": 0,
+  "generated_at": 1774434420,
+  "vibe_index": 8,
   "top_nodes": [
     {
       "text": "صدای انفجار",
@@ -36,6 +36,13 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "قدس",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
