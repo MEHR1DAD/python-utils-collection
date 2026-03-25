@@ -1,5 +1,5 @@
 {
-  "generated_at": 1774471917,
+  "generated_at": 1774473861,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -46,8 +46,8 @@
     },
     {
       "text": "زدن",
-      "count": 46,
-      "score": 46,
+      "count": 49,
+      "score": 49,
       "is_new": true,
       "sentiment": "neutral"
     },
