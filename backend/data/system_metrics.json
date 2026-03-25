@@ -1,53 +1,46 @@
 {
-  "generated_at": 1774449535,
+  "generated_at": 1774453688,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 333,
-      "score": 333,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 88,
-      "score": 88,
+      "count": 327,
+      "score": 327,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
-      "count": 87,
-      "score": 87,
+      "count": 84,
+      "score": 84,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "صدای جنگنده",
-      "count": 66,
-      "score": 66,
+      "text": "سمت",
+      "count": 80,
+      "score": 80,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار اومد",
-      "count": 60,
-      "score": 60,
+      "count": 63,
+      "score": 63,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "خیلی",
-      "count": 60,
-      "score": 60,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 57,
-      "score": 57,
+      "count": 58,
+      "score": 58,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -59,16 +52,23 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اصفهان",
-      "count": 53,
-      "score": 53,
+      "text": "همین الان",
+      "count": 51,
+      "score": 51,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 47,
+      "score": 47,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     }
