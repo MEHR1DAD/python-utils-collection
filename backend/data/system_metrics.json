@@ -1,5 +1,5 @@
 {
-  "generated_at": 1774457293,
+  "generated_at": 1774460728,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -67,8 +67,43 @@
     },
     {
       "text": "تهران",
-      "count": 5,
-      "score": 10,
+      "count": 10,
+      "score": 20,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پدافند",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اصفهان",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "قدس",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
