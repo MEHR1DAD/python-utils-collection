@@ -1,6 +1,6 @@
 {
-  "generated_at": 1774396781,
-  "vibe_index": 0,
+  "generated_at": 1774406712,
+  "vibe_index": 12,
   "top_nodes": [
     {
       "text": "صدای انفجار",
@@ -17,16 +17,16 @@
       "sentiment": "negative"
     },
     {
+      "text": "صدای جنگنده",
+      "count": 75,
+      "score": 75,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "انفجار اومد",
       "count": 60,
       "score": 60,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 3,
-      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
