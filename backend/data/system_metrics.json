@@ -1,30 +1,30 @@
 {
-  "generated_at": 1774475905,
+  "generated_at": 1774478602,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 264,
-      "score": 264,
+      "count": 249,
+      "score": 249,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 81,
-      "score": 81,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 72,
-      "score": 72,
+      "count": 86,
+      "score": 86,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
+      "count": 78,
+      "score": 78,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
       "count": 66,
       "score": 66,
       "is_new": true,
@@ -39,15 +39,22 @@
     },
     {
       "text": "فروردین",
-      "count": 56,
-      "score": 56,
+      "count": 54,
+      "score": 54,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 48,
+      "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "زدن",
-      "count": 49,
-      "score": 49,
+      "count": 47,
+      "score": 47,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -95,13 +102,6 @@
     },
     {
       "text": "قدس",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
       "count": 2,
       "score": 4,
       "is_new": true,
