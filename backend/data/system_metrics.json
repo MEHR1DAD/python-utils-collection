@@ -1,30 +1,37 @@
 {
-  "generated_at": 1774487243,
+  "generated_at": 1774497887,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 291,
-      "score": 291,
+      "count": 306,
+      "score": 306,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 95,
-      "score": 95,
+      "count": 99,
+      "score": 99,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
+      "count": 96,
+      "score": 96,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
       "count": 84,
       "score": 84,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار شدید",
+      "text": "اصفهان",
       "count": 78,
       "score": 78,
       "is_new": true,
@@ -38,44 +45,37 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اصفهان",
-      "count": 67,
-      "score": 67,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "همین الان",
-      "count": 57,
-      "score": 57,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فروردین",
-      "count": 57,
-      "score": 57,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 54,
-      "score": 54,
+      "count": 62,
+      "score": 62,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "خیلی",
-      "count": 53,
-      "score": 53,
+      "count": 62,
+      "score": 62,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 56,
+      "score": 56,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "شهر",
-      "count": 52,
-      "score": 52,
+      "count": 56,
+      "score": 56,
       "is_new": true,
       "sentiment": "neutral"
     },
