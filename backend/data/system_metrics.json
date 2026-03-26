@@ -1,109 +1,88 @@
 {
-  "generated_at": 1774482802,
+  "generated_at": 1774487243,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 255,
-      "score": 255,
+      "count": 291,
+      "score": 291,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 88,
-      "score": 88,
+      "count": 95,
+      "score": 95,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
+      "count": 84,
+      "score": 84,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
       "count": 78,
       "score": 78,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار شدید",
-      "count": 66,
-      "score": 66,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "انفجار اومد",
-      "count": 60,
-      "score": 60,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فروردین",
-      "count": 56,
-      "score": 56,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 48,
-      "score": 48,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زدن",
-      "count": 47,
-      "score": 47,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 44,
-      "score": 44,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 10,
-      "score": 20,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پدافند",
-      "count": 2,
-      "score": 4,
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اصفهان",
-      "count": 2,
-      "score": 4,
+      "count": 67,
+      "score": 67,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "قدس",
-      "count": 2,
-      "score": 4,
+      "text": "همین الان",
+      "count": 57,
+      "score": 57,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فروردین",
+      "count": 57,
+      "score": 57,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 54,
+      "score": 54,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 53,
+      "score": 53,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شهر",
+      "count": 52,
+      "score": 52,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     }
