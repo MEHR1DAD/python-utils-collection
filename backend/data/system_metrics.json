@@ -1,104 +1,41 @@
 {
-  "generated_at": 1774521354,
-  "vibe_index": 50,
+  "generated_at": 1774524909,
+  "vibe_index": 8,
   "top_nodes": [
     {
       "text": "صدای انفجار",
       "count": 306,
       "score": 306,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 99,
-      "score": 99,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "صدای جنگنده",
       "count": 96,
       "score": 96,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار شدید",
       "count": 84,
       "score": 84,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار اومد",
       "count": 69,
       "score": 69,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 66,
-      "score": 66,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فروردین",
-      "count": 62,
-      "score": 62,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
-      "count": 62,
-      "score": 62,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 56,
-      "score": 56,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شهر",
-      "count": 56,
-      "score": 56,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 10,
-      "score": 20,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پدافند",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "قدس",
