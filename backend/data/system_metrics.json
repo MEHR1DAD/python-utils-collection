@@ -1,44 +1,30 @@
 {
-  "generated_at": 1774554083,
+  "generated_at": 1774555495,
   "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "صدای انفجار",
-      "count": 345,
-      "score": 345,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 258,
-      "score": 258,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "انفجار اومد",
-      "count": 93,
-      "score": 93,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 81,
-      "score": 81,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "صدای پدافند",
-      "count": 75,
-      "score": 75,
+      "text": "جنگنده",
+      "count": 127,
+      "score": 127,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "کشته",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
       "count": 2,
       "score": 4,
       "is_new": true,
