@@ -1,18 +1,25 @@
 {
-  "generated_at": 1774593994,
+  "generated_at": 1774597701,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 378,
-      "score": 378,
+      "text": "صدای انفجار",
+      "count": 426,
+      "score": 426,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "جنگنده",
-      "count": 168,
-      "score": 168,
+      "text": "صدای جنگنده",
+      "count": 300,
+      "score": 300,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 132,
+      "score": 132,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -52,56 +59,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "شدید",
-      "count": 100,
-      "score": 100,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "تهران",
-      "count": 9,
-      "score": 18,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "بندرعباس",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نیشابور",
       "count": 2,
       "score": 4,
       "is_new": true,
