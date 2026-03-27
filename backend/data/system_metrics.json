@@ -1,41 +1,83 @@
 {
-  "generated_at": 1774573367,
-  "vibe_index": 0,
+  "generated_at": 1774583644,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 303,
-      "score": 303,
+      "count": 423,
+      "score": 423,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 237,
-      "score": 237,
+      "count": 297,
+      "score": 297,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 134,
+      "score": 134,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
-      "count": 84,
-      "score": 84,
+      "count": 129,
+      "score": 129,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "text": "صدای پدافند",
-      "count": 75,
-      "score": 75,
+      "text": "خیلی",
+      "count": 123,
+      "score": 123,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 102,
+      "score": 102,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 101,
+      "score": 101,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "میاد",
+      "count": 100,
+      "score": 100,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 5,
+      "score": 10,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "کشته",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
