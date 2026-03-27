@@ -1,32 +1,25 @@
 {
-  "generated_at": 1774591052,
+  "generated_at": 1774593994,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "صدای انفجار",
-      "count": 432,
-      "score": 432,
+      "text": "صدای",
+      "count": 378,
+      "score": 378,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "صدای جنگنده",
-      "count": 300,
-      "score": 300,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 135,
-      "score": 135,
+      "text": "جنگنده",
+      "count": 168,
+      "score": 168,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 134,
-      "score": 134,
+      "count": 132,
+      "score": 132,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -46,8 +39,8 @@
     },
     {
       "text": "همین الان",
-      "count": 105,
-      "score": 105,
+      "count": 102,
+      "score": 102,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -59,14 +52,56 @@
       "sentiment": "neutral"
     },
     {
+      "text": "شدید",
+      "count": 100,
+      "score": 100,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "تهران",
+      "count": 9,
+      "score": 18,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کشته",
       "count": 4,
       "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "کشته",
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "بندرعباس",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نیشابور",
       "count": 2,
       "score": 4,
       "is_new": true,
