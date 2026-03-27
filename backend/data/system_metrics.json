@@ -1,11 +1,11 @@
 {
-  "generated_at": 1774628890,
+  "generated_at": 1774632461,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 336,
-      "score": 336,
+      "count": 333,
+      "score": 333,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -39,8 +39,8 @@
     },
     {
       "text": "سمت",
-      "count": 91,
-      "score": 91,
+      "count": 92,
+      "score": 92,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -60,8 +60,36 @@
     },
     {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "count": 12,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نیشابور",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ارومیه",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کرمانشاه",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
