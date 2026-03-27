@@ -1,60 +1,60 @@
 {
-  "generated_at": 1774641040,
+  "generated_at": 1774642877,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 354,
-      "score": 354,
+      "count": 360,
+      "score": 360,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 279,
-      "score": 279,
+      "count": 276,
+      "score": 276,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
-      "count": 111,
-      "score": 111,
+      "count": 105,
+      "score": 105,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "خیلی",
-      "count": 102,
-      "score": 102,
+      "count": 104,
+      "score": 104,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "میاد",
-      "count": 101,
-      "score": 101,
+      "text": "جنگنده میاد",
+      "count": 93,
+      "score": 93,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "دقیقه",
-      "count": 97,
-      "score": 97,
+      "count": 93,
+      "score": 93,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 95,
-      "score": 95,
+      "count": 91,
+      "score": 91,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "همین الان",
-      "count": 78,
-      "score": 78,
+      "count": 81,
+      "score": 81,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -67,13 +67,6 @@
     },
     {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نیشابور",
       "count": 2,
       "score": 4,
       "is_new": true,
@@ -102,6 +95,13 @@
     },
     {
       "text": "شلیک",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همدان",
       "count": 2,
       "score": 4,
       "is_new": true,
