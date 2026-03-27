@@ -1,18 +1,25 @@
 {
-  "generated_at": 1774583644,
+  "generated_at": 1774591052,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 423,
-      "score": 423,
+      "count": 432,
+      "score": 432,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 297,
-      "score": 297,
+      "count": 300,
+      "score": 300,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 135,
+      "score": 135,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,30 +31,23 @@
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار شدید",
-      "count": 129,
-      "score": 129,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "خیلی",
-      "count": 123,
-      "score": 123,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 102,
-      "score": 102,
+      "count": 125,
+      "score": 125,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "دقیقه",
-      "count": 101,
-      "score": 101,
+      "count": 108,
+      "score": 108,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 105,
+      "score": 105,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -60,15 +60,8 @@
     },
     {
       "text": "تهران",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 2,
-      "score": 4,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
