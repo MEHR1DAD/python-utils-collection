@@ -1,5 +1,5 @@
 {
-  "generated_at": 1774642877,
+  "generated_at": 1774645201,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -39,15 +39,15 @@
     },
     {
       "text": "دقیقه",
-      "count": 93,
-      "score": 93,
+      "count": 92,
+      "score": 92,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 91,
-      "score": 91,
+      "count": 88,
+      "score": 88,
       "is_new": true,
       "sentiment": "neutral"
     },
