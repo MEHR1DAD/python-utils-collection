@@ -1,6 +1,6 @@
 {
-  "generated_at": 1774691307,
-  "vibe_index": 20,
+  "generated_at": 1774693057,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "صدای انفجار",
@@ -35,7 +35,7 @@
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
