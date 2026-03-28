@@ -1,11 +1,11 @@
 {
-  "generated_at": 1774711006,
-  "vibe_index": 25,
+  "generated_at": 1774712948,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 330,
-      "score": 330,
+      "count": 333,
+      "score": 333,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -17,42 +17,7 @@
       "sentiment": "negative"
     },
     {
-      "text": "همین الان",
-      "count": 108,
-      "score": 108,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 105,
-      "score": 105,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 84,
-      "score": 84,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "وحید",
-      "count": 83,
-      "score": 83,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "شلیک",
       "count": 2,
       "score": 4,
       "is_new": true,
