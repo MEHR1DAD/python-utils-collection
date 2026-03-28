@@ -1,6 +1,6 @@
 {
-  "generated_at": 1774688471,
-  "vibe_index": 0,
+  "generated_at": 1774691307,
+  "vibe_index": 20,
   "top_nodes": [
     {
       "text": "صدای انفجار",
@@ -29,6 +29,13 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "جنگنده",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
