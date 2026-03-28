@@ -1,5 +1,5 @@
 {
-  "generated_at": 1774693057,
+  "generated_at": 1774695223,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -25,13 +25,6 @@
     },
     {
       "text": "شلیک",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "جنگنده",
       "count": 2,
       "score": 4,
       "is_new": true,
