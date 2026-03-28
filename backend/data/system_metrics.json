@@ -1,11 +1,11 @@
 {
-  "generated_at": 1774718473,
+  "generated_at": 1774720208,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 342,
-      "score": 342,
+      "count": 351,
+      "score": 351,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -17,9 +17,16 @@
       "sentiment": "negative"
     },
     {
+      "text": "جنگنده",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "negative"
     }
