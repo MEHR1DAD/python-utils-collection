@@ -1,53 +1,53 @@
 {
-  "generated_at": 1774811146,
+  "generated_at": 1774813591,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 184,
-      "score": 184,
+      "count": 181,
+      "score": 181,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 94,
-      "score": 94,
+      "count": 95,
+      "score": 95,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سلام وحید",
-      "count": 78,
-      "score": 78,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شدید",
-      "count": 64,
-      "score": 64,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 63,
-      "score": 63,
+      "count": 72,
+      "score": 72,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "نزدیک",
-      "count": 63,
-      "score": 63,
+      "count": 61,
+      "score": 61,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "خیلی",
-      "count": 58,
-      "score": 58,
+      "text": "شدید",
+      "count": 59,
+      "score": 59,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 57,
+      "score": 57,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فروردین",
+      "count": 57,
+      "score": 57,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -60,8 +60,8 @@
     },
     {
       "text": "جنگنده",
-      "count": 5,
-      "score": 10,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
