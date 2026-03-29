@@ -1,97 +1,20 @@
 {
-  "generated_at": 1774813591,
-  "vibe_index": 50,
+  "generated_at": 1774815398,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "صدای",
-      "count": 181,
-      "score": 181,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 95,
-      "score": 95,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سلام وحید",
-      "count": 72,
-      "score": 72,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نزدیک",
-      "count": 61,
-      "score": 61,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شدید",
-      "count": 59,
-      "score": 59,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 57,
-      "score": 57,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فروردین",
-      "count": 57,
-      "score": 57,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 9,
-      "score": 18,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شلیک",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "یمن",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
