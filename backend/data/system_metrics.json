@@ -1,5 +1,5 @@
 {
-  "generated_at": 1774802815,
+  "generated_at": 1774804691,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -11,8 +11,8 @@
     },
     {
       "text": "سمت",
-      "count": 89,
-      "score": 89,
+      "count": 90,
+      "score": 90,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -60,8 +60,8 @@
     },
     {
       "text": "تهران",
-      "count": 12,
-      "score": 24,
+      "count": 11,
+      "score": 22,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -87,13 +87,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "پارچین",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "اصفهان",
       "count": 2,
       "score": 4,
@@ -102,6 +95,13 @@
     },
     {
       "text": "شهرکرد",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "یمن",
       "count": 2,
       "score": 4,
       "is_new": true,
