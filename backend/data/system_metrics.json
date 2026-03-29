@@ -1,67 +1,67 @@
 {
-  "generated_at": 1774804691,
+  "generated_at": 1774806737,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 188,
-      "score": 188,
+      "count": 210,
+      "score": 210,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 90,
-      "score": 90,
+      "count": 102,
+      "score": 102,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "همین الان",
-      "count": 72,
-      "score": 72,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "غرب",
-      "count": 68,
-      "score": 68,
+      "count": 78,
+      "score": 78,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سلام وحید",
-      "count": 60,
-      "score": 60,
+      "count": 69,
+      "score": 69,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "غرب",
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "نزدیک",
-      "count": 59,
-      "score": 59,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "خیلی",
-      "count": 58,
-      "score": 58,
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "شدید",
-      "count": 57,
-      "score": 57,
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 11,
-      "score": 22,
+      "count": 10,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
