@@ -1,74 +1,67 @@
 {
-  "generated_at": 1774808528,
+  "generated_at": 1774811146,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 223,
-      "score": 223,
+      "count": 184,
+      "score": 184,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 110,
-      "score": 110,
+      "count": 94,
+      "score": 94,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سلام وحید",
-      "count": 84,
-      "score": 84,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 81,
-      "score": 81,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شدید",
       "count": 78,
       "score": 78,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
+      "text": "شدید",
+      "count": 64,
+      "score": 64,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 63,
+      "score": 63,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "نزدیک",
-      "count": 76,
-      "score": 76,
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "خیلی",
-      "count": 71,
-      "score": 71,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "غرب",
-      "count": 66,
-      "score": 66,
+      "count": 58,
+      "score": 58,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 10,
-      "score": 20,
+      "count": 9,
+      "score": 18,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جنگنده",
-      "count": 6,
-      "score": 12,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -87,21 +80,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شهرکرد",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "یمن",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار",
       "count": 2,
       "score": 4,
       "is_new": true,
