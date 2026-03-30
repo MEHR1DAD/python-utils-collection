@@ -1,18 +1,18 @@
 {
-  "generated_at": 1774907775,
+  "generated_at": 1774910650,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 252,
-      "score": 252,
+      "count": 255,
+      "score": 255,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 102,
-      "score": 102,
+      "count": 105,
+      "score": 105,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -46,8 +46,8 @@
     },
     {
       "text": "دقیقه",
-      "count": 64,
-      "score": 64,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
