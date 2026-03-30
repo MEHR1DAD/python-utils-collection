@@ -1,25 +1,11 @@
 {
-  "generated_at": 1774899436,
+  "generated_at": 1774902288,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "صدای انفجار",
-      "count": 321,
-      "score": 321,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 150,
-      "score": 150,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 126,
-      "score": 126,
+      "text": "صدای",
+      "count": 252,
+      "score": 252,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -34,6 +20,13 @@
       "text": "همین الان",
       "count": 96,
       "score": 96,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شدید",
+      "count": 84,
+      "score": 84,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -60,13 +53,55 @@
     },
     {
       "text": "تهران",
-      "count": 8,
-      "score": 16,
+      "count": 16,
+      "score": 32,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اصفهان",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کرج",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کشته",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شهرضا",
       "count": 2,
       "score": 4,
       "is_new": true,
