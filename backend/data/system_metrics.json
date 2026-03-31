@@ -1,32 +1,32 @@
 {
-  "generated_at": 1774994663,
-  "vibe_index": 20,
+  "generated_at": 1774997288,
+  "vibe_index": 16,
   "top_nodes": [
     {
-      "text": "انفجار",
-      "count": 118,
-      "score": 118,
+      "text": "صدای انفجار",
+      "count": 120,
+      "score": 120,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "صدای",
-      "count": 81,
-      "score": 81,
+      "text": "صدای جنگنده",
+      "count": 48,
+      "score": 48,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "هدف قرار",
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "فولاد مبارکه",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 8,
-      "score": 16,
+      "text": "انفجار شدید",
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -36,6 +36,13 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "پدافند",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
