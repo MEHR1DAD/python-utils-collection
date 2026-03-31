@@ -1,32 +1,11 @@
 {
-  "generated_at": 1774997288,
-  "vibe_index": 16,
+  "generated_at": 1774999193,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "صدای انفجار",
-      "count": 120,
-      "score": 120,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 48,
-      "score": 48,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "هدف قرار",
-      "count": 42,
-      "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 39,
-      "score": 39,
+      "text": "انفجار",
+      "count": 131,
+      "score": 131,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -36,13 +15,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "پدافند",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
