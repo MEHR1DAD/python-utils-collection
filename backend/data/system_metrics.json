@@ -1,25 +1,25 @@
 {
-  "generated_at": 1774940271,
+  "generated_at": 1774944707,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 330,
-      "score": 330,
+      "count": 327,
+      "score": 327,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
-      "count": 126,
-      "score": 126,
+      "count": 120,
+      "score": 120,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "همین الان",
-      "count": 108,
-      "score": 108,
+      "count": 111,
+      "score": 111,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -32,29 +32,22 @@
     },
     {
       "text": "سمت",
-      "count": 98,
-      "score": 98,
+      "count": 95,
+      "score": 95,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "خیلی",
-      "count": 62,
-      "score": 62,
+      "count": 61,
+      "score": 61,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فروردین",
-      "count": 59,
-      "score": 59,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "غرب",
-      "count": 59,
-      "score": 59,
+      "count": 55,
+      "score": 55,
       "is_new": true,
       "sentiment": "neutral"
     },
