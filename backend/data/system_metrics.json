@@ -1,18 +1,11 @@
 {
-  "generated_at": 1774930039,
+  "generated_at": 1774936334,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 306,
-      "score": 306,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 129,
-      "score": 129,
+      "count": 333,
+      "score": 333,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,6 +17,20 @@
       "sentiment": "neutral"
     },
     {
+      "text": "همین الان",
+      "count": 111,
+      "score": 111,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 102,
+      "score": 102,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "سمت",
       "count": 98,
       "score": 98,
@@ -31,37 +38,30 @@
       "sentiment": "neutral"
     },
     {
-      "text": "همین الان",
-      "count": 90,
-      "score": 90,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "خیلی",
-      "count": 72,
-      "score": 72,
+      "count": 64,
+      "score": 64,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "وحید",
-      "count": 63,
-      "score": 63,
+      "text": "غرب",
+      "count": 59,
+      "score": 59,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "فروردین",
-      "count": 62,
-      "score": 62,
+      "text": "اومد",
+      "count": 58,
+      "score": 58,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 8,
-      "score": 16,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
