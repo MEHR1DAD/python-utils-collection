@@ -1,104 +1,34 @@
 {
-  "generated_at": 1774958458,
-  "vibe_index": 50,
+  "generated_at": 1774965212,
+  "vibe_index": 0,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 150,
-      "score": 150,
+      "text": "صدای انفجار",
+      "count": 237,
+      "score": 237,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "text": "سمت",
-      "count": 79,
-      "score": 79,
+      "text": "انفجار شدید",
+      "count": 96,
+      "score": 96,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "text": "همین الان",
-      "count": 69,
-      "score": 69,
+      "text": "صدای جنگنده",
+      "count": 57,
+      "score": 57,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فروردین",
-      "count": 56,
-      "score": 56,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شدید",
-      "count": 52,
-      "score": 52,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "غرب",
-      "count": 44,
-      "score": 44,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نزدیک",
-      "count": 42,
-      "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "تهران",
-      "count": 8,
-      "score": 16,
+      "count": 4,
+      "score": 8,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شهرضا",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زنجان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
