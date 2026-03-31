@@ -1,11 +1,11 @@
 {
-  "generated_at": 1774948604,
+  "generated_at": 1774952213,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 228,
-      "score": 228,
+      "count": 237,
+      "score": 237,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -25,8 +25,8 @@
     },
     {
       "text": "همین الان",
-      "count": 66,
-      "score": 66,
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -39,8 +39,15 @@
     },
     {
       "text": "فروردین",
-      "count": 55,
-      "score": 55,
+      "count": 56,
+      "score": 56,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "غرب",
+      "count": 44,
+      "score": 44,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -48,13 +55,6 @@
       "text": "نزدیک",
       "count": 42,
       "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "غرب",
-      "count": 41,
-      "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
