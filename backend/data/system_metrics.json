@@ -1,37 +1,44 @@
 {
-  "generated_at": 1775052938,
+  "generated_at": 1775058433,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 207,
-      "score": 207,
+      "count": 219,
+      "score": 219,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 117,
-      "score": 117,
+      "count": 123,
+      "score": 123,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 60,
-      "score": 60,
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فروردین",
-      "count": 59,
-      "score": 59,
+      "count": 56,
+      "score": 56,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
+      "count": 51,
+      "score": 51,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
       "count": 48,
       "score": 48,
       "is_new": true,
@@ -39,15 +46,15 @@
     },
     {
       "text": "چند انفجار",
-      "count": 45,
-      "score": 45,
+      "count": 48,
+      "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "وحید",
-      "count": 44,
-      "score": 44,
+      "count": 46,
+      "score": 46,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -59,13 +66,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "همین الان",
-      "count": 42,
-      "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "جنگنده میاد",
       "count": 42,
       "score": 42,
@@ -73,16 +73,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "فولاد مبارکه",
-      "count": 42,
-      "score": 42,
+      "text": "تهران",
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "text": "اصفهان",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
