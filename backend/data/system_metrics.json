@@ -1,53 +1,60 @@
 {
-  "generated_at": 1775061612,
+  "generated_at": 1775064896,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 149,
-      "score": 149,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 65,
-      "score": 65,
+      "count": 140,
+      "score": 140,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 63,
-      "score": 63,
+      "count": 62,
+      "score": 62,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 58,
+      "score": 58,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فروردین",
-      "count": 57,
-      "score": 57,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 48,
-      "score": 48,
+      "count": 52,
+      "score": 52,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "وحید",
-      "count": 46,
-      "score": 46,
+      "count": 44,
+      "score": 44,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فولاد مبارکه",
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "زدن",
-      "count": 43,
-      "score": 43,
+      "count": 40,
+      "score": 40,
       "is_new": true,
       "sentiment": "neutral"
     },
