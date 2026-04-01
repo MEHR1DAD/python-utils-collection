@@ -1,32 +1,74 @@
 {
-  "generated_at": 1775047257,
+  "generated_at": 1775052938,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 153,
-      "score": 153,
+      "count": 207,
+      "score": 207,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 105,
-      "score": 105,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فروردین",
-      "count": 57,
-      "score": 57,
+      "count": 117,
+      "score": 117,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 46,
-      "score": 46,
+      "count": 60,
+      "score": 60,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فروردین",
+      "count": 59,
+      "score": 59,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 48,
+      "score": 48,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "چند انفجار",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "وحید",
+      "count": 44,
+      "score": 44,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زدن",
+      "count": 43,
+      "score": 43,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده میاد",
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -34,48 +76,6 @@
       "text": "فولاد مبارکه",
       "count": 42,
       "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زدن",
-      "count": 40,
-      "score": 40,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده میاد",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "وحید",
-      "count": 35,
-      "score": 35,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "هدف قرار",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "چند انفجار",
-      "count": 33,
-      "score": 33,
       "is_new": true,
       "sentiment": "neutral"
     },
