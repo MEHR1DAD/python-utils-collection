@@ -1,25 +1,25 @@
 {
-  "generated_at": 1775084830,
+  "generated_at": 1775087390,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 107,
-      "score": 107,
+      "count": 109,
+      "score": 109,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فروردین",
-      "count": 48,
-      "score": 48,
+      "count": 47,
+      "score": 47,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 40,
-      "score": 40,
+      "count": 41,
+      "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
