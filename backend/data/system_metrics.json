@@ -1,34 +1,27 @@
 {
-  "generated_at": 1775017223,
-  "vibe_index": 25,
+  "generated_at": 1775027214,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 135,
-      "score": 135,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 84,
-      "score": 84,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "فروردین",
-      "count": 51,
-      "score": 51,
+      "count": 153,
+      "score": 153,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار شدید",
-      "count": 48,
-      "score": 48,
+      "text": "صدای جنگنده",
+      "count": 99,
+      "score": 99,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فروردین",
+      "count": 53,
+      "score": 53,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "سمت",
@@ -38,9 +31,51 @@
       "sentiment": "neutral"
     },
     {
-      "text": "هدف قرار",
-      "count": 45,
-      "score": 45,
+      "text": "فولاد مبارکه",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زدن",
+      "count": 40,
+      "score": 40,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده میاد",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "وحید",
+      "count": 35,
+      "score": 35,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "چند انفجار",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     }
