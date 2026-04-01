@@ -1,100 +1,79 @@
 {
-  "generated_at": 1775068337,
+  "generated_at": 1775072383,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 140,
-      "score": 140,
+      "text": "صدای انفجار",
+      "count": 174,
+      "score": 174,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 102,
+      "score": 102,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 62,
-      "score": 62,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 58,
-      "score": 58,
+      "count": 56,
+      "score": 56,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فروردین",
-      "count": 52,
-      "score": 52,
+      "count": 47,
+      "score": 47,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "وحید",
-      "count": 44,
-      "score": 44,
+      "text": "انفجار شدید",
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "همین الان",
-      "count": 42,
-      "score": 42,
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "فولاد مبارکه",
-      "count": 42,
-      "score": 42,
+      "text": "شیراز",
+      "count": 38,
+      "score": 38,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "زدن",
-      "count": 40,
-      "score": 40,
+      "text": "چند انفجار",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده میاد",
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 10,
-      "score": 20,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
       "count": 4,
       "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پدافند",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصابت",
+      "text": "اصفهان",
       "count": 2,
       "score": 4,
       "is_new": true,
