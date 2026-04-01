@@ -1,25 +1,18 @@
 {
-  "generated_at": 1775075050,
+  "generated_at": 1775077497,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 120,
-      "score": 120,
+      "count": 106,
+      "score": 106,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 55,
-      "score": 55,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 55,
-      "score": 55,
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -31,16 +24,23 @@
       "sentiment": "neutral"
     },
     {
-      "text": "همین الان",
-      "count": 39,
-      "score": 39,
+      "text": "جنگنده",
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "شیراز",
-      "count": 37,
-      "score": 37,
+      "text": "همین الان",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "وحید",
+      "count": 33,
+      "score": 33,
       "is_new": true,
       "sentiment": "neutral"
     },
