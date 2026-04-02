@@ -1,6 +1,6 @@
 {
-  "generated_at": 1775128126,
-  "vibe_index": 25,
+  "generated_at": 1775130998,
+  "vibe_index": 37,
   "top_nodes": [
     {
       "text": "پیام تایید",
@@ -10,11 +10,11 @@
       "sentiment": "positive"
     },
     {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "text": "تنگه هرمز",
+      "count": 27,
+      "score": 27,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "انفجار",
