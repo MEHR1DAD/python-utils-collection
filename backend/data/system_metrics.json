@@ -1,11 +1,18 @@
 {
-  "generated_at": 1775087390,
+  "generated_at": 1775091624,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 109,
-      "score": 109,
+      "text": "صدای انفجار",
+      "count": 219,
+      "score": 219,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 57,
+      "score": 57,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -13,6 +20,13 @@
       "text": "فروردین",
       "count": 47,
       "score": 47,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -31,35 +45,28 @@
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
-      "count": 8,
-      "score": 16,
+      "text": "انفجار اومد",
+      "count": 33,
+      "score": 33,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "اصفهان",
+      "text": "چند انفجار",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
       "count": 4,
       "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصابت",
+      "text": "اصفهان",
       "count": 2,
       "score": 4,
       "is_new": true,
