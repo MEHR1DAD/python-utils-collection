@@ -1,27 +1,90 @@
 {
-  "generated_at": 1775164791,
-  "vibe_index": 33,
+  "generated_at": 1775166885,
+  "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
       "count": 207,
       "score": 207,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 135,
+      "score": 135,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 53,
+      "score": 53,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
       "count": 48,
       "score": 48,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 48,
+      "score": 48,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 47,
+      "score": 47,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اومد",
+      "count": 46,
+      "score": 46,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فروردین",
+      "count": 44,
+      "score": 44,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 6,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کرج",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مشهد",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
