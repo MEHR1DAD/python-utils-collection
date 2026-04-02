@@ -1,20 +1,20 @@
 {
-  "generated_at": 1775120790,
-  "vibe_index": 33,
+  "generated_at": 1775124633,
+  "vibe_index": 100,
   "top_nodes": [
     {
       "text": "صدای انفجار",
       "count": 156,
       "score": 156,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
       "text": "انفجار شدید",
       "count": 42,
       "score": 42,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     },
     {
       "text": "پیام تایید",
