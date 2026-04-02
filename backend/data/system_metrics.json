@@ -1,6 +1,6 @@
 {
-  "generated_at": 1775116518,
-  "vibe_index": 37,
+  "generated_at": 1775120790,
+  "vibe_index": 33,
   "top_nodes": [
     {
       "text": "صدای انفجار",
@@ -22,13 +22,6 @@
       "score": 30,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 27,
-      "score": 27,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
