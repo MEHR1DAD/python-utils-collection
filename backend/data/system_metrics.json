@@ -1,32 +1,25 @@
 {
-  "generated_at": 1775140902,
-  "vibe_index": 0,
+  "generated_at": 1775144476,
+  "vibe_index": 16,
   "top_nodes": [
     {
-      "text": "صدای انفجار",
-      "count": 228,
-      "score": 228,
+      "text": "فروردین",
+      "count": 49,
+      "score": 49,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "انفجار شدید",
-      "count": 57,
-      "score": 57,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "انفجار اومد",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "چند انفجار",
-      "count": 39,
-      "score": 39,
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
