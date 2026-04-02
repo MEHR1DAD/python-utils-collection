@@ -1,6 +1,6 @@
 {
-  "generated_at": 1775108581,
-  "vibe_index": 40,
+  "generated_at": 1775112617,
+  "vibe_index": 25,
   "top_nodes": [
     {
       "text": "صدای انفجار",
@@ -17,13 +17,6 @@
       "sentiment": "negative"
     },
     {
-      "text": "فروردین",
-      "count": 44,
-      "score": 44,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "انفجار شدید",
       "count": 42,
       "score": 42,
@@ -31,53 +24,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "همین الان",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "پیام تایید",
       "count": 30,
       "score": 30,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "تایید نشده",
-      "count": 30,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 27,
-      "score": 27,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
