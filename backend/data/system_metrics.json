@@ -1,25 +1,25 @@
 {
-  "generated_at": 1775091624,
+  "generated_at": 1775101581,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 219,
-      "score": 219,
+      "count": 156,
+      "score": 156,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 57,
-      "score": 57,
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فروردین",
-      "count": 47,
-      "score": 47,
+      "count": 44,
+      "score": 44,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -31,13 +31,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "سمت",
-      "count": 41,
-      "score": 41,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "همین الان",
       "count": 39,
       "score": 39,
@@ -45,16 +38,30 @@
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار اومد",
+      "text": "سمت",
       "count": 33,
       "score": 33,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "چند انفجار",
-      "count": 33,
-      "score": 33,
+      "text": "پیام تایید",
+      "count": 30,
+      "score": 30,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تایید نشده",
+      "count": 30,
+      "score": 30,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 27,
+      "score": 27,
       "is_new": true,
       "sentiment": "neutral"
     },
