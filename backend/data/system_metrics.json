@@ -1,67 +1,60 @@
 {
-  "generated_at": 1775173261,
+  "generated_at": 1775174647,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 237,
-      "score": 237,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 171,
-      "score": 171,
+      "count": 252,
+      "score": 252,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 65,
-      "score": 65,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 55,
-      "score": 55,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 51,
-      "score": 51,
+      "count": 68,
+      "score": 68,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اومد",
-      "count": 50,
-      "score": 50,
+      "count": 58,
+      "score": 58,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 57,
+      "score": 57,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 53,
+      "score": 53,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فروردین",
-      "count": 49,
-      "score": 49,
+      "count": 48,
+      "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "جنگنده میاد",
-      "count": 45,
-      "score": 45,
+      "text": "انفجار شدید",
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 7,
-      "score": 14,
+      "count": 8,
+      "score": 16,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -81,6 +74,13 @@
     },
     {
       "text": "مشهد",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
       "count": 2,
       "score": 4,
       "is_new": true,
