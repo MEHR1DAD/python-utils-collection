@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775238253,
+  "generated_at": 1775240651,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -11,8 +11,8 @@
     },
     {
       "text": "سمت",
-      "count": 50,
-      "score": 50,
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -38,23 +38,23 @@
       "sentiment": "neutral"
     },
     {
-      "text": "خیلی",
-      "count": 38,
-      "score": 38,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "پیام تایید",
-      "count": 36,
-      "score": 36,
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تایید نشده",
-      "count": 36,
-      "score": 36,
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 38,
+      "score": 38,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -67,20 +67,20 @@
     },
     {
       "text": "تهران",
-      "count": 11,
-      "score": 22,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
+      "count": 12,
+      "score": 24,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جنگنده",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
@@ -95,6 +95,13 @@
     },
     {
       "text": "شیراز",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پدافند",
       "count": 2,
       "score": 4,
       "is_new": true,
