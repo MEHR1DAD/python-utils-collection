@@ -1,60 +1,60 @@
 {
-  "generated_at": 1775245924,
+  "generated_at": 1775247619,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 183,
-      "score": 183,
+      "count": 210,
+      "score": 210,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 40,
-      "score": 40,
+      "count": 47,
+      "score": 47,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خیلی",
+      "count": 41,
+      "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "همین الان",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار اومد",
       "count": 36,
       "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "فروردین",
-      "count": 32,
-      "score": 32,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
-      "count": 32,
-      "score": 32,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 30,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "انفجار دور",
-      "count": 30,
-      "score": 30,
+      "count": 33,
+      "score": 33,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار اومد",
-      "count": 27,
-      "score": 27,
+      "text": "فروردین",
+      "count": 33,
+      "score": 33,
       "is_new": true,
       "sentiment": "neutral"
     },
