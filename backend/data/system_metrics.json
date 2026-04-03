@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775240651,
+  "generated_at": 1775243329,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -32,8 +32,8 @@
     },
     {
       "text": "فروردین",
-      "count": 43,
-      "score": 43,
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -74,8 +74,8 @@
     },
     {
       "text": "جنگنده",
-      "count": 3,
-      "score": 6,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
