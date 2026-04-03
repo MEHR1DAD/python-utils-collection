@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775186544,
+  "generated_at": 1775195284,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -18,8 +18,8 @@
     },
     {
       "text": "سمت",
-      "count": 59,
-      "score": 59,
+      "count": 56,
+      "score": 56,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -39,8 +39,8 @@
     },
     {
       "text": "فروردین",
-      "count": 47,
-      "score": 47,
+      "count": 48,
+      "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
