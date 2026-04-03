@@ -1,11 +1,11 @@
 {
-  "generated_at": 1775256364,
+  "generated_at": 1775258427,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 114,
-      "score": 114,
+      "count": 156,
+      "score": 156,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -18,20 +18,13 @@
     },
     {
       "text": "انفجار مهیب",
-      "count": 27,
-      "score": 27,
+      "count": 33,
+      "score": 33,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "شهید",
       "count": 2,
       "score": 4,
       "is_new": true,
