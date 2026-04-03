@@ -1,25 +1,18 @@
 {
-  "generated_at": 1775229032,
+  "generated_at": 1775231568,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 255,
-      "score": 255,
+      "count": 243,
+      "score": 243,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 54,
-      "score": 54,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 48,
-      "score": 48,
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -31,14 +24,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "فروردین",
-      "count": 44,
-      "score": 44,
+      "text": "انفجار شدید",
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "اومد",
+      "text": "فروردین",
       "count": 42,
       "score": 42,
       "is_new": true,
@@ -46,22 +39,29 @@
     },
     {
       "text": "خیلی",
-      "count": 38,
-      "score": 38,
+      "count": 37,
+      "score": 37,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "پیام تایید",
+      "text": "انفجار اومد",
       "count": 36,
       "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
+      "text": "پیام تایید",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "تهران",
-      "count": 9,
-      "score": 18,
+      "count": 10,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -74,6 +74,13 @@
     },
     {
       "text": "جنگنده",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شهید",
       "count": 2,
       "score": 4,
       "is_new": true,
