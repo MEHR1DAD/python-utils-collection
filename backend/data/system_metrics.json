@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775231568,
+  "generated_at": 1775233450,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -81,6 +81,13 @@
     },
     {
       "text": "شهید",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شیراز",
       "count": 2,
       "score": 4,
       "is_new": true,
