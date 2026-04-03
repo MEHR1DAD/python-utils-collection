@@ -1,88 +1,74 @@
 {
-  "generated_at": 1775174647,
+  "generated_at": 1775186544,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 252,
-      "score": 252,
+      "count": 273,
+      "score": 273,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 138,
+      "score": 138,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 68,
-      "score": 68,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اومد",
-      "count": 58,
-      "score": 58,
+      "count": 59,
+      "score": 59,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "همین الان",
-      "count": 57,
-      "score": 57,
+      "count": 54,
+      "score": 54,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "دقیقه",
-      "count": 53,
-      "score": 53,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فروردین",
+      "text": "انفجار شدید",
       "count": 48,
       "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار شدید",
-      "count": 42,
-      "score": 42,
+      "text": "فروردین",
+      "count": 47,
+      "score": 47,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اومد",
+      "count": 47,
+      "score": 47,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پیام تایید",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تایید نشده",
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 8,
-      "score": 16,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کرج",
       "count": 4,
       "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مشهد",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 2,
-      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
