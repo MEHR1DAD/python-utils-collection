@@ -1,18 +1,25 @@
 {
-  "generated_at": 1775343699,
+  "generated_at": 1775345979,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 321,
-      "score": 321,
+      "count": 354,
+      "score": 354,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 78,
-      "score": 78,
+      "count": 90,
+      "score": 90,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اصفهان",
+      "count": 88,
+      "score": 88,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,51 +31,37 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اصفهان",
-      "count": 69,
-      "score": 69,
+      "text": "خیلی",
+      "count": 68,
+      "score": 68,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار مهیب",
-      "count": 60,
-      "score": 60,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سلام وحید",
-      "count": 57,
-      "score": 57,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 57,
-      "score": 57,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار اومد",
-      "count": 57,
-      "score": 57,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "خیلی",
-      "count": 57,
-      "score": 57,
+      "text": "دقیقه",
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 8,
-      "score": 16,
+      "count": 7,
+      "score": 14,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -81,13 +74,6 @@
     },
     {
       "text": "جنگنده",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پدافند",
       "count": 2,
       "score": 4,
       "is_new": true,
