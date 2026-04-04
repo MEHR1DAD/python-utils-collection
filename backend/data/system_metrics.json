@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775336589,
+  "generated_at": 1775338854,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -60,8 +60,8 @@
     },
     {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "count": 8,
+      "score": 16,
       "is_new": true,
       "sentiment": "neutral"
     },
