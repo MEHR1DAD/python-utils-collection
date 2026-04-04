@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775289548,
+  "generated_at": 1775292649,
   "vibe_index": 0,
   "top_nodes": [
     {
@@ -11,13 +11,6 @@
     },
     {
       "text": "انفجار شدید",
-      "count": 42,
-      "score": 42,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "انفجار اومد",
       "count": 42,
       "score": 42,
       "is_new": true,
