@@ -1,6 +1,6 @@
 {
-  "generated_at": 1775299227,
-  "vibe_index": 10,
+  "generated_at": 1775300641,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "صدای انفجار",
@@ -29,13 +29,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "شهید",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
