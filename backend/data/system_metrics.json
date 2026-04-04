@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775323089,
+  "generated_at": 1775325115,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -18,8 +18,8 @@
     },
     {
       "text": "انفجار شدید",
-      "count": 57,
-      "score": 57,
+      "count": 54,
+      "score": 54,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -60,8 +60,8 @@
     },
     {
       "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -74,13 +74,6 @@
     },
     {
       "text": "جنگنده",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شیراز",
       "count": 2,
       "score": 4,
       "is_new": true,
