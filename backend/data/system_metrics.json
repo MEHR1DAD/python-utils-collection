@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775311085,
+  "generated_at": 1775313546,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -11,8 +11,8 @@
     },
     {
       "text": "سمت",
-      "count": 58,
-      "score": 58,
+      "count": 61,
+      "score": 61,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -38,16 +38,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "خیلی",
+      "text": "فروردین",
       "count": 39,
       "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "فروردین",
-      "count": 38,
-      "score": 38,
+      "text": "خیلی",
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -60,8 +60,8 @@
     },
     {
       "text": "تهران",
-      "count": 8,
-      "score": 16,
+      "count": 10,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
