@@ -1,21 +1,7 @@
 {
-  "generated_at": 1775430218,
-  "vibe_index": 28,
+  "generated_at": 1775432746,
+  "vibe_index": 0,
   "top_nodes": [
-    {
-      "text": "جنوب اصفهان",
-      "count": 75,
-      "score": 75,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "positive"
-    },
     {
       "text": "زلزله",
       "count": 2,
@@ -36,13 +22,6 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "حریم هوایی",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "انفجار",
