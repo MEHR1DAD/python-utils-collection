@@ -1,32 +1,32 @@
 {
-  "generated_at": 1775408223,
+  "generated_at": 1775410662,
   "vibe_index": 0,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 276,
-      "score": 276,
+      "count": 195,
+      "score": 195,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "انفجار شدید",
-      "count": 48,
-      "score": 48,
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "انفجار اومد",
-      "count": 45,
-      "score": 45,
+      "text": "انفجار مهیب",
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "چند انفجار",
-      "count": 45,
-      "score": 45,
+      "text": "جنگنده",
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -39,6 +39,13 @@
     },
     {
       "text": "شهید",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "کشته",
       "count": 2,
       "score": 4,
       "is_new": true,
