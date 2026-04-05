@@ -1,18 +1,11 @@
 {
-  "generated_at": 1775359150,
+  "generated_at": 1775368376,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
       "count": 357,
       "score": 357,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 174,
-      "score": 174,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -69,6 +62,13 @@
       "text": "تهران",
       "count": 3,
       "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
