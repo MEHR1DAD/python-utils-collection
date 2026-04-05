@@ -1,76 +1,48 @@
 {
-  "generated_at": 1775394672,
-  "vibe_index": 50,
+  "generated_at": 1775397608,
+  "vibe_index": 0,
   "top_nodes": [
     {
       "text": "صدای انفجار",
       "count": 357,
       "score": 357,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 89,
-      "score": 89,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 88,
-      "score": 88,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار شدید",
       "count": 72,
       "score": 72,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خیلی",
-      "count": 68,
-      "score": 68,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار مهیب",
       "count": 66,
       "score": 66,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار اومد",
       "count": 66,
       "score": 66,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
-      "text": "دقیقه",
-      "count": 65,
-      "score": 65,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
+    },
+    {
+      "text": "کشته",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
