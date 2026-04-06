@@ -1,11 +1,25 @@
 {
-  "generated_at": 1775477157,
+  "generated_at": 1775483089,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 254,
-      "score": 254,
+      "text": "صدای انفجار",
+      "count": 372,
+      "score": 372,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 147,
+      "score": 147,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای جنگنده",
+      "count": 147,
+      "score": 147,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,13 +38,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "شدید",
-      "count": 80,
-      "score": 80,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "دقیقه",
       "count": 75,
       "score": 75,
@@ -45,63 +52,28 @@
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
-      "count": 8,
-      "score": 16,
+      "text": "انفجار اومد",
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "خرم‌آباد",
+      "text": "انفجار خیلی",
+      "count": 60,
+      "score": 60,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
       "count": 4,
       "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگنده",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همدان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سنندج",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "قزوین",
+      "text": "خرم‌آباد",
       "count": 2,
       "score": 4,
       "is_new": true,
