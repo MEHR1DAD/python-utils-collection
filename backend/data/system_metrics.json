@@ -1,53 +1,46 @@
 {
-  "generated_at": 1775502633,
+  "generated_at": 1775505430,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 210,
-      "score": 210,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 90,
-      "score": 90,
+      "count": 171,
+      "score": 171,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 57,
-      "score": 57,
+      "count": 54,
+      "score": 54,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 57,
-      "score": 57,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار اومد",
-      "count": 45,
-      "score": 45,
+      "count": 41,
+      "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سلام وحید",
-      "count": 42,
-      "score": 42,
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "دقیقه",
-      "count": 39,
-      "score": 39,
+      "text": "انفجار اومد",
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -59,9 +52,44 @@
       "sentiment": "neutral"
     },
     {
+      "text": "قرار گرفته",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فروردین",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "تهران",
-      "count": 3,
-      "score": 6,
+      "count": 6,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خرم‌آباد",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "بروجرد",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
