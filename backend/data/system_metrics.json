@@ -1,46 +1,46 @@
 {
-  "generated_at": 1775467112,
+  "generated_at": 1775471644,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 298,
-      "score": 298,
+      "count": 257,
+      "score": 257,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "همین الان",
-      "count": 132,
-      "score": 132,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
       "count": 111,
       "score": 111,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "دقیقه",
-      "count": 87,
-      "score": 87,
+      "text": "سمت",
+      "count": 104,
+      "score": 104,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "شدید",
-      "count": 87,
-      "score": 87,
+      "count": 79,
+      "score": 79,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 75,
+      "score": 75,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "نزدیک",
-      "count": 73,
-      "score": 73,
+      "count": 64,
+      "score": 64,
       "is_new": true,
       "sentiment": "neutral"
     },
