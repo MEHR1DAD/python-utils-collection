@@ -1,32 +1,25 @@
 {
-  "generated_at": 1775510535,
+  "generated_at": 1775512470,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "صدای انفجار",
-      "count": 138,
-      "score": 138,
+      "text": "صدای",
+      "count": 99,
+      "score": 99,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "صدای جنگنده",
-      "count": 69,
-      "score": 69,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار اومد",
-      "count": 45,
-      "score": 45,
+      "text": "جنگنده",
+      "count": 48,
+      "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اصفهان",
-      "count": 41,
-      "score": 41,
+      "count": 44,
+      "score": 44,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -38,13 +31,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "قرار گرفته",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "سمت",
       "count": 32,
       "score": 32,
@@ -52,14 +38,7 @@
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار شدید",
-      "count": 30,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "هدف قرار",
+      "text": "قرار گرفته",
       "count": 30,
       "score": 30,
       "is_new": true,
@@ -69,6 +48,13 @@
       "text": "فروردین",
       "count": 30,
       "score": 30,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سلام",
+      "count": 28,
+      "score": 28,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -87,14 +73,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "خرم‌آباد",
+      "text": "انفجار",
       "count": 2,
       "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "بروجرد",
+      "text": "کیش",
       "count": 2,
       "score": 4,
       "is_new": true,
