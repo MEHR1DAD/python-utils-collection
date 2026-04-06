@@ -1,18 +1,32 @@
 {
-  "generated_at": 1775508212,
+  "generated_at": 1775510535,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 111,
-      "score": 111,
+      "count": 138,
+      "score": 138,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
+      "count": 69,
+      "score": 69,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار اومد",
       "count": 45,
       "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اصفهان",
+      "count": 41,
+      "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -31,9 +45,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار اومد",
-      "count": 33,
-      "score": 33,
+      "text": "سمت",
+      "count": 32,
+      "score": 32,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 30,
+      "score": 30,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -46,36 +67,8 @@
     },
     {
       "text": "فروردین",
-      "count": 28,
-      "score": 28,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 27,
-      "score": 27,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 25,
-      "score": 25,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سلام وحید",
-      "count": 24,
-      "score": 24,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "حمله",
-      "count": 24,
-      "score": 24,
+      "count": 30,
+      "score": 30,
       "is_new": true,
       "sentiment": "neutral"
     },
