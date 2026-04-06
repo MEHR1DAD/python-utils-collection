@@ -1,13 +1,76 @@
 {
-  "generated_at": 1775455925,
-  "vibe_index": 0,
+  "generated_at": 1775462504,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "صدای",
+      "count": 298,
+      "score": 298,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 132,
+      "score": 132,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 110,
+      "score": 110,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 87,
+      "score": 87,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شدید",
+      "count": 87,
+      "score": 87,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نزدیک",
+      "count": 73,
+      "score": 73,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "انفجار",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خرم‌آباد",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
