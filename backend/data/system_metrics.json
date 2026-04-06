@@ -1,46 +1,18 @@
 {
-  "generated_at": 1775505430,
+  "generated_at": 1775508212,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 171,
-      "score": 171,
+      "count": 111,
+      "score": 111,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 54,
-      "score": 54,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار شدید",
-      "count": 51,
-      "score": 51,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 41,
-      "score": 41,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سلام وحید",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار اومد",
-      "count": 36,
-      "score": 36,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -59,9 +31,51 @@
       "sentiment": "neutral"
     },
     {
-      "text": "فروردین",
+      "text": "انفجار اومد",
       "count": 33,
       "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "هدف قرار",
+      "count": 30,
+      "score": 30,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فروردین",
+      "count": 28,
+      "score": 28,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 27,
+      "score": 27,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 25,
+      "score": 25,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سلام وحید",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حمله",
+      "count": 24,
+      "score": 24,
       "is_new": true,
       "sentiment": "neutral"
     },
