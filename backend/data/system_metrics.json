@@ -1,95 +1,67 @@
 {
-  "generated_at": 1775498332,
+  "generated_at": 1775502633,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 297,
-      "score": 297,
+      "count": 210,
+      "score": 210,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
-      "count": 123,
-      "score": 123,
+      "count": 90,
+      "score": 90,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 78,
-      "score": 78,
+      "count": 57,
+      "score": 57,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 71,
-      "score": 71,
+      "count": 57,
+      "score": 57,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار اومد",
-      "count": 54,
-      "score": 54,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 53,
-      "score": 53,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار دور",
-      "count": 51,
-      "score": 51,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سلام وحید",
-      "count": 48,
-      "score": 48,
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "همین الان",
-      "count": 48,
-      "score": 48,
+      "text": "دقیقه",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "پتروشیمی",
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 7,
-      "score": 14,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "خرم‌آباد",
       "count": 3,
       "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "بروجرد",
-      "count": 2,
-      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
