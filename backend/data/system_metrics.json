@@ -1,32 +1,32 @@
 {
-  "generated_at": 1775471644,
+  "generated_at": 1775474960,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای",
-      "count": 257,
-      "score": 257,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 111,
-      "score": 111,
+      "count": 254,
+      "score": 254,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 104,
-      "score": 104,
+      "count": 105,
+      "score": 105,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 96,
+      "score": 96,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "شدید",
-      "count": 79,
-      "score": 79,
+      "count": 80,
+      "score": 80,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -46,6 +46,13 @@
     },
     {
       "text": "تهران",
+      "count": 8,
+      "score": 16,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "خرم‌آباد",
       "count": 4,
       "score": 8,
       "is_new": true,
@@ -53,20 +60,48 @@
     },
     {
       "text": "جنگنده",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار",
+      "count": 3,
+      "score": 6,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "خرم‌آباد",
+      "text": "اصفهان",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همدان",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سنندج",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "قزوین",
       "count": 2,
       "score": 4,
       "is_new": true,
