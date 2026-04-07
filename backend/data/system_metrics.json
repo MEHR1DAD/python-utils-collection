@@ -1,18 +1,39 @@
 {
-  "generated_at": 1775519413,
+  "generated_at": 1775523856,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "صدای",
-      "count": 104,
-      "score": 104,
+      "text": "صدای انفجار",
+      "count": 249,
+      "score": 249,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "جنگنده",
-      "count": 48,
-      "score": 48,
+      "text": "صدای جنگنده",
+      "count": 84,
+      "score": 84,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار شدید",
+      "count": 57,
+      "score": 57,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار دور",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,6 +45,27 @@
       "sentiment": "neutral"
     },
     {
+      "text": "سلام",
+      "count": 41,
+      "score": 41,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار اومد",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دقیقه",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "پتروشیمی",
       "count": 36,
       "score": 36,
@@ -31,58 +73,9 @@
       "sentiment": "neutral"
     },
     {
-      "text": "سمت",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "قرار گرفته",
-      "count": 30,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فروردین",
-      "count": 30,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سلام",
-      "count": 28,
-      "score": 28,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کیش",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     }
