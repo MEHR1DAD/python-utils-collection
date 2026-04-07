@@ -1,20 +1,90 @@
 {
-  "generated_at": 1775601972,
-  "vibe_index": 0,
+  "generated_at": 1775604315,
+  "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "انفجار",
-      "count": 4,
-      "score": 8,
+      "text": "صدای",
+      "count": 70,
+      "score": 70,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فروردین",
+      "count": 37,
+      "score": 37,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "راه آهن",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "شهرک غرب",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 29,
+      "score": 29,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 14,
+      "score": 28,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "موشک",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "وحید",
+      "count": 24,
+      "score": 24,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اصفهان",
+      "count": 22,
+      "score": 22,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار",
+      "count": 5,
+      "score": 10,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
