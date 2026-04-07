@@ -1,83 +1,41 @@
 {
-  "generated_at": 1775541086,
-  "vibe_index": 50,
+  "generated_at": 1775545146,
+  "vibe_index": 20,
   "top_nodes": [
     {
       "text": "صدای انفجار",
       "count": 327,
       "score": 327,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "صدای جنگنده",
-      "count": 105,
-      "score": 105,
+      "count": 114,
+      "score": 114,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "انفجار شدید",
       "count": 84,
       "score": 84,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 60,
-      "score": 60,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سمت",
-      "count": 52,
-      "score": 52,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 51,
-      "score": 51,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار اومد",
       "count": 51,
       "score": 51,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سلام",
-      "count": 50,
-      "score": 50,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار دور",
       "count": 48,
       "score": 48,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اصفهان",
-      "count": 44,
-      "score": 44,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 3,
-      "score": 6,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
