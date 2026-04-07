@@ -1,32 +1,46 @@
 {
-  "generated_at": 1775534063,
+  "generated_at": 1775541086,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 315,
-      "score": 315,
+      "count": 327,
+      "score": 327,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 96,
-      "score": 96,
+      "count": 105,
+      "score": 105,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
-      "count": 78,
-      "score": 78,
+      "count": 84,
+      "score": 84,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "دقیقه",
-      "count": 58,
-      "score": 58,
+      "count": 60,
+      "score": 60,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سمت",
+      "count": 52,
+      "score": 52,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -45,13 +59,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "سمت",
-      "count": 50,
-      "score": 50,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "انفجار دور",
       "count": 48,
       "score": 48,
@@ -62,13 +69,6 @@
       "text": "اصفهان",
       "count": 44,
       "score": 44,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 42,
-      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
