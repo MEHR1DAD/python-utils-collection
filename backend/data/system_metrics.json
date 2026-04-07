@@ -1,39 +1,60 @@
 {
-  "generated_at": 1775523856,
+  "generated_at": 1775534063,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای انفجار",
-      "count": 249,
-      "score": 249,
+      "count": 315,
+      "score": 315,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 84,
-      "score": 84,
+      "count": 96,
+      "score": 96,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "انفجار شدید",
-      "count": 57,
-      "score": 57,
+      "count": 78,
+      "score": 78,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار دور",
-      "count": 45,
-      "score": 45,
+      "text": "دقیقه",
+      "count": 58,
+      "score": 58,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار اومد",
+      "count": 51,
+      "score": 51,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سلام",
+      "count": 50,
+      "score": 50,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "سمت",
-      "count": 45,
-      "score": 45,
+      "count": 50,
+      "score": 50,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار دور",
+      "count": 48,
+      "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -45,30 +66,9 @@
       "sentiment": "neutral"
     },
     {
-      "text": "سلام",
-      "count": 41,
-      "score": 41,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار اومد",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دقیقه",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "پتروشیمی",
-      "count": 36,
-      "score": 36,
+      "text": "همین الان",
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
