@@ -1,83 +1,20 @@
 {
-  "generated_at": 1775688608,
-  "vibe_index": 50,
+  "generated_at": 1775690809,
+  "vibe_index": 30,
   "top_nodes": [
-    {
-      "text": "آتش",
-      "count": 69,
-      "score": 69,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای جنگنده",
-      "count": 42,
-      "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "امنیت ملی",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "شورای عالی",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "توافق",
       "count": 36,
       "score": 36,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "عالی امنیت",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جمهوری",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "متحده",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 30,
-      "score": 30,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "موشک",
       "count": 30,
       "score": 30,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "مذاکرات",
@@ -87,25 +24,18 @@
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "انفجار",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
