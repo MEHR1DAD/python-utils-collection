@@ -1,11 +1,25 @@
 {
-  "generated_at": 1775666376,
+  "generated_at": 1775670280,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "صدای جنگنده",
-      "count": 69,
-      "score": 69,
+      "count": 66,
+      "score": 66,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "آتش",
+      "count": 57,
+      "score": 57,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -17,16 +31,23 @@
       "sentiment": "neutral"
     },
     {
-      "text": "آتش",
-      "count": 41,
-      "score": 41,
+      "text": "اصفهان",
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "اصفهان",
-      "count": 40,
-      "score": 40,
+      "text": "امنیت ملی",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای انفجار",
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -38,20 +59,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "تنگه هرمز",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار",
-      "count": 34,
-      "score": 34,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "عالی امنیت",
       "count": 33,
       "score": 33,
@@ -59,23 +66,30 @@
       "sentiment": "neutral"
     },
     {
-      "text": "امنیت ملی",
-      "count": 33,
-      "score": 33,
+      "text": "موشک",
+      "count": 30,
+      "score": 30,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "قرار",
-      "count": 32,
-      "score": 32,
+      "text": "جمهوری",
+      "count": 28,
+      "score": 28,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "توافق",
+      "count": 26,
+      "score": 26,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 5,
-      "score": 10,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
