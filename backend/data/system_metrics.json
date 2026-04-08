@@ -1,11 +1,11 @@
 {
-  "generated_at": 1775627590,
+  "generated_at": 1775631098,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "صدای جنگنده",
-      "count": 72,
-      "score": 72,
+      "text": "صدای",
+      "count": 52,
+      "score": 52,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -25,8 +25,8 @@
     },
     {
       "text": "فروردین",
-      "count": 35,
-      "score": 35,
+      "count": 34,
+      "score": 34,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -66,23 +66,44 @@
       "sentiment": "neutral"
     },
     {
-      "text": "تنگه هرمز",
-      "count": 27,
-      "score": 27,
+      "text": "تهران",
+      "count": 10,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
+      "text": "انفجار",
       "count": 6,
       "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "انفجار",
-      "count": 3,
-      "score": 6,
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگنده",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "عراق",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
