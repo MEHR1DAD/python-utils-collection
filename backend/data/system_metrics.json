@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775616977,
+  "generated_at": 1775627590,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -25,8 +25,8 @@
     },
     {
       "text": "فروردین",
-      "count": 36,
-      "score": 36,
+      "count": 35,
+      "score": 35,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -38,6 +38,13 @@
       "sentiment": "neutral"
     },
     {
+      "text": "شورای عالی",
+      "count": 30,
+      "score": 30,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "راه آهن",
       "count": 30,
       "score": 30,
@@ -45,16 +52,30 @@
       "sentiment": "neutral"
     },
     {
+      "text": "عالی امنیت",
+      "count": 27,
+      "score": 27,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "امنیت ملی",
+      "count": 27,
+      "score": 27,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "تنگه هرمز",
-      "count": 24,
-      "score": 24,
+      "count": 27,
+      "score": 27,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 7,
-      "score": 14,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
