@@ -1,32 +1,25 @@
 {
-  "generated_at": 1775680104,
+  "generated_at": 1775682726,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "آتش",
-      "count": 68,
-      "score": 68,
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "صدای جنگنده",
-      "count": 63,
-      "score": 63,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "همین الان",
       "count": 42,
       "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "اصفهان",
-      "count": 41,
-      "score": 41,
+      "text": "همین الان",
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -46,8 +39,8 @@
     },
     {
       "text": "توافق",
-      "count": 35,
-      "score": 35,
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -59,9 +52,37 @@
       "sentiment": "neutral"
     },
     {
-      "text": "جمهور",
-      "count": 31,
-      "score": 31,
+      "text": "جمهوری",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 30,
+      "score": 30,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "موشک",
+      "count": 30,
+      "score": 30,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مذاکرات",
+      "count": 28,
+      "score": 28,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -81,27 +102,6 @@
     },
     {
       "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "عراق",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "لبنان",
       "count": 2,
       "score": 4,
       "is_new": true,
