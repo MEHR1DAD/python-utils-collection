@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775763438,
+  "generated_at": 1775766632,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -11,15 +11,15 @@
     },
     {
       "text": "جمهوری",
-      "count": 66,
-      "score": 66,
+      "count": 72,
+      "score": 72,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 64,
-      "score": 64,
+      "count": 70,
+      "score": 70,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -38,14 +38,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "حزب الله",
-      "count": 42,
-      "score": 42,
+      "text": "مذاکرات",
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "مذاکرات",
+      "text": "حزب الله",
       "count": 42,
       "score": 42,
       "is_new": true,
@@ -66,6 +66,13 @@
       "sentiment": "neutral"
     },
     {
+      "text": "جنگ",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "ایالات",
       "count": 36,
       "score": 36,
@@ -80,30 +87,23 @@
       "sentiment": "neutral"
     },
     {
-      "text": "امور خارجه",
-      "count": 33,
-      "score": 33,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "تهران",
-      "count": 3,
-      "score": 6,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تنگه هرمز",
-      "count": 2,
-      "score": 4,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "لبنان",
-      "count": 2,
-      "score": 4,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     }
