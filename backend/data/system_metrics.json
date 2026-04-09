@@ -1,18 +1,102 @@
 {
-  "generated_at": 1775745108,
+  "generated_at": 1775750667,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "توافق",
-      "count": 40,
-      "score": 40,
+      "text": "آتش",
+      "count": 89,
+      "score": 89,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جمهوری",
+      "count": 59,
+      "score": 59,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 55,
+      "score": 55,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "غنی سازی",
+      "count": 51,
+      "score": 51,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "توافق",
+      "count": 48,
+      "score": 48,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "همین الان",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
+      "count": 43,
+      "score": 43,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "لبنان",
+      "count": 41,
+      "score": 41,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حزب الله",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
-      "count": 34,
-      "score": 34,
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حملات",
+      "count": 38,
+      "score": 38,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ایالات",
+      "count": 37,
+      "score": 37,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -21,7 +105,7 @@
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
