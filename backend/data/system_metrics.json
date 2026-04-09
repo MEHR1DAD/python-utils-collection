@@ -1,25 +1,25 @@
 {
-  "generated_at": 1775755084,
+  "generated_at": 1775758416,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "آتش",
-      "count": 89,
-      "score": 89,
+      "count": 88,
+      "score": 88,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جمهوری",
-      "count": 59,
-      "score": 59,
+      "count": 65,
+      "score": 65,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 55,
-      "score": 55,
+      "count": 62,
+      "score": 62,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -32,78 +32,78 @@
     },
     {
       "text": "توافق",
-      "count": 48,
-      "score": 48,
+      "count": 46,
+      "score": 46,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "همین الان",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "متحده",
+      "text": "مذاکرات",
       "count": 43,
       "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "صدای",
+      "text": "حزب الله",
       "count": 42,
       "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "لبنان",
+      "text": "همین الان",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
       "count": 41,
       "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "حزب الله",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مذاکرات",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "حملات",
-      "count": 38,
-      "score": 38,
+      "count": 41,
+      "score": 41,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای",
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "ایالات",
-      "count": 37,
-      "score": 37,
+      "count": 35,
+      "score": 35,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 3,
-      "score": 6,
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تنگه هرمز",
-      "count": 2,
-      "score": 4,
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "لبنان",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     }
