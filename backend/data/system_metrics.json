@@ -1,11 +1,11 @@
 {
-  "generated_at": 1775710853,
+  "generated_at": 1775715865,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "توافق",
-      "count": 38,
-      "score": 38,
+      "count": 40,
+      "score": 40,
       "is_new": true,
       "sentiment": "positive"
     },
@@ -17,18 +17,32 @@
       "sentiment": "negative"
     },
     {
+      "text": "شورای عالی",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مذاکرات",
+      "count": 34,
+      "score": 34,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
       "text": "عالی امنیت",
       "count": 33,
       "score": 33,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
-      "text": "مذاکرات",
-      "count": 31,
-      "score": 31,
+      "text": "تنگه هرمز",
+      "count": 2,
+      "score": 4,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
