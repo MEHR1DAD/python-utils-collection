@@ -1,7 +1,14 @@
 {
-  "generated_at": 1775734577,
-  "vibe_index": 66,
+  "generated_at": 1775738727,
+  "vibe_index": 37,
   "top_nodes": [
+    {
+      "text": "آتش",
+      "count": 76,
+      "score": 76,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "توافق",
       "count": 40,
@@ -14,10 +21,10 @@
       "count": 34,
       "score": 34,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "text": "زلزله",
+      "text": "تنگه هرمز",
       "count": 2,
       "score": 4,
       "is_new": true,
