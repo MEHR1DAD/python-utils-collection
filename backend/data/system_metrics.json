@@ -1,7 +1,14 @@
 {
-  "generated_at": 1775721512,
-  "vibe_index": 66,
+  "generated_at": 1775726244,
+  "vibe_index": 41,
   "top_nodes": [
+    {
+      "text": "آتش",
+      "count": 76,
+      "score": 76,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "توافق",
       "count": 40,
@@ -10,11 +17,25 @@
       "sentiment": "positive"
     },
     {
+      "text": "امنیت ملی",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "مذاکرات",
       "count": 34,
       "score": 34,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "عالی امنیت",
+      "count": 33,
+      "score": 33,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "تنگه هرمز",
