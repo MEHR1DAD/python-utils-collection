@@ -1,11 +1,11 @@
 {
-  "generated_at": 1775766632,
+  "generated_at": 1775769116,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "آتش",
-      "count": 85,
-      "score": 85,
+      "count": 87,
+      "score": 87,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,6 +24,13 @@
       "sentiment": "neutral"
     },
     {
+      "text": "حزب الله",
+      "count": 51,
+      "score": 51,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "غنی سازی",
       "count": 51,
       "score": 51,
@@ -32,22 +39,15 @@
     },
     {
       "text": "توافق",
-      "count": 47,
-      "score": 47,
+      "count": 48,
+      "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
-      "count": 43,
-      "score": 43,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "حزب الله",
-      "count": 42,
-      "score": 42,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -60,8 +60,15 @@
     },
     {
       "text": "حملات",
-      "count": 40,
-      "score": 40,
+      "count": 41,
+      "score": 41,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "امور خارجه",
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -76,13 +83,6 @@
       "text": "ایالات",
       "count": 36,
       "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "طرح ماده",
-      "count": 33,
-      "score": 33,
       "is_new": true,
       "sentiment": "neutral"
     },
