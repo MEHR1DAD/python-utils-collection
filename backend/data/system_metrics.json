@@ -1,14 +1,7 @@
 {
-  "generated_at": 1775852491,
+  "generated_at": 1775854738,
   "vibe_index": 25,
   "top_nodes": [
-    {
-      "text": "اسلامی",
-      "count": 71,
-      "score": 71,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "آتش",
       "count": 69,
@@ -25,8 +18,8 @@
     },
     {
       "text": "مذاکرات",
-      "count": 51,
-      "score": 51,
+      "count": 53,
+      "score": 53,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -39,15 +32,8 @@
     },
     {
       "text": "حملات",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "حزب الله",
-      "count": 36,
-      "score": 36,
+      "count": 40,
+      "score": 40,
       "is_new": true,
       "sentiment": "negative"
     },
