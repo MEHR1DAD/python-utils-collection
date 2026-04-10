@@ -1,7 +1,14 @@
 {
-  "generated_at": 1775857558,
-  "vibe_index": 40,
+  "generated_at": 1775859762,
+  "vibe_index": 25,
   "top_nodes": [
+    {
+      "text": "آتش",
+      "count": 69,
+      "score": 69,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "صدای انفجار",
       "count": 60,
@@ -10,16 +17,16 @@
       "sentiment": "negative"
     },
     {
-      "text": "غنی سازی",
-      "count": 51,
-      "score": 51,
+      "text": "مذاکرات",
+      "count": 55,
+      "score": 55,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "توافق",
-      "count": 41,
-      "score": 41,
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "positive"
     },
