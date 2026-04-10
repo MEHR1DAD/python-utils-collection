@@ -1,11 +1,11 @@
 {
-  "generated_at": 1775827463,
+  "generated_at": 1775831555,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "آتش",
-      "count": 83,
-      "score": 83,
+      "count": 76,
+      "score": 76,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -38,42 +38,42 @@
       "sentiment": "neutral"
     },
     {
-      "text": "حزب الله",
+      "text": "توافق",
       "count": 48,
       "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "توافق",
-      "count": 47,
-      "score": 47,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "حملات",
-      "count": 42,
-      "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "مذاکرات",
-      "count": 41,
-      "score": 41,
+      "count": 46,
+      "score": 46,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "متحده",
-      "count": 37,
-      "score": 37,
+      "count": 38,
+      "score": 38,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "جنگ",
+      "text": "حملات",
+      "count": 38,
+      "score": 38,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "امور خارجه",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حزب الله",
       "count": 36,
       "score": 36,
       "is_new": true,
