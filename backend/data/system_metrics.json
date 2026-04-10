@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775792093,
+  "generated_at": 1775799523,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -20,6 +20,13 @@
       "text": "اسلامی",
       "count": 68,
       "score": 68,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای انفجار",
+      "count": 60,
+      "score": 60,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -60,15 +67,8 @@
     },
     {
       "text": "متحده",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای انفجار",
-      "count": 36,
-      "score": 36,
+      "count": 37,
+      "score": 37,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -76,13 +76,6 @@
       "text": "جنگ",
       "count": 36,
       "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "امور خارجه",
-      "count": 33,
-      "score": 33,
       "is_new": true,
       "sentiment": "neutral"
     },
