@@ -1,25 +1,25 @@
 {
-  "generated_at": 1775779393,
+  "generated_at": 1775792093,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "آتش",
-      "count": 85,
-      "score": 85,
+      "count": 83,
+      "score": 83,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جمهوری",
-      "count": 72,
-      "score": 72,
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 71,
-      "score": 71,
+      "count": 68,
+      "score": 68,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -53,15 +53,22 @@
     },
     {
       "text": "مذاکرات",
-      "count": 42,
-      "score": 42,
+      "count": 41,
+      "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "متحده",
-      "count": 40,
-      "score": 40,
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای انفجار",
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -73,14 +80,7 @@
       "sentiment": "neutral"
     },
     {
-      "text": "ایالات",
-      "count": 34,
-      "score": 34,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "طرح ماده",
+      "text": "امور خارجه",
       "count": 33,
       "score": 33,
       "is_new": true,
@@ -88,22 +88,22 @@
     },
     {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تنگه هرمز",
-      "count": 4,
-      "score": 8,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "لبنان",
-      "count": 4,
-      "score": 8,
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
