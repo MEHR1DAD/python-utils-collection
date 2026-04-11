@@ -1,25 +1,25 @@
 {
-  "generated_at": 1775919479,
+  "generated_at": 1775921961,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "اسلامی",
-      "count": 81,
-      "score": 81,
+      "count": 85,
+      "score": 85,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جمهوری",
-      "count": 78,
-      "score": 78,
+      "count": 82,
+      "score": 82,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "آتش",
-      "count": 69,
-      "score": 69,
+      "count": 64,
+      "score": 64,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -32,15 +32,15 @@
     },
     {
       "text": "مذاکرات",
-      "count": 56,
-      "score": 56,
+      "count": 57,
+      "score": 57,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "غنی سازی",
-      "count": 48,
-      "score": 48,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -53,29 +53,22 @@
     },
     {
       "text": "توافق",
-      "count": 42,
-      "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "حملات",
-      "count": 40,
-      "score": 40,
+      "count": 41,
+      "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "متحده",
-      "count": 37,
-      "score": 37,
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "حزب الله",
-      "count": 36,
-      "score": 36,
+      "text": "حملات",
+      "count": 37,
+      "score": 37,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -102,6 +95,13 @@
     },
     {
       "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "قدس",
       "count": 2,
       "score": 4,
       "is_new": true,
