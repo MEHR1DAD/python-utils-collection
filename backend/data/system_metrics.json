@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775940842,
+  "generated_at": 1775942555,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -18,15 +18,15 @@
     },
     {
       "text": "مذاکرات",
-      "count": 69,
-      "score": 69,
+      "count": 68,
+      "score": 68,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "آتش",
-      "count": 66,
-      "score": 66,
+      "count": 65,
+      "score": 65,
       "is_new": true,
       "sentiment": "neutral"
     },
