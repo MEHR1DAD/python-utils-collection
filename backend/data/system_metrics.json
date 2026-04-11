@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775931826,
+  "generated_at": 1775934518,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -18,15 +18,15 @@
     },
     {
       "text": "مذاکرات",
-      "count": 64,
-      "score": 64,
+      "count": 65,
+      "score": 65,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "آتش",
-      "count": 64,
-      "score": 64,
+      "count": 65,
+      "score": 65,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -52,14 +52,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "امور خارجه",
-      "count": 42,
-      "score": 42,
+      "text": "متحده",
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "متحده",
+      "text": "امور خارجه",
       "count": 42,
       "score": 42,
       "is_new": true,
