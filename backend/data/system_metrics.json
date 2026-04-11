@@ -1,11 +1,11 @@
 {
-  "generated_at": 1775948132,
+  "generated_at": 1775950888,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 95,
-      "score": 95,
+      "count": 94,
+      "score": 94,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,13 +24,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "آتش",
-      "count": 60,
-      "score": 60,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "اسلام آباد",
       "count": 57,
       "score": 57,
@@ -45,16 +38,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "غنی سازی",
-      "count": 45,
-      "score": 45,
+      "text": "آتش",
+      "count": 56,
+      "score": 56,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "متحده",
-      "count": 44,
-      "score": 44,
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -66,9 +59,16 @@
       "sentiment": "neutral"
     },
     {
+      "text": "غنی سازی",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "ایالات",
-      "count": 39,
-      "score": 39,
+      "count": 38,
+      "score": 38,
       "is_new": true,
       "sentiment": "neutral"
     },
