@@ -1,18 +1,18 @@
 {
-  "generated_at": 1775944341,
+  "generated_at": 1775945812,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "اسلامی",
-      "count": 90,
-      "score": 90,
+      "text": "جمهوری",
+      "count": 91,
+      "score": 91,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "جمهوری",
-      "count": 88,
-      "score": 88,
+      "text": "اسلامی",
+      "count": 91,
+      "score": 91,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -25,8 +25,8 @@
     },
     {
       "text": "آتش",
-      "count": 65,
-      "score": 65,
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -53,8 +53,8 @@
     },
     {
       "text": "متحده",
-      "count": 44,
-      "score": 44,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -66,9 +66,9 @@
       "sentiment": "neutral"
     },
     {
-      "text": "توافق",
-      "count": 42,
-      "score": 42,
+      "text": "ایالات",
+      "count": 40,
+      "score": 40,
       "is_new": true,
       "sentiment": "neutral"
     },
