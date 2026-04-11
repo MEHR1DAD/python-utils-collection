@@ -1,14 +1,7 @@
 {
-  "generated_at": 1775864505,
-  "vibe_index": 25,
+  "generated_at": 1775865866,
+  "vibe_index": 41,
   "top_nodes": [
-    {
-      "text": "آتش",
-      "count": 69,
-      "score": 69,
-      "is_new": true,
-      "sentiment": "negative"
-    },
     {
       "text": "صدای انفجار",
       "count": 60,
@@ -43,6 +36,13 @@
       "score": 4,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "قدس",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
