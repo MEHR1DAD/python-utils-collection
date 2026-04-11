@@ -1,18 +1,25 @@
 {
-  "generated_at": 1775929951,
+  "generated_at": 1775931826,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "اسلامی",
-      "count": 85,
-      "score": 85,
+      "count": 89,
+      "score": 89,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جمهوری",
-      "count": 82,
-      "score": 82,
+      "count": 86,
+      "score": 86,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مذاکرات",
+      "count": 64,
+      "score": 64,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -31,9 +38,9 @@
       "sentiment": "neutral"
     },
     {
-      "text": "مذاکرات",
-      "count": 57,
-      "score": 57,
+      "text": "اسلام آباد",
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -52,23 +59,16 @@
       "sentiment": "neutral"
     },
     {
+      "text": "متحده",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "توافق",
       "count": 41,
       "score": 41,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "متحده",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "حملات",
-      "count": 37,
-      "score": 37,
       "is_new": true,
       "sentiment": "neutral"
     },
