@@ -1,6 +1,6 @@
 {
-  "generated_at": 1775886226,
-  "vibe_index": 30,
+  "generated_at": 1775887922,
+  "vibe_index": 35,
   "top_nodes": [
     {
       "text": "آتش",
@@ -24,6 +24,13 @@
       "sentiment": "neutral"
     },
     {
+      "text": "غنی سازی",
+      "count": 48,
+      "score": 48,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
       "text": "توافق",
       "count": 42,
       "score": 42,
@@ -34,6 +41,13 @@
       "text": "حملات",
       "count": 40,
       "score": 40,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
