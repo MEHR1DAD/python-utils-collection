@@ -1,32 +1,32 @@
 {
-  "generated_at": 1775934518,
+  "generated_at": 1775936900,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "اسلامی",
-      "count": 89,
-      "score": 89,
+      "count": 90,
+      "score": 90,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جمهوری",
-      "count": 86,
-      "score": 86,
+      "count": 88,
+      "score": 88,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
-      "count": 65,
-      "score": 65,
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "آتش",
-      "count": 65,
-      "score": 65,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -39,8 +39,8 @@
     },
     {
       "text": "اسلام آباد",
-      "count": 45,
-      "score": 45,
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -53,8 +53,8 @@
     },
     {
       "text": "متحده",
-      "count": 43,
-      "score": 43,
+      "count": 44,
+      "score": 44,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -67,20 +67,20 @@
     },
     {
       "text": "توافق",
-      "count": 41,
-      "score": 41,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "لبنان",
+      "count": 7,
+      "score": 14,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
       "count": 6,
       "score": 12,
       "is_new": true,
