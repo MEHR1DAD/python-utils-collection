@@ -1,13 +1,34 @@
 {
-  "generated_at": 1775891760,
-  "vibe_index": 37,
+  "generated_at": 1775894432,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "اسلامی",
+      "count": 81,
+      "score": 81,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جمهوری",
+      "count": 78,
+      "score": 78,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "آتش",
+      "count": 69,
+      "score": 69,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "صدای انفجار",
       "count": 60,
       "score": 60,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
@@ -17,18 +38,74 @@
       "sentiment": "neutral"
     },
     {
+      "text": "غنی سازی",
+      "count": 48,
+      "score": 48,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "توافق",
       "count": 42,
       "score": 42,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "حملات",
       "count": 40,
       "score": 40,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "امور خارجه",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "حزب الله",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 6,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "لبنان",
+      "count": 6,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "قدس",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
