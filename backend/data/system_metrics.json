@@ -1,20 +1,20 @@
 {
-  "generated_at": 1776010752,
-  "vibe_index": 30,
+  "generated_at": 1776013197,
+  "vibe_index": 20,
   "top_nodes": [
     {
       "text": "مذاکرات",
-      "count": 68,
-      "score": 68,
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "آتش",
+      "text": "مذاکره",
       "count": 44,
       "score": 44,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "صدای انفجار",
@@ -24,11 +24,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "مذاکره",
-      "count": 42,
-      "score": 42,
+      "text": "آتش",
+      "count": 40,
+      "score": 40,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
     },
     {
       "text": "زلزله",
