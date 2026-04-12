@@ -1,14 +1,7 @@
 {
-  "generated_at": 1776017187,
-  "vibe_index": 35,
+  "generated_at": 1776020826,
+  "vibe_index": 33,
   "top_nodes": [
-    {
-      "text": "جمهوری",
-      "count": 115,
-      "score": 115,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "مذاکرات",
       "count": 67,
@@ -24,30 +17,9 @@
       "sentiment": "neutral"
     },
     {
-      "text": "ایالات",
-      "count": 43,
-      "score": 43,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "متحده",
-      "count": 43,
-      "score": 43,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "صدای انفجار",
       "count": 42,
       "score": 42,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
