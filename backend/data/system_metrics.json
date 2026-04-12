@@ -1,11 +1,11 @@
 {
-  "generated_at": 1775965186,
+  "generated_at": 1775973738,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 96,
-      "score": 96,
+      "count": 100,
+      "score": 100,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -25,8 +25,8 @@
     },
     {
       "text": "اسلام آباد",
-      "count": 57,
-      "score": 57,
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -39,48 +39,55 @@
     },
     {
       "text": "آتش",
-      "count": 56,
-      "score": 56,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "متحده",
-      "count": 43,
-      "score": 43,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "امور خارجه",
-      "count": 42,
-      "score": 42,
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "غنی سازی",
-      "count": 42,
-      "score": 42,
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
+      "count": 44,
+      "score": 44,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "امور خارجه",
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "ایالات",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "توافق",
       "count": 38,
       "score": 38,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "لبنان",
-      "count": 4,
-      "score": 8,
+      "text": "تهران",
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
+      "text": "لبنان",
       "count": 3,
       "score": 6,
       "is_new": true,
