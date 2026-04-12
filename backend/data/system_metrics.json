@@ -1,25 +1,11 @@
 {
-  "generated_at": 1776015630,
-  "vibe_index": 50,
+  "generated_at": 1776017187,
+  "vibe_index": 35,
   "top_nodes": [
     {
       "text": "جمهوری",
       "count": 115,
       "score": 115,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 107,
-      "score": 107,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلام آباد",
-      "count": 84,
-      "score": 84,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -52,60 +38,18 @@
       "sentiment": "neutral"
     },
     {
-      "text": "امور خارجه",
-      "count": 42,
-      "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "صدای انفجار",
       "count": 42,
       "score": 42,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "آتش",
-      "count": 40,
-      "score": 40,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نیروی دریایی",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "لبنان",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
