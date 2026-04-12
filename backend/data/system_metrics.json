@@ -1,7 +1,14 @@
 {
-  "generated_at": 1776027404,
-  "vibe_index": 40,
+  "generated_at": 1776030086,
+  "vibe_index": 25,
   "top_nodes": [
+    {
+      "text": "مذاکرات",
+      "count": 65,
+      "score": 65,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "مذاکره",
       "count": 44,
@@ -17,13 +24,6 @@
       "sentiment": "negative"
     },
     {
-      "text": "ایالات",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
       "text": "متحده",
       "count": 39,
       "score": 39,
@@ -32,6 +32,13 @@
     },
     {
       "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "تنگه هرمز",
       "count": 2,
       "score": 4,
       "is_new": true,
