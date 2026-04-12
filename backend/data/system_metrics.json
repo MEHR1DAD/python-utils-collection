@@ -1,11 +1,39 @@
 {
-  "generated_at": 1775987659,
-  "vibe_index": 50,
+  "generated_at": 1775989735,
+  "vibe_index": 60,
   "top_nodes": [
     {
-      "text": "تهران",
-      "count": 3,
-      "score": 6,
+      "text": "مذاکرات",
+      "count": 70,
+      "score": 70,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "صدای انفجار",
+      "count": 57,
+      "score": 57,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "غنی سازی",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
+      "text": "توافق",
+      "count": 38,
+      "score": 38,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
