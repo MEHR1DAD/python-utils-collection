@@ -1,7 +1,28 @@
 {
-  "generated_at": 1776036053,
-  "vibe_index": 42,
+  "generated_at": 1776038138,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "جمهوری",
+      "count": 111,
+      "score": 111,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 105,
+      "score": 105,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلام آباد",
+      "count": 87,
+      "score": 87,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "مذاکرات",
       "count": 65,
@@ -17,39 +38,74 @@
       "sentiment": "neutral"
     },
     {
+      "text": "نیروی دریایی",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "امور خارجه",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "صدای انفجار",
       "count": 42,
       "score": 42,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "ایالات",
       "count": 39,
       "score": 39,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "متحده",
       "count": 39,
       "score": 39,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "آتش",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 8,
+      "score": 16,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "لبنان",
+      "count": 6,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "تنگه هرمز",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
