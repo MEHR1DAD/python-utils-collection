@@ -1,6 +1,6 @@
 {
-  "generated_at": 1775989735,
-  "vibe_index": 60,
+  "generated_at": 1775992093,
+  "vibe_index": 40,
   "top_nodes": [
     {
       "text": "مذاکرات",
@@ -17,11 +17,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "غنی سازی",
-      "count": 45,
-      "score": 45,
+      "text": "آتش",
+      "count": 51,
+      "score": 51,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "توافق",
@@ -31,11 +31,11 @@
       "sentiment": "positive"
     },
     {
-      "text": "تنگه هرمز",
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
