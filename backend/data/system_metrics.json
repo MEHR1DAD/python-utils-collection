@@ -1,11 +1,32 @@
 {
-  "generated_at": 1776013197,
-  "vibe_index": 20,
+  "generated_at": 1776015630,
+  "vibe_index": 50,
   "top_nodes": [
     {
+      "text": "جمهوری",
+      "count": 115,
+      "score": 115,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 107,
+      "score": 107,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلام آباد",
+      "count": 84,
+      "score": 84,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "مذاکرات",
-      "count": 69,
-      "score": 69,
+      "count": 67,
+      "score": 67,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -17,25 +38,74 @@
       "sentiment": "neutral"
     },
     {
+      "text": "ایالات",
+      "count": 43,
+      "score": 43,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
+      "count": 43,
+      "score": 43,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "امور خارجه",
+      "count": 42,
+      "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "صدای انفجار",
       "count": 42,
       "score": 42,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "آتش",
       "count": 40,
       "score": 40,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نیروی دریایی",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 6,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "لبنان",
+      "count": 6,
+      "score": 12,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
