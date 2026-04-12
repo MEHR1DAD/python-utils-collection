@@ -1,18 +1,11 @@
 {
-  "generated_at": 1776030086,
-  "vibe_index": 25,
+  "generated_at": 1776031379,
+  "vibe_index": 28,
   "top_nodes": [
     {
       "text": "مذاکرات",
       "count": 65,
       "score": 65,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مذاکره",
-      "count": 44,
-      "score": 44,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,11 +17,25 @@
       "sentiment": "negative"
     },
     {
+      "text": "ایالات",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "positive"
+    },
+    {
       "text": "متحده",
       "count": 39,
       "score": 39,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "آتش",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
       "text": "زلزله",
