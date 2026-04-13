@@ -1,53 +1,53 @@
 {
-  "generated_at": 1776051197,
+  "generated_at": 1776061156,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تنگه هرمز",
-      "count": 147,
-      "score": 147,
+      "count": 159,
+      "score": 159,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جمهوری",
-      "count": 111,
-      "score": 111,
+      "count": 113,
+      "score": 113,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 105,
-      "score": 105,
+      "count": 104,
+      "score": 104,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلام آباد",
-      "count": 87,
-      "score": 87,
+      "count": 81,
+      "score": 81,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
-      "count": 65,
-      "score": 65,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مذاکره",
-      "count": 44,
-      "score": 44,
+      "count": 62,
+      "score": 62,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "نیروی دریایی",
-      "count": 42,
-      "score": 42,
+      "count": 48,
+      "score": 48,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مذاکره",
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -66,23 +66,23 @@
       "sentiment": "neutral"
     },
     {
+      "text": "آتش",
+      "count": 41,
+      "score": 41,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "ایالات",
-      "count": 39,
-      "score": 39,
+      "count": 38,
+      "score": 38,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "متحده",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "آتش",
-      "count": 39,
-      "score": 39,
+      "count": 38,
+      "score": 38,
       "is_new": true,
       "sentiment": "neutral"
     },
