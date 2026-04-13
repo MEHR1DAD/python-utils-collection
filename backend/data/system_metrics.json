@@ -1,5 +1,5 @@
 {
-  "generated_at": 1776120681,
+  "generated_at": 1776123072,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -73,16 +73,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
+      "text": "لبنان",
       "count": 6,
       "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "لبنان",
-      "count": 6,
-      "score": 12,
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
