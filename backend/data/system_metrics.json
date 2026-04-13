@@ -1,39 +1,39 @@
 {
-  "generated_at": 1776061156,
+  "generated_at": 1776068278,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تنگه هرمز",
-      "count": 159,
-      "score": 159,
+      "count": 162,
+      "score": 162,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جمهوری",
-      "count": 113,
-      "score": 113,
+      "count": 105,
+      "score": 105,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 104,
-      "score": 104,
+      "count": 96,
+      "score": 96,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلام آباد",
-      "count": 81,
-      "score": 81,
+      "count": 84,
+      "score": 84,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
-      "count": 62,
-      "score": 62,
+      "count": 64,
+      "score": 64,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -73,14 +73,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "ایالات",
-      "count": 38,
-      "score": 38,
+      "text": "حزب الله",
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "متحده",
+      "text": "ایالات",
       "count": 38,
       "score": 38,
       "is_new": true,
