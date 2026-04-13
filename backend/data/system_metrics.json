@@ -1,11 +1,18 @@
 {
-  "generated_at": 1776102364,
+  "generated_at": 1776106476,
   "vibe_index": 50,
   "top_nodes": [
     {
+      "text": "تنگه هرمز",
+      "count": 171,
+      "score": 171,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "جمهوری",
-      "count": 99,
-      "score": 99,
+      "count": 100,
+      "score": 100,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -39,15 +46,15 @@
     },
     {
       "text": "دونالد",
-      "count": 43,
-      "score": 43,
+      "count": 46,
+      "score": 46,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکره",
-      "count": 43,
-      "score": 43,
+      "count": 44,
+      "score": 44,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -74,36 +81,15 @@
     },
     {
       "text": "تهران",
-      "count": 8,
-      "score": 16,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "لبنان",
-      "count": 6,
-      "score": 12,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مرز",
-      "count": 2,
-      "score": 4,
+      "count": 3,
+      "score": 6,
       "is_new": true,
       "sentiment": "neutral"
     }
