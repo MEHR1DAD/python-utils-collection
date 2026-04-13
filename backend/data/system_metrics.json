@@ -1,32 +1,32 @@
 {
-  "generated_at": 1776098951,
+  "generated_at": 1776102364,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 102,
-      "score": 102,
+      "count": 99,
+      "score": 99,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 87,
-      "score": 87,
+      "count": 84,
+      "score": 84,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلام آباد",
-      "count": 81,
-      "score": 81,
+      "count": 78,
+      "score": 78,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
-      "count": 64,
-      "score": 64,
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -34,6 +34,13 @@
       "text": "نیروی دریایی",
       "count": 51,
       "score": 51,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دونالد",
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -46,13 +53,6 @@
     },
     {
       "text": "صدای انفجار",
-      "count": 42,
-      "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دونالد",
       "count": 42,
       "score": 42,
       "is_new": true,
