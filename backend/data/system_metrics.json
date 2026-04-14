@@ -1,6 +1,6 @@
 {
-  "generated_at": 1776168524,
-  "vibe_index": 30,
+  "generated_at": 1776175776,
+  "vibe_index": 37,
   "top_nodes": [
     {
       "text": "مذاکرات",
@@ -27,13 +27,6 @@
       "text": "صدای انفجار",
       "count": 42,
       "score": 42,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
