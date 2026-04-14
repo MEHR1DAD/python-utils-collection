@@ -1,18 +1,25 @@
 {
-  "generated_at": 1776138001,
-  "vibe_index": 33,
+  "generated_at": 1776146727,
+  "vibe_index": 37,
   "top_nodes": [
     {
       "text": "مذاکرات",
-      "count": 63,
-      "score": 63,
+      "count": 64,
+      "score": 64,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکره",
-      "count": 44,
-      "score": 44,
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -20,27 +27,6 @@
       "text": "صدای انفجار",
       "count": 42,
       "score": 42,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "ایالات",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "متحده",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 2,
-      "score": 4,
       "is_new": true,
       "sentiment": "negative"
     }
