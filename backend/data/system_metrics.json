@@ -1,25 +1,18 @@
 {
-  "generated_at": 1776175776,
-  "vibe_index": 37,
+  "generated_at": 1776181035,
+  "vibe_index": 33,
   "top_nodes": [
     {
       "text": "مذاکرات",
-      "count": 64,
-      "score": 64,
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکره",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "متحده",
-      "count": 43,
-      "score": 43,
+      "count": 47,
+      "score": 47,
       "is_new": true,
       "sentiment": "neutral"
     },
