@@ -1,53 +1,60 @@
 {
-  "generated_at": 1776185006,
+  "generated_at": 1776188945,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تنگه هرمز",
-      "count": 168,
-      "score": 168,
+      "count": 156,
+      "score": 156,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جمهوری",
-      "count": 103,
-      "score": 103,
+      "count": 93,
+      "score": 93,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلام آباد",
-      "count": 87,
-      "score": 87,
+      "count": 90,
+      "score": 90,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 79,
-      "score": 79,
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
-      "count": 63,
-      "score": 63,
+      "count": 64,
+      "score": 64,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "نیروی دریایی",
-      "count": 51,
-      "score": 51,
+      "count": 54,
+      "score": 54,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دونالد",
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکره",
-      "count": 47,
-      "score": 47,
+      "count": 44,
+      "score": 44,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -66,23 +73,9 @@
       "sentiment": "neutral"
     },
     {
-      "text": "دونالد",
-      "count": 43,
-      "score": 43,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "صدای انفجار",
       "count": 42,
       "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فکر کنم",
-      "count": 39,
-      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
