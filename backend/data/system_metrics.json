@@ -1,67 +1,11 @@
 {
-  "generated_at": 1776266126,
-  "vibe_index": 50,
+  "generated_at": 1776269814,
+  "vibe_index": 33,
   "top_nodes": [
-    {
-      "text": "تنگه هرمز",
-      "count": 144,
-      "score": 144,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جمهوری",
-      "count": 95,
-      "score": 95,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلام آباد",
-      "count": 87,
-      "score": 87,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 68,
-      "score": 68,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "مذاکرات",
       "count": 60,
       "score": 60,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نیروی دریایی",
-      "count": 54,
-      "score": 54,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دونالد",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ایالات",
-      "count": 43,
-      "score": 43,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "متحده",
-      "count": 43,
-      "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -73,32 +17,11 @@
       "sentiment": "neutral"
     },
     {
-      "text": "فکر کنم",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "لبنان",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "کشته",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
