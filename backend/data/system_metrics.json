@@ -1,7 +1,21 @@
 {
-  "generated_at": 1776274522,
-  "vibe_index": 37,
+  "generated_at": 1776278743,
+  "vibe_index": 28,
   "top_nodes": [
+    {
+      "text": "تنگه هرمز",
+      "count": 144,
+      "score": 144,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلام آباد",
+      "count": 90,
+      "score": 90,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "مذاکرات",
       "count": 61,
@@ -22,6 +36,13 @@
       "score": 42,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "لبنان",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
     },
     {
       "text": "کشته",
