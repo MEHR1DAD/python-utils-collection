@@ -1,11 +1,11 @@
 {
-  "generated_at": 1776261812,
+  "generated_at": 1776266126,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تنگه هرمز",
-      "count": 150,
-      "score": 150,
+      "count": 144,
+      "score": 144,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -18,29 +18,22 @@
     },
     {
       "text": "اسلام آباد",
-      "count": 90,
-      "score": 90,
+      "count": 87,
+      "score": 87,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 70,
-      "score": 70,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای انفجار",
-      "count": 66,
-      "score": 66,
+      "count": 68,
+      "score": 68,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
-      "count": 64,
-      "score": 64,
+      "count": 60,
+      "score": 60,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -59,13 +52,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "مذاکره",
-      "count": 44,
-      "score": 44,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "ایالات",
       "count": 43,
       "score": 43,
@@ -80,9 +66,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "فکر کنم",
+      "text": "مذاکره",
       "count": 42,
       "score": 42,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فکر کنم",
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
