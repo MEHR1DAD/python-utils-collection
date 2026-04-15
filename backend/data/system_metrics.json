@@ -1,5 +1,5 @@
 {
-  "generated_at": 1776251756,
+  "generated_at": 1776254933,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -27,13 +27,6 @@
       "text": "اسلامی",
       "count": 70,
       "score": 70,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "صدای انفجار",
-      "count": 66,
-      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -88,20 +81,27 @@
     },
     {
       "text": "تهران",
-      "count": 5,
-      "score": 10,
+      "count": 10,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "لبنان",
-      "count": 2,
-      "score": 4,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
