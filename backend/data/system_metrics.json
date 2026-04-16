@@ -1,14 +1,7 @@
 {
-  "generated_at": 1776319875,
-  "vibe_index": 40,
+  "generated_at": 1776323648,
+  "vibe_index": 25,
   "top_nodes": [
-    {
-      "text": "تنگه هرمز",
-      "count": 144,
-      "score": 144,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "مذاکرات",
       "count": 61,
@@ -28,7 +21,7 @@
       "count": 42,
       "score": 42,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "کشته",
