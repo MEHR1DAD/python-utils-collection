@@ -1,5 +1,5 @@
 {
-  "generated_at": 1776295835,
+  "generated_at": 1776298100,
   "vibe_index": 30,
   "top_nodes": [
     {
@@ -10,16 +10,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "مذاکره",
-      "count": 42,
-      "score": 42,
+      "text": "متحده",
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "لبنان",
-      "count": 4,
-      "score": 8,
+      "text": "مذاکره",
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
