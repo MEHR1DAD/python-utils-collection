@@ -1,5 +1,5 @@
 {
-  "generated_at": 1776368906,
+  "generated_at": 1776371697,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -38,16 +38,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "مذاکرات",
+      "text": "محاصره دریایی",
       "count": 51,
       "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "محاصره دریایی",
-      "count": 48,
-      "score": 48,
+      "text": "مذاکرات",
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -67,27 +67,41 @@
     },
     {
       "text": "دونالد",
-      "count": 43,
-      "score": 43,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "توافق",
-      "count": 42,
-      "score": 42,
+      "count": 44,
+      "score": 44,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 5,
-      "score": 10,
+      "count": 10,
+      "score": 20,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "لبنان",
       "count": 2,
       "score": 4,
       "is_new": true,
