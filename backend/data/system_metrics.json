@@ -1,7 +1,35 @@
 {
-  "generated_at": 1776323648,
-  "vibe_index": 25,
+  "generated_at": 1776329797,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "تنگه هرمز",
+      "count": 144,
+      "score": 144,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جمهوری",
+      "count": 100,
+      "score": 100,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلام آباد",
+      "count": 90,
+      "score": 90,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 74,
+      "score": 74,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "مذاکرات",
       "count": 61,
@@ -10,11 +38,39 @@
       "sentiment": "neutral"
     },
     {
+      "text": "نیروی دریایی",
+      "count": 54,
+      "score": 54,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دونالد",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ایالات",
+      "count": 44,
+      "score": 44,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "محاصره دریایی",
       "count": 42,
       "score": 42,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "مذاکره",
@@ -24,11 +80,25 @@
       "sentiment": "neutral"
     },
     {
+      "text": "تهران",
+      "count": 5,
+      "score": 10,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "لبنان",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "کشته",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
