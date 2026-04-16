@@ -1,25 +1,25 @@
 {
-  "generated_at": 1776364798,
+  "generated_at": 1776368906,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تنگه هرمز",
-      "count": 147,
-      "score": 147,
+      "count": 138,
+      "score": 138,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جمهوری",
-      "count": 97,
-      "score": 97,
+      "count": 94,
+      "score": 94,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلام آباد",
-      "count": 87,
-      "score": 87,
+      "count": 93,
+      "score": 93,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -32,15 +32,15 @@
     },
     {
       "text": "اسلامی",
-      "count": 71,
-      "score": 71,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
-      "count": 52,
-      "score": 52,
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -53,29 +53,29 @@
     },
     {
       "text": "متحده",
+      "count": 48,
+      "score": 48,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ایالات",
       "count": 47,
       "score": 47,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "ایالات",
-      "count": 46,
-      "score": 46,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "دونالد",
-      "count": 41,
-      "score": 41,
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "مذاکره",
-      "count": 40,
-      "score": 40,
+      "text": "توافق",
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
