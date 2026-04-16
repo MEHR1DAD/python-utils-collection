@@ -1,5 +1,5 @@
 {
-  "generated_at": 1776380173,
+  "generated_at": 1776383401,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -32,8 +32,8 @@
     },
     {
       "text": "اسلامی",
-      "count": 66,
-      "score": 66,
+      "count": 67,
+      "score": 67,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -74,8 +74,8 @@
     },
     {
       "text": "توافق",
-      "count": 44,
-      "score": 44,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
