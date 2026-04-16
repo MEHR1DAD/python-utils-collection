@@ -1,81 +1,81 @@
 {
-  "generated_at": 1776360095,
+  "generated_at": 1776364798,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تنگه هرمز",
-      "count": 144,
-      "score": 144,
+      "count": 147,
+      "score": 147,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جمهوری",
-      "count": 100,
-      "score": 100,
+      "count": 97,
+      "score": 97,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلام آباد",
-      "count": 90,
-      "score": 90,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 74,
-      "score": 74,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مذاکرات",
-      "count": 61,
-      "score": 61,
+      "count": 87,
+      "score": 87,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "نیروی دریایی",
-      "count": 54,
-      "score": 54,
+      "count": 72,
+      "score": 72,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "متحده",
-      "count": 45,
-      "score": 45,
+      "text": "اسلامی",
+      "count": 71,
+      "score": 71,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "دونالد",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ایالات",
-      "count": 44,
-      "score": 44,
+      "text": "مذاکرات",
+      "count": 52,
+      "score": 52,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "محاصره دریایی",
-      "count": 42,
-      "score": 42,
+      "count": 48,
+      "score": 48,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
+      "count": 47,
+      "score": 47,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ایالات",
+      "count": 46,
+      "score": 46,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دونالد",
+      "count": 41,
+      "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "مذاکره",
-      "count": 42,
-      "score": 42,
+      "count": 40,
+      "score": 40,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -83,13 +83,6 @@
       "text": "تهران",
       "count": 5,
       "score": 10,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "لبنان",
-      "count": 2,
-      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     },
