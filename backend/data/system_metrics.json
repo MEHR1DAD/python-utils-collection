@@ -1,7 +1,14 @@
 {
-  "generated_at": 1776311140,
-  "vibe_index": 37,
+  "generated_at": 1776319875,
+  "vibe_index": 40,
   "top_nodes": [
+    {
+      "text": "تنگه هرمز",
+      "count": 144,
+      "score": 144,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "مذاکرات",
       "count": 61,
@@ -10,18 +17,18 @@
       "sentiment": "neutral"
     },
     {
-      "text": "متحده",
-      "count": 43,
-      "score": 43,
+      "text": "محاصره دریایی",
+      "count": 42,
+      "score": 42,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "مذاکره",
       "count": 42,
       "score": 42,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "کشته",
