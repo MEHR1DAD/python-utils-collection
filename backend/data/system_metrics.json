@@ -1,11 +1,11 @@
 {
-  "generated_at": 1776383401,
+  "generated_at": 1776388257,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تنگه هرمز",
-      "count": 138,
-      "score": 138,
+      "count": 135,
+      "score": 135,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -18,8 +18,8 @@
     },
     {
       "text": "اسلام آباد",
-      "count": 93,
-      "score": 93,
+      "count": 90,
+      "score": 90,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -46,8 +46,8 @@
     },
     {
       "text": "مذاکرات",
-      "count": 51,
-      "score": 51,
+      "count": 50,
+      "score": 50,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -81,27 +81,13 @@
     },
     {
       "text": "تهران",
-      "count": 10,
-      "score": 20,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "لبنان",
       "count": 2,
       "score": 4,
       "is_new": true,
