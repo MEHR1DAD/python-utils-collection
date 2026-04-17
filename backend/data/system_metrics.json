@@ -1,6 +1,6 @@
 {
-  "generated_at": 1776419126,
-  "vibe_index": 37,
+  "generated_at": 1776422631,
+  "vibe_index": 30,
   "top_nodes": [
     {
       "text": "محاصره دریایی",
@@ -25,6 +25,13 @@
     },
     {
       "text": "کشته",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
