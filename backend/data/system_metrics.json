@@ -1,32 +1,25 @@
 {
-  "generated_at": 1776491351,
+  "generated_at": 1776495089,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "تنگه هرمز",
-      "count": 135,
-      "score": 135,
+      "count": 114,
+      "score": 114,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "جمهوری",
-      "count": 109,
-      "score": 109,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلام آباد",
-      "count": 78,
-      "score": 78,
+      "count": 96,
+      "score": 96,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 78,
-      "score": 78,
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -38,37 +31,58 @@
       "sentiment": "neutral"
     },
     {
-      "text": "نیروی دریایی",
+      "text": "اسلام آباد",
       "count": 63,
       "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
+      "text": "نیروی دریایی",
+      "count": 57,
+      "score": 57,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "توافق",
-      "count": 53,
-      "score": 53,
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "دونالد",
-      "count": 50,
-      "score": 50,
+      "count": 49,
+      "score": 49,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "متحده",
-      "count": 47,
-      "score": 47,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "ایالات",
-      "count": 46,
-      "score": 46,
+      "count": 44,
+      "score": 44,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "هسته",
+      "count": 43,
+      "score": 43,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فکر کنم",
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
