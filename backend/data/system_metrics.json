@@ -1,11 +1,11 @@
 {
-  "generated_at": 1776541989,
+  "generated_at": 1776543685,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 76,
-      "score": 76,
+      "count": 79,
+      "score": 79,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -18,8 +18,8 @@
     },
     {
       "text": "اسلامی",
-      "count": 52,
-      "score": 52,
+      "count": 56,
+      "score": 56,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -45,14 +45,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "فکر کنم",
-      "count": 36,
-      "score": 36,
+      "text": "نیروی دریایی",
+      "count": 39,
+      "score": 39,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "نیروی دریایی",
+      "text": "فکر کنم",
       "count": 36,
       "score": 36,
       "is_new": true,
