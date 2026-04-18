@@ -1,44 +1,37 @@
 {
-  "generated_at": 1776524212,
+  "generated_at": 1776526947,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 85,
-      "score": 85,
+      "count": 76,
+      "score": 76,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "محاصره دریایی",
-      "count": 66,
-      "score": 66,
+      "count": 63,
+      "score": 63,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 60,
-      "score": 60,
+      "count": 52,
+      "score": 52,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "دونالد",
-      "count": 47,
-      "score": 47,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلام آباد",
       "count": 45,
       "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "نیروی دریایی",
+      "text": "اسلام آباد",
       "count": 42,
       "score": 42,
       "is_new": true,
@@ -46,13 +39,20 @@
     },
     {
       "text": "توافق",
-      "count": 41,
-      "score": 41,
+      "count": 40,
+      "score": 40,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "فکر کنم",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نیروی دریایی",
       "count": 36,
       "score": 36,
       "is_new": true,
