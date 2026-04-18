@@ -1,100 +1,100 @@
 {
-  "generated_at": 1776518503,
+  "generated_at": 1776521267,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "تنگه هرمز",
-      "count": 114,
-      "score": 114,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "جمهوری",
-      "count": 96,
-      "score": 96,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 69,
-      "score": 69,
+      "count": 85,
+      "score": 85,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "محاصره دریایی",
-      "count": 63,
-      "score": 63,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "اسلام آباد",
-      "count": 63,
-      "score": 63,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نیروی دریایی",
-      "count": 57,
-      "score": 57,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "توافق",
-      "count": 51,
-      "score": 51,
+      "text": "اسلامی",
+      "count": 60,
+      "score": 60,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "دونالد",
-      "count": 49,
-      "score": 49,
+      "count": 47,
+      "score": 47,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "متحده",
+      "text": "اسلام آباد",
       "count": 45,
       "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "ایالات",
-      "count": 44,
-      "score": 44,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "هسته",
-      "count": 43,
-      "score": 43,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فکر کنم",
+      "text": "نیروی دریایی",
       "count": 42,
       "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
+      "text": "توافق",
+      "count": 41,
+      "score": 41,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فکر کنم",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "تهران",
-      "count": 6,
-      "score": 12,
+      "count": 12,
+      "score": 24,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "مجروح",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
       "count": 2,
       "score": 4,
       "is_new": true,
