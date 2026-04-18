@@ -1,41 +1,90 @@
 {
-  "generated_at": 1776470065,
-  "vibe_index": 30,
+  "generated_at": 1776475288,
+  "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "محاصره دریایی",
-      "count": 60,
-      "score": 60,
+      "text": "تنگه هرمز",
+      "count": 135,
+      "score": 135,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جمهوری",
+      "count": 109,
+      "score": 109,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلام آباد",
+      "count": 78,
+      "score": 78,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 78,
+      "score": 78,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "محاصره دریایی",
+      "count": 63,
+      "score": 63,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "نیروی دریایی",
+      "count": 63,
+      "score": 63,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "توافق",
-      "count": 52,
-      "score": 52,
+      "count": 53,
+      "score": 53,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "text": "مذاکرات",
-      "count": 45,
-      "score": 45,
+      "text": "دونالد",
+      "count": 50,
+      "score": 50,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
+      "count": 47,
+      "score": 47,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ایالات",
+      "count": 46,
+      "score": 46,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 6,
+      "score": 12,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
