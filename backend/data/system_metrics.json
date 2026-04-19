@@ -1,5 +1,5 @@
 {
-  "generated_at": 1776630134,
+  "generated_at": 1776632344,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -46,6 +46,13 @@
     },
     {
       "text": "نیروی دریایی",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "فروردین",
       "count": 39,
       "score": 39,
       "is_new": true,
