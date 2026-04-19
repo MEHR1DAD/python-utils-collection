@@ -1,5 +1,5 @@
 {
-  "generated_at": 1776639092,
+  "generated_at": 1776641018,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -11,8 +11,8 @@
     },
     {
       "text": "محاصره دریایی",
-      "count": 72,
-      "score": 72,
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -46,13 +46,6 @@
     },
     {
       "text": "نیروی دریایی",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کشتی",
       "count": 39,
       "score": 39,
       "is_new": true,
