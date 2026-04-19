@@ -1,20 +1,27 @@
 {
-  "generated_at": 1776607603,
-  "vibe_index": 14,
+  "generated_at": 1776610610,
+  "vibe_index": 21,
   "top_nodes": [
     {
       "text": "محاصره دریایی",
-      "count": 63,
-      "score": 63,
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "negative"
     },
     {
       "text": "توافق",
-      "count": 40,
-      "score": 40,
+      "count": 43,
+      "score": 43,
       "is_new": true,
       "sentiment": "positive"
+    },
+    {
+      "text": "تهران",
+      "count": 11,
+      "score": 22,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "کشته",
@@ -39,13 +46,6 @@
     },
     {
       "text": "مجروح",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "تنگه هرمز",
       "count": 2,
       "score": 4,
       "is_new": true,
