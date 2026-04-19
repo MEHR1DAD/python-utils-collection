@@ -1,5 +1,5 @@
 {
-  "generated_at": 1776634910,
+  "generated_at": 1776636264,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -11,8 +11,8 @@
     },
     {
       "text": "محاصره دریایی",
-      "count": 69,
-      "score": 69,
+      "count": 72,
+      "score": 72,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -52,7 +52,14 @@
       "sentiment": "neutral"
     },
     {
-      "text": "فروردین",
+      "text": "کشتی",
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
       "count": 39,
       "score": 39,
       "is_new": true,
