@@ -1,6 +1,6 @@
 {
-  "generated_at": 1776604873,
-  "vibe_index": 33,
+  "generated_at": 1776607603,
+  "vibe_index": 14,
   "top_nodes": [
     {
       "text": "محاصره دریایی",
@@ -18,6 +18,34 @@
     },
     {
       "text": "کشته",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "مجروح",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "تنگه هرمز",
       "count": 2,
       "score": 4,
       "is_new": true,
