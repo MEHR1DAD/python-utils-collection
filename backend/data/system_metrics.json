@@ -1,6 +1,6 @@
 {
-  "generated_at": 1776587909,
-  "vibe_index": 35,
+  "generated_at": 1776590953,
+  "vibe_index": 18,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -17,23 +17,9 @@
       "sentiment": "negative"
     },
     {
-      "text": "اسلام آباد",
-      "count": 42,
-      "score": 42,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
       "text": "توافق",
       "count": 40,
       "score": 40,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
-      "text": "تهران",
-      "count": 12,
-      "score": 24,
       "is_new": true,
       "sentiment": "positive"
     },
