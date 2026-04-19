@@ -1,11 +1,11 @@
 {
-  "generated_at": 1776615615,
-  "vibe_index": 14,
+  "generated_at": 1776618023,
+  "vibe_index": 16,
   "top_nodes": [
     {
       "text": "محاصره دریایی",
-      "count": 72,
-      "score": 72,
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "negative"
     },
@@ -39,13 +39,6 @@
     },
     {
       "text": "مجروح",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "تنگه هرمز",
       "count": 2,
       "score": 4,
       "is_new": true,
