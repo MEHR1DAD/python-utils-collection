@@ -1,6 +1,6 @@
 {
-  "generated_at": 1776593333,
-  "vibe_index": 25,
+  "generated_at": 1776596348,
+  "vibe_index": 21,
   "top_nodes": [
     {
       "text": "محاصره دریایی",
@@ -8,13 +8,6 @@
       "score": 63,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "اسلام آباد",
-      "count": 42,
-      "score": 42,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "توافق",
