@@ -1,18 +1,18 @@
 {
-  "generated_at": 1776689371,
+  "generated_at": 1776695120,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "تنگه هرمز",
-      "count": 96,
-      "score": 96,
+      "text": "جمهوری",
+      "count": 86,
+      "score": 86,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "جمهوری",
-      "count": 84,
-      "score": 84,
+      "text": "تنگه هرمز",
+      "count": 75,
+      "score": 75,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -25,50 +25,50 @@
     },
     {
       "text": "اسلامی",
-      "count": 58,
-      "score": 58,
+      "count": 62,
+      "score": 62,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلام آباد",
-      "count": 45,
-      "score": 45,
+      "count": 42,
+      "score": 42,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "دونالد",
-      "count": 43,
-      "score": 43,
+      "count": 40,
+      "score": 40,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "توافق",
-      "count": 41,
-      "score": 41,
+      "count": 39,
+      "score": 39,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سپاه پاسداران",
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "نیروی دریایی",
-      "count": 39,
-      "score": 39,
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "متحده",
-      "count": 39,
-      "score": 39,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فروردین",
-      "count": 39,
-      "score": 39,
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
