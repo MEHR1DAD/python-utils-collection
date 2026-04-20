@@ -1,11 +1,11 @@
 {
-  "generated_at": 1776707093,
+  "generated_at": 1776710564,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 83,
-      "score": 83,
+      "count": 84,
+      "score": 84,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -31,7 +31,21 @@
       "sentiment": "neutral"
     },
     {
+      "text": "توافق",
+      "count": 40,
+      "score": 40,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "دونالد",
+      "count": 40,
+      "score": 40,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "جنگ",
       "count": 37,
       "score": 37,
       "is_new": true,
@@ -45,23 +59,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "سپاه پاسداران",
+      "text": "نیروی دریایی",
       "count": 36,
       "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "کشتی",
-      "count": 34,
-      "score": 34,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نیروی دریایی",
-      "count": 33,
-      "score": 33,
+      "text": "سپاه پاسداران",
+      "count": 36,
+      "score": 36,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -95,13 +102,6 @@
     },
     {
       "text": "مجروح",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
       "count": 2,
       "score": 4,
       "is_new": true,
