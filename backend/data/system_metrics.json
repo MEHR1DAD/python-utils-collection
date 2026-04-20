@@ -1,20 +1,13 @@
 {
-  "generated_at": 1776710564,
-  "vibe_index": 50,
+  "generated_at": 1776714299,
+  "vibe_index": 37,
   "top_nodes": [
     {
-      "text": "جمهوری",
-      "count": 84,
-      "score": 84,
+      "text": "تنگه هرمز",
+      "count": 69,
+      "score": 69,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "اسلامی",
-      "count": 65,
-      "score": 65,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "محاصره دریایی",
@@ -24,88 +17,18 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اسلام آباد",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "توافق",
       "count": 40,
       "score": 40,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "دونالد",
-      "count": 40,
-      "score": 40,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "جنگ",
-      "count": 37,
-      "score": 37,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "فروردین",
-      "count": 37,
-      "score": 37,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "نیروی دریایی",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سپاه پاسداران",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 10,
-      "score": 20,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
       "count": 2,
       "score": 4,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مجروح",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
