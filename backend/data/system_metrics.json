@@ -1,11 +1,18 @@
 {
-  "generated_at": 1776773385,
+  "generated_at": 1776780411,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
       "count": 90,
       "score": 90,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 69,
+      "score": 69,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -74,34 +81,13 @@
     },
     {
       "text": "تهران",
-      "count": 10,
-      "score": 20,
+      "count": 5,
+      "score": 10,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "کشته",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "مجروح",
       "count": 2,
       "score": 4,
       "is_new": true,
