@@ -1,46 +1,39 @@
 {
-  "generated_at": 1776786079,
+  "generated_at": 1776789571,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 93,
-      "score": 93,
+      "count": 95,
+      "score": 95,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 73,
-      "score": 73,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 66,
-      "score": 66,
+      "count": 67,
+      "score": 67,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "محاصره دریایی",
-      "count": 54,
-      "score": 54,
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلام آباد",
-      "count": 48,
-      "score": 48,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "دونالد",
-      "count": 42,
-      "score": 42,
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -52,13 +45,6 @@
       "sentiment": "neutral"
     },
     {
-      "text": "کشتی",
-      "count": 38,
-      "score": 38,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "سپاه پاسداران",
       "count": 36,
       "score": 36,
@@ -66,16 +52,58 @@
       "sentiment": "neutral"
     },
     {
-      "text": "آتش",
+      "text": "متحده",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کشتی",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ایالات",
       "count": 35,
       "score": 35,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
+      "text": "مذاکرات",
+      "count": 32,
+      "score": 32,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "count": 8,
+      "score": 16,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
