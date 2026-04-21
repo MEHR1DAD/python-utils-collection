@@ -1,32 +1,39 @@
 {
-  "generated_at": 1776780411,
+  "generated_at": 1776786079,
   "vibe_index": 50,
   "top_nodes": [
     {
       "text": "جمهوری",
-      "count": 90,
-      "score": 90,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 69,
-      "score": 69,
+      "count": 93,
+      "score": 93,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "اسلامی",
-      "count": 69,
-      "score": 69,
+      "count": 73,
+      "score": 73,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 66,
+      "score": 66,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "محاصره دریایی",
-      "count": 60,
-      "score": 60,
+      "count": 54,
+      "score": 54,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلام آباد",
+      "count": 48,
+      "score": 48,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -39,15 +46,15 @@
     },
     {
       "text": "توافق",
-      "count": 42,
-      "score": 42,
+      "count": 41,
+      "score": 41,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
-      "text": "اسلام آباد",
-      "count": 39,
-      "score": 39,
+      "text": "کشتی",
+      "count": 38,
+      "score": 38,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -59,37 +66,16 @@
       "sentiment": "neutral"
     },
     {
-      "text": "کشتی",
-      "count": 34,
-      "score": 34,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "متحده",
-      "count": 34,
-      "score": 34,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ترجمه ماشین",
-      "count": 33,
-      "score": 33,
+      "text": "آتش",
+      "count": 35,
+      "score": 35,
       "is_new": true,
       "sentiment": "neutral"
     },
     {
       "text": "تهران",
-      "count": 5,
-      "score": 10,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کشته",
-      "count": 2,
-      "score": 4,
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     }
