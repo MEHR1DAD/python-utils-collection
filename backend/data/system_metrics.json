@@ -1,11 +1,11 @@
 {
-  "generated_at": 1777166122,
+  "generated_at": 1777178067,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "اسلامی",
-      "count": 68,
-      "score": 68,
+      "text": "جمهوری",
+      "count": 96,
+      "score": 96,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -24,11 +24,18 @@
       "sentiment": "neutral"
     },
     {
-      "text": "اسلام آباد",
-      "count": 45,
-      "score": 45,
+      "text": "توافق",
+      "count": 41,
+      "score": 41,
       "is_new": true,
       "sentiment": "positive"
+    },
+    {
+      "text": "مذاکرات",
+      "count": 32,
+      "score": 32,
+      "is_new": true,
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
