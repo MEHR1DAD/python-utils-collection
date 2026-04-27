@@ -1,18 +1,18 @@
 {
-  "generated_at": 1777312571,
+  "generated_at": 1777318878,
   "vibe_index": 50,
   "top_nodes": [
-    {
-      "text": "تنگه هرمز",
-      "count": 66,
-      "score": 66,
-      "is_new": true,
-      "sentiment": "negative"
-    },
     {
       "text": "محاصره دریایی",
       "count": 51,
       "score": 51,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "اسلام آباد",
+      "count": 45,
+      "score": 45,
       "is_new": true,
       "sentiment": "neutral"
     },
@@ -22,13 +22,6 @@
       "score": 41,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "ایالات",
-      "count": 35,
-      "score": 35,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
