@@ -1,5 +1,5 @@
 {
-  "generated_at": 1777318878,
+  "generated_at": 1777322523,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -8,13 +8,6 @@
       "score": 51,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "اسلام آباد",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "توافق",
