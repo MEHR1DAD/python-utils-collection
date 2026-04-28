@@ -1,5 +1,5 @@
 {
-  "generated_at": 1777338899,
+  "generated_at": 1777351476,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -8,13 +8,6 @@
       "score": 51,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "اسلام آباد",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "توافق",
@@ -28,14 +21,14 @@
       "count": 32,
       "score": 32,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "تهران",
       "count": 4,
       "score": 8,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
