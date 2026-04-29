@@ -1,13 +1,27 @@
 {
-  "generated_at": 1777485962,
-  "vibe_index": 100,
+  "generated_at": 1777492334,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "جمهوری",
+      "count": 96,
+      "score": 96,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 66,
+      "score": 66,
+      "is_new": true,
+      "sentiment": "negative"
+    },
     {
       "text": "محاصره دریایی",
       "count": 51,
       "score": 51,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "توافق",
@@ -21,7 +35,7 @@
       "count": 32,
       "score": 32,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
