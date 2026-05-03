@@ -1,20 +1,20 @@
 {
-  "generated_at": 1777780260,
+  "generated_at": 1777790243,
   "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "اسلامی",
+      "count": 68,
+      "score": 68,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "محاصره دریایی",
       "count": 51,
       "score": 51,
       "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "توافق",
-      "count": 41,
-      "score": 41,
-      "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
