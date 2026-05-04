@@ -1,20 +1,20 @@
 {
-  "generated_at": 1777907058,
-  "vibe_index": 62,
+  "generated_at": 1777913786,
+  "vibe_index": 70,
   "top_nodes": [
-    {
-      "text": "اسلامی",
-      "count": 68,
-      "score": 68,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "محاصره دریایی",
       "count": 51,
       "score": 51,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
+    },
+    {
+      "text": "اسلام آباد",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "positive"
     },
     {
       "text": "توافق",
@@ -29,6 +29,13 @@
       "score": 32,
       "is_new": true,
       "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
+      "is_new": true,
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
