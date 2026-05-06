@@ -1,27 +1,13 @@
 {
-  "generated_at": 1778029926,
-  "vibe_index": 40,
+  "generated_at": 1778042598,
+  "vibe_index": 66,
   "top_nodes": [
-    {
-      "text": "جمهوری",
-      "count": 96,
-      "score": 96,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تنگه هرمز",
-      "count": 66,
-      "score": 66,
-      "is_new": true,
-      "sentiment": "negative"
-    },
     {
       "text": "محاصره دریایی",
       "count": 51,
       "score": 51,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "توافق",
@@ -31,11 +17,11 @@
       "sentiment": "positive"
     },
     {
-      "text": "سپاه پاسداران",
-      "count": 36,
-      "score": 36,
+      "text": "مذاکرات",
+      "count": 32,
+      "score": 32,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
