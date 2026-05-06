@@ -1,7 +1,14 @@
 {
-  "generated_at": 1778081731,
-  "vibe_index": 57,
+  "generated_at": 1778087223,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "جمهوری",
+      "count": 96,
+      "score": 96,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "اسلامی",
       "count": 68,
@@ -10,32 +17,67 @@
       "sentiment": "neutral"
     },
     {
+      "text": "تنگه هرمز",
+      "count": 66,
+      "score": 66,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "محاصره دریایی",
       "count": 51,
       "score": 51,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "اسلام آباد",
       "count": 45,
       "score": 45,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دونالد",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "توافق",
       "count": 41,
       "score": 41,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "سپاه پاسداران",
       "count": 36,
       "score": 36,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کشتی",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ایالات",
+      "count": 35,
+      "score": 35,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
@@ -49,7 +91,7 @@
       "count": 4,
       "score": 8,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
