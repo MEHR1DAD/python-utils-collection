@@ -1,6 +1,6 @@
 {
-  "generated_at": 1778193766,
-  "vibe_index": 56,
+  "generated_at": 1778196911,
+  "vibe_index": 40,
   "top_nodes": [
     {
       "text": "جمهوری",
@@ -38,7 +38,7 @@
       "sentiment": "positive"
     },
     {
-      "text": "متحده",
+      "text": "کشتی",
       "count": 36,
       "score": 36,
       "is_new": true,
@@ -49,12 +49,26 @@
       "count": 32,
       "score": 32,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
-      "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "تنگه هرمز",
+      "count": 2,
+      "score": 4,
       "is_new": true,
       "sentiment": "neutral"
     }
