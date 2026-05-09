@@ -1,14 +1,7 @@
 {
-  "generated_at": 1778326402,
-  "vibe_index": 33,
+  "generated_at": 1778330133,
+  "vibe_index": 66,
   "top_nodes": [
-    {
-      "text": "جمهوری",
-      "count": 96,
-      "score": 96,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "محاصره دریایی",
       "count": 51,
@@ -28,21 +21,7 @@
       "count": 32,
       "score": 32,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "زلزله",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
-      "text": "انفجار",
-      "count": 2,
-      "score": 4,
-      "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
