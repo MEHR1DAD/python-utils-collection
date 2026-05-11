@@ -1,27 +1,13 @@
 {
-  "generated_at": 1778508351,
-  "vibe_index": 50,
+  "generated_at": 1778517510,
+  "vibe_index": 66,
   "top_nodes": [
-    {
-      "text": "تنگه هرمز",
-      "count": 66,
-      "score": 66,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
     {
       "text": "محاصره دریایی",
       "count": 51,
       "score": 51,
       "is_new": true,
       "sentiment": "negative"
-    },
-    {
-      "text": "اسلام آباد",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
     },
     {
       "text": "توافق",
@@ -35,14 +21,7 @@
       "count": 32,
       "score": 32,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
