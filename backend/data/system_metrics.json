@@ -1,5 +1,5 @@
 {
-  "generated_at": 1778627238,
+  "generated_at": 1778631152,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -10,13 +10,6 @@
       "sentiment": "negative"
     },
     {
-      "text": "اسلام آباد",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "توافق",
       "count": 41,
       "score": 41,
@@ -24,30 +17,9 @@
       "sentiment": "positive"
     },
     {
-      "text": "متحده",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ایالات",
-      "count": 35,
-      "score": 35,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "مذاکرات",
       "count": 32,
       "score": 32,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 4,
-      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     }
