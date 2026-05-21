@@ -1,5 +1,5 @@
 {
-  "generated_at": 1779336993,
+  "generated_at": 1779350730,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -21,7 +21,7 @@
       "count": 66,
       "score": 66,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "محاصره دریایی",
@@ -38,46 +38,11 @@
       "sentiment": "neutral"
     },
     {
-      "text": "دونالد",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
       "text": "توافق",
       "count": 41,
       "score": 41,
       "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "سپاه پاسداران",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "متحده",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "کشتی",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "neutral"
-    },
-    {
-      "text": "ایالات",
-      "count": 35,
-      "score": 35,
-      "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "مذاکرات",
