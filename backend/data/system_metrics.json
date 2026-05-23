@@ -1,13 +1,13 @@
 {
-  "generated_at": 1779528305,
+  "generated_at": 1779533336,
   "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "جمهوری",
-      "count": 96,
-      "score": 96,
+      "text": "تنگه هرمز",
+      "count": 66,
+      "score": 66,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "negative"
     },
     {
       "text": "محاصره دریایی",
@@ -21,7 +21,7 @@
       "count": 41,
       "score": 41,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "مذاکرات",
