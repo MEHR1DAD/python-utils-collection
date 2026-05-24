@@ -1,13 +1,27 @@
 {
-  "generated_at": 1779648352,
-  "vibe_index": 66,
+  "generated_at": 1779652559,
+  "vibe_index": 60,
   "top_nodes": [
+    {
+      "text": "جمهوری",
+      "count": 96,
+      "score": 96,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "محاصره دریایی",
       "count": 51,
       "score": 51,
       "is_new": true,
       "sentiment": "negative"
+    },
+    {
+      "text": "اسلام آباد",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "توافق",
