@@ -1,6 +1,6 @@
 {
-  "generated_at": 1779640881,
-  "vibe_index": 58,
+  "generated_at": 1779644407,
+  "vibe_index": 30,
   "top_nodes": [
     {
       "text": "محاصره دریایی",
@@ -10,25 +10,11 @@
       "sentiment": "negative"
     },
     {
-      "text": "اسلام آباد",
-      "count": 45,
-      "score": 45,
-      "is_new": true,
-      "sentiment": "positive"
-    },
-    {
       "text": "توافق",
       "count": 41,
       "score": 41,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "سپاه پاسداران",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "negative"
     },
     {
       "text": "مذاکرات",
@@ -38,11 +24,18 @@
       "sentiment": "neutral"
     },
     {
-      "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "text": "زلزله",
+      "count": 2,
+      "score": 4,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "negative"
+    },
+    {
+      "text": "انفجار",
+      "count": 2,
+      "score": 4,
+      "is_new": true,
+      "sentiment": "negative"
     }
   ],
   "active_incidents": []
