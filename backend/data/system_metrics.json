@@ -1,7 +1,21 @@
 {
-  "generated_at": 1779667916,
-  "vibe_index": 58,
+  "generated_at": 1779684615,
+  "vibe_index": 50,
   "top_nodes": [
+    {
+      "text": "جمهوری",
+      "count": 96,
+      "score": 96,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "اسلامی",
+      "count": 68,
+      "score": 68,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
     {
       "text": "محاصره دریایی",
       "count": 51,
@@ -14,7 +28,7 @@
       "count": 45,
       "score": 45,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
     },
     {
       "text": "توافق",
@@ -24,25 +38,11 @@
       "sentiment": "positive"
     },
     {
-      "text": "سپاه پاسداران",
-      "count": 36,
-      "score": 36,
-      "is_new": true,
-      "sentiment": "negative"
-    },
-    {
       "text": "مذاکرات",
       "count": 32,
       "score": 32,
       "is_new": true,
       "sentiment": "neutral"
-    },
-    {
-      "text": "تهران",
-      "count": 4,
-      "score": 8,
-      "is_new": true,
-      "sentiment": "positive"
     }
   ],
   "active_incidents": []
