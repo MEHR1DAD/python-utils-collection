@@ -1,6 +1,6 @@
 {
-  "generated_at": 1779785711,
-  "vibe_index": 33,
+  "generated_at": 1779810856,
+  "vibe_index": 66,
   "top_nodes": [
     {
       "text": "محاصره دریایی",
@@ -17,11 +17,11 @@
       "sentiment": "positive"
     },
     {
-      "text": "تهران",
-      "count": 4,
-      "score": 8,
+      "text": "مذاکرات",
+      "count": 32,
+      "score": 32,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "positive"
     }
   ],
   "active_incidents": []
