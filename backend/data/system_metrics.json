@@ -1,6 +1,6 @@
 {
-  "generated_at": 1779947487,
-  "vibe_index": 50,
+  "generated_at": 1779961003,
+  "vibe_index": 66,
   "top_nodes": [
     {
       "text": "محاصره دریایی",
@@ -14,7 +14,7 @@
       "count": 45,
       "score": 45,
       "is_new": true,
-      "sentiment": "neutral"
+      "sentiment": "positive"
     },
     {
       "text": "توافق",
@@ -22,13 +22,6 @@
       "score": 41,
       "is_new": true,
       "sentiment": "positive"
-    },
-    {
-      "text": "مذاکرات",
-      "count": 32,
-      "score": 32,
-      "is_new": true,
-      "sentiment": "neutral"
     }
   ],
   "active_incidents": []
