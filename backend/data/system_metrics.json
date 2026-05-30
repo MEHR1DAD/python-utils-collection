@@ -1,5 +1,5 @@
 {
-  "generated_at": 1780162640,
+  "generated_at": 1780166710,
   "vibe_index": 50,
   "top_nodes": [
     {
@@ -21,7 +21,7 @@
       "count": 66,
       "score": 66,
       "is_new": true,
-      "sentiment": "negative"
+      "sentiment": "neutral"
     },
     {
       "text": "محاصره دریایی",
@@ -31,16 +31,65 @@
       "sentiment": "neutral"
     },
     {
+      "text": "اسلام آباد",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "دونالد",
+      "count": 45,
+      "score": 45,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
       "text": "توافق",
       "count": 41,
       "score": 41,
       "is_new": true,
-      "sentiment": "positive"
+      "sentiment": "neutral"
+    },
+    {
+      "text": "سپاه پاسداران",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "متحده",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "کشتی",
+      "count": 36,
+      "score": 36,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "ایالات",
+      "count": 35,
+      "score": 35,
+      "is_new": true,
+      "sentiment": "neutral"
     },
     {
       "text": "مذاکرات",
       "count": 32,
       "score": 32,
+      "is_new": true,
+      "sentiment": "neutral"
+    },
+    {
+      "text": "تهران",
+      "count": 4,
+      "score": 8,
       "is_new": true,
       "sentiment": "neutral"
     }
