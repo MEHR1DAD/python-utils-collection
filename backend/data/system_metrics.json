@@ -1,18 +1,25 @@
 {
-  "generated_at": 1780154383,
-  "vibe_index": 62,
+  "generated_at": 1780158657,
+  "vibe_index": 50,
   "top_nodes": [
     {
-      "text": "محاصره دریایی",
-      "count": 51,
-      "score": 51,
+      "text": "جمهوری",
+      "count": 96,
+      "score": 96,
       "is_new": true,
       "sentiment": "negative"
     },
     {
-      "text": "اسلام آباد",
-      "count": 45,
-      "score": 45,
+      "text": "تنگه هرمز",
+      "count": 66,
+      "score": 66,
+      "is_new": true,
+      "sentiment": "negative"
+    },
+    {
+      "text": "محاصره دریایی",
+      "count": 51,
+      "score": 51,
       "is_new": true,
       "sentiment": "neutral"
     },
